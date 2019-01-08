@@ -2118,6 +2118,9 @@
             <name>$PROJ_DIR$\modules\drv_glcd.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\modules\drv_touch_scr.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\modules\i2c0_drv.c</name>
         </file>
         <file>

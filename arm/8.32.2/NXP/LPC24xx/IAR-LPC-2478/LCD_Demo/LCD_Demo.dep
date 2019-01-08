@@ -1,184 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>181945153</fileChecksum>
+    <fileChecksum>2987883084</fileChecksum>
     <configuration>
         <name>Flash Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\board\arm_comm.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\logo.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\modules\smb380_drv.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$PROJ_DIR$\app\logo.c</file>
-            <file>$PROJ_DIR$\board\sys.c</file>
-            <file>$PROJ_DIR$\modules\drv_glcd.c</file>
-            <file>$PROJ_DIR$\config\LPC2478_Flash.icf</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Cursor.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\modules\drv_glcd.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
-            <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$TOOLKIT_DIR$\inc\NXP\iolpc2478.h</file>
-            <file>$PROJ_DIR$\modules\i2c0_drv.c</file>
-            <file>$PROJ_DIR$\readme.txt</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</file>
-            <file>$PROJ_DIR$\modules\smb380_drv.c</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.pbi</file>
-            <file>$PROJ_DIR$\app\logo.h</file>
-            <file>$PROJ_DIR$\app\redScreen.c</file>
-            <file>$PROJ_DIR$\app\main.c</file>
-            <file>$PROJ_DIR$\app\redScreen.h</file>
-            <file>$PROJ_DIR$\app\Cursor.c</file>
-            <file>$TOOLKIT_DIR$\inc\NXP\iolpc2470.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\board\sys.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\logo.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\smb380_drv.pbi</file>
-            <file>$PROJ_DIR$\board\board.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\LCD_Demo.pbd</file>
-            <file>$PROJ_DIR$\app\Cursor.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Exe\LCD_Demo.out</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl4t_aln.a</file>
-            <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
-            <file>$PROJ_DIR$\Flash Debug\List\LCD_Demo.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\lib\m4t_al.a</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\smb380_drv.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\sys.o</file>
             <file>$PROJ_DIR$\modules\i2c0_drv.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\main.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\io_macros.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Cursor.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\sys.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_9_12x6.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_9_12x6.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.o</file>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
-=======
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.o</file>
-            <file>$PROJ_DIR$\app\Terminal_18_24x12.c</file>
-            <file>$PROJ_DIR$\app\Terminal_9_12x6.c</file>
-            <file>$PROJ_DIR$\app\Terminal_6_8x6.c</file>
-            <file>$PROJ_DIR$\app\irene_stalk.h</file>
->>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
-            <file>$PROJ_DIR$\app\Frederik_Fraek_Fyr.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Frederik_Fraek_Fyr.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\irene_stalk.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Frederik_Fraek_Fyr.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\irene_stalk.o</file>
-            <file>$PROJ_DIR$\modules\drv_touch_scr.h</file>
-<<<<<<< HEAD
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.o</file>
-            <file>$TOOLKIT_DIR$\lib\dl4t_aln.a</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\smb380_drv.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\NXP\iolpc2470.h</file>
-            <file>$PROJ_DIR$\app\Cursor.h</file>
-            <file>$PROJ_DIR$\board\board.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\logo.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\NXP\iolpc2478.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\logo.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$PROJ_DIR$\app\redScreen.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\modules\smb380_drv.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Exe\LCD_Demo.out</file>
             <file>$PROJ_DIR$\board\arm_comm.h</file>
-            <file>$PROJ_DIR$\app\logo.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\board\sys.h</file>
-            <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\LCD_Demo.pbd</file>
-=======
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.o</file>
-            <file>$PROJ_DIR$\app\Terminal_18_24x12.c</file>
-            <file>$PROJ_DIR$\app\Terminal_9_12x6.c</file>
-            <file>$PROJ_DIR$\app\Terminal_6_8x6.c</file>
-            <file>$PROJ_DIR$\modules\drv_touch_scr.h</file>
-=======
->>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
+            <file>$TOOLKIT_DIR$\inc\c\io_macros.h</file>
             <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\board\board.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$TOOLKIT_DIR$\inc\NXP\iolpc2470.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\modules\drv_touch_scr.h</file>
+            <file>$PROJ_DIR$\board\sys.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
             <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+            <file>$PROJ_DIR$\modules\drv_glcd.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$PROJ_DIR$\modules\includes.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
-<<<<<<< HEAD
-            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
->>>>>>> parent of fc30a1d... Dank memes
-=======
-            <file>$PROJ_DIR$\app\Frederik_Fraek_Fyr.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
-            <file>$PROJ_DIR$\app\irene_stalk.c</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.pbi</file>
+            <file>$PROJ_DIR$\app\logo.h</file>
+            <file>$PROJ_DIR$\app\redScreen.h</file>
+            <file>$PROJ_DIR$\modules\smb380_drv.h</file>
+            <file>$PROJ_DIR$\app\Cursor.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\app\main.c</file>
+            <file>$PROJ_DIR$\app\redScreen.c</file>
+            <file>$PROJ_DIR$\app\Terminal_18_24x12.c</file>
+            <file>$PROJ_DIR$\app\Cursor.c</file>
+            <file>$PROJ_DIR$\app\logo.c</file>
+            <file>$PROJ_DIR$\modules\smb380_drv.c</file>
+            <file>$PROJ_DIR$\readme.txt</file>
+            <file>$PROJ_DIR$\app\Terminal_6_8x6.c</file>
+            <file>$PROJ_DIR$\app\Terminal_9_12x6.c</file>
+            <file>$PROJ_DIR$\modules\i2c0_drv.c</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.o</file>
+            <file>$PROJ_DIR$\modules\drv_glcd.c</file>
+            <file>$PROJ_DIR$\config\LPC2478_Flash.icf</file>
+            <file>$PROJ_DIR$\board\sys.c</file>
+            <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Cursor.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\logo.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\LCD_Demo.pbd</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\sys.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\smb380_drv.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_9_12x6.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Cursor.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\logo.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\sys.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Exe\LCD_Demo.out</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\smb380_drv.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_9_12x6.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl4t_aln.a</file>
+            <file>$PROJ_DIR$\Flash Debug\List\LCD_Demo.map</file>
+            <file>$TOOLKIT_DIR$\lib\m4t_al.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
             <file>$PROJ_DIR$\modules\drv_touch_scr.c</file>
->>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
+            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.o</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\app\logo.c</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 1</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 34</file>
+                    <name>ILINK</name>
+                    <file> 65 75</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 23 12 0 5 2 19 11 55 30 13</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 55 0 12 2 5 11 30 23 13 19</file>
-                </tool>
-            </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\board\sys.c</name>
+            <name>$PROJ_DIR$\app\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 56</file>
+                    <file> 46</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -188,103 +111,11 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 33 37 5 2 19 11 55 30 13 16 28 59 0</file>
+                    <file> 71 77 13 8 23 21 11 5 2 30 10 0 12 6 4 15 22 14 24 7 9 16 17 18 25 19 3 20 26 27 29 28 1</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 2 0 55 28 5 11 30 37 16 13 19 59 33</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\modules\drv_glcd.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 60</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 35</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 32 52 19 11 55 30 15 44 46 45 37 5 2 13 16 28 59 0 33 12</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 19 5 13 28 37 11 45 12 46 52 0 44 47 33 15 55 30 16 2 59 32</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\modules\i2c0_drv.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 43</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 42</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 57 33 37 5 2 19 11 55 30 13 16 28 59 0</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 2 28 5 37 0 55 33 11 30 16 13 19 57 59</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 41</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 31</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 32 52 19 11 55 30 15 37 5 2 13 16 28 59 0 14</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 19 0 11 2 14 5 37 52 15 55 30 16 13 59 32 28</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\modules\smb380_drv.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 54</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 36</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 3 37 5 2 19 11 55 30 13 16 28 59 0 57 33</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 16 11 30 57 2 55 28 37 5 0 13 19 59 33 3</file>
+                    <file> 13 22 21 10 27 6 8 4 24 25 9 2 20 28 77 23 71 5 0 15 14 26 29 11 30 12 16 7 17 19 3 18 1</file>
                 </tool>
             </inputs>
         </file>
@@ -293,88 +124,141 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 29</file>
+                    <file> 49</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 22</file>
+                    <file> 55</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 26 12 0 5 2 19 11 55 30 13</file>
-                </tool>
-            </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\app\main.c</name>
+            <name>$PROJ_DIR$\app\Terminal_18_24x12.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 4</file>
+                    <file> 50</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 58</file>
+                    <file> 68</file>
                 </tool>
             </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    <file> 38 78 82 63 86 37 12 75 41</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 12 82 63 78 37 75 38 41 86</file>
-=======
-                    <file> 5 2 19 11 55 30 13 32 52 15 37 16 28 59 0 33 14 72 75 73 77 78 44 46 76 74 45 12 23 26 39 3 57</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 14 37 26 13 16 52 75 76 77 12 3 19 15 28 32 33 72 23 39 2 11 55 30 5 0 59 78 73 44 74 45 46 57</file>
->>>>>>> parent of fc30a1d... Dank memes
-=======
-                    <file> 5 2 19 11 55 30 13 32 52 15 37 16 28 59 0 33 14 78 81 79 83 85 44 46 82 80 45 12 23 73 72 26 39 3 57</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 52 55 37 73 32 14 3 2 19 5 16 12 26 11 30 0 59 81 82 83 33 78 23 72 39 13 15 28 85 79 44 80 45 46 57</file>
->>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\app\Cursor.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10</file>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\logo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 61</file>
                 </tool>
             </outputs>
-            <inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\smb380_drv.c</name>
+            <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 39</file>
+                    <file> 66</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 39</file>
+                    <file> 56</file>
                 </tool>
-            </inputs>
+            </outputs>
         </file>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\app\Terminal_6_8x6.c</name>
             <outputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 40 51</file>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Terminal_9_12x6.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\i2c0_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\drv_glcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\sys.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
                 </tool>
             </outputs>
         </file>
@@ -383,143 +267,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 51</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    <name>ICCARM</name>
-                    <file> 46 38 78 82 63 86 37 12 75 41</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 12 78 38 63 82 37 75 46 41 86</file>
-=======
-                    <name>ILINK</name>
-                    <file> 9 10 60 43 1 4 29 41 54 56 68 67 66 50 48 53 49</file>
->>>>>>> parent of fc30a1d... Dank memes
-=======
-                    <name>ILINK</name>
-                    <file> 9 10 60 87 76 43 77 1 4 29 41 54 56 68 67 66 50 48 53 49</file>
->>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\app\Terminal_18_24x12.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 68</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 63</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12 0 5 2 19 11 55 30 13</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 55 5 2 0 11 30 12 13 19</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\app\Terminal_9_12x6.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 66</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 65</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12 0 5 2 19 11 55 30 13</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 55 5 2 0 11 30 12 13 19</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\app\Terminal_6_8x6.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 67</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 64</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12 0 5 2 19 11 55 30 13</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 55 5 2 0 11 30 12 13 19</file>
-                </tool>
-            </inputs>
-        </file>
-<<<<<<< HEAD
-        <file>
-            <name>$PROJ_DIR$\app\Frederik_Fraek_Fyr.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 76</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 74</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 73 12 0 5 2 19 11 55 30 13</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 55 0 12 2 5 11 30 73 13 19</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\app\irene_stalk.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 77</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
                     <file> 75</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 72 12 0 5 2 19 11 55 30 13</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 55 0 12 2 5 11 30 72 13 19</file>
+                    <name>ILINK</name>
+                    <file> 43 47 70 80 51 48 46 49 54 66 53 50 41 59 72 73 76 74</file>
                 </tool>
             </inputs>
         </file>
@@ -528,26 +282,20 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 87</file>
+                    <file> 80</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 88</file>
+                    <file> 79</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 78 81 32 52 19 11 55 30 15 79 83 85 44 46 82 80 5 2 13 45 16 28 59 0 37 33 14 12</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
-                    <file> 52 5 28 78 19 85 37 15 30 81 32 82 16 14 55 83 2 79 44 80 45 0 33 12 11 46 13 59</file>
+                    <file> 2 71 12 14 13 16 10 30 21 24 5 25 0 22 23 9 77 7 17 19 3 4 15 20 8 18 11 6</file>
                 </tool>
             </inputs>
         </file>
-=======
->>>>>>> parent of fc30a1d... Dank memes
     </configuration>
     <configuration>
         <name>SDRAM Debug</name>

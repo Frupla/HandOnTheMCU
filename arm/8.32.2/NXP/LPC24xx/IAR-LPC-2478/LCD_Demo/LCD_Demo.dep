@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>181945153</fileChecksum>
+    <fileChecksum>3433952214</fileChecksum>
     <configuration>
         <name>Flash Debug</name>
         <outputs>
@@ -77,13 +77,24 @@
             <file>$PROJ_DIR$\app\Terminal_18_24x12.c</file>
             <file>$PROJ_DIR$\app\Terminal_9_12x6.c</file>
             <file>$PROJ_DIR$\app\Terminal_6_8x6.c</file>
+            <file>$PROJ_DIR$\app\irene_stalk.h</file>
+            <file>$PROJ_DIR$\app\Frederik_Fraek_Fyr.h</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Frederik_Fraek_Fyr.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\irene_stalk.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Frederik_Fraek_Fyr.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\irene_stalk.o</file>
             <file>$PROJ_DIR$\modules\drv_touch_scr.h</file>
             <file>$TOOLKIT_DIR$\inc\c\string.h</file>
             <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
             <file>$PROJ_DIR$\modules\includes.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\app\Frederik_Fraek_Fyr.c</file>
             <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\app\irene_stalk.c</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.pbi</file>
+            <file>$PROJ_DIR$\modules\drv_touch_scr.c</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\app\logo.c</name>
@@ -257,11 +268,11 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 5 2 19 11 55 30 13 32 52 15 37 16 28 59 0 33 14 72 75 73 77 78 44 46 76 74 45 12 23 26 39 3 57</file>
+                    <file> 5 2 19 11 55 30 13 32 52 15 37 16 28 59 0 33 14 78 81 79 83 85 44 46 82 80 45 12 23 73 72 26 39 3 57</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 14 37 26 13 16 52 75 76 77 12 3 19 15 28 32 33 72 23 39 2 11 55 30 5 0 59 78 73 44 74 45 46 57</file>
+                    <file> 52 55 37 73 32 14 3 2 19 5 16 12 26 11 30 0 59 81 82 83 33 78 23 72 39 13 15 28 85 79 44 80 45 46 57</file>
                 </tool>
             </inputs>
         </file>
@@ -308,7 +319,7 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 9 10 60 43 1 4 29 41 54 56 68 67 66 50 48 53 49</file>
+                    <file> 9 10 60 87 76 43 77 1 4 29 41 54 56 68 67 66 50 48 53 49</file>
                 </tool>
             </inputs>
         </file>
@@ -378,6 +389,75 @@
                 <tool>
                     <name>BICOMP</name>
                     <file> 55 5 2 0 11 30 12 13 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Frederik_Fraek_Fyr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 12 0 5 2 19 11 55 30 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 0 12 2 5 11 30 73 13 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\irene_stalk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72 12 0 5 2 19 11 55 30 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55 0 12 2 5 11 30 72 13 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\drv_touch_scr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78 81 32 52 19 11 55 30 15 79 83 85 44 46 82 80 5 2 13 45 16 28 59 0 37 33 14 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52 5 28 78 19 85 37 15 30 81 32 82 16 14 55 83 2 79 44 80 45 0 33 12 11 46 13 59</file>
                 </tool>
             </inputs>
         </file>

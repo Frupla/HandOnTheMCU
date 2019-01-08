@@ -48,6 +48,8 @@
 #include "drv_touch_scr.h"
 #include "drv_glcd.h"
 #include "Logo.h"
+#include "Frederik_Fraek_Fyr.h"
+#include "irene_stalk.h"
 #include "redScreen.h"
 #include "Cursor.h"
 #include "smb380_drv.h"
@@ -106,7 +108,8 @@ void Timer0IntrHandler (void)
 int main(void)
 {
 typedef Int32U ram_unit;
-
+ToushRes_t XY_touch;
+bool touch;
   GLCD_Ctrl (FALSE);
 
   // Init GPIO
@@ -124,16 +127,16 @@ typedef Int32U ram_unit;
   // Init VIC
   VIC_Init();
   // GLCD init
-  GLCD_Init (redScreenPic.pPicStream, NULL);
+  GLCD_Init (Frederik_Fraek_FyrPic.pPicStream, NULL);
   
-  GLCD_SetFont(&Terminal_18_24_12,0x0000FF,0x000cd4ff);
+  GLCD_SetFont(&Terminal_18_24_12, 0x00ffffff, 0x000000);
   GLCD_SetWindow(95,10,255,33);
   GLCD_TextSetPos(0,0);
-  GLCD_print("\fHello world");
+  GLCD_print("\f TRIES TO MEME");
 
   GLCD_SetWindow(55,195,268,218);
   GLCD_TextSetPos(0,0);
-  GLCD_print("\f 1 2 3");
+  GLCD_print("\f SUCCEDES");
 
   
   
@@ -164,8 +167,19 @@ typedef Int32U ram_unit;
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
   
+  TouchScrInit();
   
   while(1){
-
+    if(TouchGet(&XY_touch) && !touch){
+       touch = true;
+       GLCD_SetWindow(55,195,268,218);
+       GLCD_TextSetPos(0,0);
+       GLCD_print("\f SUCCEDES");
+    }else if (!TouchGet(&XY_touch) && touch){
+        touch = false;
+        GLCD_SetWindow(55,195,268,218);
+        GLCD_TextSetPos(0,0);
+        GLCD_print("\f FAILS");
+    }
   }
 }

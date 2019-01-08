@@ -89632,962 +89632,6 @@
     "scope": null
   },
   {
-    "ID": "c:i2c0_drv.h@529@macro@__I2C0_DRV_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__I2C0_DRV_H",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "__I2C0_DRV_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@553@macro@I2C_MAXSPEED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_MAXSPEED",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_MAXSPEED",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@619@macro@I2C_SPEED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_SPEED",
-    "location": {
-      "column": "9",
-      "line": "24",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_SPEED",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@697@macro@I2CON_I2EN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2CON_I2EN",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2CON_I2EN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@760@macro@I2CON_STA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2CON_STA",
-    "location": {
-      "column": "9",
-      "line": "27",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2CON_STA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@823@macro@I2CON_STO",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2CON_STO",
-    "location": {
-      "column": "9",
-      "line": "28",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2CON_STO",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@886@macro@I2CON_SI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2CON_SI",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2CON_SI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@956@macro@I2CON_AA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2CON_AA",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2CON_AA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1070@macro@I2CON_I2ENC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2CON_I2ENC",
-    "location": {
-      "column": "9",
-      "line": "33",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2CON_I2ENC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1139@macro@I2CON_STAC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2CON_STAC",
-    "location": {
-      "column": "9",
-      "line": "34",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2CON_STAC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1203@macro@I2CON_SIC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2CON_SIC",
-    "location": {
-      "column": "9",
-      "line": "35",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2CON_SIC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1275@macro@I2CON_AAC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2CON_AAC",
-    "location": {
-      "column": "9",
-      "line": "36",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2CON_AAC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1373@macro@I2C_OK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_OK",
-    "location": {
-      "column": "9",
-      "line": "39",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_OK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1440@macro@I2C_IDLE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_IDLE",
-    "location": {
-      "column": "9",
-      "line": "40",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_IDLE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1491@macro@I2C_BUSY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_BUSY",
-    "location": {
-      "column": "9",
-      "line": "41",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_BUSY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1548@macro@I2C_ERROR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_ERROR",
-    "location": {
-      "column": "9",
-      "line": "42",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_ERROR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1609@macro@I2C_NO_DATA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_NO_DATA",
-    "location": {
-      "column": "9",
-      "line": "43",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_NO_DATA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1673@macro@I2C_NACK_ON_DATA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_NACK_ON_DATA",
-    "location": {
-      "column": "9",
-      "line": "44",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_NACK_ON_DATA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1737@macro@I2C_NACK_ON_ADDRESS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_NACK_ON_ADDRESS",
-    "location": {
-      "column": "9",
-      "line": "45",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_NACK_ON_ADDRESS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1803@macro@I2C_DEVICE_NOT_PRESENT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_DEVICE_NOT_PRESENT",
-    "location": {
-      "column": "9",
-      "line": "46",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_DEVICE_NOT_PRESENT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1871@macro@I2C_ARBITRATION_LOST",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_ARBITRATION_LOST",
-    "location": {
-      "column": "9",
-      "line": "47",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_ARBITRATION_LOST",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@1937@macro@I2C_TIME_OUT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_TIME_OUT",
-    "location": {
-      "column": "9",
-      "line": "48",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_TIME_OUT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@2003@macro@I2C_SLAVE_ERROR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_SLAVE_ERROR",
-    "location": {
-      "column": "9",
-      "line": "49",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_SLAVE_ERROR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@2068@macro@I2C_INIT_ERROR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_INIT_ERROR",
-    "location": {
-      "column": "9",
-      "line": "50",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_INIT_ERROR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.h@2142@macro@I2C_RETRIES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "I2C_RETRIES",
-    "location": {
-      "column": "9",
-      "line": "51",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_RETRIES",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@LPC_I2C_TransMode_t",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@LPC_I2C_TransMode_t@WRITE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "WRITE",
-        "location": {
-          "column": "2",
-          "line": "54",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "WRITE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@LPC_I2C_TransMode_t@READ",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "READ",
-        "location": {
-          "column": "2",
-          "line": "55",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "READ",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@LPC_I2C_TransMode_t@WRITETHENREAD",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "WRITETHENREAD",
-        "location": {
-          "column": "2",
-          "line": "56",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "WRITETHENREAD",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@SA@LPC_I2C_Msg_t",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "9",
-      "line": "59",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "members": [
-      {
-        "ID": "c:@SA@LPC_I2C_Msg_t@FI@address",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "address",
-        "location": {
-          "column": "16",
-          "line": "60",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "address",
-        "origin": "user_include",
-        "scope": "_anonymous_i2c0_drv_h_59_9"
-      },
-      {
-        "ID": "c:@SA@LPC_I2C_Msg_t@FI@nrBytes",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "nrBytes",
-        "location": {
-          "column": "16",
-          "line": "61",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "nrBytes",
-        "origin": "user_include",
-        "scope": "_anonymous_i2c0_drv_h_59_9"
-      },
-      {
-        "ID": "c:@SA@LPC_I2C_Msg_t@FI@buf",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "buf",
-        "location": {
-          "column": "17",
-          "line": "62",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "buf",
-        "origin": "user_include",
-        "scope": "_anonymous_i2c0_drv_h_59_9"
-      },
-      {
-        "ID": "c:@SA@LPC_I2C_Msg_t@FI@transMode",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "transMode",
-        "location": {
-          "column": "22",
-          "line": "63",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "transMode",
-        "origin": "user_include",
-        "scope": "_anonymous_i2c0_drv_h_59_9"
-      },
-      {
-        "ID": "c:@SA@LPC_I2C_Msg_t@FI@nrWriteBytes",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "nrWriteBytes",
-        "location": {
-          "column": "16",
-          "line": "64",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "nrWriteBytes",
-        "origin": "user_include",
-        "scope": "_anonymous_i2c0_drv_h_59_9"
-      },
-      {
-        "ID": "c:@SA@LPC_I2C_Msg_t@FI@dataCount",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "dataCount",
-        "location": {
-          "column": "6",
-          "line": "66",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "dataCount",
-        "origin": "user_include",
-        "scope": "_anonymous_i2c0_drv_h_59_9"
-      },
-      {
-        "ID": "c:i2c0_drv.h@T@LPC_I2C_Msg_t",
-        "What": "TypedefDecl",
-        "defdec": "Def",
-        "display": "struct LPC_I2C_Msg_t",
-        "location": {
-          "column": "3",
-          "line": "67",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-        },
-        "name": "LPC_I2C_Msg_t",
-        "origin": "user_include",
-        "scope": "_anonymous_i2c0_drv_h_59_9"
-      }
-    ],
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_InitMaster",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int I2C_InitMaster(unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "70",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_InitMaster",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_InitMaster",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int I2C_InitMaster(unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "70",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_InitMaster",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_MasterWrite",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int I2C_MasterWrite(unsigned char, unsigned char *, unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "71",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_MasterWrite",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_MasterWrite",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int I2C_MasterWrite(unsigned char, unsigned char *, unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "71",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_MasterWrite",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_MasterRead",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int I2C_MasterRead(unsigned char, unsigned char *, unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "72",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_MasterRead",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_MasterRead",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int I2C_MasterRead(unsigned char, unsigned char *, unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "72",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_MasterRead",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Transfer",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int I2C_Transfer(unsigned char, unsigned char *, unsigned long, LPC_I2C_TransMode_t, unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "74",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_Transfer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Transfer",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "int I2C_Transfer(unsigned char, unsigned char *, unsigned long, LPC_I2C_TransMode_t, unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "74",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_Transfer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_HandleMasterState",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_HandleMasterState(void)",
-    "location": {
-      "column": "6",
-      "line": "77",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_HandleMasterState",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_HandleMasterState",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void I2C_HandleMasterState(void)",
-    "location": {
-      "column": "6",
-      "line": "77",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
-    },
-    "name": "I2C_HandleMasterState",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@I2CState",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "I2CState",
-    "location": {
-      "column": "16",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2CState",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@I2CMsg",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "I2CMsg",
-    "location": {
-      "column": "17",
-      "line": "21",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2CMsg",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_EnableI2C",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void I2C_EnableI2C(void)",
-    "location": {
-      "column": "6",
-      "line": "30",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2C_EnableI2C",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_DisableI2C",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void I2C_DisableI2C(void)",
-    "location": {
-      "column": "6",
-      "line": "42",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2C_DisableI2C",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__I2C_SetFlag",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void __I2C_SetFlag(int)",
-    "location": {
-      "column": "6",
-      "line": "56",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "__I2C_SetFlag",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__I2C_ClearFlag",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void __I2C_ClearFlag(int)",
-    "location": {
-      "column": "6",
-      "line": "70",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "__I2C_ClearFlag",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__I2C_SendData",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void __I2C_SendData(unsigned char)",
-    "location": {
-      "column": "6",
-      "line": "82",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "__I2C_SendData",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__I2C_ReceiveData",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "unsigned char __I2C_ReceiveData(void)",
-    "location": {
-      "column": "15",
-      "line": "94",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "__I2C_ReceiveData",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_InitMaster",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int I2C_InitMaster(unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "109",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2C_InitMaster",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_MasterWrite",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int I2C_MasterWrite(unsigned char, unsigned char *, unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "151",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2C_MasterWrite",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_MasterRead",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int I2C_MasterRead(unsigned char, unsigned char *, unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "169",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2C_MasterRead",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_Transfer",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int I2C_Transfer(unsigned char, unsigned char *, unsigned long, LPC_I2C_TransMode_t, unsigned long)",
-    "location": {
-      "column": "5",
-      "line": "189",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2C_Transfer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.c@5959@F@I2C_Transfer@timeout",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "timeout",
-    "location": {
-      "column": "14",
-      "line": "192",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "timeout",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@I2C_HandleMasterState",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void I2C_HandleMasterState(void)",
-    "location": {
-      "column": "6",
-      "line": "246",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2C_HandleMasterState",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:i2c0_drv.c@7189@F@I2C_HandleMasterState@I2Cstatus",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "I2Cstatus",
-    "location": {
-      "column": "15",
-      "line": "248",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
-    },
-    "name": "I2Cstatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:logo.h@520@macro@__LOGO_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__LOGO_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
-    },
-    "name": "__LOGO_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Logo.h@520@macro@__LOGO_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__LOGO_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
-    },
-    "name": "__LOGO_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@LogoPic",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "LogoPic",
-    "location": {
-      "column": "14",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
-    },
-    "name": "LogoPic",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@LogoPic",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "LogoPic",
-    "location": {
-      "column": "14",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
-    },
-    "name": "LogoPic",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@LogoStream",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "LogoStream",
-    "location": {
-      "column": "14",
-      "line": "19",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.c"
-    },
-    "name": "LogoStream",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@LogoPic",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "LogoPic",
-    "location": {
-      "column": "7",
-      "line": "9623",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.c"
-    },
-    "name": "LogoPic",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:DLib_Product_string.h@326@macro@_DLIB_PRODUCTS_STRING_H_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -90767,6 +89811,318 @@
     },
     "name": "memset",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@546@macro@__DRV_TOUCH_SCR_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DRV_TOUCH_SCR_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "__DRV_TOUCH_SCR_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@575@macro@TS_INTR_PRIORITY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_INTR_PRIORITY",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_INTR_PRIORITY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@604@macro@TS_SETUP_DLY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_SETUP_DLY",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_SETUP_DLY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@647@macro@TS_SAMPLE_DLY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_SAMPLE_DLY",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_SAMPLE_DLY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@690@macro@TS_INIT_DLY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_INIT_DLY",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_INIT_DLY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@733@macro@TS_SAMPLES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_SAMPLES",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_SAMPLES",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@763@macro@IMAGE_WIDTH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IMAGE_WIDTH",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "IMAGE_WIDTH",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@804@macro@IMAGE_HEIGHT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IMAGE_HEIGHT",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "IMAGE_HEIGHT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UA@ToushRes_t",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@ToushRes_t@FI@XY",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "XY",
+        "location": {
+          "column": "10",
+          "line": "32",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+        },
+        "name": "XY",
+        "origin": "user_include",
+        "scope": "_anonymous_drv_touch_scr_h_30_9"
+      },
+      {
+        "ID": "c:@UA@ToushRes_t@Sa",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "33",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+        },
+        "members": [
+          {
+            "ID": "c:@UA@ToushRes_t@Sa@FI@X",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "X",
+            "location": {
+              "column": "13",
+              "line": "35",
+              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+            },
+            "name": "X",
+            "origin": "user_include",
+            "scope": "_anonymous_drv_touch_scr_h_30_9::_anonymous_drv_touch_scr_h_33_3"
+          },
+          {
+            "ID": "c:@UA@ToushRes_t@Sa@FI@Y",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "Y",
+            "location": {
+              "column": "13",
+              "line": "36",
+              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+            },
+            "name": "Y",
+            "origin": "user_include",
+            "scope": "_anonymous_drv_touch_scr_h_30_9::_anonymous_drv_touch_scr_h_33_3"
+          }
+        ],
+        "name": "",
+        "origin": "user_include",
+        "scope": "_anonymous_drv_touch_scr_h_30_9"
+      },
+      {
+        "ID": "c:drv_touch_scr.h@T@ToushRes_t",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "union ToushRes_t",
+        "location": {
+          "column": "3",
+          "line": "38",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+        },
+        "name": "ToushRes_t",
+        "origin": "user_include",
+        "scope": "_anonymous_drv_touch_scr_h_30_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TimerIntr_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TimerIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TimerIntr_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TimerIntr_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TimerIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TimerIntr_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OnTouchIntr_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void OnTouchIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "60",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "OnTouchIntr_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OnTouchIntr_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void OnTouchIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "60",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "OnTouchIntr_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchScrInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TouchScrInit(void)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TouchScrInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchScrInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TouchScrInit(void)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TouchScrInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchGet",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean TouchGet(ToushRes_t *)",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TouchGet",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchGet",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean TouchGet(ToushRes_t *)",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TouchGet",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -91680,213 +91036,467 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1771@macro@NONPROT",
+    "ID": "c:@E@_TouchScrState_t",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "_TouchScrState_t",
+    "fields": [
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_INTR_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_INTR_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "34",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_INTR_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_WAIT_FOR_TOUCH",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_WAIT_FOR_TOUCH",
+        "location": {
+          "column": "26",
+          "line": "34",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_WAIT_FOR_TOUCH",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_X1_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_X1_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "35",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_X1_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_X1_MEASURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_X1_MEASURE",
+        "location": {
+          "column": "20",
+          "line": "35",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_X1_MEASURE",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_X2_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_X2_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "36",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_X2_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_X2_MEASURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_X2_MEASURE",
+        "location": {
+          "column": "20",
+          "line": "36",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_X2_MEASURE",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_Y1_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_Y1_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "37",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_Y1_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_Y1_MEASURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_Y1_MEASURE",
+        "location": {
+          "column": "20",
+          "line": "37",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_Y1_MEASURE",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_Y2_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_Y2_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "38",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_Y2_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_Y2_MEASURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_Y2_MEASURE",
+        "location": {
+          "column": "20",
+          "line": "38",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_Y2_MEASURE",
+        "origin": "project_file",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "14",
+      "line": "32",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "_TouchScrState_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@1464@macro@LEFT_UP_X",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "NONPROT",
+    "display": "LEFT_UP_X",
     "location": {
       "column": "9",
-      "line": "55",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "line": "41",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "NONPROT",
+    "name": "LEFT_UP_X",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@1799@macro@CRP1",
+    "ID": "c:drv_touch_scr.c@1508@macro@RIGHT_UP_X",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "CRP1",
+    "display": "RIGHT_UP_X",
     "location": {
       "column": "9",
-      "line": "56",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "line": "42",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "CRP1",
+    "name": "RIGHT_UP_X",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@1826@macro@CRP2",
+    "ID": "c:drv_touch_scr.c@1554@macro@LEFT_UP_Y",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "CRP2",
+    "display": "LEFT_UP_Y",
     "location": {
       "column": "9",
-      "line": "57",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "line": "44",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "CRP2",
+    "name": "LEFT_UP_Y",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@1936@macro@CRP3",
+    "ID": "c:drv_touch_scr.c@1598@macro@RIGHT_UP_Y",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "CRP3",
+    "display": "RIGHT_UP_Y",
     "location": {
       "column": "9",
-      "line": "59",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "line": "45",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "CRP3",
+    "name": "RIGHT_UP_Y",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@crp",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "crp",
-    "location": {
-      "column": "23",
-      "line": "64",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
-    },
-    "name": "crp",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2083@macro@TIMER0_TICK_PER_SEC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER0_TICK_PER_SEC",
-    "location": {
-      "column": "9",
-      "line": "67",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
-    },
-    "name": "TIMER0_TICK_PER_SEC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@Terminal_6_8_6",
+    "ID": "c:drv_touch_scr.c@Touch",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "Terminal_6_8_6",
+    "display": "Touch",
     "location": {
-      "column": "19",
-      "line": "70",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "25",
+      "line": "48",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "Terminal_6_8_6",
+    "name": "Touch",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@Terminal_9_12_6",
+    "ID": "c:drv_touch_scr.c@X",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "Terminal_9_12_6",
+    "display": "X",
     "location": {
-      "column": "19",
-      "line": "71",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "25",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "Terminal_9_12_6",
+    "name": "X",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@Terminal_18_24_12",
+    "ID": "c:drv_touch_scr.c@Y",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "Terminal_18_24_12",
+    "display": "Y",
     "location": {
-      "column": "19",
-      "line": "72",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "27",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "Terminal_18_24_12",
+    "name": "Y",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@2231@macro@LCD_VRAM_BASE_ADDR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LCD_VRAM_BASE_ADDR",
-    "location": {
-      "column": "9",
-      "line": "74",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
-    },
-    "name": "LCD_VRAM_BASE_ADDR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@timetick",
+    "ID": "c:drv_touch_scr.c@X_temp",
     "What": "Variable",
-    "defdec": "Def",
-    "display": "timetick",
+    "defdec": "Dec",
+    "display": "X_temp",
     "location": {
-      "column": "8",
-      "line": "76",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "25",
+      "line": "50",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "timetick",
+    "name": "X_temp",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@Timer0IntrHandler",
+    "ID": "c:drv_touch_scr.c@Y_temp",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Y_temp",
+    "location": {
+      "column": "32",
+      "line": "50",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "Y_temp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@Touch_temp",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Touch_temp",
+    "location": {
+      "column": "25",
+      "line": "51",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "Touch_temp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@State",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "State",
+    "location": {
+      "column": "33",
+      "line": "53",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "State",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@Samples",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Samples",
+    "location": {
+      "column": "24",
+      "line": "54",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "Samples",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TimerIntr_Handler",
     "What": "Function",
     "defdec": "Def",
-    "display": "void Timer0IntrHandler(void)",
+    "display": "void TimerIntr_Handler(void)",
     "location": {
       "column": "6",
-      "line": "87",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "line": "65",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "Timer0IntrHandler",
+    "name": "TimerIntr_Handler",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@main",
+    "ID": "c:@F@OnTouchIntr_Handler",
     "What": "Function",
     "defdec": "Def",
-    "display": "int main(void)",
+    "display": "void OnTouchIntr_Handler(void)",
     "location": {
-      "column": "5",
-      "line": "106",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "6",
+      "line": "134",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "main",
+    "name": "OnTouchIntr_Handler",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@3068@F@main@T@ram_unit",
-    "What": "Typedef",
+    "ID": "c:@F@ADC_Intr_Handler",
+    "What": "Function",
     "defdec": "Def",
-    "display": "Int32U",
+    "display": "void ADC_Intr_Handler(void)",
     "location": {
-      "column": "16",
-      "line": "108",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "6",
+      "line": "179",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "ram_unit",
+    "name": "ADC_Intr_Handler",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:includes.h@350@macro@__INCLUDES_H",
-    "What": "MacroDef",
+    "ID": "c:drv_touch_scr.c@4555@F@ADC_Intr_Handler@Data",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "__INCLUDES_H",
+    "display": "Data",
+    "location": {
+      "column": "8",
+      "line": "181",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "Data",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchScrInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TouchScrInit(void)",
+    "location": {
+      "column": "6",
+      "line": "296",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "TouchScrInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@8482@F@TouchScrInit@Dummy",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Dummy",
+    "location": {
+      "column": "21",
+      "line": "341",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "Dummy",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchGet",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "Boolean TouchGet(ToushRes_t *)",
     "location": {
       "column": "9",
-      "line": "15",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\includes.h"
+      "line": "373",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
-    "name": "__INCLUDES_H",
-    "origin": "user_include",
+    "name": "TouchGet",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@9768@F@TouchGet@TouchResReadyHold",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TouchResReadyHold",
+    "location": {
+      "column": "10",
+      "line": "375",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "TouchResReadyHold",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@9805@F@TouchGet@X_coordinate",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "X_coordinate",
+    "location": {
+      "column": "8",
+      "line": "376",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "X_coordinate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@9805@F@TouchGet@Y_coordinate",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Y_coordinate",
+    "location": {
+      "column": "22",
+      "line": "376",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
+    },
+    "name": "Y_coordinate",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -92167,6 +91777,1480 @@
     },
     "name": "ULLONG_MAX",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:includes.h@350@macro@__INCLUDES_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__INCLUDES_H",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\includes.h"
+    },
+    "name": "__INCLUDES_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@96@macro@_STDBOOL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STDBOOL",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "_STDBOOL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@200@macro@bool",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "bool",
+    "location": {
+      "column": "11",
+      "line": "13",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "bool",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@225@macro@true",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "true",
+    "location": {
+      "column": "11",
+      "line": "14",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "true",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@246@macro@false",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "false",
+    "location": {
+      "column": "11",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "false",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__bool_true_false_are_defined",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "__bool_true_false_are_defined",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SDRAM_64M_32BIT_DRV_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "__SDRAM_64M_32BIT_DRV_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SDRAM_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SDRAM_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Test",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean SDRAM_Test(void)",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Test",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Test",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean SDRAM_Test(void)",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Test",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Frederik_Fraek_Fyr.h@65@macro@__FREDERIK_FRAEK_FYR_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__FREDERIK_FRAEK_FYR_H",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\Frederik_Fraek_Fyr.h"
+    },
+    "name": "__FREDERIK_FRAEK_FYR_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Frederik_Fraek_FyrPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Frederik_Fraek_FyrPic",
+    "location": {
+      "column": "14",
+      "line": "6",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\Frederik_Fraek_Fyr.h"
+    },
+    "name": "Frederik_Fraek_FyrPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Frederik_Fraek_FyrPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Frederik_Fraek_FyrPic",
+    "location": {
+      "column": "14",
+      "line": "6",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\Frederik_Fraek_Fyr.h"
+    },
+    "name": "Frederik_Fraek_FyrPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Frederik_Fraek_FyrStream",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Frederik_Fraek_FyrStream",
+    "location": {
+      "column": "14",
+      "line": "3",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\Frederik_Fraek_Fyr.c"
+    },
+    "name": "Frederik_Fraek_FyrStream",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Frederik_Fraek_FyrPic",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Frederik_Fraek_FyrPic",
+    "location": {
+      "column": "7",
+      "line": "9607",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\Frederik_Fraek_Fyr.c"
+    },
+    "name": "Frederik_Fraek_FyrPic",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@529@macro@__I2C0_DRV_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__I2C0_DRV_H",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "__I2C0_DRV_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@553@macro@I2C_MAXSPEED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_MAXSPEED",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MAXSPEED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@619@macro@I2C_SPEED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_SPEED",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_SPEED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@697@macro@I2CON_I2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_I2EN",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_I2EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@760@macro@I2CON_STA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_STA",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_STA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@823@macro@I2CON_STO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_STO",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_STO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@886@macro@I2CON_SI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_SI",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_SI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@956@macro@I2CON_AA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_AA",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_AA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1070@macro@I2CON_I2ENC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_I2ENC",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_I2ENC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1139@macro@I2CON_STAC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_STAC",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_STAC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1203@macro@I2CON_SIC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_SIC",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_SIC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1275@macro@I2CON_AAC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_AAC",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_AAC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1373@macro@I2C_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_OK",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1440@macro@I2C_IDLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_IDLE",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_IDLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1491@macro@I2C_BUSY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_BUSY",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_BUSY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1548@macro@I2C_ERROR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_ERROR",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_ERROR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1609@macro@I2C_NO_DATA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_NO_DATA",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_NO_DATA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1673@macro@I2C_NACK_ON_DATA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_NACK_ON_DATA",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_NACK_ON_DATA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1737@macro@I2C_NACK_ON_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_NACK_ON_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_NACK_ON_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1803@macro@I2C_DEVICE_NOT_PRESENT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_DEVICE_NOT_PRESENT",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_DEVICE_NOT_PRESENT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1871@macro@I2C_ARBITRATION_LOST",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_ARBITRATION_LOST",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_ARBITRATION_LOST",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@1937@macro@I2C_TIME_OUT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_TIME_OUT",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_TIME_OUT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@2003@macro@I2C_SLAVE_ERROR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_SLAVE_ERROR",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_SLAVE_ERROR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@2068@macro@I2C_INIT_ERROR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_INIT_ERROR",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_INIT_ERROR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.h@2142@macro@I2C_RETRIES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_RETRIES",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_RETRIES",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@LPC_I2C_TransMode_t",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@LPC_I2C_TransMode_t@WRITE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "WRITE",
+        "location": {
+          "column": "2",
+          "line": "54",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "WRITE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@LPC_I2C_TransMode_t@READ",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "READ",
+        "location": {
+          "column": "2",
+          "line": "55",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "READ",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@LPC_I2C_TransMode_t@WRITETHENREAD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "WRITETHENREAD",
+        "location": {
+          "column": "2",
+          "line": "56",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "WRITETHENREAD",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@LPC_I2C_Msg_t",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@address",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "address",
+        "location": {
+          "column": "16",
+          "line": "60",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "address",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@nrBytes",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "nrBytes",
+        "location": {
+          "column": "16",
+          "line": "61",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "nrBytes",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@buf",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "buf",
+        "location": {
+          "column": "17",
+          "line": "62",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "buf",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@transMode",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "transMode",
+        "location": {
+          "column": "22",
+          "line": "63",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "transMode",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@nrWriteBytes",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "nrWriteBytes",
+        "location": {
+          "column": "16",
+          "line": "64",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "nrWriteBytes",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@dataCount",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "dataCount",
+        "location": {
+          "column": "6",
+          "line": "66",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "dataCount",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:i2c0_drv.h@T@LPC_I2C_Msg_t",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct LPC_I2C_Msg_t",
+        "location": {
+          "column": "3",
+          "line": "67",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "LPC_I2C_Msg_t",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_InitMaster",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_InitMaster(unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "70",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_InitMaster",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_InitMaster",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_InitMaster(unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "70",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_InitMaster",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_MasterWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_MasterWrite(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "71",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MasterWrite",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_MasterWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_MasterWrite(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "71",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MasterWrite",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_MasterRead",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_MasterRead(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "72",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MasterRead",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_MasterRead",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_MasterRead(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "72",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MasterRead",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Transfer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_Transfer(unsigned char, unsigned char *, unsigned long, LPC_I2C_TransMode_t, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "74",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_Transfer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Transfer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_Transfer(unsigned char, unsigned char *, unsigned long, LPC_I2C_TransMode_t, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "74",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_Transfer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_HandleMasterState",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_HandleMasterState(void)",
+    "location": {
+      "column": "6",
+      "line": "77",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_HandleMasterState",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_HandleMasterState",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_HandleMasterState(void)",
+    "location": {
+      "column": "6",
+      "line": "77",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_HandleMasterState",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@I2CState",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "I2CState",
+    "location": {
+      "column": "16",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2CState",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@I2CMsg",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "I2CMsg",
+    "location": {
+      "column": "17",
+      "line": "21",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2CMsg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_EnableI2C",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_EnableI2C(void)",
+    "location": {
+      "column": "6",
+      "line": "30",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_EnableI2C",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_DisableI2C",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_DisableI2C(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_DisableI2C",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__I2C_SetFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void __I2C_SetFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "56",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "__I2C_SetFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__I2C_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void __I2C_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "70",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "__I2C_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__I2C_SendData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void __I2C_SendData(unsigned char)",
+    "location": {
+      "column": "6",
+      "line": "82",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "__I2C_SendData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__I2C_ReceiveData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char __I2C_ReceiveData(void)",
+    "location": {
+      "column": "15",
+      "line": "94",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "__I2C_ReceiveData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_InitMaster",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_InitMaster(unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "109",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_InitMaster",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_MasterWrite",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_MasterWrite(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "151",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_MasterWrite",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_MasterRead",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_MasterRead(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "169",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_MasterRead",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Transfer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_Transfer(unsigned char, unsigned char *, unsigned long, LPC_I2C_TransMode_t, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "189",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_Transfer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.c@5959@F@I2C_Transfer@timeout",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timeout",
+    "location": {
+      "column": "14",
+      "line": "192",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "timeout",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_HandleMasterState",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_HandleMasterState(void)",
+    "location": {
+      "column": "6",
+      "line": "246",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_HandleMasterState",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.c@7189@F@I2C_HandleMasterState@I2Cstatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "I2Cstatus",
+    "location": {
+      "column": "15",
+      "line": "248",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2Cstatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:irene_stalk.h@58@macro@__IRENE_STALK_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__IRENE_STALK_H",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\irene_stalk.h"
+    },
+    "name": "__IRENE_STALK_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@irene_stalkPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "irene_stalkPic",
+    "location": {
+      "column": "14",
+      "line": "6",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\irene_stalk.h"
+    },
+    "name": "irene_stalkPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@irene_stalkPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "irene_stalkPic",
+    "location": {
+      "column": "14",
+      "line": "6",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\irene_stalk.h"
+    },
+    "name": "irene_stalkPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@irene_stalkStream",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "irene_stalkStream",
+    "location": {
+      "column": "14",
+      "line": "3",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\irene_stalk.c"
+    },
+    "name": "irene_stalkStream",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@irene_stalkPic",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "irene_stalkPic",
+    "location": {
+      "column": "7",
+      "line": "9607",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\irene_stalk.c"
+    },
+    "name": "irene_stalkPic",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:logo.h@520@macro@__LOGO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__LOGO_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
+    },
+    "name": "__LOGO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Logo.h@520@macro@__LOGO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__LOGO_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
+    },
+    "name": "__LOGO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@LogoPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LogoPic",
+    "location": {
+      "column": "14",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
+    },
+    "name": "LogoPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@LogoPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LogoPic",
+    "location": {
+      "column": "14",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
+    },
+    "name": "LogoPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@LogoStream",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "LogoStream",
+    "location": {
+      "column": "14",
+      "line": "19",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.c"
+    },
+    "name": "LogoStream",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@LogoPic",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "LogoPic",
+    "location": {
+      "column": "7",
+      "line": "9623",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.c"
+    },
+    "name": "LogoPic",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1830@macro@NONPROT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NONPROT",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "NONPROT",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1858@macro@CRP1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CRP1",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "CRP1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1885@macro@CRP2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CRP2",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "CRP2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1995@macro@CRP3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CRP3",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "CRP3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@crp",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "crp",
+    "location": {
+      "column": "23",
+      "line": "66",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "crp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2142@macro@TIMER0_TICK_PER_SEC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER0_TICK_PER_SEC",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "TIMER0_TICK_PER_SEC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Terminal_6_8_6",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Terminal_6_8_6",
+    "location": {
+      "column": "19",
+      "line": "72",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "Terminal_6_8_6",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Terminal_9_12_6",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Terminal_9_12_6",
+    "location": {
+      "column": "19",
+      "line": "73",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "Terminal_9_12_6",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Terminal_18_24_12",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Terminal_18_24_12",
+    "location": {
+      "column": "19",
+      "line": "74",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "Terminal_18_24_12",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2290@macro@LCD_VRAM_BASE_ADDR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LCD_VRAM_BASE_ADDR",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "LCD_VRAM_BASE_ADDR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@timetick",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timetick",
+    "location": {
+      "column": "8",
+      "line": "78",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "timetick",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0IntrHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0IntrHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "89",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "Timer0IntrHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "108",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@3127@F@main@T@ram_unit",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "Int32U",
+    "location": {
+      "column": "16",
+      "line": "110",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "ram_unit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@3153@F@main@XY_touch",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "XY_touch",
+    "location": {
+      "column": "12",
+      "line": "111",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "XY_touch",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@3175@F@main@touch",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "touch",
+    "location": {
+      "column": "6",
+      "line": "112",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "touch",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -92609,402 +93693,6 @@
     },
     "name": "SMB380_GetData",
     "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@546@macro@__DRV_TOUCH_SCR_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DRV_TOUCH_SCR_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "__DRV_TOUCH_SCR_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@575@macro@TS_INTR_PRIORITY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_INTR_PRIORITY",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_INTR_PRIORITY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@604@macro@TS_SETUP_DLY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_SETUP_DLY",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_SETUP_DLY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@647@macro@TS_SAMPLE_DLY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_SAMPLE_DLY",
-    "location": {
-      "column": "9",
-      "line": "24",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_SAMPLE_DLY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@690@macro@TS_INIT_DLY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_INIT_DLY",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_INIT_DLY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@733@macro@TS_SAMPLES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_SAMPLES",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_SAMPLES",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@763@macro@IMAGE_WIDTH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IMAGE_WIDTH",
-    "location": {
-      "column": "9",
-      "line": "27",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "IMAGE_WIDTH",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@804@macro@IMAGE_HEIGHT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IMAGE_HEIGHT",
-    "location": {
-      "column": "9",
-      "line": "28",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "IMAGE_HEIGHT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@UA@ToushRes_t",
-    "What": "Union",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "members": [
-      {
-        "ID": "c:@UA@ToushRes_t@FI@XY",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "XY",
-        "location": {
-          "column": "10",
-          "line": "32",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-        },
-        "name": "XY",
-        "origin": "user_include",
-        "scope": "_anonymous_drv_touch_scr_h_30_9"
-      },
-      {
-        "ID": "c:@UA@ToushRes_t@Sa",
-        "What": "Struct",
-        "defdec": "Def",
-        "display": "",
-        "location": {
-          "column": "3",
-          "line": "33",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-        },
-        "members": [
-          {
-            "ID": "c:@UA@ToushRes_t@Sa@FI@X",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "X",
-            "location": {
-              "column": "13",
-              "line": "35",
-              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-            },
-            "name": "X",
-            "origin": "user_include",
-            "scope": "_anonymous_drv_touch_scr_h_30_9::_anonymous_drv_touch_scr_h_33_3"
-          },
-          {
-            "ID": "c:@UA@ToushRes_t@Sa@FI@Y",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "Y",
-            "location": {
-              "column": "13",
-              "line": "36",
-              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-            },
-            "name": "Y",
-            "origin": "user_include",
-            "scope": "_anonymous_drv_touch_scr_h_30_9::_anonymous_drv_touch_scr_h_33_3"
-          }
-        ],
-        "name": "",
-        "origin": "user_include",
-        "scope": "_anonymous_drv_touch_scr_h_30_9"
-      },
-      {
-        "ID": "c:drv_touch_scr.h@T@ToushRes_t",
-        "What": "TypedefDecl",
-        "defdec": "Def",
-        "display": "union ToushRes_t",
-        "location": {
-          "column": "3",
-          "line": "38",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-        },
-        "name": "ToushRes_t",
-        "origin": "user_include",
-        "scope": "_anonymous_drv_touch_scr_h_30_9"
-      }
-    ],
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TimerIntr_Handler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TimerIntr_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "49",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "TimerIntr_Handler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@OnTouchIntr_Handler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void OnTouchIntr_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "60",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "OnTouchIntr_Handler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TouchScrInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TouchScrInit(void)",
-    "location": {
-      "column": "6",
-      "line": "71",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "TouchScrInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TouchGet",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Boolean TouchGet(ToushRes_t *)",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
-    },
-    "name": "TouchGet",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__SDRAM_64M_32BIT_DRV_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "__SDRAM_64M_32BIT_DRV_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SDRAM_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SDRAM_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Test",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Boolean SDRAM_Test(void)",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Test",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Test",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Boolean SDRAM_Test(void)",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Test",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@96@macro@_STDBOOL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STDBOOL",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "_STDBOOL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@200@macro@bool",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "bool",
-    "location": {
-      "column": "11",
-      "line": "13",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "bool",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@225@macro@true",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "true",
-    "location": {
-      "column": "11",
-      "line": "14",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "true",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@246@macro@false",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "false",
-    "location": {
-      "column": "11",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "false",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__bool_true_false_are_defined",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "__bool_true_false_are_defined",
-    "origin": "system_include",
     "scope": null
   },
   {

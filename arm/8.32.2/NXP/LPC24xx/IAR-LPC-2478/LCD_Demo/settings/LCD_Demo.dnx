@@ -2,10 +2,14 @@
 <settings>
     <DebugChecksum>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Checksum>2392248882</Checksum>
 =======
         <Checksum>844297809</Checksum>
 >>>>>>> parent of fc30a1d... Dank memes
+=======
+        <Checksum>2592453796</Checksum>
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -34,6 +38,7 @@
     </CallStack>
     <JLinkDriver>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <CStepIntDis>_ 0</CStepIntDis>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
         <WatchCond>_ 0</WatchCond>
@@ -46,6 +51,13 @@
         <WatchCond>_ 0</WatchCond>
         <Watch0>_ 0 "0x00000000" 4294967295 "0xFFFFFFFF" 0 "0x00000000" 4294967295 "0xFFFFFFFF" 3 0 0 0</Watch0>
 >>>>>>> parent of fc30a1d... Dank memes
+=======
+        <WatchCond>_ 0</WatchCond>
+        <Watch0>_ 0 "0x00000000" 4294967295 "0xFFFFFFFF" 0 "0x00000000" 4294967295 "0xFFFFFFFF" 3 0 0 0</Watch0>
+        <Watch1>_ 0 "0x00000000" 4294967295 "0xFFFFFFFF" 0 "0x00000000" 4294967295 "0xFFFFFFFF" 3 0 0 0</Watch1>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
     </JLinkDriver>
     <CallStackLog>
         <Enabled>0</Enabled>
@@ -58,10 +70,7 @@
         <ShowSource>1</ShowSource>
     </Trace1>
 <<<<<<< HEAD
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
+<<<<<<< HEAD
 =======
     <DisassembleMode>
         <mode>0</mode>
@@ -69,6 +78,21 @@
     <Breakpoints2>
         <Count>0</Count>
     </Breakpoints2>
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+<<<<<<< HEAD
+=======
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+=======
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -78,7 +102,10 @@
         <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
+<<<<<<< HEAD
 >>>>>>> parent of fc30a1d... Dank memes
+=======
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>1</Mode>
@@ -93,6 +120,7 @@
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
+<<<<<<< HEAD
     <DisassembleMode>
         <mode>0</mode>
     </DisassembleMode>
@@ -116,4 +144,6 @@
         <LogFile>_ ""</LogFile>
     </TermIOLog>
 >>>>>>> parent of fc30a1d... Dank memes
+=======
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
 </settings>

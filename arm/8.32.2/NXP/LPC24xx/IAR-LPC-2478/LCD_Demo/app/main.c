@@ -64,7 +64,7 @@
 __root const unsigned crp = NONPROT;
 #endif
 
-#define TIMER0_TICK_PER_SEC   1000
+#define TIMER0_TICK_PER_SEC   1
 
 
 extern FontType_t Terminal_6_8_6;
@@ -88,14 +88,12 @@ void Timer0IntrHandler (void)
 {
   timetick++;
   // Toggle USB Link LED
-  if (timetick > 500){
   USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
-  timetick = 0;
-  }
   // clear interrupt
   T0IR_bit.MR0INT = 1;
   VICADDRESS = 0;
 }
+
 /*************************************************************************
  * Function Name: main
  * Parameters: none
@@ -126,13 +124,22 @@ typedef Int32U ram_unit;
   // Init VIC
   VIC_Init();
   // GLCD init
+<<<<<<< HEAD
   GLCD_Init (redScreenPic.pPicStream, NULL);
 <<<<<<< HEAD
+=======
+  GLCD_Init (Frederik_Fraek_FyrPic.pPicStream, NULL);
+  
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
   GLCD_SetFont(&Terminal_18_24_12, 0x00ffffff, 0x000000);
+  GLCD_SetWindow(95,10,255,33);
+  GLCD_TextSetPos(0,0);
+  GLCD_print("\f TRIES TO MEME");
 
   GLCD_SetWindow(55,195,268,218);
   GLCD_TextSetPos(0,0);
   GLCD_print("\f SUCCEDES");
+<<<<<<< HEAD
   TouchScrInit();
     
 =======
@@ -148,6 +155,10 @@ typedef Int32U ram_unit;
 
   
 >>>>>>> parent of fc30a1d... Dank memes
+=======
+
+  
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
   
   // Init USB Link  LED
   USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
@@ -176,14 +187,18 @@ typedef Int32U ram_unit;
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
   
+  TouchScrInit();
   
   while(1){
+<<<<<<< HEAD
 <<<<<<< HEAD
     char buffer [50];
     sprintf (buffer, "timetick: %d", timetick);
     GLCD_SetWindow(95,10,255,33);
     GLCD_TextSetPos(0,0);
     GLCD_print(buffer);
+=======
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
     if(TouchGet(&XY_touch) && !touch){
        touch = true;
        GLCD_SetWindow(55,195,268,218);

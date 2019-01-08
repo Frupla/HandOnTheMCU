@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\LCD_Demo.pbd
 C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\Cursor.pbi
 C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\Frederik_Fraek_Fyr.pbi
@@ -20,6 +21,15 @@ C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-24
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\Cursor.pbi
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\drv_glcd.pbi
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\i2c0_drv.pbi
+=======
+﻿C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\LCD_Demo.pbd
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\Cursor.pbi
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\drv_glcd.pbi
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\drv_touch_scr.pbi
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\Frederik_Fraek_Fyr.pbi
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\i2c0_drv.pbi
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\irene_stalk.pbi
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\logo.pbi
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\main.pbi
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\redScreen.pbi
@@ -29,4 +39,7 @@ C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\Terminal_18_24x12.pbi
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\Terminal_6_8x6.pbi
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\LCD_Demo\Flash Debug\Obj\Terminal_9_12x6.pbi
+<<<<<<< HEAD
 >>>>>>> parent of fc30a1d... Dank memes
+=======
+>>>>>>> parent of b86ee1c... Added failed blinking :swimmer:

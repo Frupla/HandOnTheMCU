@@ -2090,6 +2090,15 @@
         <file>
             <name>$PROJ_DIR$\app\redScreen.c</name>
         </file>
+        <file>
+            <name>$PROJ_DIR$\app\Terminal_18_24x12.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Terminal_6_8x6.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Terminal_9_12x6.c</name>
+        </file>
     </group>
     <group>
         <name>board</name>

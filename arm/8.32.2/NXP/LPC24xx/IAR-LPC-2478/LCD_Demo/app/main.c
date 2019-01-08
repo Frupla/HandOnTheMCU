@@ -45,6 +45,7 @@
 #include "board.h"
 #include "sys.h"
 #include "sdram_64M_32bit_drv.h"
+#include "drv_touch_scr.h"
 #include "drv_glcd.h"
 #include "Logo.h"
 #include "redScreen.h"
@@ -65,6 +66,10 @@ __root const unsigned crp = NONPROT;
 
 #define TIMER0_TICK_PER_SEC   1
 
+
+extern FontType_t Terminal_6_8_6;
+extern FontType_t Terminal_9_12_6;
+extern FontType_t Terminal_18_24_12;
 
 #define LCD_VRAM_BASE_ADDR ((Int32U)&SDRAM_BASE_ADDR)
 
@@ -120,11 +125,16 @@ typedef Int32U ram_unit;
   VIC_Init();
   // GLCD init
   GLCD_Init (redScreenPic.pPicStream, NULL);
-
-  GLCD_TextSetPos(100, 100);
   
-  GLCD_TextSetTabSize(100);
-  GLCD_print("Hello World");
+  GLCD_SetFont(&Terminal_18_24_12,0x0000FF,0x000cd4ff);
+  GLCD_SetWindow(95,10,255,33);
+  GLCD_TextSetPos(0,0);
+  GLCD_print("\fHello world");
+
+  GLCD_SetWindow(55,195,268,218);
+  GLCD_TextSetPos(0,0);
+  GLCD_print("\f 1 2 3");
+
   
   
   // Init USB Link  LED

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>3433952214</fileChecksum>
+    <fileChecksum>181945153</fileChecksum>
     <configuration>
         <name>Flash Debug</name>
         <outputs>
@@ -50,6 +50,7 @@
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\main.pbi</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.o</file>
+<<<<<<< HEAD
             <file>$TOOLKIT_DIR$\inc\c\string.h</file>
             <file>$PROJ_DIR$\app\Frederik_Fraek_Fyr.h</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\irene_stalk.o</file>
@@ -94,6 +95,19 @@
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.o</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\LCD_Demo.pbd</file>
+=======
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.o</file>
+            <file>$PROJ_DIR$\app\Terminal_18_24x12.c</file>
+            <file>$PROJ_DIR$\app\Terminal_9_12x6.c</file>
+            <file>$PROJ_DIR$\app\Terminal_6_8x6.c</file>
+            <file>$PROJ_DIR$\modules\drv_touch_scr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+            <file>$PROJ_DIR$\modules\includes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+>>>>>>> parent of fc30a1d... Dank memes
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
@@ -280,11 +294,19 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
+<<<<<<< HEAD
                     <file> 38 78 82 63 86 37 12 75 41</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 12 82 63 78 37 75 38 41 86</file>
+=======
+                    <file> 5 2 19 11 55 30 13 32 52 15 37 16 28 59 0 33 14 72 75 73 77 78 44 46 76 74 45 12 23 26 39 3 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14 37 26 13 16 52 75 76 77 12 3 19 15 28 32 33 72 23 39 2 11 55 30 5 0 59 78 73 44 74 45 46 57</file>
+>>>>>>> parent of fc30a1d... Dank memes
                 </tool>
             </inputs>
         </file>
@@ -325,12 +347,17 @@
             </outputs>
             <inputs>
                 <tool>
+<<<<<<< HEAD
                     <name>ICCARM</name>
                     <file> 46 38 78 82 63 86 37 12 75 41</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 12 78 38 63 82 37 75 46 41 86</file>
+=======
+                    <name>ILINK</name>
+                    <file> 9 10 60 43 1 4 29 41 54 56 68 67 66 50 48 53 49</file>
+>>>>>>> parent of fc30a1d... Dank memes
                 </tool>
             </inputs>
         </file>
@@ -399,6 +426,7 @@
                 </tool>
             </inputs>
         </file>
+<<<<<<< HEAD
         <file>
             <name>$PROJ_DIR$\app\Cursor.c</name>
             <outputs>
@@ -460,6 +488,8 @@
                 </tool>
             </inputs>
         </file>
+=======
+>>>>>>> parent of fc30a1d... Dank memes
     </configuration>
     <configuration>
         <name>SDRAM Debug</name>

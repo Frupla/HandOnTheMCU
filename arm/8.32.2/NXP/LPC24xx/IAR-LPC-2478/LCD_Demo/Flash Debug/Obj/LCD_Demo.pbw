@@ -94620,6 +94620,7 @@
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4529@macro@TS_Y1_FIO",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94630,10 +94631,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_FIO",
+=======
+    "ID": "c:i2c0_drv.h@529@macro@__I2C0_DRV_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__I2C0_DRV_H",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "__I2C0_DRV_H",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4566@macro@TS_Y1_DIR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94644,10 +94658,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_DIR",
+=======
+    "ID": "c:i2c0_drv.h@553@macro@I2C_MAXSPEED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_MAXSPEED",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MAXSPEED",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4602@macro@TS_Y1_FDIR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94658,10 +94685,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_FDIR",
+=======
+    "ID": "c:i2c0_drv.h@619@macro@I2C_SPEED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_SPEED",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_SPEED",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4639@macro@TS_Y1_SET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94672,10 +94712,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_SET",
+=======
+    "ID": "c:i2c0_drv.h@697@macro@I2CON_I2EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_I2EN",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_I2EN",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4675@macro@TS_Y1_CLR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94686,10 +94739,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_CLR",
+=======
+    "ID": "c:i2c0_drv.h@760@macro@I2CON_STA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_STA",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_STA",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4711@macro@TS_Y1_FSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94700,10 +94766,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_FSET",
+=======
+    "ID": "c:i2c0_drv.h@823@macro@I2CON_STO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_STO",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_STO",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4748@macro@TS_Y1_FCLR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94714,10 +94793,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_FCLR",
+=======
+    "ID": "c:i2c0_drv.h@886@macro@I2CON_SI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_SI",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_SI",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4785@macro@TS_Y1_INTR_R",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94728,10 +94820,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_INTR_R",
+=======
+    "ID": "c:i2c0_drv.h@956@macro@I2CON_AA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_AA",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_AA",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4824@macro@TS_Y1_INTR_CLR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94742,10 +94847,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_INTR_CLR",
+=======
+    "ID": "c:i2c0_drv.h@1070@macro@I2CON_I2ENC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_I2ENC",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_I2ENC",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4863@macro@TS_Y1_SEL",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94756,10 +94874,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_SEL",
+=======
+    "ID": "c:i2c0_drv.h@1139@macro@I2CON_STAC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_STAC",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_STAC",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4910@macro@TS_Y1_MODE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94770,10 +94901,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y1_MODE",
+=======
+    "ID": "c:i2c0_drv.h@1203@macro@I2CON_SIC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_SIC",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_SIC",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@4960@macro@TS_Y2_MASK",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94784,10 +94928,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_MASK",
+=======
+    "ID": "c:i2c0_drv.h@1275@macro@I2CON_AAC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2CON_AAC",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2CON_AAC",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5001@macro@TS_Y2_IO",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94798,10 +94955,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_IO",
+=======
+    "ID": "c:i2c0_drv.h@1373@macro@I2C_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_OK",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_OK",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5037@macro@TS_Y2_FIO",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94812,10 +94982,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_FIO",
+=======
+    "ID": "c:i2c0_drv.h@1440@macro@I2C_IDLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_IDLE",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_IDLE",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5074@macro@TS_Y2_DIR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94826,10 +95009,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_DIR",
+=======
+    "ID": "c:i2c0_drv.h@1491@macro@I2C_BUSY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_BUSY",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_BUSY",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5110@macro@TS_Y2_FDIR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94840,10 +95036,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_FDIR",
+=======
+    "ID": "c:i2c0_drv.h@1548@macro@I2C_ERROR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_ERROR",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_ERROR",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5147@macro@TS_Y2_SET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94854,10 +95063,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_SET",
+=======
+    "ID": "c:i2c0_drv.h@1609@macro@I2C_NO_DATA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_NO_DATA",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_NO_DATA",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5183@macro@TS_Y2_CLR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94868,10 +95090,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_CLR",
+=======
+    "ID": "c:i2c0_drv.h@1673@macro@I2C_NACK_ON_DATA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_NACK_ON_DATA",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_NACK_ON_DATA",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5219@macro@TS_Y2_FSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94882,10 +95117,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_FSET",
+=======
+    "ID": "c:i2c0_drv.h@1737@macro@I2C_NACK_ON_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_NACK_ON_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_NACK_ON_ADDRESS",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5256@macro@TS_Y2_FCLR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94896,10 +95144,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_FCLR",
+=======
+    "ID": "c:i2c0_drv.h@1803@macro@I2C_DEVICE_NOT_PRESENT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_DEVICE_NOT_PRESENT",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_DEVICE_NOT_PRESENT",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5293@macro@TS_Y2_INTR_R",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94910,10 +95171,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_INTR_R",
+=======
+    "ID": "c:i2c0_drv.h@1871@macro@I2C_ARBITRATION_LOST",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_ARBITRATION_LOST",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_ARBITRATION_LOST",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5332@macro@TS_Y2_INTR_CLR",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94938,10 +95212,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TS_Y2_SEL",
+=======
+    "ID": "c:i2c0_drv.h@1937@macro@I2C_TIME_OUT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_TIME_OUT",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_TIME_OUT",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@5418@macro@TS_Y2_MODE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94980,10 +95267,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TIMER0_PCLK_OFFSET",
+=======
+    "ID": "c:i2c0_drv.h@2003@macro@I2C_SLAVE_ERROR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_SLAVE_ERROR",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_SLAVE_ERROR",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6136@macro@TIMER1_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94994,10 +95294,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "TIMER1_PCLK_OFFSET",
+=======
+    "ID": "c:i2c0_drv.h@2068@macro@I2C_INIT_ERROR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_INIT_ERROR",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_INIT_ERROR",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6167@macro@UART0_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95008,10 +95321,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "UART0_PCLK_OFFSET",
+=======
+    "ID": "c:i2c0_drv.h@2142@macro@I2C_RETRIES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "I2C_RETRIES",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_RETRIES",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6198@macro@UART1_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95022,10 +95348,67 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "UART1_PCLK_OFFSET",
+=======
+    "ID": "c:@EA@LPC_I2C_TransMode_t",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@LPC_I2C_TransMode_t@WRITE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "WRITE",
+        "location": {
+          "column": "2",
+          "line": "54",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "WRITE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@LPC_I2C_TransMode_t@READ",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "READ",
+        "location": {
+          "column": "2",
+          "line": "55",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "READ",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@LPC_I2C_TransMode_t@WRITETHENREAD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "WRITETHENREAD",
+        "location": {
+          "column": "2",
+          "line": "56",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "WRITETHENREAD",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6229@macro@PWM0_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95050,10 +95433,123 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "PWM1_PCLK_OFFSET",
+=======
+    "ID": "c:@SA@LPC_I2C_Msg_t",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@address",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "address",
+        "location": {
+          "column": "16",
+          "line": "60",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "address",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@nrBytes",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "nrBytes",
+        "location": {
+          "column": "16",
+          "line": "61",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "nrBytes",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@buf",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "buf",
+        "location": {
+          "column": "17",
+          "line": "62",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "buf",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@transMode",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "transMode",
+        "location": {
+          "column": "22",
+          "line": "63",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "transMode",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@nrWriteBytes",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "nrWriteBytes",
+        "location": {
+          "column": "16",
+          "line": "64",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "nrWriteBytes",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:@SA@LPC_I2C_Msg_t@FI@dataCount",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "dataCount",
+        "location": {
+          "column": "6",
+          "line": "66",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "dataCount",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      },
+      {
+        "ID": "c:i2c0_drv.h@T@LPC_I2C_Msg_t",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct LPC_I2C_Msg_t",
+        "location": {
+          "column": "3",
+          "line": "67",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+        },
+        "name": "LPC_I2C_Msg_t",
+        "origin": "user_include",
+        "scope": "_anonymous_i2c0_drv_h_59_9"
+      }
+    ],
+    "name": "",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6293@macro@I2C0_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95064,10 +95560,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "I2C0_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_InitMaster",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_InitMaster(unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "70",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_InitMaster",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6325@macro@SPI_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95078,10 +95587,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "SPI_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_InitMaster",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_InitMaster(unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "70",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_InitMaster",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6357@macro@RTC_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95092,10 +95614,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "RTC_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_MasterWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_MasterWrite(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "71",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MasterWrite",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6389@macro@SSP1_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95106,10 +95641,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "SSP1_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_MasterWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_MasterWrite(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "71",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MasterWrite",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6421@macro@DAC_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95120,10 +95668,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "DAC_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_MasterRead",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_MasterRead(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "72",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MasterRead",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6453@macro@ADC_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95134,10 +95695,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "ADC_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_MasterRead",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_MasterRead(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "72",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_MasterRead",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6485@macro@CAN1_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95148,10 +95722,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "CAN1_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_Transfer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_Transfer(unsigned char, unsigned char *, unsigned long, LPC_I2C_TransMode_t, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "74",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_Transfer",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6517@macro@CAN2_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95162,10 +95749,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "CAN2_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_Transfer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int I2C_Transfer(unsigned char, unsigned char *, unsigned long, LPC_I2C_TransMode_t, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "74",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_Transfer",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6549@macro@ACF_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95176,10 +95776,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "ACF_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_HandleMasterState",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_HandleMasterState(void)",
+    "location": {
+      "column": "6",
+      "line": "77",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_HandleMasterState",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6581@macro@BAT_RAM_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95190,10 +95803,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\board.h"
     },
     "name": "BAT_RAM_PCLK_OFFSET",
+=======
+    "ID": "c:@F@I2C_HandleMasterState",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void I2C_HandleMasterState(void)",
+    "location": {
+      "column": "6",
+      "line": "77",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
+    },
+    "name": "I2C_HandleMasterState",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:board.h@6613@macro@GPIO_PCLK_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95372,10 +95998,191 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\sys.c"
     },
     "name": "FIQ_Handler",
+=======
+    "ID": "c:@I2CState",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "I2CState",
+    "location": {
+      "column": "16",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2CState",
     "origin": "project_file",
     "scope": null
   },
   {
+    "ID": "c:@I2CMsg",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "I2CMsg",
+    "location": {
+      "column": "17",
+      "line": "21",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2CMsg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_EnableI2C",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_EnableI2C(void)",
+    "location": {
+      "column": "6",
+      "line": "30",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_EnableI2C",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_DisableI2C",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_DisableI2C(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_DisableI2C",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__I2C_SetFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void __I2C_SetFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "56",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "__I2C_SetFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__I2C_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void __I2C_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "70",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "__I2C_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__I2C_SendData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void __I2C_SendData(unsigned char)",
+    "location": {
+      "column": "6",
+      "line": "82",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "__I2C_SendData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__I2C_ReceiveData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "unsigned char __I2C_ReceiveData(void)",
+    "location": {
+      "column": "15",
+      "line": "94",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "__I2C_ReceiveData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_InitMaster",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_InitMaster(unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "109",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_InitMaster",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_MasterWrite",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_MasterWrite(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "151",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_MasterWrite",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_MasterRead",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_MasterRead(unsigned char, unsigned char *, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "169",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_MasterRead",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Transfer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_Transfer(unsigned char, unsigned char *, unsigned long, LPC_I2C_TransMode_t, unsigned long)",
+    "location": {
+      "column": "5",
+      "line": "189",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_Transfer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:i2c0_drv.c@5959@F@I2C_Transfer@timeout",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timeout",
+    "location": {
+      "column": "14",
+      "line": "192",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "timeout",
+>>>>>>> parent of fc30a1d... Dank memes
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+<<<<<<< HEAD
     "ID": "c:@F@IRQ_Handler",
     "What": "Function",
     "defdec": "Def",
@@ -95386,10 +96193,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\sys.c"
     },
     "name": "IRQ_Handler",
+=======
+    "ID": "c:@F@I2C_HandleMasterState",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_HandleMasterState(void)",
+    "location": {
+      "column": "6",
+      "line": "246",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2C_HandleMasterState",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:sys.c@1169@F@IRQ_Handler@interrupt_function",
     "What": "Variable",
     "defdec": "Def",
@@ -95400,10 +96220,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\sys.c"
     },
     "name": "interrupt_function",
+=======
+    "ID": "c:i2c0_drv.c@7189@F@I2C_HandleMasterState@I2Cstatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "I2Cstatus",
+    "location": {
+      "column": "15",
+      "line": "248",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.c"
+    },
+    "name": "I2Cstatus",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:sys.c@1200@F@IRQ_Handler@vector",
     "What": "Variable",
     "defdec": "Def",
@@ -95484,10 +96317,79 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\sys.c"
     },
     "name": "VIC_SetVectoredIRQ",
+=======
+    "ID": "c:logo.h@520@macro@__LOGO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__LOGO_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
+    },
+    "name": "__LOGO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Logo.h@520@macro@__LOGO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__LOGO_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
+    },
+    "name": "__LOGO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@LogoPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LogoPic",
+    "location": {
+      "column": "14",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
+    },
+    "name": "LogoPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@LogoPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LogoPic",
+    "location": {
+      "column": "14",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
+    },
+    "name": "LogoPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@LogoStream",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "LogoStream",
+    "location": {
+      "column": "14",
+      "line": "19",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.c"
+    },
+    "name": "LogoStream",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:sys.c@2939@F@VIC_SetVectoredIRQ@pReg",
     "What": "Variable",
     "defdec": "Def",
@@ -95498,10 +96400,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\board\\sys.c"
     },
     "name": "pReg",
+=======
+    "ID": "c:@LogoPic",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "LogoPic",
+    "location": {
+      "column": "7",
+      "line": "9623",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.c"
+    },
+    "name": "LogoPic",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@InitClock",
     "What": "Function",
     "defdec": "Def",
@@ -97208,10 +98123,863 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdarg.h"
     },
     "name": "va_start",
+=======
+    "ID": "c:DLib_Product_string.h@326@macro@_DLIB_PRODUCTS_STRING_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCTS_STRING_H_",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_PRODUCTS_STRING_H_",
     "origin": "system_include",
     "scope": null
   },
   {
+    "ID": "c:DLib_Product_string.h@944@macro@_DLIB_STRING_SKIP_INLINE_MEMCHR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRING_SKIP_INLINE_MEMCHR",
+    "location": {
+      "column": "11",
+      "line": "38",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_STRING_SKIP_INLINE_MEMCHR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_string.h@987@macro@_DLIB_STRING_SKIP_INLINE_MEMCMP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRING_SKIP_INLINE_MEMCMP",
+    "location": {
+      "column": "11",
+      "line": "39",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_STRING_SKIP_INLINE_MEMCMP",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_string.h@1030@macro@_DLIB_STRING_SKIP_INLINE_STRCHR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRING_SKIP_INLINE_STRCHR",
+    "location": {
+      "column": "11",
+      "line": "40",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_STRING_SKIP_INLINE_STRCHR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_string.h@1073@macro@_DLIB_STRING_SKIP_INLINE_STRCMP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRING_SKIP_INLINE_STRCMP",
+    "location": {
+      "column": "11",
+      "line": "41",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_STRING_SKIP_INLINE_STRCMP",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_string.h@1116@macro@_DLIB_STRING_SKIP_INLINE_STRLEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRING_SKIP_INLINE_STRLEN",
+    "location": {
+      "column": "11",
+      "line": "42",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_STRING_SKIP_INLINE_STRLEN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_string.h@1159@macro@_DLIB_STRING_SKIP_INLINE_STRNCPY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRING_SKIP_INLINE_STRNCPY",
+    "location": {
+      "column": "11",
+      "line": "43",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_STRING_SKIP_INLINE_STRNCPY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_string.h@1356@macro@_DLIB_STRING_SKIP_INLINE_MEMCPY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRING_SKIP_INLINE_MEMCPY",
+    "location": {
+      "column": "11",
+      "line": "54",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_STRING_SKIP_INLINE_MEMCPY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memcpy",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void * memcpy(void *, const void *, size_t)",
+    "location": {
+      "column": "40",
+      "line": "56",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "memcpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_string.h@1579@macro@_DLIB_STRING_SKIP_INLINE_MEMMOVE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRING_SKIP_INLINE_MEMMOVE",
+    "location": {
+      "column": "11",
+      "line": "62",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_STRING_SKIP_INLINE_MEMMOVE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memmove",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void * memmove(void *, const void *, size_t)",
+    "location": {
+      "column": "40",
+      "line": "64",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "memmove",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product_string.h@1805@macro@_DLIB_STRING_SKIP_INLINE_MEMSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRING_SKIP_INLINE_MEMSET",
+    "location": {
+      "column": "11",
+      "line": "70",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "_DLIB_STRING_SKIP_INLINE_MEMSET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memset",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void * memset(void *, int, size_t)",
+    "location": {
+      "column": "37",
+      "line": "72",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Product_string.h"
+    },
+    "name": "memset",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:string.h@100@macro@_STRING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STRING",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "_STRING",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memcmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int memcmp(const void *, const void *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "38",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "memcmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memcpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memcpy(void *restrict, const void *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "40",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "memcpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memmove",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memmove(void *, const void *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "43",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "memmove",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memset",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memset(void *, int, size_t)",
+    "location": {
+      "column": "45",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "memset",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcat",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strcat(char *restrict, const char *restrict)",
+    "location": {
+      "column": "45",
+      "line": "46",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcat",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcmp(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "48",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcoll",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcoll(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "49",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcoll",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strcpy(char *restrict, const char *restrict)",
+    "location": {
+      "column": "45",
+      "line": "50",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcspn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strcspn(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "52",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcspn",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strerror",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strerror(int)",
+    "location": {
+      "column": "45",
+      "line": "53",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strerror",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strlen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strlen(const char *)",
+    "location": {
+      "column": "45",
+      "line": "54",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strlen",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncat",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strncat(char *restrict, const char *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "55",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncat",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strncmp(const char *, const char *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "58",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncpy",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strncpy(char *restrict, const char *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "60",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncpy",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strspn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strspn(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "63",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strspn",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strtok",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strtok(char *restrict, const char *restrict)",
+    "location": {
+      "column": "45",
+      "line": "64",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strtok",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strxfrm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "unsigned int strxfrm(char *restrict, const char *restrict, size_t)",
+    "location": {
+      "column": "45",
+      "line": "66",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strxfrm",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strdup",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strdup(const char *)",
+    "location": {
+      "column": "45",
+      "line": "70",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strdup",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strcasecmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strcasecmp(const char *, const char *)",
+    "location": {
+      "column": "45",
+      "line": "71",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strcasecmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strncasecmp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int strncasecmp(const char *, const char *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "73",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strncasecmp",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strtok_r",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strtok_r(char *, const char *, char **)",
+    "location": {
+      "column": "45",
+      "line": "75",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strtok_r",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strnlen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t strnlen(const char *, size_t)",
+    "location": {
+      "column": "45",
+      "line": "77",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strnlen",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@memchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * memchr(const void *, int, size_t)",
+    "location": {
+      "column": "37",
+      "line": "171",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "memchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strchr(const char *, int)",
+    "location": {
+      "column": "37",
+      "line": "172",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strpbrk",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strpbrk(const char *, const char *)",
+    "location": {
+      "column": "37",
+      "line": "173",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strpbrk",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strrchr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strrchr(const char *, int)",
+    "location": {
+      "column": "37",
+      "line": "174",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strrchr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@strstr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * strstr(const char *, const char *)",
+    "location": {
+      "column": "37",
+      "line": "175",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\string.h"
+    },
+    "name": "strstr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ctype.h@98@macro@_CTYPE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_CTYPE",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "_CTYPE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isalnum",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int isalnum(int)",
+    "location": {
+      "column": "30",
+      "line": "24",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isalnum",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isalpha",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int isalpha(int)",
+    "location": {
+      "column": "30",
+      "line": "25",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isalpha",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isblank",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int isblank(int)",
+    "location": {
+      "column": "30",
+      "line": "27",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isblank",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@iscntrl",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int iscntrl(int)",
+    "location": {
+      "column": "30",
+      "line": "29",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "iscntrl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isdigit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int isdigit(int)",
+    "location": {
+      "column": "30",
+      "line": "30",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isdigit",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isgraph",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int isgraph(int)",
+    "location": {
+      "column": "30",
+      "line": "31",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isgraph",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@islower",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int islower(int)",
+    "location": {
+      "column": "30",
+      "line": "32",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "islower",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isprint",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int isprint(int)",
+    "location": {
+      "column": "30",
+      "line": "33",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isprint",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ispunct",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int ispunct(int)",
+    "location": {
+      "column": "30",
+      "line": "34",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "ispunct",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isspace",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int isspace(int)",
+    "location": {
+      "column": "30",
+      "line": "35",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isspace",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isupper",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int isupper(int)",
+    "location": {
+      "column": "30",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isupper",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isxdigit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int isxdigit(int)",
+    "location": {
+      "column": "30",
+      "line": "37",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isxdigit",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@tolower",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int tolower(int)",
+    "location": {
+      "column": "30",
+      "line": "38",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "tolower",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@toupper",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int toupper(int)",
+    "location": {
+      "column": "30",
+      "line": "39",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "toupper",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ctype.h@1247@macro@__A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__A",
+    "location": {
+      "column": "11",
+      "line": "44",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "__A",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ctype.h@1283@macro@__X",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__X",
+    "location": {
+      "column": "11",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "__X",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ctype.h@1325@macro@__P",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__P",
+    "location": {
+      "column": "11",
+      "line": "46",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "__P",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ctype.h@1362@macro@__B",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__B",
+    "location": {
+      "column": "11",
+      "line": "47",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "__B",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ctype.h@1393@macro@__S",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__S",
+    "location": {
+      "column": "11",
+      "line": "48",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "__S",
+>>>>>>> parent of fc30a1d... Dank memes
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+<<<<<<< HEAD
     "ID": "c:stdarg.h@1749@macro@va_end",
     "What": "MacroDef",
     "defdec": "Def",
@@ -97222,10 +98990,23 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdarg.h"
     },
     "name": "va_end",
+=======
+    "ID": "c:ctype.h@1430@macro@__L",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__L",
+    "location": {
+      "column": "11",
+      "line": "49",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "__L",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "system_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:stdarg.h@1785@macro@va_arg",
     "What": "MacroDef",
     "defdec": "Def",
@@ -97236,10 +99017,23 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdarg.h"
     },
     "name": "va_arg",
+=======
+    "ID": "c:ctype.h@1474@macro@__U",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__U",
+    "location": {
+      "column": "11",
+      "line": "50",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "__U",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "system_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:stdarg.h@1850@macro@va_copy",
     "What": "MacroDef",
     "defdec": "Def",
@@ -97250,10 +99044,23 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdarg.h"
     },
     "name": "va_copy",
+=======
+    "ID": "c:ctype.h@1518@macro@__C",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__C",
+    "location": {
+      "column": "11",
+      "line": "51",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "__C",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "system_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@E@_TouchScrState_t",
     "What": "Enum",
     "defdec": "Def",
@@ -97602,10 +99409,219 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
     "name": "OnTouchIntr_Handler",
+=======
+    "ID": "c:@F@isblank",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int isblank(int)",
+    "location": {
+      "column": "11",
+      "line": "58",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isblank",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isdigit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int isdigit(int)",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isdigit",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isxdigit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int isxdigit(int)",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isxdigit",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isalnum",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int isalnum(int)",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isalnum",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isprint",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int isprint(int)",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isprint",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isgraph",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int isgraph(int)",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isgraph",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@islower",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int islower(int)",
+    "location": {
+      "column": "11",
+      "line": "98",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "islower",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isupper",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int isupper(int)",
+    "location": {
+      "column": "11",
+      "line": "104",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isupper",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isalpha",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int isalpha(int)",
+    "location": {
+      "column": "11",
+      "line": "110",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isalpha",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@iscntrl",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int iscntrl(int)",
+    "location": {
+      "column": "11",
+      "line": "116",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "iscntrl",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ispunct",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int ispunct(int)",
+    "location": {
+      "column": "11",
+      "line": "122",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "ispunct",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@isspace",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int isspace(int)",
+    "location": {
+      "column": "11",
+      "line": "131",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "isspace",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@tolower",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int tolower(int)",
+    "location": {
+      "column": "11",
+      "line": "137",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "tolower",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@toupper",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int toupper(int)",
+    "location": {
+      "column": "11",
+      "line": "143",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\ctype.h"
+    },
+    "name": "toupper",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1771@macro@NONPROT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NONPROT",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "NONPROT",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@ADC_Intr_Handler",
     "What": "Function",
     "defdec": "Def",
@@ -97616,10 +99632,23 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
     "name": "ADC_Intr_Handler",
+=======
+    "ID": "c:main.c@1799@macro@CRP1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CRP1",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "CRP1",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:drv_touch_scr.c@4555@F@ADC_Intr_Handler@Data",
     "What": "Variable",
     "defdec": "Def",
@@ -97630,10 +99659,23 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
     "name": "Data",
+=======
+    "ID": "c:main.c@1826@macro@CRP2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CRP2",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "CRP2",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@TouchScrInit",
     "What": "Function",
     "defdec": "Def",
@@ -97644,10 +99686,23 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
     "name": "TouchScrInit",
+=======
+    "ID": "c:main.c@1936@macro@CRP3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CRP3",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "CRP3",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:drv_touch_scr.c@8482@F@TouchScrInit@Dummy",
     "What": "Variable",
     "defdec": "Def",
@@ -97658,10 +99713,23 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
     "name": "Dummy",
+=======
+    "ID": "c:@crp",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "crp",
+    "location": {
+      "column": "23",
+      "line": "64",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "crp",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@TouchGet",
     "What": "Function",
     "defdec": "Def",
@@ -97672,10 +99740,23 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
     "name": "TouchGet",
+=======
+    "ID": "c:main.c@2083@macro@TIMER0_TICK_PER_SEC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER0_TICK_PER_SEC",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "TIMER0_TICK_PER_SEC",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:drv_touch_scr.c@9768@F@TouchGet@TouchResReadyHold",
     "What": "Variable",
     "defdec": "Def",
@@ -97686,10 +99767,23 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
     "name": "TouchResReadyHold",
+=======
+    "ID": "c:@Terminal_6_8_6",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Terminal_6_8_6",
+    "location": {
+      "column": "19",
+      "line": "70",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "Terminal_6_8_6",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:drv_touch_scr.c@9805@F@TouchGet@X_coordinate",
     "What": "Variable",
     "defdec": "Def",
@@ -97700,10 +99794,23 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
     "name": "X_coordinate",
+=======
+    "ID": "c:@Terminal_9_12_6",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Terminal_9_12_6",
+    "location": {
+      "column": "19",
+      "line": "71",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "Terminal_9_12_6",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:drv_touch_scr.c@9805@F@TouchGet@Y_coordinate",
     "What": "Variable",
     "defdec": "Dec",
@@ -97714,10 +99821,23 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.c"
     },
     "name": "Y_coordinate",
+=======
+    "ID": "c:@Terminal_18_24_12",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Terminal_18_24_12",
+    "location": {
+      "column": "19",
+      "line": "72",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "Terminal_18_24_12",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:i2c0_drv.h@529@macro@__I2C0_DRV_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -97742,10 +99862,93 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
     },
     "name": "I2C_MAXSPEED",
+=======
+    "ID": "c:main.c@2231@macro@LCD_VRAM_BASE_ADDR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LCD_VRAM_BASE_ADDR",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "LCD_VRAM_BASE_ADDR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@timetick",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timetick",
+    "location": {
+      "column": "8",
+      "line": "76",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "timetick",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0IntrHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0IntrHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "87",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "Timer0IntrHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "106",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@3068@F@main@T@ram_unit",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "Int32U",
+    "location": {
+      "column": "16",
+      "line": "108",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+    },
+    "name": "ram_unit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:includes.h@350@macro@__INCLUDES_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__INCLUDES_H",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\includes.h"
+    },
+    "name": "__INCLUDES_H",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:i2c0_drv.h@619@macro@I2C_SPEED",
     "What": "MacroDef",
     "defdec": "Def",
@@ -97981,6 +100184,285 @@
     },
     "name": "I2C_NACK_ON_ADDRESS",
     "origin": "user_include",
+=======
+    "ID": "c:limits.h@117@macro@_LIMITS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_LIMITS",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "_LIMITS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@554@macro@MB_LEN_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MB_LEN_MAX",
+    "location": {
+      "column": "11",
+      "line": "25",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "MB_LEN_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@617@macro@CHAR_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CHAR_BIT",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "CHAR_BIT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@664@macro@CHAR_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CHAR_MAX",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "CHAR_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@708@macro@CHAR_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CHAR_MIN",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "CHAR_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@776@macro@INT_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INT_MAX",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "INT_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@826@macro@INT_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INT_MIN",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "INT_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@876@macro@UINT_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UINT_MAX",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "UINT_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@960@macro@SCHAR_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SCHAR_MAX",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "SCHAR_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1011@macro@SCHAR_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SCHAR_MIN",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "SCHAR_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1088@macro@SHRT_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHRT_MAX",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "SHRT_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1140@macro@SHRT_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHRT_MIN",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "SHRT_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1217@macro@LONG_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LONG_MAX",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "LONG_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1268@macro@LONG_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LONG_MIN",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "LONG_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1348@macro@UCHAR_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UCHAR_MAX",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "UCHAR_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1401@macro@USHRT_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USHRT_MAX",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "USHRT_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1455@macro@ULONG_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ULONG_MAX",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "ULONG_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1561@macro@LLONG_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LLONG_MIN",
+    "location": {
+      "column": "11",
+      "line": "59",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "LLONG_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1617@macro@LLONG_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LLONG_MAX",
+    "location": {
+      "column": "11",
+      "line": "60",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "LLONG_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1673@macro@ULLONG_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ULLONG_MAX",
+    "location": {
+      "column": "11",
+      "line": "61",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "ULLONG_MAX",
+    "origin": "system_include",
+>>>>>>> parent of fc30a1d... Dank memes
     "scope": null
   },
   {
@@ -98202,6 +100684,7 @@
           "line": "64",
           "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
         },
+<<<<<<< HEAD
         "name": "nrWriteBytes",
         "origin": "user_include",
         "scope": "_anonymous_i2c0_drv_h_59_9"
@@ -98233,6 +100716,328 @@
         "name": "LPC_I2C_Msg_t",
         "origin": "user_include",
         "scope": "_anonymous_i2c0_drv_h_59_9"
+=======
+        "name": "SMB380_375HZ",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_SMB380_Bandwidth_t@SMB380_750HZ",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SMB380_750HZ",
+        "location": {
+          "column": "17",
+          "line": "55",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\smb380_drv.h"
+        },
+        "name": "SMB380_750HZ",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_SMB380_Bandwidth_t@SMB380_1500HZ",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SMB380_1500HZ",
+        "location": {
+          "column": "31",
+          "line": "55",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\smb380_drv.h"
+        },
+        "name": "SMB380_1500HZ",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "14",
+      "line": "52",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\smb380_drv.h"
+    },
+    "name": "_SMB380_Bandwidth_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SMB380_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "SMB380_Status_t SMB380_Init(void)",
+    "location": {
+      "column": "17",
+      "line": "67",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\smb380_drv.h"
+    },
+    "name": "SMB380_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SMB380_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "SMB380_Status_t SMB380_Init(void)",
+    "location": {
+      "column": "17",
+      "line": "67",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\smb380_drv.h"
+    },
+    "name": "SMB380_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SMB380_GetID",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "SMB380_Status_t SMB380_GetID(pInt8U, pInt8U)",
+    "location": {
+      "column": "17",
+      "line": "78",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\smb380_drv.h"
+    },
+    "name": "SMB380_GetID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SMB380_GetID",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "SMB380_Status_t SMB380_GetID(pInt8U, pInt8U)",
+    "location": {
+      "column": "17",
+      "line": "78",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\smb380_drv.h"
+    },
+    "name": "SMB380_GetID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SMB380_GetData",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "SMB380_Status_t SMB380_GetData(pSMB380_Data_t)",
+    "location": {
+      "column": "17",
+      "line": "89",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\smb380_drv.h"
+    },
+    "name": "SMB380_GetData",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SMB380_GetData",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "SMB380_Status_t SMB380_GetData(pSMB380_Data_t)",
+    "location": {
+      "column": "17",
+      "line": "89",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\smb380_drv.h"
+    },
+    "name": "SMB380_GetData",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@546@macro@__DRV_TOUCH_SCR_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DRV_TOUCH_SCR_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "__DRV_TOUCH_SCR_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@575@macro@TS_INTR_PRIORITY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_INTR_PRIORITY",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_INTR_PRIORITY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@604@macro@TS_SETUP_DLY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_SETUP_DLY",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_SETUP_DLY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@647@macro@TS_SAMPLE_DLY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_SAMPLE_DLY",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_SAMPLE_DLY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@690@macro@TS_INIT_DLY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_INIT_DLY",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_INIT_DLY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@733@macro@TS_SAMPLES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TS_SAMPLES",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TS_SAMPLES",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@763@macro@IMAGE_WIDTH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IMAGE_WIDTH",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "IMAGE_WIDTH",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.h@804@macro@IMAGE_HEIGHT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IMAGE_HEIGHT",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "IMAGE_HEIGHT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UA@ToushRes_t",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@ToushRes_t@FI@XY",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "XY",
+        "location": {
+          "column": "10",
+          "line": "32",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+        },
+        "name": "XY",
+        "origin": "user_include",
+        "scope": "_anonymous_drv_touch_scr_h_30_9"
+      },
+      {
+        "ID": "c:@UA@ToushRes_t@Sa",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "33",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+        },
+        "members": [
+          {
+            "ID": "c:@UA@ToushRes_t@Sa@FI@X",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "X",
+            "location": {
+              "column": "13",
+              "line": "35",
+              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+            },
+            "name": "X",
+            "origin": "user_include",
+            "scope": "_anonymous_drv_touch_scr_h_30_9::_anonymous_drv_touch_scr_h_33_3"
+          },
+          {
+            "ID": "c:@UA@ToushRes_t@Sa@FI@Y",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "Y",
+            "location": {
+              "column": "13",
+              "line": "36",
+              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+            },
+            "name": "Y",
+            "origin": "user_include",
+            "scope": "_anonymous_drv_touch_scr_h_30_9::_anonymous_drv_touch_scr_h_33_3"
+          }
+        ],
+        "name": "",
+        "origin": "user_include",
+        "scope": "_anonymous_drv_touch_scr_h_30_9"
+      },
+      {
+        "ID": "c:drv_touch_scr.h@T@ToushRes_t",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "union ToushRes_t",
+        "location": {
+          "column": "3",
+          "line": "38",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+        },
+        "name": "ToushRes_t",
+        "origin": "user_include",
+        "scope": "_anonymous_drv_touch_scr_h_30_9"
+>>>>>>> parent of fc30a1d... Dank memes
       }
     ],
     "name": "",
@@ -98240,6 +101045,7 @@
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@I2C_InitMaster",
     "What": "Function",
     "defdec": "Dec",
@@ -98264,10 +101070,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
     },
     "name": "I2C_InitMaster",
+=======
+    "ID": "c:@F@TimerIntr_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TimerIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TimerIntr_Handler",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@I2C_MasterWrite",
     "What": "Function",
     "defdec": "Dec",
@@ -98278,10 +101097,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
     },
     "name": "I2C_MasterWrite",
+=======
+    "ID": "c:@F@OnTouchIntr_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void OnTouchIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "60",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "OnTouchIntr_Handler",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@I2C_MasterWrite",
     "What": "Function",
     "defdec": "Dec",
@@ -98292,10 +101124,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
     },
     "name": "I2C_MasterWrite",
+=======
+    "ID": "c:@F@TouchScrInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TouchScrInit(void)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TouchScrInit",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@I2C_MasterRead",
     "What": "Function",
     "defdec": "Dec",
@@ -98306,10 +101151,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
     },
     "name": "I2C_MasterRead",
+=======
+    "ID": "c:@F@TouchGet",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean TouchGet(ToushRes_t *)",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\drv_touch_scr.h"
+    },
+    "name": "TouchGet",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@I2C_MasterRead",
     "What": "Function",
     "defdec": "Dec",
@@ -98320,10 +101178,37 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
     },
     "name": "I2C_MasterRead",
+=======
+    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SDRAM_64M_32BIT_DRV_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "__SDRAM_64M_32BIT_DRV_H",
     "origin": "user_include",
     "scope": null
   },
   {
+    "ID": "c:@F@SDRAM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SDRAM_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Init",
+>>>>>>> parent of fc30a1d... Dank memes
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+<<<<<<< HEAD
     "ID": "c:@F@I2C_Transfer",
     "What": "Function",
     "defdec": "Dec",
@@ -98334,10 +101219,23 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
     },
     "name": "I2C_Transfer",
+=======
+    "ID": "c:@F@SDRAM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SDRAM_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Init",
+>>>>>>> parent of fc30a1d... Dank memes
     "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@I2C_Transfer",
     "What": "Function",
     "defdec": "Dec",
@@ -98348,14 +101246,117 @@
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\i2c0_drv.h"
     },
     "name": "I2C_Transfer",
+=======
+    "ID": "c:@F@SDRAM_Test",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean SDRAM_Test(void)",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Test",
     "origin": "user_include",
     "scope": null
   },
   {
+    "ID": "c:@F@SDRAM_Test",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean SDRAM_Test(void)",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Test",
+>>>>>>> parent of fc30a1d... Dank memes
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+<<<<<<< HEAD
     "ID": "c:@F@I2C_HandleMasterState",
     "What": "Function",
     "defdec": "Dec",
     "display": "void I2C_HandleMasterState(void)",
+=======
+    "ID": "c:stdbool.h@96@macro@_STDBOOL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STDBOOL",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "_STDBOOL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@200@macro@bool",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "bool",
+    "location": {
+      "column": "11",
+      "line": "13",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "bool",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@225@macro@true",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "true",
+    "location": {
+      "column": "11",
+      "line": "14",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "true",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@246@macro@false",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "false",
+    "location": {
+      "column": "11",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "false",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__bool_true_false_are_defined",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "__bool_true_false_are_defined",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:redScreen.h@56@macro@__REDSCREEN_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__REDSCREEN_H",
+>>>>>>> parent of fc30a1d... Dank memes
     "location": {
       "column": "6",
       "line": "77",

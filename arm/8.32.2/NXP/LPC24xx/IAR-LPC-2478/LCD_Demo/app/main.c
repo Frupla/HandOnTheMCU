@@ -48,8 +48,6 @@
 #include "drv_touch_scr.h"
 #include "drv_glcd.h"
 #include "Logo.h"
-#include "Frederik_Fraek_Fyr.h"
-#include "irene_stalk.h"
 #include "redScreen.h"
 #include "Cursor.h"
 #include "smb380_drv.h"
@@ -110,8 +108,7 @@ void Timer0IntrHandler (void)
 int main(void)
 {
 typedef Int32U ram_unit;
-ToushRes_t XY_touch;
-bool touch;
+
   GLCD_Ctrl (FALSE);
 
   // Init GPIO
@@ -130,6 +127,7 @@ bool touch;
   VIC_Init();
   // GLCD init
   GLCD_Init (redScreenPic.pPicStream, NULL);
+<<<<<<< HEAD
   GLCD_SetFont(&Terminal_18_24_12, 0x00ffffff, 0x000000);
 
   GLCD_SetWindow(55,195,268,218);
@@ -137,6 +135,19 @@ bool touch;
   GLCD_print("\f SUCCEDES");
   TouchScrInit();
     
+=======
+  
+  GLCD_SetFont(&Terminal_18_24_12,0x0000FF,0x000cd4ff);
+  GLCD_SetWindow(95,10,255,33);
+  GLCD_TextSetPos(0,0);
+  GLCD_print("\fHello world");
+
+  GLCD_SetWindow(55,195,268,218);
+  GLCD_TextSetPos(0,0);
+  GLCD_print("\f 1 2 3");
+
+  
+>>>>>>> parent of fc30a1d... Dank memes
   
   // Init USB Link  LED
   USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
@@ -167,6 +178,7 @@ bool touch;
   
   
   while(1){
+<<<<<<< HEAD
     char buffer [50];
     sprintf (buffer, "timetick: %d", timetick);
     GLCD_SetWindow(95,10,255,33);
@@ -183,5 +195,8 @@ bool touch;
         GLCD_TextSetPos(0,0);
         GLCD_print("\f FAILS");
     }
+=======
+
+>>>>>>> parent of fc30a1d... Dank memes
   }
 }

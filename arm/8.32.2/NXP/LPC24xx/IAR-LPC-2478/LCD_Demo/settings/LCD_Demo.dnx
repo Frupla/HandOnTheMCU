@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
+<<<<<<< HEAD
         <Checksum>2392248882</Checksum>
+=======
+        <Checksum>844297809</Checksum>
+>>>>>>> parent of fc30a1d... Dank memes
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -29,20 +33,52 @@
         <ShowArgs>0</ShowArgs>
     </CallStack>
     <JLinkDriver>
+<<<<<<< HEAD
         <CStepIntDis>_ 0</CStepIntDis>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
         <WatchCond>_ 0</WatchCond>
         <Watch0>_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0</Watch0>
         <Watch1>_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0</Watch1>
+=======
+        <Watch1>_ 0 "0x00000000" 4294967295 "0xFFFFFFFF" 0 "0x00000000" 4294967295 "0xFFFFFFFF" 3 0 0 0</Watch1>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <WatchCond>_ 0</WatchCond>
+        <Watch0>_ 0 "0x00000000" 4294967295 "0xFFFFFFFF" 0 "0x00000000" 4294967295 "0xFFFFFFFF" 3 0 0 0</Watch0>
+>>>>>>> parent of fc30a1d... Dank memes
     </JLinkDriver>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
     <Trace1>
         <Enabled>0</Enabled>
         <ShowSource>1</ShowSource>
     </Trace1>
+<<<<<<< HEAD
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
     </TermIOLog>
+=======
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+>>>>>>> parent of fc30a1d... Dank memes
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>1</Mode>
@@ -50,6 +86,7 @@
         <Symbiont>0</Symbiont>
         <Exclusions />
     </DriverProfiling>
+<<<<<<< HEAD
     <CallStackLog>
         <Enabled>0</Enabled>
     </CallStackLog>
@@ -73,4 +110,10 @@
         <Count>2</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
+=======
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+>>>>>>> parent of fc30a1d... Dank memes
 </settings>

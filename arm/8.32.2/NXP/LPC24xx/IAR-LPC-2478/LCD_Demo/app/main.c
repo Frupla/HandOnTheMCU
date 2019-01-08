@@ -46,7 +46,8 @@
 #include "sys.h"
 #include "sdram_64M_32bit_drv.h"
 #include "drv_glcd.h"
-#include "logo.h"
+#include "Logo.h"
+#include "redScreen.h"
 #include "Cursor.h"
 #include "smb380_drv.h"
 
@@ -62,13 +63,12 @@
 __root const unsigned crp = NONPROT;
 #endif
 
-#define TIMER0_TICK_PER_SEC   10
+#define TIMER0_TICK_PER_SEC   1
 
-extern Int32U SDRAM_BASE_ADDR;
 
 #define LCD_VRAM_BASE_ADDR ((Int32U)&SDRAM_BASE_ADDR)
 
-unsigned char Smb380Id, Smb380Ver;
+Int32U timetick = 0;
 
 /*************************************************************************
  * Function Name: Timer0IntrHandler
@@ -81,8 +81,9 @@ unsigned char Smb380Id, Smb380Ver;
  *************************************************************************/
 void Timer0IntrHandler (void)
 {
+  timetick++;
   // Toggle USB Link LED
-  USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK;
+  USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
   // clear interrupt
   T0IR_bit.MR0INT = 1;
   VICADDRESS = 0;
@@ -100,7 +101,6 @@ void Timer0IntrHandler (void)
 int main(void)
 {
 typedef Int32U ram_unit;
-int cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
 
   GLCD_Ctrl (FALSE);
 
@@ -119,22 +119,19 @@ int cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CU
   // Init VIC
   VIC_Init();
   // GLCD init
-  GLCD_Init (LogoPic.pPicStream, NULL);
+  GLCD_Init (redScreenPic.pPicStream, NULL);
 
-  GLCD_Cursor_Dis(0);
-
-  GLCD_Copy_Cursor ((Int32U *)Cursor, 0, sizeof(Cursor)/sizeof(Int32U));
-
-  GLCD_Cursor_Cfg(CRSR_FRAME_SYNC | CRSR_PIX_64);
-
-  GLCD_Move_Cursor(cursor_x, cursor_y);
-
-  GLCD_Cursor_En(0);
-
+  GLCD_TextSetPos(100, 100);
+  
+  GLCD_TextSetTabSize(100);
+  GLCD_print("Hello World");
+  
+  
   // Init USB Link  LED
-  USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK;
-  USB_D_LINK_LED_FSET = USB_D_LINK_LED_MASK;
-
+  USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
+  USB_D_LINK_LED_FSET = USB_D_LINK_LED_MASK;// | USB_H_LINK_LED_MASK;
+  
+ 
   // Enable TIM0 clocks
   PCONP_bit.PCTIM0 = 1; // enable clock
 
@@ -156,86 +153,9 @@ int cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CU
   T0TCR_bit.CE = 1;     // counting Enable
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
+  
+  
+  while(1){
 
-#if 0
-  SDRAM_Test();
-#endif
-
-#if 0
-  pInt32U pDst = (pInt32U)LCD_VRAM_BASE_ADDR;
-  for(Int32U k = 0; k < C_GLCD_V_SIZE; k++)
-  {
-    for(Int32U i = 0 ; 8 > i; i++)
-    {
-      for(Int32U j = 0; 40 > j; j++)
-      {
-        switch(i)
-        {
-        case 0:
-          *pDst++ = 0;
-           break;
-        case 1:
-          *pDst++ = 0xFF;
-           break;
-        case 2:
-          *pDst++ = 0xFF00;
-           break;
-        case 3:
-          *pDst++ = 0xFFFF;
-           break;
-        case 4:
-          *pDst++ = 0xFF0000;
-           break;
-        case 5:
-          *pDst++ = 0xFF00FF;
-           break;
-        case 6:
-          *pDst++ = 0xFFFF00;
-           break;
-        case 7:
-          *pDst++ = 0xFFFFFF;
-           break;
-        }
-      }
-    }
-  }
-#endif
-  //
-  SMB380_Init();
-
-  SMB380_GetID(&Smb380Id, &Smb380Ver);
-
-  SMB380_Data_t XYZT;
-
-  while(1)
-  {
-    for(int i = 0; i < 100000;  i++);
-
-    SMB380_GetData (&XYZT);
-
-    cursor_x += XYZT.AccX/512;
-    cursor_y += XYZT.AccY/512;
-
-    if((C_GLCD_H_SIZE - CURSOR_H_SIZE/2) < cursor_x)
-    {
-      cursor_x = C_GLCD_H_SIZE - CURSOR_H_SIZE/2;
-    }
-
-    if(-(CURSOR_H_SIZE/2) > cursor_x)
-    {
-      cursor_x = -(CURSOR_H_SIZE/2);
-    }
-
-    if((C_GLCD_V_SIZE - CURSOR_V_SIZE/2) < cursor_y)
-    {
-      cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE/2);
-    }
-
-    if(-(CURSOR_V_SIZE/2) > cursor_y)
-    {
-      cursor_y = -(CURSOR_V_SIZE/2);
-    }
-
-    GLCD_Move_Cursor(cursor_x, cursor_y);
   }
 }

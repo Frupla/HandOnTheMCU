@@ -90518,6 +90518,20 @@
     "scope": null
   },
   {
+    "ID": "c:Logo.h@520@macro@__LOGO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__LOGO_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\logo.h"
+    },
+    "name": "__LOGO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@LogoPic",
     "What": "Variable",
     "defdec": "Dec",
@@ -90574,13 +90588,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1719@macro@NONPROT",
+    "ID": "c:main.c@1743@macro@NONPROT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "NONPROT",
     "location": {
       "column": "9",
-      "line": "53",
+      "line": "54",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "NONPROT",
@@ -90588,13 +90602,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1747@macro@CRP1",
+    "ID": "c:main.c@1771@macro@CRP1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CRP1",
     "location": {
       "column": "9",
-      "line": "54",
+      "line": "55",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "CRP1",
@@ -90602,13 +90616,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1774@macro@CRP2",
+    "ID": "c:main.c@1798@macro@CRP2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CRP2",
     "location": {
       "column": "9",
-      "line": "55",
+      "line": "56",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "CRP2",
@@ -90616,13 +90630,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1884@macro@CRP3",
+    "ID": "c:main.c@1908@macro@CRP3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CRP3",
     "location": {
       "column": "9",
-      "line": "57",
+      "line": "58",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "CRP3",
@@ -90636,7 +90650,7 @@
     "display": "crp",
     "location": {
       "column": "23",
-      "line": "62",
+      "line": "63",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "crp",
@@ -90644,13 +90658,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2031@macro@TIMER0_TICK_PER_SEC",
+    "ID": "c:main.c@2055@macro@TIMER0_TICK_PER_SEC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIMER0_TICK_PER_SEC",
     "location": {
       "column": "9",
-      "line": "65",
+      "line": "66",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "TIMER0_TICK_PER_SEC",
@@ -90658,21 +90672,7 @@
     "scope": null
   },
   {
-    "ID": "c:@SDRAM_BASE_ADDR",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "SDRAM_BASE_ADDR",
-    "location": {
-      "column": "15",
-      "line": "67",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
-    },
-    "name": "SDRAM_BASE_ADDR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2101@macro@LCD_VRAM_BASE_ADDR",
+    "ID": "c:main.c@2092@macro@LCD_VRAM_BASE_ADDR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LCD_VRAM_BASE_ADDR",
@@ -90686,30 +90686,16 @@
     "scope": null
   },
   {
-    "ID": "c:@Smb380Id",
+    "ID": "c:@timetick",
     "What": "Variable",
-    "defdec": "Dec",
-    "display": "Smb380Id",
+    "defdec": "Def",
+    "display": "timetick",
     "location": {
-      "column": "15",
+      "column": "8",
       "line": "71",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
-    "name": "Smb380Id",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@Smb380Ver",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Smb380Ver",
-    "location": {
-      "column": "25",
-      "line": "71",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
-    },
-    "name": "Smb380Ver",
+    "name": "timetick",
     "origin": "project_file",
     "scope": null
   },
@@ -90734,7 +90720,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "100",
+      "line": "101",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "main",
@@ -90742,13 +90728,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2915@F@main@T@ram_unit",
+    "ID": "c:main.c@2929@F@main@T@ram_unit",
     "What": "Typedef",
     "defdec": "Def",
     "display": "Int32U",
     "location": {
       "column": "16",
-      "line": "102",
+      "line": "103",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "ram_unit",
@@ -90756,59 +90742,73 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2941@F@main@cursor_x",
-    "What": "Variable",
+    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "cursor_x",
+    "display": "__SDRAM_64M_32BIT_DRV_H",
     "location": {
-      "column": "5",
-      "line": "103",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
     },
-    "name": "cursor_x",
-    "origin": "project_file",
+    "name": "__SDRAM_64M_32BIT_DRV_H",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:main.c@2941@F@main@cursor_y",
-    "What": "Variable",
+    "ID": "c:@F@SDRAM_Init",
+    "What": "Function",
     "defdec": "Dec",
-    "display": "cursor_y",
+    "display": "void SDRAM_Init(void)",
     "location": {
-      "column": "51",
-      "line": "103",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
     },
-    "name": "cursor_y",
-    "origin": "project_file",
+    "name": "SDRAM_Init",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:main.c@5465@F@main@XYZT",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "XYZT",
+    "ID": "c:@F@SDRAM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SDRAM_Init(void)",
     "location": {
-      "column": "17",
-      "line": "208",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
     },
-    "name": "XYZT",
-    "origin": "project_file",
+    "name": "SDRAM_Init",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:main.c@5513@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
+    "ID": "c:@F@SDRAM_Test",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean SDRAM_Test(void)",
     "location": {
-      "column": "13",
-      "line": "212",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
     },
-    "name": "i",
-    "origin": "project_file",
+    "name": "SDRAM_Test",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Test",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean SDRAM_Test(void)",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Test",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -91254,73 +91254,59 @@
     "scope": null
   },
   {
-    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
+    "ID": "c:redScreen.h@56@macro@__REDSCREEN_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__SDRAM_64M_32BIT_DRV_H",
+    "display": "__REDSCREEN_H",
     "location": {
       "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+      "line": "4",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\redScreen.h"
     },
-    "name": "__SDRAM_64M_32BIT_DRV_H",
+    "name": "__REDSCREEN_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SDRAM_Init",
-    "What": "Function",
+    "ID": "c:@redScreenPic",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "void SDRAM_Init(void)",
+    "display": "redScreenPic",
     "location": {
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+      "column": "14",
+      "line": "6",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\redScreen.h"
     },
-    "name": "SDRAM_Init",
+    "name": "redScreenPic",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SDRAM_Init",
-    "What": "Function",
+    "ID": "c:@redScreenStream",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "void SDRAM_Init(void)",
+    "display": "redScreenStream",
     "location": {
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+      "column": "14",
+      "line": "3",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\redScreen.c"
     },
-    "name": "SDRAM_Init",
-    "origin": "user_include",
+    "name": "redScreenStream",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@SDRAM_Test",
-    "What": "Function",
+    "ID": "c:@redScreenPic",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "Boolean SDRAM_Test(void)",
+    "display": "redScreenPic",
     "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
+      "column": "7",
+      "line": "9607",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\redScreen.c"
     },
-    "name": "SDRAM_Test",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Test",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Boolean SDRAM_Test(void)",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Test",
-    "origin": "user_include",
+    "name": "redScreenPic",
+    "origin": "project_file",
     "scope": null
   },
   {

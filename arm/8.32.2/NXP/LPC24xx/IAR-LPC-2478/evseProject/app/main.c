@@ -57,10 +57,29 @@ extern FontType_t Terminal_9_12_6;
 extern FontType_t Terminal_18_24_12;
 
 
-#define TIMER1_TICK_PER_SEC   1000
+#define TIMER1_TICK_PER_SEC   10000
 
 Int32U timetick = 0;
-
+Int32U y_old = 0;
+/*************************************************************************
+ * Function Name: lowPass
+ * Parameters: x
+ *
+ * Return: y
+ *
+ * Description: low passes the signal
+ *
+ *************************************************************************/
+Int32U lowPass(Int32U x, Int32U fc){
+  float RC = (1/(2*3.1415*fc));
+  
+  float alpha = (1/TIMER1_TICK_PER_SEC)/(RC+(1/TIMER1_TICK_PER_SEC));
+  
+  Int32U y = (Int32U)(alpha*x + (1 - alpha)*y_old);
+  y_old = y;
+  
+  return y;
+}
 /*************************************************************************
  * Function Name: TIMER1IntrHandler
  * Parameters: none
@@ -72,38 +91,24 @@ Int32U timetick = 0;
  *************************************************************************/
 void TIMER1IntrHandler (void)
 {
+//  DACR_bit.VALUE = 0x03FF;
   timetick++;
   // Toggle USB Link LED
-  if(timetick > 500){
+  if(timetick > 5000){
     USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
     timetick = 0;
   }
-/*  
-  if(DACR_bit.VALUE >= 0x03FF){
-    DACR_bit.VALUE = 0;
-  }else{
-    DACR_bit.VALUE += 50;
+  
+  if(ADDR2_bit.DONE){
+    DACR_bit.VALUE = ADDR2_bit.RESULT;
   }
-*/
 
   
   // clear interrupt
   T1IR_bit.MR1INT = 1;
   VICADDRESS = 0;
 }
-/*************************************************************************
- * Function Name: AD0Intrhandler
- * Parameters: none
- *
- * Return: none
- *
- * Description: AD0 interrupt handler
- *
- *************************************************************************/
-void AD0IntrHandler(void)
-{
-  
-}
+
 
 /*************************************************************************
  * Function Name: ADC_init
@@ -123,21 +128,19 @@ void ADC_Init (void){
   AD0CR_bit.BURST = 1; //0=ADC is set to operate in software controlled mode, 1= continue mode
   PINSEL1_bit.P0_25 = 0x1; //AD0[2]
   PINMODE1_bit.P0_25 = 0x2;
-  PINSEL1_bit.P0_26 = 0x1; //AD0[3]
-  PINMODE1_bit.P0_26 = 0x2;
+  //PINSEL1_bit.P0_26 = 0x1; //AD0[3]
+  //PINMODE1_bit.P0_26 = 0x2;
   ADINTEN_bit.ADGINTEN = 0; //When 0, only the individual A/D channels enabled by ADINTEN 7:0 will generate interrupts.
   ADINTEN_bit.ADINTEN0 = 1; //Enable interrupt
   ADINTEN_bit.ADINTEN1 = 1;
   ADINTEN_bit.ADINTEN2 = 1;
   ADINTEN_bit.ADINTEN3 = 1;
-  AD0CR_bit.START = 0;
-  VIC_SetVectoredIRQ (AD0IntrHandler,2,VIC_AD0);
-  VICINTENABLE |= 1UL << VIC_AD0;
-  AD0CR_bit.SEL = 0x0f; // Channel 0, 1, 2 and 3 enabled. 1111
+//  AD0CR_bit.START = 1;
+//  VIC_SetVectoredIRQ (TIMER1IntrHandler,2,VIC_TIMER1);
+//  VICINTENABLE |= 1UL << VIC_TIMER1;
+  AD0CR_bit.SEL = 0x04; // Channel 0, 1, 2 and 3 enabled. 1111
   AD0CR_bit.PDN = 1; //The A/D Converter is operational
 }
-
-
 
 /*************************************************************************
  * Function Name: main
@@ -189,8 +192,7 @@ int main(void)
   // Init USB Link  LED
   USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
   USB_D_LINK_LED_FSET = USB_D_LINK_LED_MASK;// | USB_H_LINK_LED_MASK;
-  
- 
+   
   // Enable TIM1 clocks
   PCONP_bit.PCTIM1 = 1; // enable clock
 
@@ -210,6 +212,8 @@ int main(void)
   VIC_SetVectoredIRQ(TIMER1IntrHandler,0,VIC_TIMER1);
   VICINTENABLE |= 1UL << VIC_TIMER1;
   T1TCR_bit.CE = 1;     // counting Enable
+ 
+  ADC_Init();
   
   __enable_interrupt();
  /* GLCD_Ctrl (TRUE);
@@ -224,6 +228,13 @@ int main(void)
   GLCD_TextSetPos(0,0);
   GLCD_print("\fTouch screen demo");
 */
+  
+  //initialize DAC
+  PINSEL1_bit.P0_26=2; //sets pin function to AOUT
+  DACR_bit.BIAS=1; //set BIAS mode 1
+  PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
+  DACR_bit.VALUE = 0X3FF;
+
   while(1){
  
   }

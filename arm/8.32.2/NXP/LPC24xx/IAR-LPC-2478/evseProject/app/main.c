@@ -57,6 +57,86 @@ extern FontType_t Terminal_9_12_6;
 extern FontType_t Terminal_18_24_12;
 
 
+#define TIMER1_TICK_PER_SEC   1000
+
+Int32U timetick = 0;
+
+/*************************************************************************
+ * Function Name: TIMER1IntrHandler
+ * Parameters: none
+ *
+ * Return: none
+ *
+ * Description: Timer 1 interrupt handler
+ *
+ *************************************************************************/
+void TIMER1IntrHandler (void)
+{
+  timetick++;
+  // Toggle USB Link LED
+  if(timetick > 500){
+    USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
+    timetick = 0;
+  }
+/*  
+  if(DACR_bit.VALUE >= 0x03FF){
+    DACR_bit.VALUE = 0;
+  }else{
+    DACR_bit.VALUE += 50;
+  }
+*/
+
+  
+  // clear interrupt
+  T1IR_bit.MR1INT = 1;
+  VICADDRESS = 0;
+}
+/*************************************************************************
+ * Function Name: AD0Intrhandler
+ * Parameters: none
+ *
+ * Return: none
+ *
+ * Description: AD0 interrupt handler
+ *
+ *************************************************************************/
+void AD0IntrHandler(void)
+{
+  
+}
+
+/*************************************************************************
+ * Function Name: ADC_init
+ * Parameters: none
+ *
+ * Return: none
+ *
+ * Description: Initialises adc
+ *
+ *************************************************************************/
+void ADC_Init (void){ 
+  AD0CR_bit.PDN = 0;
+  PCONP_bit.PCAD = 1; //PCAD A/D converter (ADC) power/clock control bit. Note: Clear the PDN bit in
+                      // the AD0CR before clearing this bit, and set this bit before setting PDN.
+  PCLKSEL0_bit.PCLK_ADC = 0x1; //Enable ADC clock
+  AD0CR_bit.CLKDIV = 5; //18MHz/(5+1)= 3MHz<=4.5 MHz?7+1)= 4MHz<=4.5 MHz
+  AD0CR_bit.BURST = 1; //0=ADC is set to operate in software controlled mode, 1= continue mode
+  PINSEL1_bit.P0_25 = 0x1; //AD0[2]
+  PINMODE1_bit.P0_25 = 0x2;
+  PINSEL1_bit.P0_26 = 0x1; //AD0[3]
+  PINMODE1_bit.P0_26 = 0x2;
+  ADINTEN_bit.ADGINTEN = 0; //When 0, only the individual A/D channels enabled by ADINTEN 7:0 will generate interrupts.
+  ADINTEN_bit.ADINTEN0 = 1; //Enable interrupt
+  ADINTEN_bit.ADINTEN1 = 1;
+  ADINTEN_bit.ADINTEN2 = 1;
+  ADINTEN_bit.ADINTEN3 = 1;
+  AD0CR_bit.START = 0;
+  VIC_SetVectoredIRQ (AD0IntrHandler,2,VIC_AD0);
+  VICINTENABLE |= 1UL << VIC_AD0;
+  AD0CR_bit.SEL = 0x0f; // Channel 0, 1, 2 and 3 enabled. 1111
+  AD0CR_bit.PDN = 1; //The A/D Converter is operational
+}
+
 
 
 /*************************************************************************
@@ -70,11 +150,11 @@ extern FontType_t Terminal_18_24_12;
  *************************************************************************/
 int main(void)
 {
-Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
-ToushRes_t XY_Touch;
-Boolean Touch = FALSE;
+//Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
+//ToushRes_t XY_Touch;
+//Boolean Touch = FALSE;
 
-  GLCD_Ctrl (FALSE);
+//  GLCD_Ctrl (FALSE);
   // Init GPIO
   GpioInit();
 #ifndef SDRAM_DEBUG
@@ -90,7 +170,7 @@ Boolean Touch = FALSE;
   // Init VIC
   VIC_Init();
   // GLCD init
-  GLCD_Init (IarLogoPic.pPicStream, NULL);
+/*  GLCD_Init (IarLogoPic.pPicStream, NULL);
 
   GLCD_Cursor_Dis(0);
 
@@ -104,14 +184,35 @@ Boolean Touch = FALSE;
 
   // Init touch screen
   TouchScrInit();
+*/
+  
+  // Init USB Link  LED
+  USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
+  USB_D_LINK_LED_FSET = USB_D_LINK_LED_MASK;// | USB_H_LINK_LED_MASK;
+  
+ 
+  // Enable TIM1 clocks
+  PCONP_bit.PCTIM1 = 1; // enable clock
 
-  // Touched indication LED
-  USB_H_LINK_LED_SEL = 0; // GPIO
-  USB_H_LINK_LED_FSET = USB_H_LINK_LED_MASK;
-  USB_H_LINK_LED_FDIR |= USB_H_LINK_LED_MASK;
-
+  // Init Time1
+  T1TCR_bit.CE = 0;     // counting  disable
+  T1TCR_bit.CR = 1;     // set reset
+  T1TCR_bit.CR = 0;     // release reset
+  T1CTCR_bit.CTM = 0;   // Timer Mode: every rising PCLK edge
+  T1MCR_bit.MR1I = 1;   // Enable Interrupt on MR0
+  T1MCR_bit.MR1R = 1;   // Enable reset on MR0
+  T1MCR_bit.MR1S = 0;   // Disable stop on MR0
+  // set timer 1 period
+  T1PR = 0;
+  T1MR1 = SYS_GetFpclk(TIMER1_PCLK_OFFSET)/(TIMER1_TICK_PER_SEC);
+  // init timer 1 interrupt
+  T1IR_bit.MR1INT = 1;  // clear pending interrupt
+  VIC_SetVectoredIRQ(TIMER1IntrHandler,0,VIC_TIMER1);
+  VICINTENABLE |= 1UL << VIC_TIMER1;
+  T1TCR_bit.CE = 1;     // counting Enable
+  
   __enable_interrupt();
-  GLCD_Ctrl (TRUE);
+ /* GLCD_Ctrl (TRUE);
 
 
   GLCD_SetFont(&Terminal_18_24_12,0x0000FF,0x000cd4ff);
@@ -122,24 +223,8 @@ Boolean Touch = FALSE;
   GLCD_SetWindow(55,195,268,218);
   GLCD_TextSetPos(0,0);
   GLCD_print("\fTouch screen demo");
-
-  while(1)
-  {
-    if(TouchGet(&XY_Touch))
-    {
-      cursor_x = XY_Touch.X;
-      cursor_y = XY_Touch.Y;
-      GLCD_Move_Cursor(cursor_x, cursor_y);
-      if (FALSE == Touch)
-      {
-        Touch = TRUE;
-        USB_H_LINK_LED_FCLR = USB_H_LINK_LED_MASK;
-      }
-    }
-    else if(Touch)
-    {
-      USB_H_LINK_LED_FSET = USB_H_LINK_LED_MASK;
-      Touch = FALSE;
-    }
+*/
+  while(1){
+ 
   }
 }

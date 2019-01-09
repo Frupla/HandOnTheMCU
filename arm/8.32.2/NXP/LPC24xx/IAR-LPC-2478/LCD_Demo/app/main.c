@@ -49,8 +49,13 @@
 #include "drv_glcd.h"
 #include "Logo.h"
 #include "redScreen.h"
+#include "excuseMe.h"
 #include "Cursor.h"
 #include "smb380_drv.h"
+
+#include <assert.h>
+#include <nxp/iolpc2478.h>
+
 
 #define NONPROT 0xFFFFFFFF
 #define CRP1  	0x12345678
@@ -64,7 +69,7 @@
 __root const unsigned crp = NONPROT;
 #endif
 
-#define TIMER0_TICK_PER_SEC   100
+#define TIMER1_TICK_PER_SEC   1000
 
 
 extern FontType_t Terminal_6_8_6;
@@ -76,15 +81,15 @@ extern FontType_t Terminal_18_24_12;
 Int32U timetick = 0;
 
 /*************************************************************************
- * Function Name: Timer0IntrHandler
+ * Function Name: TIMER1IntrHandler
  * Parameters: none
  *
  * Return: none
  *
- * Description: Timer 0 interrupt handler
+ * Description: Timer 1 interrupt handler
  *
  *************************************************************************/
-void Timer0IntrHandler (void)
+void TIMER1IntrHandler (void)
 {
   timetick++;
   // Toggle USB Link LED
@@ -92,15 +97,17 @@ void Timer0IntrHandler (void)
     USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
     timetick = 0;
   }
-  if(DACR_bit.VALUE > 0x03FF){
+/*  
+  if(DACR_bit.VALUE >= 0x03FF){
     DACR_bit.VALUE = 0;
   }else{
-    DACR_bit.VALUE++;
+    DACR_bit.VALUE += 50;
   }
+*/
 
   
   // clear interrupt
-  T0IR_bit.MR0INT = 1;
+  T1IR_bit.MR1INT = 1;
   VICADDRESS = 0;
 }
 
@@ -115,61 +122,69 @@ void Timer0IntrHandler (void)
  *************************************************************************/
 int main(void)
 {
-typedef Int32U ram_unit;
-ToushRes_t XY_touch;
-bool touch = false;
 
+ToushRes_t XY_touch;
+Boolean touch = FALSE;
+  
+  GLCD_Ctrl (FALSE);
+ 
+  GpioInit();
+  
+  MAMCR_bit.MODECTRL = 0;
+  MAMTIM_bit.CYCLES  = 3;   // FCLK > 40 MHz
+  MAMCR_bit.MODECTRL = 2;   // MAM functions fully enabled
+  
   InitClock();
-  // SDRAM Init
+  // SDRAM Init'
   SDRAM_Init();
 
   // Init VIC
   VIC_Init();
   // GLCD init
   GLCD_Init (redScreenPic.pPicStream, NULL);
-
-  GLCD_SetFont(&Terminal_18_24_12, 0x00ffffff, 0x000000);
-  GLCD_SetWindow(55,195,268,218);
-  GLCD_TextSetPos(0,0);
-  GLCD_print("\f SUCCEDES");
-
-  
-  TouchScrInit();
-
-  
-  
+ 
   // Init USB Link  LED
   USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
   USB_D_LINK_LED_FSET = USB_D_LINK_LED_MASK;// | USB_H_LINK_LED_MASK;
   
  
-  // Enable TIM0 clocks
-  PCONP_bit.PCTIM0 = 1; // enable clock
+  // Enable TIM1 clocks
+  PCONP_bit.PCTIM1 = 1; // enable clock
 
-  // Init Time0
-  T0TCR_bit.CE = 0;     // counting  disable
-  T0TCR_bit.CR = 1;     // set reset
-  T0TCR_bit.CR = 0;     // release reset
-  T0CTCR_bit.CTM = 0;   // Timer Mode: every rising PCLK edge
-  T0MCR_bit.MR0I = 1;   // Enable Interrupt on MR0
-  T0MCR_bit.MR0R = 1;   // Enable reset on MR0
-  T0MCR_bit.MR0S = 0;   // Disable stop on MR0
-  // set timer 0 period
-  T0PR = 0;
-  T0MR0 = SYS_GetFpclk(TIMER0_PCLK_OFFSET)/(TIMER0_TICK_PER_SEC);
-  // init timer 0 interrupt
-  T0IR_bit.MR0INT = 1;  // clear pending interrupt
-  VIC_SetVectoredIRQ(Timer0IntrHandler,0,VIC_TIMER0);
-  VICINTENABLE |= 1UL << VIC_TIMER0;
-  T0TCR_bit.CE = 1;     // counting Enable
+  // Init Time1
+  T1TCR_bit.CE = 0;     // counting  disable
+  T1TCR_bit.CR = 1;     // set reset
+  T1TCR_bit.CR = 0;     // release reset
+  T1CTCR_bit.CTM = 0;   // Timer Mode: every rising PCLK edge
+  T1MCR_bit.MR1I = 1;   // Enable Interrupt on MR0
+  T1MCR_bit.MR1R = 1;   // Enable reset on MR0
+  T1MCR_bit.MR1S = 0;   // Disable stop on MR0
+  // set timer 1 period
+  T1PR = 0;
+  T1MR1 = SYS_GetFpclk(TIMER1_PCLK_OFFSET)/(TIMER1_TICK_PER_SEC);
+  // init timer 1 interrupt
+  T1IR_bit.MR1INT = 1;  // clear pending interrupt
+  VIC_SetVectoredIRQ(TIMER1IntrHandler,0,VIC_TIMER1);
+  VICINTENABLE |= 1UL << VIC_TIMER1;
+  T1TCR_bit.CE = 1;     // counting Enable
+  
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
+
+  // Init touch screen
+  TouchScrInit();  
   
-  PINSEL1_bit.P0_26=2; //sets pin function to AOUT
+/*  PINSEL1_bit.P0_26=2; //sets pin function to AOUT
   DACR_bit.BIAS=1; //set BIAS mode 1
   PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
   DACR_bit.VALUE = 0X3FF;
+*/
   
+  GLCD_SetFont(&Terminal_18_24_12, 0x00ffffff, 0x000000);
+  GLCD_SetWindow(55,195,268,218);
+  GLCD_TextSetPos(0,0);
+  GLCD_print("\f Waiting");
+
   
   while(1){
     char buffer [50];
@@ -177,6 +192,13 @@ bool touch = false;
     GLCD_SetWindow(95,10,255,33);
     GLCD_TextSetPos(0,0);
     GLCD_print(buffer);
+    
+    if(TouchGet(&XY_touch)){
+      GLCD_SetWindow(55,105,268,218);
+      GLCD_TextSetPos(0,0);
+      GLCD_print("\f SUCCEDES");
+    }
+    
     if(TouchGet(&XY_touch) && !touch){
        touch = true;
        GLCD_SetWindow(55,195,268,218);

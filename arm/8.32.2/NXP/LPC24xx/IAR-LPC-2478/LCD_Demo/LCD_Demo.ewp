@@ -2082,7 +2082,7 @@
             <name>$PROJ_DIR$\app\Cursor.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\app\logo.c</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\..\excuseMe.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\app\main.c</name>

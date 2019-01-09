@@ -48,8 +48,6 @@
 #include "drv_touch_scr.h"
 #include "drv_glcd.h"
 #include "Logo.h"
-#include "Frederik_Fraek_Fyr.h"
-#include "irene_stalk.h"
 #include "redScreen.h"
 #include "Cursor.h"
 #include "smb380_drv.h"
@@ -66,7 +64,7 @@
 __root const unsigned crp = NONPROT;
 #endif
 
-#define TIMER0_TICK_PER_SEC   1000
+#define TIMER0_TICK_PER_SEC   100
 
 
 extern FontType_t Terminal_6_8_6;
@@ -90,14 +88,15 @@ void Timer0IntrHandler (void)
 {
   timetick++;
   // Toggle USB Link LED
-  if (timetick > 500){
-  USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
-  timetick = 0;
+  if(timetick > 500){
+    USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
+    timetick = 0;
   }
   // clear interrupt
   T0IR_bit.MR0INT = 1;
   VICADDRESS = 0;
 }
+
 /*************************************************************************
  * Function Name: main
  * Parameters: none
@@ -111,32 +110,24 @@ int main(void)
 {
 typedef Int32U ram_unit;
 ToushRes_t XY_touch;
-bool touch;
-  GLCD_Ctrl (FALSE);
+bool touch = false;
 
-  // Init GPIO
-  GpioInit();
-#ifndef SDRAM_DEBUG
-  // MAM init
-  MAMCR_bit.MODECTRL = 0;
-  MAMTIM_bit.CYCLES  = 3;   // FCLK > 40 MHz
-  MAMCR_bit.MODECTRL = 2;   // MAM functions fully enabled
-  // Init clock
   InitClock();
   // SDRAM Init
   SDRAM_Init();
-#endif // SDRAM_DEBUG
+
   // Init VIC
   VIC_Init();
   // GLCD init
   GLCD_Init (redScreenPic.pPicStream, NULL);
+
   GLCD_SetFont(&Terminal_18_24_12, 0x00ffffff, 0x000000);
 
-  GLCD_SetWindow(55,195,268,218);
-  GLCD_TextSetPos(0,0);
-  GLCD_print("\f SUCCEDES");
+
+  
   TouchScrInit();
-    
+
+  
   
   // Init USB Link  LED
   USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;

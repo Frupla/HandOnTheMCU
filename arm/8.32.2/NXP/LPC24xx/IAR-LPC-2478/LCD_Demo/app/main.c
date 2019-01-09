@@ -92,6 +92,13 @@ void Timer0IntrHandler (void)
     USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
     timetick = 0;
   }
+  if(DACR_bit.VALUE > 0x03FF){
+    DACR_bit.VALUE = 0;
+  }else{
+    DACR_bit.VALUE++;
+  }
+
+  
   // clear interrupt
   T0IR_bit.MR0INT = 1;
   VICADDRESS = 0;
@@ -122,7 +129,9 @@ bool touch = false;
   GLCD_Init (redScreenPic.pPicStream, NULL);
 
   GLCD_SetFont(&Terminal_18_24_12, 0x00ffffff, 0x000000);
-
+  GLCD_SetWindow(55,195,268,218);
+  GLCD_TextSetPos(0,0);
+  GLCD_print("\f SUCCEDES");
 
   
   TouchScrInit();
@@ -155,6 +164,11 @@ bool touch = false;
   T0TCR_bit.CE = 1;     // counting Enable
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
+  
+  PINSEL1_bit.P0_26=2; //sets pin function to AOUT
+  DACR_bit.BIAS=1; //set BIAS mode 1
+  PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
+  DACR_bit.VALUE = 0X3FF;
   
   
   while(1){

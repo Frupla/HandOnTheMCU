@@ -5,169 +5,120 @@
     <configuration>
         <name>Flash Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\NXP\iolpc2478.h</file>
-            <file>$PROJ_DIR$\modules\i2c0_drv.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
-            <file>$PROJ_DIR$\board\arm_comm.h</file>
+            <file>$PROJ_DIR$\modules\drv_touch_scr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\io_macros.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+            <file>$TOOLKIT_DIR$\inc\NXP\iolpc2478.h</file>
+            <file>$PROJ_DIR$\modules\drv_glcd.h</file>
+            <file>$PROJ_DIR$\app\logo.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</file>
+            <file>$PROJ_DIR$\readme.txt</file>
+            <file>$PROJ_DIR$\modules\includes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\app\redScreen.h</file>
             <file>$TOOLKIT_DIR$\inc\c\string.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\modules\i2c0_drv.c</file>
+            <file>$PROJ_DIR$\modules\i2c0_drv.h</file>
+            <file>$PROJ_DIR$\modules\smb380_drv.c</file>
             <file>$PROJ_DIR$\board\board.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
             <file>$TOOLKIT_DIR$\inc\NXP\iolpc2470.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\modules\drv_touch_scr.h</file>
+            <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\board\arm_comm.h</file>
             <file>$PROJ_DIR$\board\sys.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
-            <file>$PROJ_DIR$\modules\drv_glcd.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\modules\includes.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\app\logo.h</file>
-            <file>$PROJ_DIR$\app\redScreen.h</file>
-            <file>$PROJ_DIR$\modules\smb380_drv.h</file>
-            <file>$PROJ_DIR$\app\Cursor.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\app\main.c</file>
-            <file>$PROJ_DIR$\app\redScreen.c</file>
-            <file>$PROJ_DIR$\app\Terminal_18_24x12.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\io_macros.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
             <file>$PROJ_DIR$\app\Cursor.c</file>
+            <file>$PROJ_DIR$\app\redScreen.c</file>
             <file>$PROJ_DIR$\app\logo.c</file>
-            <file>$PROJ_DIR$\modules\smb380_drv.c</file>
-            <file>$PROJ_DIR$\readme.txt</file>
             <file>$PROJ_DIR$\app\Terminal_6_8x6.c</file>
-            <file>$PROJ_DIR$\app\Terminal_9_12x6.c</file>
-            <file>$PROJ_DIR$\modules\i2c0_drv.c</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.o</file>
-            <file>$PROJ_DIR$\modules\drv_glcd.c</file>
-            <file>$PROJ_DIR$\config\LPC2478_Flash.icf</file>
             <file>$PROJ_DIR$\board\sys.c</file>
-            <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</file>
+            <file>$PROJ_DIR$\config\LPC2478_Flash.icf</file>
+            <file>$PROJ_DIR$\modules\drv_glcd.c</file>
+            <file>$PROJ_DIR$\modules\drv_touch_scr.c</file>
+            <file>$PROJ_DIR$\app\Terminal_18_24x12.c</file>
+            <file>$PROJ_DIR$\app\main.c</file>
+            <file>$PROJ_DIR$\app\Terminal_9_12x6.c</file>
+            <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\lib\m4t_al.a</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.o</file>
+            <file>$PROJ_DIR$\Flash Debug\List\LCD_Demo.map</file>
+            <file>$TOOLKIT_DIR$\lib\dl4t_aln.a</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\sys.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.pbi</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\logo.pbi</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\Cursor.o</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\logo.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.pbi</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\LCD_Demo.pbd</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\sys.o</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\redScreen.pbi</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\smb380_drv.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_9_12x6.o</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Cursor.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\logo.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\sys.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Exe\LCD_Demo.out</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Cursor.pbi</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\smb380_drv.o</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_9_12x6.pbi</file>
+            <file>$PROJ_DIR$\app\Cursor.h</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\i2c0_drv.pbi</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.pbi</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.o</file>
             <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_9_12x6.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Exe\LCD_Demo.out</file>
             <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
-            <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl4t_aln.a</file>
-            <file>$PROJ_DIR$\Flash Debug\List\LCD_Demo.map</file>
-            <file>$TOOLKIT_DIR$\lib\m4t_al.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\modules\drv_touch_scr.c</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.pbi</file>
-            <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.o</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\LCD_Demo.pbd</file>
+            <file>$PROJ_DIR$\modules\smb380_drv.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 65 75</file>
+                    <file> 76 47</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\app\main.c</name>
+            <name>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 46</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 62</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 71 77 13 8 23 21 11 5 2 30 10 0 12 6 4 15 22 14 24 7 9 16 17 18 25 19 3 20 26 27 29 28 1</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 13 22 21 10 27 6 8 4 24 25 9 2 20 28 77 23 71 5 0 15 14 26 29 11 30 12 16 7 17 19 3 18 1</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\app\redScreen.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 49</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 55</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\app\Terminal_18_24x12.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 50</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 68</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\app\Cursor.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 47</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 60</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\app\logo.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 48</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
                     <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\i2c0_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
                 </tool>
             </outputs>
         </file>
@@ -180,42 +131,29 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 56</file>
+                    <file> 62</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\app\Terminal_6_8x6.c</name>
+            <name>$PROJ_DIR$\app\Cursor.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 41</file>
+                    <file> 56</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 63</file>
+                    <file> 65</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\app\Terminal_9_12x6.c</name>
+            <name>$PROJ_DIR$\app\redScreen.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
                     <file> 59</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 67</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\modules\i2c0_drv.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 51</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -224,15 +162,28 @@
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\modules\drv_glcd.c</name>
+            <name>$PROJ_DIR$\app\logo.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 70</file>
+                    <file> 57</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 69</file>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Terminal_6_8x6.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
                 </tool>
             </outputs>
         </file>
@@ -241,24 +192,88 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 53</file>
+                    <file> 60</file>
                 </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\drv_glcd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\drv_touch_scr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 74 21 0 13 29 20 63 1 12 3 23 6 22 2 31 44 15 26 5 28 24 25 7 16 27 4 30</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Terminal_18_24x12.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\main.c</name>
+            <outputs>
                 <tool>
                     <name>BICOMP</name>
                     <file> 64</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</name>
-            <outputs>
+            <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 54</file>
+                    <file> 74 44 13 16 2 1 4 3 9 63 20 6 21 30 24 25 22 0 12 15 31 29 26 27 23 5 28 7 8 14 68 80 18</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 57</file>
+                    <file> 13 22 1 20 14 30 16 24 12 23 31 9 7 80 44 2 74 3 6 25 0 8 68 4 63 21 29 15 26 5 28 27 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Terminal_9_12x6.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
                 </tool>
             </outputs>
         </file>
@@ -267,32 +282,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 75</file>
+                    <file> 47</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 43 47 70 80 51 48 46 49 54 66 53 50 41 59 72 73 76 74</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\modules\drv_touch_scr.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 80</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 79</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 2 71 12 14 13 16 10 30 21 24 5 25 0 22 23 9 77 7 17 19 3 4 15 20 8 18 11 6</file>
+                    <file> 37 56 51 46 69 57 54 59 61 66 60 78 52 75 77 43 45 48</file>
                 </tool>
             </inputs>
         </file>

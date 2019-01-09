@@ -93064,7 +93064,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "109",
+      "line": "116",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "main",
@@ -93072,13 +93072,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3119@F@main@T@ram_unit",
+    "ID": "c:main.c@3220@F@main@T@ram_unit",
     "What": "Typedef",
     "defdec": "Def",
     "display": "Int32U",
     "location": {
       "column": "16",
-      "line": "111",
+      "line": "118",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "ram_unit",
@@ -93086,13 +93086,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3145@F@main@XY_touch",
+    "ID": "c:main.c@3246@F@main@XY_touch",
     "What": "Variable",
     "defdec": "Def",
     "display": "XY_touch",
     "location": {
       "column": "12",
-      "line": "112",
+      "line": "119",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "XY_touch",
@@ -93100,13 +93100,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3167@F@main@touch",
+    "ID": "c:main.c@3268@F@main@touch",
     "What": "Variable",
     "defdec": "Def",
     "display": "touch",
     "location": {
       "column": "6",
-      "line": "113",
+      "line": "120",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "touch",
@@ -93114,13 +93114,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4419@F@main@buffer",
+    "ID": "c:main.c@4779@F@main@buffer",
     "What": "Variable",
     "defdec": "Def",
     "display": "buffer",
     "location": {
       "column": "10",
-      "line": "161",
+      "line": "175",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\LCD_Demo\\app\\main.c"
     },
     "name": "buffer",

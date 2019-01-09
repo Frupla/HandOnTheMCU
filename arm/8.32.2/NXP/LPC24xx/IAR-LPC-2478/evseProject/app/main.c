@@ -56,6 +56,9 @@ extern FontType_t Terminal_6_8_6;
 extern FontType_t Terminal_9_12_6;
 extern FontType_t Terminal_18_24_12;
 
+
+
+
 /*************************************************************************
  * Function Name: main
  * Parameters: none

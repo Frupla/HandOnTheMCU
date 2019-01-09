@@ -1,0 +1,17 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armjlink2.dll" 
+
+"C:\Users\s163905\Documents\GitHub\HandOnTheMCU\SawTooth\Flash Debug\Exe\LCD_Demo.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\NXP\LPC24xx.dmac" 
+
+--macro="C:\Users\s163905\Documents\GitHub\HandOnTheMCU\SawTooth\config\lpc2478.mac" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\flashloader\NXP\FlashNXPLPC512K2.board" 
+
+
+
+

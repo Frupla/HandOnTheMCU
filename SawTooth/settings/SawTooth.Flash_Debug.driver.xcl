@@ -1,0 +1,19 @@
+"--endian=little" 
+
+"--cpu=ARM7TDMI-S" 
+
+"--fpu=None" 
+
+"-p" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CONFIG\debugger\NXP\LPC2478.ddf" 
+
+"--semihosting" 
+
+"--device=LPC2478" 
+
+"--multicore_nr_of_cores=1" 
+
+
+
+

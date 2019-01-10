@@ -73,7 +73,7 @@ Int32U y_old = 0;
 Int32U lowPass(Int32U x, Int32U fc){
   float RC = (1/(2*3.1415*fc));
   
-  float alpha = (1/TIMER1_TICK_PER_SEC)/(RC+(1/TIMER1_TICK_PER_SEC));
+  float alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
   
   Int32U y = (Int32U)(alpha*x + (1 - alpha)*y_old);
   y_old = y;
@@ -100,7 +100,7 @@ void TIMER1IntrHandler (void)
   }
   
   if(ADDR2_bit.DONE){
-    DACR_bit.VALUE = ADDR2_bit.RESULT;
+    DACR_bit.VALUE = lowPass(ADDR2_bit.RESULT,50);
   }
 
   

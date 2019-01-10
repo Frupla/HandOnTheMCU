@@ -60,11 +60,18 @@ extern FontType_t Terminal_18_24_12;
 #define TIMER1_TICK_PER_SEC   10000
 
 Int32U timetick = 0;
+Int32U x = 0;
 Int32U y_old = 0;
 Int32U t_old = 0;
+Int32U x_old = 0;
+float crosstick = 0;
+float crosstick_old = 0;
+float T = 0;
 float f = 0;
 Boolean VrefInTheLastCycle = false;
-Boolean crossingZero = false;
+Boolean tickCrossingZero = false;
+Boolean waitingForCross = true;
+
 
 /*************************************************************************
  * Function Name: lowPass
@@ -103,20 +110,19 @@ void TIMER1IntrHandler (void)
   // Toggle USB Link LED
   if(timetick - t_old > 5000){
     USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
-    crossingZero = true;
+    tickCrossingZero = true;
     timetick = 0;
   }
   
-  Int32U x = 0;
-  
   if(ADDR2_bit.DONE){
+    x_old = x;
     x = lowPass(ADDR2_bit.RESULT,50);
     DACR_bit.VALUE = x;
   }
   
 
   
-
+  /* 
   if(x <= 0x200 && x >= 0x1FE && !VrefInTheLastCycle){   // If x is Vref/2
     VrefInTheLastCycle = true;
     
@@ -130,7 +136,22 @@ void TIMER1IntrHandler (void)
   }else{
     VrefInTheLastCycle = false;
   }
-
+  */
+  if (waitingForCross && x >= 512){
+    crosstick = timetick - (float)x/((float)x-(float)x_old);
+    if (tickCrossingZero){
+      T = crosstick+5000 - crosstick_old;
+      tickCrossingZero = false;
+    } else{
+      T = crosstick - crosstick_old;
+    }
+    crosstick_old = crosstick;
+    waitingForCross = false;
+  } else if(!waitingForCross && x <= 512){
+    waitingForCross = true;
+  }
+  
+  
   
   // clear interrupt
   T1IR_bit.MR1INT = 1;

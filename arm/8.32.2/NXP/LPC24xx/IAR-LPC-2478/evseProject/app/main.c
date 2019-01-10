@@ -84,11 +84,9 @@ Boolean waitingForCross = true;
  * Description: low passes the signal
  *
  *************************************************************************/
-Int32U lowPass(Int32U x, Int32U fc){
+Int32U lowPass(Int32U x){
   Int32U y   = (Int32U)(alpha*x + (1 - alpha)*y_old);
-  
   y_old = y;
-  
   return y;
 }
 /*************************************************************************
@@ -113,7 +111,7 @@ void TIMER1IntrHandler (void)
   
   if(ADDR2_bit.DONE){
     x_old = x;
-    x = lowPass(ADDR2_bit.RESULT,50);
+    x = lowPass(ADDR2_bit.RESULT);
     DACR_bit.VALUE = x;
   }
   
@@ -280,6 +278,7 @@ int main(void)
    GLCD_print("\f Period");
   
    // Filter calculations
+   Int32U fc = 50; //Value of cut off frequency
    float RC = (1/(2*3.1415*fc));
    alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
   

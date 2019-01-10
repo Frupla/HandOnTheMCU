@@ -1,50 +1,44 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.2.178/W32 for ARM                  10/Jan/2019  12:14:34
+# IAR ELF Linker V8.32.2.178/W32 for ARM                  10/Jan/2019  14:06:43
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\Exe\Touch_Demo.out.tmp
 #    Map file     =  
-#        C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\List\Touch_Demo.map
 #    Command line =  
-#        -f C:\Users\tilfr\AppData\Local\Temp\EW7FD6.tmp
-#        ("C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\cursor_arrow.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\drv_glcd.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\drv_touch_scr.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\iar_logo.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\main.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\redScreen.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\sdram_64M_32bit_drv.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\sys.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\Terminal_18_24x12.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Obj\Terminal_6_8x6.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        -f C:\Users\s163905\AppData\Local\Temp\EWE65C.tmp
+#        ("C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\cursor_arrow.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\drv_glcd.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\drv_touch_scr.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\iar_logo.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\main.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\redScreen.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\sdram_64M_32bit_drv.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\sys.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\Terminal_18_24x12.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\Terminal_6_8x6.o"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\Obj\Terminal_9_12x6.o" --redirect _Printf=_PrintfTiny --redirect
 #        _Scanf=_ScanfSmallNoMb --no_out_extension -o
-#        "C:\Users\tilfr\Dropbox\DTU\Hands on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\Exe\Touch_Demo.out.tmp" --map "C:\Users\tilfr\Dropbox\DTU\Hands
-#        on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
-#        Debug\List\Touch_Demo.map" --config "C:\Users\tilfr\Dropbox\DTU\Hands
-#        on
-#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\config\LPC2478_Flash.icf"
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Exe\Touch_Demo.out.tmp" --map
+#        "C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\List\Touch_Demo.map" --config
+#        C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\config\LPC2478_Flash.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -112,7 +106,7 @@ No sections matched the following patterns:
   .crp               const          0x1fc      0x4  main.o [1]
                                   - 0x200      0x4
 
-"P1", part 2 of 2:                         0x510d0
+"P1", part 2 of 2:                         0x510cc
   .rodata            const          0x200  0x4b000  redScreen.o [1]
   .rodata            const       0x4'b200   0x3000  Terminal_18_24x12.o [1]
   .text              ro code     0x4'e200    0xd44  drv_glcd.o [1]
@@ -127,45 +121,45 @@ No sections matched the following patterns:
   .text              ro code     0x4'f950     0x54  strlen.o [4]
   .text              ro code     0x4'f9a4     0x58  iarttio.o [5]
   .text              ro code     0x4'f9fc      0xc  XShttio.o [2]
-  .text              ro code     0x4'fa08    0x6b0  main.o [1]
-  .text              ro code     0x5'00b8     0x58  U32ToDbl.o [3]
-  .text              ro code     0x5'0110    0x1f4  DblMul.o [3]
-  .text              ro code     0x5'0304    0x334  DblDiv.o [3]
-  .text              ro code     0x5'0638     0x84  DblToFlt.o [3]
-  .text              ro code     0x5'06bc     0xa4  FltAdd.o [3]
-  .text              ro code     0x5'0760    0x1c0  FltDiv.o [3]
-  .text              ro code     0x5'0920     0x5c  U32ToFlt.o [3]
-  .text              ro code     0x5'097c    0x148  FltMul.o [3]
-  .text              ro code     0x5'0ac4    0x12c  FltSub.o [3]
-  .text              ro code     0x5'0bf0     0x34  FltToU32.o [3]
-  .text              ro code     0x5'0c24    0x30c  sdram_64M_32bit_drv.o [1]
-  .text              ro code     0x5'0f30     0x40  FltToS32.o [3]
-  .text              ro code     0x5'0f70     0x64  S32ToFlt.o [3]
-  .text              ro code     0x5'0fd4     0x6c  sprintf.o [2]
-  .rodata            const       0x5'1040     0x78  drv_glcd.o [1]
-  .text              ro code     0x5'10b8     0x58  cstartup.o [4]
-  Veneer             ro code     0x5'1110      0xc  - Linker created -
-  .text              ro code     0x5'111c     0x30  cmain.o [4]
-  .text              ro code     0x5'114c      0x8  low_level_init.o [2]
-  .text              ro code     0x5'1154     0x32  data_init.o [4]
-  .text              ro code     0x5'1188      0x4  exit.o [2]
-  .text              ro code     0x5'118c     0x10  cexit.o [4]
-  .text              ro code     0x5'119c     0x3c  zero_init3.o [4]
-  .text              ro code     0x5'11d8     0x30  copy_init3.o [4]
-  .iar.init_table    const       0x5'1208     0x24  - Linker created -
-  .rodata            const       0x5'122c     0x14  drv_glcd.o [1]
-  .rodata            const       0x5'1240     0x14  Terminal_18_24x12.o [1]
-  .text              ro code     0x5'1254     0x14  xsprout.o [2]
-  .rodata            const       0x5'1268     0x10  drv_glcd.o [1]
-  .rodata            const       0x5'1278     0x10  drv_glcd.o [1]
-  .rodata            const       0x5'1288     0x10  drv_glcd.o [1]
-  .rodata            const       0x5'1298     0x10  redScreen.o [1]
-  .rodata            const       0x5'12a8      0xc  drv_glcd.o [1]
-  .rodata            const       0x5'12b4      0xc  main.o [1]
-  .rodata            const       0x5'12c0      0x8  main.o [1]
-  .text              ro code     0x5'12c8      0x4  vectortrap.o [4]
-  .text              ro code     0x5'12cc      0x4  xreturnswi.o [5]
-                               - 0x5'12d0  0x510d0
+  .text              ro code     0x4'fa08    0x6ac  main.o [1]
+  .text              ro code     0x5'00b4     0x5c  U32ToFlt.o [3]
+  .text              ro code     0x5'0110    0x148  FltMul.o [3]
+  .text              ro code     0x5'0258    0x12c  FltSub.o [3]
+  .text              ro code     0x5'0384     0xa4  FltAdd.o [3]
+  .text              ro code     0x5'0428     0x34  FltToU32.o [3]
+  .text              ro code     0x5'045c    0x1c0  FltDiv.o [3]
+  .text              ro code     0x5'061c    0x30c  sdram_64M_32bit_drv.o [1]
+  .text              ro code     0x5'0928     0x58  U32ToDbl.o [3]
+  .text              ro code     0x5'0980    0x1f4  DblMul.o [3]
+  .text              ro code     0x5'0b74    0x334  DblDiv.o [3]
+  .text              ro code     0x5'0ea8     0x84  DblToFlt.o [3]
+  .text              ro code     0x5'0f2c     0x40  FltToS32.o [3]
+  .text              ro code     0x5'0f6c     0x64  S32ToFlt.o [3]
+  .text              ro code     0x5'0fd0     0x6c  sprintf.o [2]
+  .rodata            const       0x5'103c     0x78  drv_glcd.o [1]
+  .text              ro code     0x5'10b4     0x58  cstartup.o [4]
+  Veneer             ro code     0x5'110c      0xc  - Linker created -
+  .text              ro code     0x5'1118     0x30  cmain.o [4]
+  .text              ro code     0x5'1148      0x8  low_level_init.o [2]
+  .text              ro code     0x5'1150     0x32  data_init.o [4]
+  .text              ro code     0x5'1184      0x4  exit.o [2]
+  .text              ro code     0x5'1188     0x10  cexit.o [4]
+  .text              ro code     0x5'1198     0x3c  zero_init3.o [4]
+  .text              ro code     0x5'11d4     0x30  copy_init3.o [4]
+  .iar.init_table    const       0x5'1204     0x24  - Linker created -
+  .rodata            const       0x5'1228     0x14  drv_glcd.o [1]
+  .rodata            const       0x5'123c     0x14  Terminal_18_24x12.o [1]
+  .text              ro code     0x5'1250     0x14  xsprout.o [2]
+  .rodata            const       0x5'1264     0x10  drv_glcd.o [1]
+  .rodata            const       0x5'1274     0x10  drv_glcd.o [1]
+  .rodata            const       0x5'1284     0x10  drv_glcd.o [1]
+  .rodata            const       0x5'1294     0x10  redScreen.o [1]
+  .rodata            const       0x5'12a4      0xc  drv_glcd.o [1]
+  .rodata            const       0x5'12b0      0xc  main.o [1]
+  .rodata            const       0x5'12bc      0x8  main.o [1]
+  .text              ro code     0x5'12c4      0x4  vectortrap.o [4]
+  .text              ro code     0x5'12c8      0x4  xreturnswi.o [5]
+                               - 0x5'12cc  0x510cc
 
 Absolute sections, part 1 of 46:               0x4
   .noinit            uninit   0x3fff'c000      0x4  sys.o [1]
@@ -220,7 +214,7 @@ Absolute sections, part 10 of 46:              0x4
     .data            inited   0x4000'0168      0x4  main.o [1]
                             - 0x4000'016c     0x4c
 
-"P2", part 2 of 3:                            0x58
+"P2", part 2 of 3:                            0x5c
   .bss               zero     0x4000'016c      0x4  drv_glcd.o [1]
   .bss               zero     0x4000'0170      0x4  drv_glcd.o [1]
   .bss               zero     0x4000'0174      0x4  drv_glcd.o [1]
@@ -243,7 +237,8 @@ Absolute sections, part 10 of 46:              0x4
   .bss               zero     0x4000'01b8      0x4  main.o [1]
   .bss               zero     0x4000'01bc      0x4  main.o [1]
   .bss               zero     0x4000'01c0      0x4  main.o [1]
-                            - 0x4000'01c4     0x58
+  .bss               zero     0x4000'01c4      0x4  main.o [1]
+                            - 0x4000'01c8     0x5c
 
 "P2", part 3 of 3:                           0x840
   CSTACK                      0x4000'01c8    0x400  <Block>
@@ -447,9 +442,8 @@ Unused ranges:
          From           To      Size
          ----           --      ----
          0x88        0x1fb     0x174
-     0x5'12d0     0x7'dfff  0x2'cd30
+     0x5'12cc     0x7'dfff  0x2'cd34
   0x4000'0000  0x4000'003f      0x40
-  0x4000'01c4  0x4000'01c7       0x4
   0x4000'0a08  0x4000'ffdf    0xf5d8
 
 
@@ -460,8 +454,8 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x58:
-          0x4000'016c  0x58
+    1 destination range, total size 0x5c:
+          0x4000'016c  0x5c
 
 Copy (__iar_copy_init3)
     1 source range, total size 0x4c:
@@ -482,15 +476,15 @@ command line/config:
     ---------------------------------------------------------
     Total:
 
-C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash Debug\Obj: [1]
+C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash Debug\Obj: [1]
     Terminal_18_24x12.o              12 332       24
     drv_glcd.o               3 396      212       64       52
-    main.o                   1 712       28       40       64
+    main.o                   1 708       28       44       64
     redScreen.o                     307 244       28
     sdram_64M_32bit_drv.o      780                         88
     sys.o                    1 332                        164
     ---------------------------------------------------------
-    Total:                   7 220  319 816      156      368
+    Total:                   7 216  319 816      160      368
 
 dl4t_aln.a: [2]
     XShttio.o                   12        8        8
@@ -545,7 +539,7 @@ shs_l.a: [5]
     Gaps                         2
     Linker created              12       36    2 112
 -------------------------------------------------------------
-    Grand Total:            12 264  319 860    2 276      368
+    Grand Total:            12 260  319 860    2 280      368
 
 
 *******************************************************************************
@@ -554,11 +548,11 @@ shs_l.a: [5]
 
 Entry                       Address     Size  Type      Object
 -----                       -------     ----  ----      ------
-.iar.init_table$$Base      0x5'1208            --   Gb  - Linker created -
-.iar.init_table$$Limit     0x5'122c            --   Gb  - Linker created -
-?main                      0x5'111c           Code  Gb  cmain.o [4]
-ADC_Init                   0x4'fccc     0xe4  Code  Gb  main.o [1]
-Abort_Handler              0x5'12c8           Code  Wk  vectortrap.o [4]
+.iar.init_table$$Base      0x5'1204            --   Gb  - Linker created -
+.iar.init_table$$Limit     0x5'1228            --   Gb  - Linker created -
+?main                      0x5'1118           Code  Gb  cmain.o [4]
+ADC_Init                   0x4'fc64     0xe4  Code  Gb  main.o [1]
+Abort_Handler              0x5'12c4           Code  Wk  vectortrap.o [4]
 CSTACK$$Base            0x4000'01c8            --   Gb  - Linker created -
 CSTACK$$Limit           0x4000'05c8            --   Gb  - Linker created -
 CurrX_Size              0x4000'0194      0x4  Data  Lc  drv_glcd.o [1]
@@ -585,18 +579,18 @@ LCD_PAL_BASE            0xffe1'0200      0x4  Data  Gb  drv_glcd.o [1]
 LCD_SET_WINDOW             0x4'e780     0x64  Code  Lc  drv_glcd.o [1]
 LCD_UPBASE              0xffe1'0010      0x4  Data  Gb  drv_glcd.o [1]
 LCD_WRITE_PIXEL            0x4'e7e4     0x90  Code  Lc  drv_glcd.o [1]
-Prefetch_Handler           0x5'12c8           Code  Wk  vectortrap.o [4]
-Region$$Table$$Base        0x5'1208            --   Gb  - Linker created -
-Region$$Table$$Limit       0x5'122c            --   Gb  - Linker created -
+Prefetch_Handler           0x5'12c4           Code  Wk  vectortrap.o [4]
+Region$$Table$$Base        0x5'1204            --   Gb  - Linker created -
+Region$$Table$$Limit       0x5'1228            --   Gb  - Linker created -
 SDRAM_BASE_ADDR {Abs}   0xa000'0000           Data  Gb  <internal module>
-SDRAM_Init                 0x5'0c24    0x27c  Code  Gb  sdram_64M_32bit_drv.o [1]
-SWI_Handler                0x5'12c8           Code  Wk  vectortrap.o [4]
+SDRAM_Init                 0x5'061c    0x27c  Code  Gb  sdram_64M_32bit_drv.o [1]
+SWI_Handler                0x5'12c4           Code  Wk  vectortrap.o [4]
 SYS_GetFpclk               0x4'f2c0     0x68  Code  Gb  sys.o [1]
 SYS_GetFsclk               0x4'f1fc     0xc4  Code  Gb  sys.o [1]
-T                       0x4000'01bc      0x4  Data  Gb  main.o [1]
+T                       0x4000'01c0      0x4  Data  Gb  main.o [1]
 T1MR1                   0xe000'801c      0x4  Data  Gb  main.o [1]
 T1PR                    0xe000'800c      0x4  Data  Gb  main.o [1]
-TIMER1IntrHandler          0x4'fac0    0x204  Code  Gb  main.o [1]
+TIMER1IntrHandler          0x4'fa64    0x200  Code  Gb  main.o [1]
 TabSize                 0x4000'0164      0x4  Data  Lc  drv_glcd.o [1]
 Terminal_18_24_12       0x4000'013c     0x18  Data  Gb  Terminal_18_24x12.o [1]
 TextBackgndColour       0x4000'0174      0x4  Data  Lc  drv_glcd.o [1]
@@ -604,7 +598,7 @@ TextColour              0x4000'0170      0x4  Data  Lc  drv_glcd.o [1]
 TextStream                 0x4'b200   0x3000  Data  Lc  Terminal_18_24x12.o [1]
 TextX_Pos               0x4000'0178      0x4  Data  Lc  drv_glcd.o [1]
 TextY_Pos               0x4000'017c      0x4  Data  Lc  drv_glcd.o [1]
-Undefined_Handler          0x5'12c8           Code  Wk  vectortrap.o [4]
+Undefined_Handler          0x5'12c4           Code  Wk  vectortrap.o [4]
 VICADDRESS              0xffff'ff00      0x4  Data  Gb  sys.o [1]
 VICVECTADDR0            0xffff'f100      0x4  Data  Gb  sys.o [1]
 VIC_Init                   0x4'ef80     0x78  Code  Gb  sys.o [1]
@@ -701,59 +695,60 @@ _A_VICPROTECTION        0xffff'f020      0x4  Data  Gb  sys.o [1]
 _A_VICSOFTINTCLEAR      0xffff'f01c      0x4  Data  Gb  sys.o [1]
 _A_VICVECTPRIORITY0     0xffff'f200      0x4  Data  Gb  sys.o [1]
 _PrintfTiny                0x4'f6f8    0x238  Code  Gb  xprintftiny.o [2]
-_SProut                    0x5'1254     0x14  Code  Gb  xsprout.o [2]
+_SProut                    0x5'1250     0x14  Code  Gb  xsprout.o [2]
 __aeabi_assert             0x4'f61c     0x40  Code  Gb  ABIassert.o [5]
-__aeabi_d2f                0x5'0638           Code  Gb  DblToFlt.o [3]
-__aeabi_ddiv               0x5'0304           Code  Gb  DblDiv.o [3]
-__aeabi_dmul               0x5'0110           Code  Gb  DblMul.o [3]
-__aeabi_f2iz               0x5'0f30           Code  Gb  FltToS32.o [3]
-__aeabi_f2uiz              0x5'0bf0           Code  Gb  FltToU32.o [3]
-__aeabi_fadd               0x5'06bc           Code  Gb  FltAdd.o [3]
-__aeabi_fdiv               0x5'0760           Code  Gb  FltDiv.o [3]
-__aeabi_fmul               0x5'097c           Code  Gb  FltMul.o [3]
-__aeabi_fsub               0x5'0ac4           Code  Gb  FltSub.o [3]
-__aeabi_i2f                0x5'0f70           Code  Gb  S32ToFlt.o [3]
+__aeabi_d2f                0x5'0ea8           Code  Gb  DblToFlt.o [3]
+__aeabi_ddiv               0x5'0b74           Code  Gb  DblDiv.o [3]
+__aeabi_dmul               0x5'0980           Code  Gb  DblMul.o [3]
+__aeabi_f2iz               0x5'0f2c           Code  Gb  FltToS32.o [3]
+__aeabi_f2uiz              0x5'0428           Code  Gb  FltToU32.o [3]
+__aeabi_fadd               0x5'0384           Code  Gb  FltAdd.o [3]
+__aeabi_fdiv               0x5'045c           Code  Gb  FltDiv.o [3]
+__aeabi_fmul               0x5'0110           Code  Gb  FltMul.o [3]
+__aeabi_fsub               0x5'0258           Code  Gb  FltSub.o [3]
+__aeabi_i2f                0x5'0f6c           Code  Gb  S32ToFlt.o [3]
 __aeabi_idiv0              0x4'f6b8           Code  Gb  IntDivZer.o [4]
-__aeabi_ui2d               0x5'00b8           Code  Gb  U32ToDbl.o [3]
-__aeabi_ui2f               0x5'0920           Code  Gb  U32ToFlt.o [3]
+__aeabi_ui2d               0x5'0928           Code  Gb  U32ToDbl.o [3]
+__aeabi_ui2f               0x5'00b4           Code  Gb  U32ToFlt.o [3]
 __aeabi_uidiv              0x4'f478           Code  Gb  I32DivMod.o [4]
 __aeabi_uidivmod           0x4'f478           Code  Gb  I32DivMod.o [4]
-__cmain                    0x5'111c           Code  Gb  cmain.o [4]
+__cmain                    0x5'1118           Code  Gb  cmain.o [4]
 __exit                     0x4'f930     0x20  Code  Gb  exit.o [5]
-__iar_SubNrm               0x5'0a98           Code  Gb  FltMul.o [3]
+__iar_SubNrm               0x5'022c           Code  Gb  FltMul.o [3]
 __iar_close_ttio           0x4'f9a4     0x58  Code  Gb  iarttio.o [5]
-__iar_copy_init3           0x5'11d9     0x30  Code  Gb  copy_init3.o [4]
-__iar_data_init3           0x5'1155     0x30  Code  Gb  data_init.o [4]
-__iar_fadd                 0x5'06c8           Code  Gb  FltAdd.o [3]
-__iar_fsub                 0x5'0ad0           Code  Gb  FltSub.o [3]
-__iar_fsubStart            0x5'0ae0           Code  Gb  FltSub.o [3]
+__iar_copy_init3           0x5'11d5     0x30  Code  Gb  copy_init3.o [4]
+__iar_data_init3           0x5'1151     0x30  Code  Gb  data_init.o [4]
+__iar_fadd                 0x5'0390           Code  Gb  FltAdd.o [3]
+__iar_fsub                 0x5'0264           Code  Gb  FltSub.o [3]
+__iar_fsubStart            0x5'0274           Code  Gb  FltSub.o [3]
 __iar_lookup_ttioh         0x4'f9fc      0xc  Code  Gb  XShttio.o [2]
-__iar_program_start        0x5'10b8           Code  Gb  cstartup.o [4]
-__iar_return_from_swi      0x5'12cc      0x4  Code  Gb  xreturnswi.o [5]
+__iar_program_start        0x5'10b4           Code  Gb  cstartup.o [4]
+__iar_return_from_swi      0x5'12c8      0x4  Code  Gb  xreturnswi.o [5]
 __iar_ttio_handles      0x4000'0154      0x8  Data  Lc  XShttio.o [2]
-__iar_zero_init3           0x5'119d     0x3c  Code  Gb  zero_init3.o [4]
-__low_level_init           0x5'114c      0x8  Code  Gb  low_level_init.o [2]
+__iar_zero_init3           0x5'1199     0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init           0x5'1148      0x8  Code  Gb  low_level_init.o [2]
 __vector                        0x0           Data  Gb  cstartup.o [4]
-_call_main                 0x5'1134           Code  Gb  cmain.o [4]
-_exit                      0x5'118c           Code  Gb  cexit.o [4]
-_main                      0x5'113c           Code  Gb  cmain.o [4]
+_call_main                 0x5'1130           Code  Gb  cmain.o [4]
+_exit                      0x5'1188           Code  Gb  cexit.o [4]
+_main                      0x5'1138           Code  Gb  cmain.o [4]
 abort                      0x4'f6bc      0x8  Code  Gb  abort.o [2]
+alpha                   0x4000'01bc      0x4  Data  Gb  main.o [1]
 crosstick               0x4000'01b4      0x4  Data  Gb  main.o [1]
 crosstick_old           0x4000'01b8      0x4  Data  Gb  main.o [1]
 crp                           0x1fc      0x4  Data  Gb  main.o [1]
-exit                       0x5'1188      0x4  Code  Gb  exit.o [2]
-lowPass                    0x4'fa08     0xb8  Code  Gb  main.o [1]
-main                       0x4'fdb0    0x2a8  Code  Gb  main.o [1]
+exit                       0x5'1184      0x4  Code  Gb  exit.o [2]
+lowPass                    0x4'fa08     0x5c  Code  Gb  main.o [1]
+main                       0x4'fd48    0x300  Code  Gb  main.o [1]
 out                        0x4'f6c4     0x34  Code  Lc  xprintftiny.o [2]
 pCurrFont               0x4000'016c      0x4  Data  Lc  drv_glcd.o [1]
 pPix                    0x4000'019c      0x4  Data  Lc  drv_glcd.o [1]
 pWind                   0x4000'0198      0x4  Data  Lc  drv_glcd.o [1]
 redScreenPic            0x4000'0120     0x1c  Data  Gb  redScreen.o [1]
 redScreenStream               0x200  0x4b000  Data  Gb  redScreen.o [1]
-sprintf                    0x5'0fd4     0x6c  Code  Gb  sprintf.o [2]
+sprintf                    0x5'0fd0     0x6c  Code  Gb  sprintf.o [2]
 strlen                     0x4'f950           Code  Gb  strlen.o [4]
 t_old                   0x4000'01ac      0x4  Data  Gb  main.o [1]
-tickCrossingZero        0x4000'01c0      0x4  Data  Gb  main.o [1]
+tickCrossingZero        0x4000'01c4      0x4  Data  Gb  main.o [1]
 timetick                0x4000'01a0      0x4  Data  Gb  main.o [1]
 vsprintf                   0x4'f65c     0x5c  Code  Gb  vsprintf.o [2]
 waitingForCross         0x4000'0168      0x4  Data  Gb  main.o [1]
@@ -762,15 +757,15 @@ x_old                   0x4000'01b0      0x4  Data  Gb  main.o [1]
 y_old                   0x4000'01a8      0x4  Data  Gb  main.o [1]
 
 
-[1] = C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash Debug\Obj
+[1] = C:\Users\s163905\Documents\GitHub\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash Debug\Obj
 [2] = dl4t_aln.a
 [3] = m4t_al.a
 [4] = rt4t_al.a
 [5] = shs_l.a
 
-   12 264 bytes of readonly  code memory
+   12 260 bytes of readonly  code memory
   319 860 bytes of readonly  data memory
-    2 276 bytes of readwrite data memory (+ 368 absolute)
+    2 280 bytes of readwrite data memory (+ 368 absolute)
 
 Errors: none
 Warnings: none

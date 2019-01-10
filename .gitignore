@@ -6,3 +6,10 @@ arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/LCD_Demo/Flash Debug/Obj/main.o
 arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/LCD_Demo/LCD_Demo.dep
 arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/LCD_Demo/settings/LCD_Demo.dnx
 arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/LCD_Demo/settings/LCD_Demo.wsdt
+*.dep
+*.pbd
+*.browse
+*.pbi
+*.dbgdt
+*.dnx
+*.wsdt

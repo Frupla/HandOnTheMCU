@@ -61,6 +61,11 @@ extern FontType_t Terminal_18_24_12;
 
 Int32U timetick = 0;
 Int32U y_old = 0;
+Int32U t_old = 0;
+float f = 0;
+Boolean VrefInTheLastCycle = false;
+Boolean crossingZero = false;
+
 /*************************************************************************
  * Function Name: lowPass
  * Parameters: x
@@ -75,7 +80,9 @@ Int32U lowPass(Int32U x, Int32U fc){
   
   float alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
   
-  Int32U y = (Int32U)(alpha*x + (1 - alpha)*y_old);
+  Int32U y   = (Int32U)(alpha*x + (1 - alpha)*y_old);
+  
+  
   y_old = y;
   
   return y;
@@ -94,13 +101,34 @@ void TIMER1IntrHandler (void)
 //  DACR_bit.VALUE = 0x03FF;
   timetick++;
   // Toggle USB Link LED
-  if(timetick > 5000){
+  if(timetick - t_old > 5000){
     USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
+    crossingZero = true;
     timetick = 0;
   }
   
+  Int32U x = 0;
+  
   if(ADDR2_bit.DONE){
-    DACR_bit.VALUE = lowPass(ADDR2_bit.RESULT,50);
+    x = lowPass(ADDR2_bit.RESULT,50);
+    DACR_bit.VALUE = x;
+  }
+  
+
+  
+
+  if(x <= 0x200 && x >= 0x1FE && !VrefInTheLastCycle){   // If x is Vref/2
+    VrefInTheLastCycle = true;
+    
+    if(crossingZero){
+      f = 1/(float)(timetick+5000 - t_old);
+      crossingZero = false;
+    }else{
+      f = 1/(float)(timetick - t_old);
+    }
+    t_old = timetick;
+  }else{
+    VrefInTheLastCycle = false;
   }
 
   

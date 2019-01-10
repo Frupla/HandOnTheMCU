@@ -42,7 +42,7 @@
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
     <DebugChecksum>
-        <Checksum>3182137718</Checksum>
+        <Checksum>1477485622</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -81,8 +81,7 @@
         <Category>_ 0</Category>
     </LogFile>
     <Aliases>
-        <A0>_ "C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\modules\sdram_64M_32bit_drv.c" "C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\modules\sdram_64M_32bit_drv.c"</A0>
-        <Count>1</Count>
+        <Count>0</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DriverProfiling>

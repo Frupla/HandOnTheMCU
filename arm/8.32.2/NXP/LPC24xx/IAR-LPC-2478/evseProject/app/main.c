@@ -36,6 +36,7 @@
  *    $Revision: 28 $
  **************************************************************************/
 #include <includes.h>
+#include "redScreen.h"
 
 #define NONPROT 0xFFFFFFFF
 #define CRP1  	0x12345678
@@ -185,8 +186,8 @@ int main(void)
 //ToushRes_t XY_Touch;
 //Boolean Touch = FALSE;
 
-//  GLCD_Ctrl (FALSE);
-  // Init GPIO
+  GLCD_Ctrl (FALSE);
+  //Init GPIO
   GpioInit();
 #ifndef SDRAM_DEBUG
   // MAM init
@@ -201,9 +202,9 @@ int main(void)
   // Init VIC
   VIC_Init();
   // GLCD init
-/*  GLCD_Init (IarLogoPic.pPicStream, NULL);
+  GLCD_Init (redScreenPic.pPicStream, NULL);
 
-  GLCD_Cursor_Dis(0);
+/*  GLCD_Cursor_Dis(0);
 
   GLCD_Copy_Cursor ((Int32U *)Cursor, 0, sizeof(Cursor)/sizeof(Int32U));
 
@@ -244,18 +245,15 @@ int main(void)
   ADC_Init();
   
   __enable_interrupt();
- /* GLCD_Ctrl (TRUE);
+  GLCD_Ctrl (TRUE);
 
 
-  GLCD_SetFont(&Terminal_18_24_12,0x0000FF,0x000cd4ff);
+  GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x00000000);
   GLCD_SetWindow(95,10,255,33);
   GLCD_TextSetPos(0,0);
-  GLCD_print("\fIAR Systems");
+  GLCD_print("\f Frequency is:");
 
-  GLCD_SetWindow(55,195,268,218);
-  GLCD_TextSetPos(0,0);
-  GLCD_print("\fTouch screen demo");
-*/
+
   
   //initialize DAC
   PINSEL1_bit.P0_26=2; //sets pin function to AOUT
@@ -264,6 +262,15 @@ int main(void)
   DACR_bit.VALUE = 0X3FF;
 
   while(1){
- 
+    // Printing a float based on Yi's code
+    char MyString [ 100 ]; // destination string
+    int D,F;
+    F = (int)f;
+    D = (int)(10000*(f-(float)F));
+    sprintf ( MyString, "frequency: %d.%d", F, D ); 
+        
+    GLCD_SetWindow(55,195,268,218);
+    GLCD_TextSetPos(0,0);
+    GLCD_print(MyString);
   }
 }

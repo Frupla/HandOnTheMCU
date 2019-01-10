@@ -67,6 +67,7 @@ Int32U t_old = 0;
 Int32U x_old = 0;
 float crosstick = 0;
 float crosstick_old = 0;
+float alpha =0;
 float T = 0;
 float f = 0;
 Boolean VrefInTheLastCycle = false;
@@ -82,16 +83,10 @@ Boolean waitingForCross = true;
  * Description: low passes the signal
  *
  *************************************************************************/
-Int32U lowPass(Int32U x, Int32U fc){
-  float RC = (1/(2*3.1415*fc));
-  
-  float alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
-  
-  Int32U y = (Int32U)(alpha*x + (1 - alpha)*y_old);
-  
-  
+Int32U lowPass(Int32U x){
+  Int32U y   = (Int32U)(alpha*x + (1 - alpha)*y_old);
+
   y_old = y;
-  
   return y;
 }
 /*************************************************************************
@@ -116,7 +111,7 @@ void TIMER1IntrHandler (void)
   
   if(ADDR2_bit.DONE){
     x_old = x;
-    x = lowPass(ADDR2_bit.RESULT,50);
+    x = lowPass(ADDR2_bit.RESULT);
     DACR_bit.VALUE = x;
   }
   
@@ -282,8 +277,13 @@ int main(void)
    GLCD_TextSetPos(0,0);
    GLCD_print("Live Frequency");
   
+   // Filter calculations
+   Int32U fc = 50; //Value of cut off frequency
+   float RC = (1/(2*3.1415*fc));
+   alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
+  
    
-  while(1){
+    while(1){
     if(timetick >= 4999){
       float F = 1/(T/TIMER1_TICK_PER_SEC);
       char MyString [ 100 ]; // destination string

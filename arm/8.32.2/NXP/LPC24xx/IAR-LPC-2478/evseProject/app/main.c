@@ -100,9 +100,7 @@ Int32U lowPass(Int32U x){
  *************************************************************************/
 void TIMER1IntrHandler (void)
 {
-  BUT1_FIO ^= BUT1_MASK;
-  
-  //  DACR_bit.VALUE = 0x03FF;
+//  DACR_bit.VALUE = 0x03FF;
   timetick++;
   // Toggle USB Link LED
   if(timetick > 5000){
@@ -110,8 +108,6 @@ void TIMER1IntrHandler (void)
     tickCrossingZero = true;
     timetick = 0;
   }
-  
-
   
   if(ADDR2_bit.DONE){
     x_old = x;
@@ -151,12 +147,10 @@ void TIMER1IntrHandler (void)
   }
   
   
-  BUT1_FIO  ^= BUT1_MASK;
   
   // clear interrupt
   T1IR_bit.MR1INT = 1;
   VICADDRESS = 0;
-  
 }
 
 
@@ -244,10 +238,6 @@ int main(void)
   USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
   USB_D_LINK_LED_FSET = USB_D_LINK_LED_MASK;// | USB_H_LINK_LED_MASK;
    
-  // Init Pin[19] output
-  BUT1_FDIR = BUT1_MASK;
-  
-  
   // Enable TIM1 clocks
   PCONP_bit.PCTIM1 = 1; // enable clock
 
@@ -282,19 +272,18 @@ int main(void)
   PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
   DACR_bit.VALUE = 0X3FF;
 
-  //Set font, and write top box
-  GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
-  GLCD_SetWindow(95,10,265,33);
-  GLCD_TextSetPos(0,0);
-  GLCD_print("Live Frequency");
+   GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
+   GLCD_SetWindow(95,10,265,33);
+   GLCD_TextSetPos(0,0);
+   GLCD_print("Live Frequency");
   
-  // Filter calculations
-  Int32U fc = 50; //Value of cut off frequency
-  float RC = (1/(2*3.1415*fc));
-  alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
+   // Filter calculations
+   Int32U fc = 50; //Value of cut off frequency
+   float RC = (1/(2*3.1415*fc));
+   alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
   
    
-   while(1){
+    while(1){
     if(timetick >= 4999){
       float F = 1/(T/TIMER1_TICK_PER_SEC);
       char MyString [ 100 ]; // destination string

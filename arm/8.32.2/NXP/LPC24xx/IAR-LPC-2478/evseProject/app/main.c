@@ -73,6 +73,8 @@ float f = 0;
 Boolean VrefInTheLastCycle = false;
 Boolean tickCrossingZero = false;
 Boolean waitingForCross = true;
+int i = 0;
+#define N_O_PERIODS 16
 
 /*************************************************************************
  * Function Name: lowPass
@@ -133,15 +135,19 @@ void TIMER1IntrHandler (void)
   }
   */
   if (waitingForCross && x >= 512){
-    crosstick = timetick - (float)x/((float)x-(float)x_old);
-    if (tickCrossingZero){
-      T = crosstick+5000 - crosstick_old;
-      tickCrossingZero = false;
-    } else{
-      T = crosstick - crosstick_old;
+    if (i>=N_O_PERIODS){
+      crosstick = timetick - (float)x/((float)x-(float)x_old);
+      if (tickCrossingZero){
+        T = crosstick+5000 - crosstick_old;
+        tickCrossingZero = false;
+      } else{
+        T = crosstick - crosstick_old;
+      }
+      crosstick_old = crosstick;
+      i=0;
     }
-    crosstick_old = crosstick;
     waitingForCross = false;
+    i++;
   } else if(!waitingForCross && x <= 512){
     waitingForCross = true;
   }
@@ -285,7 +291,7 @@ int main(void)
    
     while(1){
     if(timetick >= 4999){
-      float F = 1/(T/TIMER1_TICK_PER_SEC);
+      float F = (float)(TIMER1_TICK_PER_SEC*N_O_PERIODS)/T;
       char MyString [ 100 ]; // destination string
       int d,f1,f2,f3;
       d = (int) F; // Decimal precision: 3 digits
@@ -298,5 +304,29 @@ int main(void)
       GLCD_TextSetPos(0,0);
       GLCD_print(MyString);
     }
+    /*
+  if(i >= N_O_FREQS_AVERAGED){
+      F=0;
+      i=0;
+      for (j = 0;j<N_O_FREQS_AVERAGED;j++){
+        F += freqs[j];
+      }
+      F = F/(float)N_O_FREQS_AVERAGED;
+      char MyString [ 100 ]; // destination string
+      int d,f1,f2,f3;
+      d = (int) F; // Decimal precision: 3 digits
+      f1 = (int)(10*(F-(float)d));
+      f2 = (int)(100*(F-(float)d)) - 10*f1;
+      f3 = (int)(1000*(F-(float)d)) - 10*f2 - 100*f1;
+      sprintf ( MyString, "Freqency: %d.%d%d%d Hz", d, f1,f2,f3); 
+        
+      GLCD_SetWindow(55,95,319,218);
+      GLCD_TextSetPos(0,0);
+      GLCD_print(MyString);
+    }
+    freqs[i] = 1/(T/TIMER1_TICK_PER_SEC);
+    i++;
+    */
+    
   }
 }

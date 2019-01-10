@@ -67,6 +67,7 @@ Int32U t_old = 0;
 Int32U x_old = 0;
 float crosstick = 0;
 float crosstick_old = 0;
+float alpha =0;
 float T = 0;
 float f = 0;
 Boolean VrefInTheLastCycle = false;
@@ -84,12 +85,7 @@ Boolean waitingForCross = true;
  *
  *************************************************************************/
 Int32U lowPass(Int32U x, Int32U fc){
-  float RC = (1/(2*3.1415*fc));
-  
-  float alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
-  
   Int32U y   = (Int32U)(alpha*x + (1 - alpha)*y_old);
-  
   
   y_old = y;
   
@@ -283,8 +279,13 @@ int main(void)
    GLCD_TextSetPos(0,0);
    GLCD_print("\f Period");
   
+   // Filter calculations
+   float RC = (1/(2*3.1415*fc));
+   alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
+  
+   
   while(1){
-    float F = 1/(T/TIMER1_TICK_PER_SEC);
+    float F = TIMER1_TICK_PER_SEC/(T);
     char MyString [ 100 ]; // destination string
     int d,f;
     d = (int) F; // Decimal precision: 3 digits

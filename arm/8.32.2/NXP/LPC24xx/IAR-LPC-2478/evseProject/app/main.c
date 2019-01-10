@@ -36,6 +36,7 @@
  *    $Revision: 28 $
  **************************************************************************/
 #include <includes.h>
+#include "redScreen.h"
 
 #define NONPROT 0xFFFFFFFF
 #define CRP1  	0x12345678
@@ -207,7 +208,7 @@ int main(void)
 //Boolean Touch = FALSE;
 
   
-//  GLCD_Ctrl (FALSE);
+  GLCD_Ctrl (FALSE);
   // Init GPIO
   GpioInit();
 #ifndef SDRAM_DEBUG
@@ -223,8 +224,8 @@ int main(void)
   // Init VIC
   VIC_Init();
   // GLCD init
-/*  GLCD_Init (IarLogoPic.pPicStream, NULL);
-
+ GLCD_Init (redScreenPic.pPicStream, NULL);
+/*
   GLCD_Cursor_Dis(0);
 
   GLCD_Copy_Cursor ((Int32U *)Cursor, 0, sizeof(Cursor)/sizeof(Int32U));
@@ -266,18 +267,10 @@ int main(void)
   ADC_Init();
   
   __enable_interrupt();
- /* GLCD_Ctrl (TRUE);
+  GLCD_Ctrl (TRUE);
 
 
-  GLCD_SetFont(&Terminal_18_24_12,0x0000FF,0x000cd4ff);
-  GLCD_SetWindow(95,10,255,33);
-  GLCD_TextSetPos(0,0);
-  GLCD_print("\fIAR Systems");
 
-  GLCD_SetWindow(55,195,268,218);
-  GLCD_TextSetPos(0,0);
-  GLCD_print("\fTouch screen demo");
-*/
   
   //initialize DAC
   PINSEL1_bit.P0_26=2; //sets pin function to AOUT
@@ -285,7 +278,23 @@ int main(void)
   PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
   DACR_bit.VALUE = 0X3FF;
 
+   GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
+   GLCD_SetWindow(95,10,255,33);
+   GLCD_TextSetPos(0,0);
+   GLCD_print("\f Period");
+  
   while(1){
- 
+    float F = 1/(T/TIMER1_TICK_PER_SEC);
+    char MyString [ 100 ]; // destination string
+    int d,f;
+    d = (int) F; // Decimal precision: 3 digits
+    f = (int)(10000*(F-(float)d));
+    sprintf ( MyString, "%d.%d", d, f ); 
+
+
+    GLCD_SetWindow(55,195,268,218);
+    GLCD_TextSetPos(0,0);
+    GLCD_print(MyString);
+
   }
 }

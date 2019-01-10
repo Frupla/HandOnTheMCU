@@ -2381,6 +2381,9 @@
             <name>$PROJ_DIR$\app\main.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\app\redScreen.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\app\Terminal_18_24x12.c</name>
         </file>
         <file>

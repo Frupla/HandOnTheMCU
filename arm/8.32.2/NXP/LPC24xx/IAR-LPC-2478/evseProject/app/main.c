@@ -185,6 +185,7 @@ int main(void)
 //ToushRes_t XY_Touch;
 //Boolean Touch = FALSE;
 
+  
 //  GLCD_Ctrl (FALSE);
   // Init GPIO
   GpioInit();

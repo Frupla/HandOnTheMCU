@@ -73,7 +73,6 @@ Boolean VrefInTheLastCycle = false;
 Boolean tickCrossingZero = false;
 Boolean waitingForCross = true;
 
-
 /*************************************************************************
  * Function Name: lowPass
  * Parameters: x
@@ -88,7 +87,7 @@ Int32U lowPass(Int32U x, Int32U fc){
   
   float alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
   
-  Int32U y   = (Int32U)(alpha*x + (1 - alpha)*y_old);
+  Int32U y = (Int32U)(alpha*x + (1 - alpha)*y_old);
   
   
   y_old = y;
@@ -109,7 +108,7 @@ void TIMER1IntrHandler (void)
 //  DACR_bit.VALUE = 0x03FF;
   timetick++;
   // Toggle USB Link LED
-  if(timetick - t_old > 5000){
+  if(timetick > 5000){
     USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
     tickCrossingZero = true;
     timetick = 0;
@@ -279,22 +278,25 @@ int main(void)
   DACR_bit.VALUE = 0X3FF;
 
    GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
-   GLCD_SetWindow(95,10,255,33);
+   GLCD_SetWindow(95,10,265,33);
    GLCD_TextSetPos(0,0);
-   GLCD_print("\f Period");
+   GLCD_print("Live Frequency");
   
+   
   while(1){
-    float F = 1/(T/TIMER1_TICK_PER_SEC);
-    char MyString [ 100 ]; // destination string
-    int d,f;
-    d = (int) F; // Decimal precision: 3 digits
-    f = (int)(10000*(F-(float)d));
-    sprintf ( MyString, "%d.%d", d, f ); 
-
-
-    GLCD_SetWindow(55,195,268,218);
-    GLCD_TextSetPos(0,0);
-    GLCD_print(MyString);
-
+    if(timetick >= 4999){
+      float F = 1/(T/TIMER1_TICK_PER_SEC);
+      char MyString [ 100 ]; // destination string
+      int d,f1,f2,f3;
+      d = (int) F; // Decimal precision: 3 digits
+      f1 = (int)(10*(F-(float)d));
+      f2 = (int)(100*(F-(float)d)) - 10*f1;
+      f3 = (int)(1000*(F-(float)d)) - 10*f2 - 100*f1;
+      sprintf ( MyString, "Freqency: %d.%d%d%d Hz", d, f1,f2,f3); 
+        
+      GLCD_SetWindow(55,95,319,218);
+      GLCD_TextSetPos(0,0);
+      GLCD_print(MyString);
+    }
   }
 }

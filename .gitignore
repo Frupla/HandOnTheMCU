@@ -7,3 +7,5 @@ arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/LCD_Demo/LCD_Demo.dep
 arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/LCD_Demo/settings/LCD_Demo.dnx
 arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/LCD_Demo/settings/LCD_Demo.wsdt
 arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/evseProject/Flash Debug/Obj/redScreen.pbi.xcl
+arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/evseProject/settings/evseProject.dnx
+*.dnx

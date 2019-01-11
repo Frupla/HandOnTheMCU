@@ -96026,13 +96026,27 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@2228@macro@FIO0MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FIO0MASK",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "FIO0MASK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@lowPass",
     "What": "Function",
     "defdec": "Def",
     "display": "Int32U lowPass(Int32U)",
     "location": {
       "column": "8",
-      "line": "86",
+      "line": "88",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "lowPass",
@@ -96040,13 +96054,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2514@F@lowPass@y",
+    "ID": "c:main.c@2543@F@lowPass@y",
     "What": "Variable",
     "defdec": "Def",
     "display": "y",
     "location": {
       "column": "10",
-      "line": "87",
+      "line": "89",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "y",
@@ -96060,7 +96074,7 @@
     "display": "void TIMER1IntrHandler(void)",
     "location": {
       "column": "6",
-      "line": "101",
+      "line": "103",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "TIMER1IntrHandler",
@@ -96074,7 +96088,7 @@
     "display": "void ADC_Init(void)",
     "location": {
       "column": "6",
-      "line": "166",
+      "line": "168",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "ADC_Init",
@@ -96088,7 +96102,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "198",
+      "line": "200",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "main",
@@ -96096,7 +96110,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@7940@F@main@fc",
+    "ID": "c:main.c@7958@F@main@fc",
     "What": "Variable",
     "defdec": "Def",
     "display": "fc",
@@ -96110,7 +96124,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@7989@F@main@RC",
+    "ID": "c:main.c@8007@F@main@RC",
     "What": "Variable",
     "defdec": "Def",
     "display": "RC",
@@ -96124,13 +96138,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@8157@F@main@F",
+    "ID": "c:main.c@8149@F@main@F",
     "What": "Variable",
     "defdec": "Def",
     "display": "F",
     "location": {
-      "column": "13",
-      "line": "288",
+      "column": "10",
+      "line": "286",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "F",
@@ -96138,13 +96152,27 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@8201@F@main@MyString",
+    "ID": "c:main.c@8171@F@main@test",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "test",
+    "location": {
+      "column": "8",
+      "line": "288",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "test",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@8559@F@main@MyString",
     "What": "Variable",
     "defdec": "Def",
     "display": "MyString",
     "location": {
-      "column": "12",
-      "line": "289",
+      "column": "14",
+      "line": "305",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "MyString",
@@ -96152,13 +96180,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@8253@F@main@d",
+    "ID": "c:main.c@8613@F@main@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
-      "column": "11",
-      "line": "290",
+      "column": "13",
+      "line": "306",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "d",
@@ -96166,13 +96194,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@8253@F@main@f1",
+    "ID": "c:main.c@8613@F@main@f1",
     "What": "Variable",
     "defdec": "Dec",
     "display": "f1",
     "location": {
-      "column": "13",
-      "line": "290",
+      "column": "15",
+      "line": "306",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "f1",
@@ -96180,13 +96208,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@8253@F@main@f2",
+    "ID": "c:main.c@8613@F@main@f2",
     "What": "Variable",
     "defdec": "Dec",
     "display": "f2",
     "location": {
-      "column": "16",
-      "line": "290",
+      "column": "18",
+      "line": "306",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "f2",
@@ -96194,13 +96222,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@8253@F@main@f3",
+    "ID": "c:main.c@8613@F@main@f3",
     "What": "Variable",
     "defdec": "Dec",
     "display": "f3",
     "location": {
-      "column": "19",
-      "line": "290",
+      "column": "21",
+      "line": "306",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "f3",

@@ -73,6 +73,8 @@ float f = 0;
 Boolean VrefInTheLastCycle = false;
 Boolean tickCrossingZero = false;
 Boolean waitingForCross = true;
+#define FIO0MASK 1UL<<19;
+
 
 /*************************************************************************
  * Function Name: lowPass
@@ -100,6 +102,7 @@ Int32U lowPass(Int32U x){
  *************************************************************************/
 void TIMER1IntrHandler (void)
 {
+
 //  DACR_bit.VALUE = 0x03FF;
   timetick++;
   // Toggle USB Link LED
@@ -145,7 +148,6 @@ void TIMER1IntrHandler (void)
   } else if(!waitingForCross && x <= 512){
     waitingForCross = true;
   }
-  
   
   
   // clear interrupt
@@ -262,10 +264,8 @@ int main(void)
   
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
-
-
-
   
+
   //initialize DAC
   PINSEL1_bit.P0_26=2; //sets pin function to AOUT
   DACR_bit.BIAS=1; //set BIAS mode 1
@@ -275,28 +275,52 @@ int main(void)
    GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
    GLCD_SetWindow(95,10,265,33);
    GLCD_TextSetPos(0,0);
-   GLCD_print("Live Frequency");
+   GLCD_print("Live Data");
   
    // Filter calculations
    Int32U fc = 50; //Value of cut off frequency
    float RC = (1/(2*3.1415*fc));
    alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
   
+   FIO0DIR = FIO0MASK;
+   float F = 0;
    
-    while(1){
-    if(timetick >= 4999){
-      float F = 1/(T/TIMER1_TICK_PER_SEC);
-      char MyString [ 100 ]; // destination string
-      int d,f1,f2,f3;
-      d = (int) F; // Decimal precision: 3 digits
-      f1 = (int)(10*(F-(float)d));
-      f2 = (int)(100*(F-(float)d)) - 10*f1;
-      f3 = (int)(1000*(F-(float)d)) - 10*f2 - 100*f1;
-      sprintf ( MyString, "Freqency: %d.%d%d%d Hz", d, f1,f2,f3); 
-        
-      GLCD_SetWindow(55,95,319,218);
-      GLCD_TextSetPos(0,0);
-      GLCD_print(MyString);
-    }
+   int test;
+   while(1){
+     
+     
+     // This is some code we need, but it slow the loop WAY down if we use it :\
+     
+     /*test = 1;//FIO0PIN & FIO0MASK;
+     
+     if(test){
+        GLCD_SetWindow(55,65,255,90);
+        GLCD_TextSetPos(0,0);
+        GLCD_print("ON ");
+     }else{
+        GLCD_SetWindow(55,65,255,90);
+        GLCD_TextSetPos(0,0);
+        GLCD_print("OFF");
+     }*/
+     
+     if(timetick >= 4999){
+        F = TIMER1_TICK_PER_SEC/T;
+        char MyString [ 100 ]; // destination string
+        int d,f1,f2,f3;
+        d = (int) F; // Decimal precision: 3 digits
+        f1 = (int)(10*(F-(float)d));
+        f2 = (int)(100*(F-(float)d)) - 10*f1;
+        f3 = (int)(1000*(F-(float)d)) - 10*f2 - 100*f1;
+        sprintf ( MyString, "Freqency: %d.%d%d%d Hz", d, f1,f2,f3); 
+          
+        GLCD_SetWindow(55,35,255,60);
+        GLCD_TextSetPos(0,0);
+        GLCD_print(MyString);
+      }   
+     if(F < 49.975 || F > 50.025){
+       FIO0PIN &= ~FIO0MASK;
+     }else{
+       FIO0PIN |= FIO0MASK;
+     }
   }
 }

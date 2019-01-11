@@ -89,7 +89,8 @@ Boolean tickCrossingZero = false;
 Boolean waitingForCross2 = true;
 Boolean waitingForCross3 = true;
 Boolean timeToPrint = true;
-
+int yPositionForPrinting = 0;
+int xPositionForPrinting = 0;
 
 /*************************************************************************
  * Function Name: lowPass
@@ -203,8 +204,67 @@ void TIMER1IntrHandler (void)
   T1IR_bit.MR1INT = 1;
   VICADDRESS = 0;
 }
+/*************************************************************************
+ * Function Name: resetCursor
+ * Parameters: none
+ *
+ * Return: none
+ *
+ * Description: moves the global printing cursor to 0,0
+ *
+ *************************************************************************/
+void resetCursor(void){
+  yPositionForPrinting = 0;
+  xPositionForPrinting = 0;
+}
+/*************************************************************************
+ * Function Name: printFloat
+ * Parameters: float
+ *
+ * Return: none
+ *
+ * Description: Prints a float with three decimal precision
+ *
+ *************************************************************************/
+void printStringAndFloat(char* words,float toPrint){
+  if(yPositionForPrinting >= 240){
+    yPositionForPrinting = 0;
+  }
+  char MyString [ 100 ]; // destination string
+  int d,f1,f2,f3;
+  d = (int) toPrint; // Decimal precision: 3 digits
+  f1 = (int)(10*(toPrint-(float)d));
+  f2 = (int)(100*(toPrint-(float)d)) - 10*f1;
+  f3 = (int)(1000*(toPrint-(float)d)) - 10*f2 - 100*f1;
+  sprintf ( MyString, "%s %d.%d%d%dHz", words, d, f1,f2,f3); 
 
-
+  GLCD_SetWindow(xPositionForPrinting,yPositionForPrinting,319,25+yPositionForPrinting);
+  GLCD_TextSetPos(0,0);
+  GLCD_print(MyString);
+  
+  yPositionForPrinting += 30;
+  
+}
+/*************************************************************************
+ * Function Name: printFloat
+ * Parameters: float
+ *
+ * Return: none
+ *
+ * Description: Prints a float with three decimal precision
+ *
+ *************************************************************************/
+void printString(char* words){
+  if(yPositionForPrinting >= 240){
+    yPositionForPrinting = 0;
+  }
+  GLCD_SetWindow(xPositionForPrinting,yPositionForPrinting,319,25+yPositionForPrinting);
+  GLCD_TextSetPos(0,0);
+  GLCD_print(words);
+  
+  yPositionForPrinting += 30;
+  
+}
 /*************************************************************************
  * Function Name: ADC_init
  * Parameters: none
@@ -269,7 +329,7 @@ int main(void)
   // Init VIC
   VIC_Init();
   // GLCD init
- GLCD_Init (redScreenPic.pPicStream, NULL);
+  GLCD_Init (redScreenPic.pPicStream, NULL);
 /*
   GLCD_Cursor_Dis(0);
 
@@ -280,10 +340,10 @@ int main(void)
   GLCD_Move_Cursor(cursor_x, cursor_y);
 
   GLCD_Cursor_En(0);
-
-  // Init touch screen
-  TouchScrInit();
 */
+  // Init touch screen
+  //TouchScrInit();
+
   
   // Init USB Link  LED
   USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
@@ -309,23 +369,21 @@ int main(void)
   VICINTENABLE |= 1UL << VIC_TIMER1;
   T1TCR_bit.CE = 1;     // counting Enable
  
-  ADC_Init();
+//  ADC_Init();
   
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
   
 
   //initialize DAC - commented out as we need the pin for current sampling
-  /*
-  PINSEL1_bit.P0_26=2; //sets pin function to AOUT
+  
+/*  PINSEL1_bit.P0_26=2; //sets pin function to AOUT
   DACR_bit.BIAS=1; //set BIAS mode 1
   PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
   DACR_bit.VALUE = 0X3FF;
-  */
+*/  
    GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
-   GLCD_SetWindow(95,10,265,33);
-   GLCD_TextSetPos(0,0);
-   GLCD_print("Live Data");
+
   
    // Filter calculations
    Int32U fc = 50; //Value of cut off frequency
@@ -340,49 +398,30 @@ int main(void)
    while(1){     
      // This is some code we need, but it slow the loop WAY down if we use it :\
      
+     printString("Live Data:");
+     
      // Here we handle all the printing that goes of twice a second
      if(timeToPrint){
         //FIO0PIN |= P11_MASK;
         //Calculating and printing voltage frequency
         F2 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T2;
-        char MyString [ 100 ]; // destination string
-        int d,f1,f2,f3;
-        d = (int) F2; // Decimal precision: 3 digits
-        f1 = (int)(10*(F2-(float)d));
-        f2 = (int)(100*(F2-(float)d)) - 10*f1;
-        f3 = (int)(1000*(F2-(float)d)) - 10*f2 - 100*f1;
-        sprintf ( MyString, "Frequency: %d.%d%d%dHz", d, f1,f2,f3); 
-          
-        GLCD_SetWindow(55,35,279,60);
-        GLCD_TextSetPos(0,0);
-        GLCD_print(MyString);
         
         //Calculating and printing voltage frequency
         F3 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T3;
-        char MyString3 [ 100 ]; // destination string
-        d = (int) F3; // Decimal precision: 3 digits
-        f1 = (int)(10*(F3-(float)d));
-        f2 = (int)(100*(F3-(float)d)) - 10*f1;
-        f3 = (int)(1000*(F3-(float)d)) - 10*f2 - 100*f1;
-        sprintf ( MyString3, "Frequency: %d.%d%d%dHz", d, f1,f2,f3); 
-          
-        GLCD_SetWindow(55,65,255,90);
-        GLCD_TextSetPos(0,0);
-        GLCD_print(MyString3);
         
         //FIO0PIN &= ~P11_MASK;
         timeToPrint = false;
      }   
      // Here we handle the dynamic printing that goes off all the time
      
+     printStringAndFloat("frequency: ", F2);
+     printStringAndFloat("frequency: ", F3);
+        
+     
      if(FIO0PIN & P19_MASK){
-          GLCD_SetWindow(55,95,255,120);
-          GLCD_TextSetPos(0,0);
-          GLCD_print("Bulb is: ON ");
+       printString("Bulb is: ON ");
      }else{
-          GLCD_SetWindow(55,95,255,120);
-          GLCD_TextSetPos(0,0);
-          GLCD_print("Bulb is: OFF");
+       printString("Bulb is: OFF");
      }
      
      
@@ -391,6 +430,6 @@ int main(void)
      }else{
        FIO0PIN |= P19_MASK;
      }
-     
+    resetCursor();
   }
 }

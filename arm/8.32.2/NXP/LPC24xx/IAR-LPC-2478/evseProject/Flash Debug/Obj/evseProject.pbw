@@ -7846,20 +7846,6 @@
     "scope": null
   },
   {
-    "ID": "c:@Cursor",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Cursor",
-    "location": {
-      "column": "28",
-      "line": "5",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\cursor_arrow.h"
-    },
-    "name": "Cursor",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:DLib_Product.h@75@macro@_DLIB_PRODUCTS_H_",
     "What": "MacroDef",
     "defdec": "Def",
@@ -89807,7 +89793,7 @@
     "location": {
       "column": "9",
       "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "__DRV_TOUCH_SCR_H",
     "origin": "user_include",
@@ -89821,7 +89807,7 @@
     "location": {
       "column": "9",
       "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "TS_INTR_PRIORITY",
     "origin": "user_include",
@@ -89835,7 +89821,7 @@
     "location": {
       "column": "9",
       "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "TS_SETUP_DLY",
     "origin": "user_include",
@@ -89849,7 +89835,7 @@
     "location": {
       "column": "9",
       "line": "24",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "TS_SAMPLE_DLY",
     "origin": "user_include",
@@ -89863,7 +89849,7 @@
     "location": {
       "column": "9",
       "line": "25",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "TS_INIT_DLY",
     "origin": "user_include",
@@ -89877,7 +89863,7 @@
     "location": {
       "column": "9",
       "line": "26",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "TS_SAMPLES",
     "origin": "user_include",
@@ -89891,7 +89877,7 @@
     "location": {
       "column": "9",
       "line": "27",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "IMAGE_WIDTH",
     "origin": "user_include",
@@ -89905,7 +89891,7 @@
     "location": {
       "column": "9",
       "line": "28",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "IMAGE_HEIGHT",
     "origin": "user_include",
@@ -89919,7 +89905,7 @@
     "location": {
       "column": "9",
       "line": "30",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "members": [
       {
@@ -89930,7 +89916,7 @@
         "location": {
           "column": "10",
           "line": "32",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
         },
         "name": "XY",
         "origin": "user_include",
@@ -89944,7 +89930,7 @@
         "location": {
           "column": "3",
           "line": "33",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
         },
         "members": [
           {
@@ -89955,7 +89941,7 @@
             "location": {
               "column": "13",
               "line": "35",
-              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
             },
             "name": "X",
             "origin": "user_include",
@@ -89969,7 +89955,7 @@
             "location": {
               "column": "13",
               "line": "36",
-              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
             },
             "name": "Y",
             "origin": "user_include",
@@ -89988,7 +89974,7 @@
         "location": {
           "column": "3",
           "line": "38",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
         },
         "name": "ToushRes_t",
         "origin": "user_include",
@@ -90007,7 +89993,21 @@
     "location": {
       "column": "6",
       "line": "49",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
+    },
+    "name": "TimerIntr_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TimerIntr_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TimerIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "TimerIntr_Handler",
     "origin": "user_include",
@@ -90021,7 +90021,21 @@
     "location": {
       "column": "6",
       "line": "60",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
+    },
+    "name": "OnTouchIntr_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OnTouchIntr_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void OnTouchIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "60",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "OnTouchIntr_Handler",
     "origin": "user_include",
@@ -90035,7 +90049,21 @@
     "location": {
       "column": "6",
       "line": "71",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
+    },
+    "name": "TouchScrInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchScrInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TouchScrInit(void)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "TouchScrInit",
     "origin": "user_include",
@@ -90049,7 +90077,21 @@
     "location": {
       "column": "9",
       "line": "83",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.h"
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
+    },
+    "name": "TouchGet",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchGet",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean TouchGet(ToushRes_t *)",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
     },
     "name": "TouchGet",
     "origin": "user_include",
@@ -90963,974 +91005,6 @@
     },
     "name": "toupper",
     "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@E@_TouchScrState_t",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "_TouchScrState_t",
-    "fields": [
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_INTR_SETUP_DLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_INTR_SETUP_DLY",
-        "location": {
-          "column": "3",
-          "line": "34",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_INTR_SETUP_DLY",
-        "origin": "project_file",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_WAIT_FOR_TOUCH",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_WAIT_FOR_TOUCH",
-        "location": {
-          "column": "26",
-          "line": "34",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_WAIT_FOR_TOUCH",
-        "origin": "project_file",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_X1_SETUP_DLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_X1_SETUP_DLY",
-        "location": {
-          "column": "3",
-          "line": "35",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_X1_SETUP_DLY",
-        "origin": "project_file",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_X1_MEASURE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_X1_MEASURE",
-        "location": {
-          "column": "20",
-          "line": "35",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_X1_MEASURE",
-        "origin": "project_file",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_X2_SETUP_DLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_X2_SETUP_DLY",
-        "location": {
-          "column": "3",
-          "line": "36",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_X2_SETUP_DLY",
-        "origin": "project_file",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_X2_MEASURE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_X2_MEASURE",
-        "location": {
-          "column": "20",
-          "line": "36",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_X2_MEASURE",
-        "origin": "project_file",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_Y1_SETUP_DLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_Y1_SETUP_DLY",
-        "location": {
-          "column": "3",
-          "line": "37",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_Y1_SETUP_DLY",
-        "origin": "project_file",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_Y1_MEASURE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_Y1_MEASURE",
-        "location": {
-          "column": "20",
-          "line": "37",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_Y1_MEASURE",
-        "origin": "project_file",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_Y2_SETUP_DLY",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_Y2_SETUP_DLY",
-        "location": {
-          "column": "3",
-          "line": "38",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_Y2_SETUP_DLY",
-        "origin": "project_file",
-        "scope": null
-      },
-      {
-        "ID": "c:@E@_TouchScrState_t@TS_Y2_MEASURE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "TS_Y2_MEASURE",
-        "location": {
-          "column": "20",
-          "line": "38",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-        },
-        "name": "TS_Y2_MEASURE",
-        "origin": "project_file",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "14",
-      "line": "32",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "_TouchScrState_t",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@1464@macro@LEFT_UP_X",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LEFT_UP_X",
-    "location": {
-      "column": "9",
-      "line": "41",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "LEFT_UP_X",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@1508@macro@RIGHT_UP_X",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RIGHT_UP_X",
-    "location": {
-      "column": "9",
-      "line": "42",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "RIGHT_UP_X",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@1554@macro@LEFT_UP_Y",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LEFT_UP_Y",
-    "location": {
-      "column": "9",
-      "line": "44",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "LEFT_UP_Y",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@1598@macro@RIGHT_UP_Y",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RIGHT_UP_Y",
-    "location": {
-      "column": "9",
-      "line": "45",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "RIGHT_UP_Y",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@Touch",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Touch",
-    "location": {
-      "column": "25",
-      "line": "48",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "Touch",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@X",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "X",
-    "location": {
-      "column": "25",
-      "line": "49",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "X",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@Y",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Y",
-    "location": {
-      "column": "27",
-      "line": "49",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "Y",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@X_temp",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "X_temp",
-    "location": {
-      "column": "25",
-      "line": "50",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "X_temp",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@Y_temp",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Y_temp",
-    "location": {
-      "column": "32",
-      "line": "50",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "Y_temp",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@Touch_temp",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Touch_temp",
-    "location": {
-      "column": "25",
-      "line": "51",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "Touch_temp",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@State",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "State",
-    "location": {
-      "column": "33",
-      "line": "53",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "State",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@Samples",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Samples",
-    "location": {
-      "column": "24",
-      "line": "54",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "Samples",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TimerIntr_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void TimerIntr_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "65",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "TimerIntr_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@OnTouchIntr_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void OnTouchIntr_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "134",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "OnTouchIntr_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_Intr_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_Intr_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "179",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "ADC_Intr_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@4555@F@ADC_Intr_Handler@Data",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Data",
-    "location": {
-      "column": "8",
-      "line": "181",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "Data",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TouchScrInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void TouchScrInit(void)",
-    "location": {
-      "column": "6",
-      "line": "296",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "TouchScrInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@8482@F@TouchScrInit@Dummy",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Dummy",
-    "location": {
-      "column": "21",
-      "line": "341",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "Dummy",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TouchGet",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "Boolean TouchGet(ToushRes_t *)",
-    "location": {
-      "column": "9",
-      "line": "373",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "TouchGet",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@9768@F@TouchGet@TouchResReadyHold",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "TouchResReadyHold",
-    "location": {
-      "column": "10",
-      "line": "375",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "TouchResReadyHold",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@9805@F@TouchGet@X_coordinate",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "X_coordinate",
-    "location": {
-      "column": "8",
-      "line": "376",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "X_coordinate",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.c@9805@F@TouchGet@Y_coordinate",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Y_coordinate",
-    "location": {
-      "column": "22",
-      "line": "376",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\drv_touch_scr.c"
-    },
-    "name": "Y_coordinate",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@117@macro@_LIMITS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_LIMITS",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "_LIMITS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@554@macro@MB_LEN_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "MB_LEN_MAX",
-    "location": {
-      "column": "11",
-      "line": "25",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "MB_LEN_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@617@macro@CHAR_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CHAR_BIT",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "CHAR_BIT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@664@macro@CHAR_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CHAR_MAX",
-    "location": {
-      "column": "9",
-      "line": "32",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "CHAR_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@708@macro@CHAR_MIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CHAR_MIN",
-    "location": {
-      "column": "9",
-      "line": "33",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "CHAR_MIN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@776@macro@INT_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "INT_MAX",
-    "location": {
-      "column": "9",
-      "line": "36",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "INT_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@826@macro@INT_MIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "INT_MIN",
-    "location": {
-      "column": "9",
-      "line": "37",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "INT_MIN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@876@macro@UINT_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UINT_MAX",
-    "location": {
-      "column": "9",
-      "line": "38",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "UINT_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@960@macro@SCHAR_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SCHAR_MAX",
-    "location": {
-      "column": "9",
-      "line": "41",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "SCHAR_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1011@macro@SCHAR_MIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SCHAR_MIN",
-    "location": {
-      "column": "9",
-      "line": "42",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "SCHAR_MIN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1088@macro@SHRT_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SHRT_MAX",
-    "location": {
-      "column": "9",
-      "line": "45",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "SHRT_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1140@macro@SHRT_MIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SHRT_MIN",
-    "location": {
-      "column": "9",
-      "line": "46",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "SHRT_MIN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1217@macro@LONG_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LONG_MAX",
-    "location": {
-      "column": "9",
-      "line": "49",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "LONG_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1268@macro@LONG_MIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LONG_MIN",
-    "location": {
-      "column": "9",
-      "line": "50",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "LONG_MIN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1348@macro@UCHAR_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UCHAR_MAX",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "UCHAR_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1401@macro@USHRT_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "USHRT_MAX",
-    "location": {
-      "column": "9",
-      "line": "54",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "USHRT_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1455@macro@ULONG_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ULONG_MAX",
-    "location": {
-      "column": "9",
-      "line": "55",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "ULONG_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1561@macro@LLONG_MIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LLONG_MIN",
-    "location": {
-      "column": "11",
-      "line": "59",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "LLONG_MIN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1617@macro@LLONG_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LLONG_MAX",
-    "location": {
-      "column": "11",
-      "line": "60",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "LLONG_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:limits.h@1673@macro@ULLONG_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ULLONG_MAX",
-    "location": {
-      "column": "11",
-      "line": "61",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
-    },
-    "name": "ULLONG_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:includes.h@350@macro@__INCLUDES_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__INCLUDES_H",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\includes.h"
-    },
-    "name": "__INCLUDES_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@96@macro@_STDBOOL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STDBOOL",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "_STDBOOL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@200@macro@bool",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "bool",
-    "location": {
-      "column": "11",
-      "line": "13",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "bool",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@225@macro@true",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "true",
-    "location": {
-      "column": "11",
-      "line": "14",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "true",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@246@macro@false",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "false",
-    "location": {
-      "column": "11",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "false",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__bool_true_false_are_defined",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
-    },
-    "name": "__bool_true_false_are_defined",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:iar_logo.h@529@macro@__IAR_LOGO_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__IAR_LOGO_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\iar_logo.h"
-    },
-    "name": "__IAR_LOGO_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@IarLogoPic",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "IarLogoPic",
-    "location": {
-      "column": "14",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\iar_logo.h"
-    },
-    "name": "IarLogoPic",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@IarLogoPic",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "IarLogoPic",
-    "location": {
-      "column": "14",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\iar_logo.h"
-    },
-    "name": "IarLogoPic",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__SDRAM_64M_32BIT_DRV_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "__SDRAM_64M_32BIT_DRV_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SDRAM_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SDRAM_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Test",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Boolean SDRAM_Test(void)",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Test",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Test",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Boolean SDRAM_Test(void)",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Test",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:iar_logo.c@PicStream",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "PicStream",
-    "location": {
-      "column": "21",
-      "line": "19",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\iar_logo.c"
-    },
-    "name": "PicStream",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@IarLogoPic",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "IarLogoPic",
-    "location": {
-      "column": "7",
-      "line": "9623",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\iar_logo.c"
-    },
-    "name": "IarLogoPic",
-    "origin": "project_file",
     "scope": null
   },
   {
@@ -94034,17 +93108,467 @@
     "scope": null
   },
   {
-    "ID": "c:includes.h@350@macro@__INCLUDES_H",
+    "ID": "c:@E@_TouchScrState_t",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "_TouchScrState_t",
+    "fields": [
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_INTR_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_INTR_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "34",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_INTR_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_WAIT_FOR_TOUCH",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_WAIT_FOR_TOUCH",
+        "location": {
+          "column": "26",
+          "line": "34",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_WAIT_FOR_TOUCH",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_X1_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_X1_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "35",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_X1_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_X1_MEASURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_X1_MEASURE",
+        "location": {
+          "column": "20",
+          "line": "35",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_X1_MEASURE",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_X2_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_X2_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "36",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_X2_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_X2_MEASURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_X2_MEASURE",
+        "location": {
+          "column": "20",
+          "line": "36",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_X2_MEASURE",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_Y1_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_Y1_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "37",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_Y1_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_Y1_MEASURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_Y1_MEASURE",
+        "location": {
+          "column": "20",
+          "line": "37",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_Y1_MEASURE",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_Y2_SETUP_DLY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_Y2_SETUP_DLY",
+        "location": {
+          "column": "3",
+          "line": "38",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_Y2_SETUP_DLY",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@_TouchScrState_t@TS_Y2_MEASURE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TS_Y2_MEASURE",
+        "location": {
+          "column": "20",
+          "line": "38",
+          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+        },
+        "name": "TS_Y2_MEASURE",
+        "origin": "project_file",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "14",
+      "line": "32",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "_TouchScrState_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@1464@macro@LEFT_UP_X",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__INCLUDES_H",
+    "display": "LEFT_UP_X",
     "location": {
       "column": "9",
-      "line": "15",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\includes.h"
+      "line": "41",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
     },
-    "name": "__INCLUDES_H",
-    "origin": "user_include",
+    "name": "LEFT_UP_X",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@1508@macro@RIGHT_UP_X",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RIGHT_UP_X",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "RIGHT_UP_X",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@1554@macro@LEFT_UP_Y",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LEFT_UP_Y",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "LEFT_UP_Y",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@1598@macro@RIGHT_UP_Y",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RIGHT_UP_Y",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "RIGHT_UP_Y",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@Touch",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Touch",
+    "location": {
+      "column": "25",
+      "line": "48",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "Touch",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@X",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "X",
+    "location": {
+      "column": "25",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "X",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@Y",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Y",
+    "location": {
+      "column": "27",
+      "line": "49",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "Y",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@X_temp",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "X_temp",
+    "location": {
+      "column": "25",
+      "line": "50",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "X_temp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@Y_temp",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Y_temp",
+    "location": {
+      "column": "32",
+      "line": "50",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "Y_temp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@Touch_temp",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Touch_temp",
+    "location": {
+      "column": "25",
+      "line": "51",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "Touch_temp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@State",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "State",
+    "location": {
+      "column": "33",
+      "line": "53",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "State",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@Samples",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Samples",
+    "location": {
+      "column": "24",
+      "line": "54",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "Samples",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TimerIntr_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TimerIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "65",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "TimerIntr_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OnTouchIntr_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void OnTouchIntr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "134",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "OnTouchIntr_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_Intr_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_Intr_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "179",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "ADC_Intr_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@4555@F@ADC_Intr_Handler@Data",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Data",
+    "location": {
+      "column": "8",
+      "line": "181",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "Data",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchScrInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TouchScrInit(void)",
+    "location": {
+      "column": "6",
+      "line": "296",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "TouchScrInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@8482@F@TouchScrInit@Dummy",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Dummy",
+    "location": {
+      "column": "21",
+      "line": "341",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "Dummy",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TouchGet",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "Boolean TouchGet(ToushRes_t *)",
+    "location": {
+      "column": "9",
+      "line": "373",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "TouchGet",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@9768@F@TouchGet@TouchResReadyHold",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TouchResReadyHold",
+    "location": {
+      "column": "10",
+      "line": "375",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "TouchResReadyHold",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@9805@F@TouchGet@X_coordinate",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "X_coordinate",
+    "location": {
+      "column": "8",
+      "line": "376",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "X_coordinate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:drv_touch_scr.c@9805@F@TouchGet@Y_coordinate",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Y_coordinate",
+    "location": {
+      "column": "22",
+      "line": "376",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.c"
+    },
+    "name": "Y_coordinate",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -95704,6 +95228,664 @@
     "scope": null
   },
   {
+    "ID": "c:limits.h@117@macro@_LIMITS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_LIMITS",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "_LIMITS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@554@macro@MB_LEN_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MB_LEN_MAX",
+    "location": {
+      "column": "11",
+      "line": "25",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "MB_LEN_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@617@macro@CHAR_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CHAR_BIT",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "CHAR_BIT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@664@macro@CHAR_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CHAR_MAX",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "CHAR_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@708@macro@CHAR_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CHAR_MIN",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "CHAR_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@776@macro@INT_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INT_MAX",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "INT_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@826@macro@INT_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INT_MIN",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "INT_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@876@macro@UINT_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UINT_MAX",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "UINT_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@960@macro@SCHAR_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SCHAR_MAX",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "SCHAR_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1011@macro@SCHAR_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SCHAR_MIN",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "SCHAR_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1088@macro@SHRT_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHRT_MAX",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "SHRT_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1140@macro@SHRT_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SHRT_MIN",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "SHRT_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1217@macro@LONG_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LONG_MAX",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "LONG_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1268@macro@LONG_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LONG_MIN",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "LONG_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1348@macro@UCHAR_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UCHAR_MAX",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "UCHAR_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1401@macro@USHRT_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USHRT_MAX",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "USHRT_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1455@macro@ULONG_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ULONG_MAX",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "ULONG_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1561@macro@LLONG_MIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LLONG_MIN",
+    "location": {
+      "column": "11",
+      "line": "59",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "LLONG_MIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1617@macro@LLONG_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LLONG_MAX",
+    "location": {
+      "column": "11",
+      "line": "60",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "LLONG_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:limits.h@1673@macro@ULLONG_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ULLONG_MAX",
+    "location": {
+      "column": "11",
+      "line": "61",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\limits.h"
+    },
+    "name": "ULLONG_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:includes.h@350@macro@__INCLUDES_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__INCLUDES_H",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\includes.h"
+    },
+    "name": "__INCLUDES_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@96@macro@_STDBOOL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STDBOOL",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "_STDBOOL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@200@macro@bool",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "bool",
+    "location": {
+      "column": "11",
+      "line": "13",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "bool",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@225@macro@true",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "true",
+    "location": {
+      "column": "11",
+      "line": "14",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "true",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@246@macro@false",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "false",
+    "location": {
+      "column": "11",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "false",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdbool.h@275@macro@__bool_true_false_are_defined",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__bool_true_false_are_defined",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\stdbool.h"
+    },
+    "name": "__bool_true_false_are_defined",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:cursor_arrow.h@31@macro@CURSOR_H_SIZE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CURSOR_H_SIZE",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\cursor_arrow.h"
+    },
+    "name": "CURSOR_H_SIZE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:cursor_arrow.h@57@macro@CURSOR_V_SIZE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CURSOR_V_SIZE",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\cursor_arrow.h"
+    },
+    "name": "CURSOR_V_SIZE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Cursor",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Cursor",
+    "location": {
+      "column": "28",
+      "line": "5",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\cursor_arrow.h"
+    },
+    "name": "Cursor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sys.h@523@macro@__SYS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SYS_H",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
+    },
+    "name": "__SYS_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FIQ_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FIQ_Handler(void)",
+    "location": {
+      "column": "18",
+      "line": "32",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
+    },
+    "name": "FIQ_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IRQ_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IRQ_Handler(void)",
+    "location": {
+      "column": "18",
+      "line": "43",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
+    },
+    "name": "IRQ_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@VIC_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void VIC_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "53",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
+    },
+    "name": "VIC_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@VIC_SetVectoredIRQ",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void VIC_SetVectoredIRQ(void (*)(), unsigned int, unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "66",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
+    },
+    "name": "VIC_SetVectoredIRQ",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@InitClock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void InitClock(void)",
+    "location": {
+      "column": "6",
+      "line": "78",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
+    },
+    "name": "InitClock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SYS_GetFsclk",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Int32U SYS_GetFsclk(void)",
+    "location": {
+      "column": "8",
+      "line": "88",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
+    },
+    "name": "SYS_GetFsclk",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SYS_GetFpclk",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Int32U SYS_GetFpclk(Int32U)",
+    "location": {
+      "column": "8",
+      "line": "98",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
+    },
+    "name": "SYS_GetFpclk",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GpioInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GpioInit(void)",
+    "location": {
+      "column": "6",
+      "line": "108",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
+    },
+    "name": "GpioInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:iar_logo.h@529@macro@__IAR_LOGO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__IAR_LOGO_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\iar_logo.h"
+    },
+    "name": "__IAR_LOGO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@IarLogoPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "IarLogoPic",
+    "location": {
+      "column": "14",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\iar_logo.h"
+    },
+    "name": "IarLogoPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SDRAM_64M_32BIT_DRV_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "__SDRAM_64M_32BIT_DRV_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SDRAM_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Test",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean SDRAM_Test(void)",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Test",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:iar_logo.h@529@macro@__IAR_LOGO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__IAR_LOGO_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\iar_logo.h"
+    },
+    "name": "__IAR_LOGO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@IarLogoPic",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "IarLogoPic",
+    "location": {
+      "column": "14",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\iar_logo.h"
+    },
+    "name": "IarLogoPic",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:iar_logo.c@PicStream",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PicStream",
+    "location": {
+      "column": "21",
+      "line": "19",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\iar_logo.c"
+    },
+    "name": "PicStream",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@IarLogoPic",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "IarLogoPic",
+    "location": {
+      "column": "7",
+      "line": "9623",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\app\\iar_logo.c"
+    },
+    "name": "IarLogoPic",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:main.c@1383@macro@NONPROT",
     "What": "MacroDef",
     "defdec": "Def",
@@ -96236,13 +96418,41 @@
     "scope": null
   },
   {
+    "ID": "c:@yPositionForPrinting",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "yPositionForPrinting",
+    "location": {
+      "column": "5",
+      "line": "92",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "yPositionForPrinting",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@xPositionForPrinting",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "xPositionForPrinting",
+    "location": {
+      "column": "5",
+      "line": "93",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "xPositionForPrinting",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@lowPass",
     "What": "Function",
     "defdec": "Def",
     "display": "Int32U lowPass(Int32U, Boolean)",
     "location": {
       "column": "8",
-      "line": "103",
+      "line": "104",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "lowPass",
@@ -96250,13 +96460,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2881@F@lowPass@y",
+    "ID": "c:main.c@2941@F@lowPass@y",
     "What": "Variable",
     "defdec": "Def",
     "display": "y",
     "location": {
       "column": "10",
-      "line": "104",
+      "line": "105",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "y",
@@ -96270,10 +96480,122 @@
     "display": "void TIMER1IntrHandler(void)",
     "location": {
       "column": "6",
-      "line": "123",
+      "line": "124",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "TIMER1IntrHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@resetCursor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void resetCursor(void)",
+    "location": {
+      "column": "6",
+      "line": "216",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "resetCursor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@printStringAndFloat",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void printStringAndFloat(char *, float)",
+    "location": {
+      "column": "6",
+      "line": "229",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "printStringAndFloat",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@6228@F@printStringAndFloat@MyString",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "MyString",
+    "location": {
+      "column": "8",
+      "line": "233",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "MyString",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@6276@F@printStringAndFloat@d",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "d",
+    "location": {
+      "column": "7",
+      "line": "234",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "d",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@6276@F@printStringAndFloat@f1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "f1",
+    "location": {
+      "column": "9",
+      "line": "234",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "f1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@6276@F@printStringAndFloat@f2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "f2",
+    "location": {
+      "column": "12",
+      "line": "234",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "f2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@6276@F@printStringAndFloat@f3",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "f3",
+    "location": {
+      "column": "15",
+      "line": "234",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "f3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@printString",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void printString(char *)",
+    "location": {
+      "column": "6",
+      "line": "257",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "printString",
     "origin": "project_file",
     "scope": null
   },
@@ -96284,7 +96606,7 @@
     "display": "void ADC_Init(void)",
     "location": {
       "column": "6",
-      "line": "217",
+      "line": "277",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "ADC_Init",
@@ -96298,7 +96620,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "249",
+      "line": "309",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "main",
@@ -96306,13 +96628,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9302@F@main@fc",
+    "ID": "c:main.c@11161@F@main@fc",
     "What": "Variable",
     "defdec": "Def",
     "display": "fc",
     "location": {
       "column": "11",
-      "line": "331",
+      "line": "389",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "fc",
@@ -96320,13 +96642,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9351@F@main@RC",
+    "ID": "c:main.c@11210@F@main@RC",
     "What": "Variable",
     "defdec": "Def",
     "display": "RC",
     "location": {
       "column": "10",
-      "line": "332",
+      "line": "390",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "RC",
@@ -96334,13 +96656,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9465@F@main@F2",
+    "ID": "c:main.c@11324@F@main@F2",
     "What": "Variable",
     "defdec": "Def",
     "display": "F2",
     "location": {
       "column": "10",
-      "line": "334",
+      "line": "392",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "F2",
@@ -96348,595 +96670,17 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9483@F@main@F3",
+    "ID": "c:main.c@11342@F@main@F3",
     "What": "Variable",
     "defdec": "Def",
     "display": "F3",
     "location": {
       "column": "10",
-      "line": "335",
+      "line": "393",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "F3",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9926@F@main@MyString",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "MyString",
-    "location": {
-      "column": "14",
-      "line": "348",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "MyString",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9980@F@main@d",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "d",
-    "location": {
-      "column": "13",
-      "line": "349",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "d",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9980@F@main@f1",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "f1",
-    "location": {
-      "column": "15",
-      "line": "349",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "f1",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9980@F@main@f2",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "f2",
-    "location": {
-      "column": "18",
-      "line": "349",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "f2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9980@F@main@f3",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "f3",
-    "location": {
-      "column": "21",
-      "line": "349",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "f3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@10501@F@main@MyString3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "MyString3",
-    "location": {
-      "column": "14",
-      "line": "362",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "MyString3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:sys.h@523@macro@__SYS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__SYS_H",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
-    },
-    "name": "__SYS_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@FIQ_Handler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FIQ_Handler(void)",
-    "location": {
-      "column": "18",
-      "line": "32",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
-    },
-    "name": "FIQ_Handler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IRQ_Handler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IRQ_Handler(void)",
-    "location": {
-      "column": "18",
-      "line": "43",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
-    },
-    "name": "IRQ_Handler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@VIC_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void VIC_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "53",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
-    },
-    "name": "VIC_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@VIC_SetVectoredIRQ",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void VIC_SetVectoredIRQ(void (*)(), unsigned int, unsigned int)",
-    "location": {
-      "column": "6",
-      "line": "66",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
-    },
-    "name": "VIC_SetVectoredIRQ",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@InitClock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void InitClock(void)",
-    "location": {
-      "column": "6",
-      "line": "78",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
-    },
-    "name": "InitClock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SYS_GetFsclk",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Int32U SYS_GetFsclk(void)",
-    "location": {
-      "column": "8",
-      "line": "88",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
-    },
-    "name": "SYS_GetFsclk",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SYS_GetFpclk",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Int32U SYS_GetFpclk(Int32U)",
-    "location": {
-      "column": "8",
-      "line": "98",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
-    },
-    "name": "SYS_GetFpclk",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GpioInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void GpioInit(void)",
-    "location": {
-      "column": "6",
-      "line": "108",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
-    },
-    "name": "GpioInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@546@macro@__DRV_TOUCH_SCR_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DRV_TOUCH_SCR_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "__DRV_TOUCH_SCR_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@575@macro@TS_INTR_PRIORITY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_INTR_PRIORITY",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_INTR_PRIORITY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@604@macro@TS_SETUP_DLY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_SETUP_DLY",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_SETUP_DLY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@647@macro@TS_SAMPLE_DLY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_SAMPLE_DLY",
-    "location": {
-      "column": "9",
-      "line": "24",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_SAMPLE_DLY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@690@macro@TS_INIT_DLY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_INIT_DLY",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_INIT_DLY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@733@macro@TS_SAMPLES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TS_SAMPLES",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "TS_SAMPLES",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@763@macro@IMAGE_WIDTH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IMAGE_WIDTH",
-    "location": {
-      "column": "9",
-      "line": "27",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "IMAGE_WIDTH",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:drv_touch_scr.h@804@macro@IMAGE_HEIGHT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IMAGE_HEIGHT",
-    "location": {
-      "column": "9",
-      "line": "28",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "IMAGE_HEIGHT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@UA@ToushRes_t",
-    "What": "Union",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "members": [
-      {
-        "ID": "c:@UA@ToushRes_t@FI@XY",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "XY",
-        "location": {
-          "column": "10",
-          "line": "32",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-        },
-        "name": "XY",
-        "origin": "user_include",
-        "scope": "_anonymous_drv_touch_scr_h_30_9"
-      },
-      {
-        "ID": "c:@UA@ToushRes_t@Sa",
-        "What": "Struct",
-        "defdec": "Def",
-        "display": "",
-        "location": {
-          "column": "3",
-          "line": "33",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-        },
-        "members": [
-          {
-            "ID": "c:@UA@ToushRes_t@Sa@FI@X",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "X",
-            "location": {
-              "column": "13",
-              "line": "35",
-              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-            },
-            "name": "X",
-            "origin": "user_include",
-            "scope": "_anonymous_drv_touch_scr_h_30_9::_anonymous_drv_touch_scr_h_33_3"
-          },
-          {
-            "ID": "c:@UA@ToushRes_t@Sa@FI@Y",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "Y",
-            "location": {
-              "column": "13",
-              "line": "36",
-              "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-            },
-            "name": "Y",
-            "origin": "user_include",
-            "scope": "_anonymous_drv_touch_scr_h_30_9::_anonymous_drv_touch_scr_h_33_3"
-          }
-        ],
-        "name": "",
-        "origin": "user_include",
-        "scope": "_anonymous_drv_touch_scr_h_30_9"
-      },
-      {
-        "ID": "c:drv_touch_scr.h@T@ToushRes_t",
-        "What": "TypedefDecl",
-        "defdec": "Def",
-        "display": "union ToushRes_t",
-        "location": {
-          "column": "3",
-          "line": "38",
-          "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-        },
-        "name": "ToushRes_t",
-        "origin": "user_include",
-        "scope": "_anonymous_drv_touch_scr_h_30_9"
-      }
-    ],
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TimerIntr_Handler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TimerIntr_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "49",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "TimerIntr_Handler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@OnTouchIntr_Handler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void OnTouchIntr_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "60",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "OnTouchIntr_Handler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TouchScrInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TouchScrInit(void)",
-    "location": {
-      "column": "6",
-      "line": "71",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "TouchScrInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TouchGet",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Boolean TouchGet(ToushRes_t *)",
-    "location": {
-      "column": "9",
-      "line": "83",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\drv_touch_scr.h"
-    },
-    "name": "TouchGet",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:iar_logo.h@529@macro@__IAR_LOGO_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__IAR_LOGO_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\iar_logo.h"
-    },
-    "name": "__IAR_LOGO_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@IarLogoPic",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "IarLogoPic",
-    "location": {
-      "column": "14",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\iar_logo.h"
-    },
-    "name": "IarLogoPic",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:cursor_arrow.h@31@macro@CURSOR_H_SIZE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CURSOR_H_SIZE",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\cursor_arrow.h"
-    },
-    "name": "CURSOR_H_SIZE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:cursor_arrow.h@57@macro@CURSOR_V_SIZE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CURSOR_V_SIZE",
-    "location": {
-      "column": "9",
-      "line": "3",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\cursor_arrow.h"
-    },
-    "name": "CURSOR_V_SIZE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@Cursor",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Cursor",
-    "location": {
-      "column": "28",
-      "line": "5",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\cursor_arrow.h"
-    },
-    "name": "Cursor",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__SDRAM_64M_32BIT_DRV_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "__SDRAM_64M_32BIT_DRV_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SDRAM_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Test",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Boolean SDRAM_Test(void)",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Test",
-    "origin": "user_include",
     "scope": null
   },
   {
@@ -97357,6 +97101,48 @@
     },
     "name": "i",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SDRAM_64M_32BIT_DRV_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "__SDRAM_64M_32BIT_DRV_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SDRAM_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Test",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean SDRAM_Test(void)",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\TouchDemo\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Test",
+    "origin": "user_include",
     "scope": null
   },
   {

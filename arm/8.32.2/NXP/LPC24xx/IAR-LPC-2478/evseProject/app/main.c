@@ -85,12 +85,14 @@ float T2 = 0;
 float T3 = 0;
 //float f = 0;
 Boolean VrefInTheLastCycle = false;
-Boolean tickCrossingZero = false;
+Boolean tickCrossingZero2 = false;
+Boolean tickCrossingZero3 = false;
 Boolean waitingForCross2 = true;
 Boolean waitingForCross3 = true;
 Boolean timeToPrint = true;
 int yPositionForPrinting = 0;
 int xPositionForPrinting = 0;
+
 
 /*************************************************************************
  * Function Name: lowPass
@@ -123,13 +125,14 @@ Int32U lowPass(Int32U x, Boolean channel){
  *************************************************************************/
 void TIMER1IntrHandler (void)
 {
-
+ FIO0PIN |= P11_MASK;
 //  DACR_bit.VALUE = 0x03FF;
   timetick++;
   // Toggle USB Link LED
   if(timetick > 5000){
     USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
-    tickCrossingZero = true;
+    tickCrossingZero2 = true;
+    tickCrossingZero3 = true;
     timeToPrint = true;
     timetick = 0;
   }
@@ -152,7 +155,7 @@ void TIMER1IntrHandler (void)
     VrefInTheLastCycle = true;
     
     if(crossingZero){
-      f = 1/(float)(timetick+5000 - t_old);
+      f = 1 /(float)(timetick+5000 - t_old);
       crossingZero = false;
     }else{
       f = 1/(float)(timetick - t_old);
@@ -166,9 +169,9 @@ void TIMER1IntrHandler (void)
   if (waitingForCross2 && x2 >= 512){
     if (i2 >= N_O_PERIODS){
       crosstick2 = timetick - (float)x2/((float)x2-(float)x2_old);
-      if (tickCrossingZero){
+      if (tickCrossingZero2){
         T2 = crosstick2+5000 - crosstick2_old;
-        tickCrossingZero = false;
+        tickCrossingZero2 = false;
       } else{
         T2 = crosstick2 - crosstick2_old;
       }
@@ -183,53 +186,57 @@ void TIMER1IntrHandler (void)
  
   
   //Channel3, aka current measurements
-  if (waitingForCross3 && x3 >= 512){
+  if (waitingForCross3 && x3 >= 512){ //310
     if (i3 <= N_O_PERIODS) {
       crosstick3 = timetick - (float)x3/((float)x3-(float)x3_old);
-      if (tickCrossingZero){
+      if (tickCrossingZero3){
         T3 = crosstick3+5000 - crosstick3_old;
-        tickCrossingZero = false;
+        tickCrossingZero3 = false;
       } else{
         T3 = crosstick3 - crosstick3_old;
       }
       crosstick3_old = crosstick3;
+      i3=0;
     }
     waitingForCross3 = false;
     i3++;
   } else if(!waitingForCross3 && x3 <= 512){
     waitingForCross3 = true;
   }
-  
+  FIO0PIN &= ~P11_MASK;
   // clear interrupt
   T1IR_bit.MR1INT = 1;
   VICADDRESS = 0;
 }
 /*************************************************************************
- * Function Name: resetCursor
- * Parameters: none
+ * Function Name: printStringAndFloat
+ * Parameters: char*, float
  *
  * Return: none
  *
- * Description: moves the global printing cursor to 0,0
+ * Description: Prints a string, followed by a float with three decimal precision
  *
  *************************************************************************/
-void resetCursor(void){
+void resetCursor()
+{
   yPositionForPrinting = 0;
   xPositionForPrinting = 0;
 }
 /*************************************************************************
- * Function Name: printFloat
- * Parameters: float
+ * Function Name: printStringAndFloat
+ * Parameters: char*, float
  *
  * Return: none
  *
- * Description: Prints a float with three decimal precision
+ * Description: Prints a string, followed by a float with three decimal precision
  *
  *************************************************************************/
-void printStringAndFloat(char* words,float toPrint){
+void printStringAndFloat(char* words, float toPrint)
+{
   if(yPositionForPrinting >= 240){
     yPositionForPrinting = 0;
   }
+ 
   char MyString [ 100 ]; // destination string
   int d,f1,f2,f3;
   d = (int) toPrint; // Decimal precision: 3 digits
@@ -246,14 +253,15 @@ void printStringAndFloat(char* words,float toPrint){
   
 }
 /*************************************************************************
- * Function Name: printFloat
- * Parameters: float
+ * Function Name: printString
+ * Parameters: char*
  *
  * Return: none
  *
- * Description: Prints a float with three decimal precision
+ * Description: Prints a String
  *
  *************************************************************************/
+
 void printString(char* words){
   if(yPositionForPrinting >= 240){
     yPositionForPrinting = 0;
@@ -293,7 +301,7 @@ void ADC_Init (void){
 //  AD0CR_bit.START = 1;
 //  VIC_SetVectoredIRQ (TIMER1IntrHandler,2,VIC_TIMER1);
 //  VICINTENABLE |= 1UL << VIC_TIMER1;
-  AD0CR_bit.SEL = 0x06; // Channel 0, 1, 2 and 3 enabled: 1111, Channel 2 and 3 enabled:0110
+  AD0CR_bit.SEL = 0x0C; // Channel 0, 1, 2 and 3 enabled: 1111, Channel 2 and 3 enabled:1100=12=C
   AD0CR_bit.PDN = 1; //The A/D Converter is operational
 }
 
@@ -329,7 +337,7 @@ int main(void)
   // Init VIC
   VIC_Init();
   // GLCD init
-  GLCD_Init (redScreenPic.pPicStream, NULL);
+ GLCD_Init (redScreenPic.pPicStream, NULL);
 /*
   GLCD_Cursor_Dis(0);
 
@@ -340,10 +348,10 @@ int main(void)
   GLCD_Move_Cursor(cursor_x, cursor_y);
 
   GLCD_Cursor_En(0);
-*/
-  // Init touch screen
-  //TouchScrInit();
 
+  // Init touch screen
+  TouchScrInit();
+*/
   
   // Init USB Link  LED
   USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
@@ -369,21 +377,23 @@ int main(void)
   VICINTENABLE |= 1UL << VIC_TIMER1;
   T1TCR_bit.CE = 1;     // counting Enable
  
-//  ADC_Init();
+  ADC_Init();
   
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
   
 
   //initialize DAC - commented out as we need the pin for current sampling
-  
-/*  PINSEL1_bit.P0_26=2; //sets pin function to AOUT
+  /*
+  PINSEL1_bit.P0_26=2; //sets pin function to AOUT
   DACR_bit.BIAS=1; //set BIAS mode 1
   PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
   DACR_bit.VALUE = 0X3FF;
-*/  
+  */
    GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
-
+   GLCD_SetWindow(95,10,265,33);
+   GLCD_TextSetPos(0,0);
+   GLCD_print("Live Data");
   
    // Filter calculations
    Int32U fc = 50; //Value of cut off frequency
@@ -398,30 +408,27 @@ int main(void)
    while(1){     
      // This is some code we need, but it slow the loop WAY down if we use it :\
      
-     printString("Live Data:");
-     
      // Here we handle all the printing that goes of twice a second
      if(timeToPrint){
-        //FIO0PIN |= P11_MASK;
+        
         //Calculating and printing voltage frequency
         F2 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T2;
-        
         //Calculating and printing voltage frequency
         F3 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T3;
+   
         
-        //FIO0PIN &= ~P11_MASK;
+        
         timeToPrint = false;
      }   
      // Here we handle the dynamic printing that goes off all the time
      
-     printStringAndFloat("frequency: ", F2);
-     printStringAndFloat("frequency: ", F3);
-        
-     
+     printStringAndFloat("Frequency: ", F2);
+     printStringAndFloat("Frequency: ", F3);
+
      if(FIO0PIN & P19_MASK){
-       printString("Bulb is: ON ");
+	    printString("Bulb is: ON ");
      }else{
-       printString("Bulb is: OFF");
+	    printString("Bulb is: OFF");
      }
      
      

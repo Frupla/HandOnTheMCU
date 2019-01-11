@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>2743225218</fileChecksum>
+    <fileChecksum>883265749</fileChecksum>
     <configuration>
         <name>Flash Debug</name>
         <outputs>
@@ -78,6 +78,10 @@
             <file>$PROJ_DIR$\app\redScreen.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\Flash Debug\Obj\iar_logo.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\expanding.pbi</file>
+            <file>$PROJ_DIR$\Flash Debug\Obj\expanding.o</file>
+            <file>$PROJ_DIR$\app\expanding.c</file>
+            <file>$PROJ_DIR$\app\expanding.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
@@ -116,7 +120,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 39 48 21 6 14 23 71 68 43 24 15 45 26 5 8 59 17 22 35 44 62 52 7 32 55 25 20 34 18 16 70</file>
+                    <file> 39 48 21 6 14 23 71 68 43 24 15 45 26 5 8 59 17 22 35 44 62 52 7 32 55 25 20 34 18 16 70 76</file>
                 </tool>
             </inputs>
         </file>
@@ -207,6 +211,12 @@
                     <file> 69</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 39 48 21 6 14 23 71 68 43 24 15 45 26 5 8 59 17 22 35 44 62 52 7 32 55 25 20 34 18</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\app\Terminal_6_8x6.c</name>
@@ -258,7 +268,26 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 11 12 53 40 63 56 64 49 58 67 37 65 50 54 66 61</file>
+                    <file> 11 12 53 40 74 63 56 64 49 58 67 37 65 50 54 66 61</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\expanding.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76 25 7 59 17 6 14 23 71 22</file>
                 </tool>
             </inputs>
         </file>

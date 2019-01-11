@@ -37,6 +37,7 @@
  **************************************************************************/
 #include <includes.h>
 #include "redScreen.h"
+#include "expanding.h"
 
 #define NONPROT 0xFFFFFFFF
 #define CRP1  	0x12345678
@@ -224,7 +225,7 @@ int main(void)
   // Init VIC
   VIC_Init();
   // GLCD init
- GLCD_Init (redScreenPic.pPicStream, NULL);
+ GLCD_Init (expandingPic.pPicStream, NULL);
 /*
   GLCD_Cursor_Dis(0);
 
@@ -276,11 +277,11 @@ int main(void)
   PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
   DACR_bit.VALUE = 0X3FF;
 
-   GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
+/*   GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
    GLCD_SetWindow(95,10,265,33);
    GLCD_TextSetPos(0,0);
    GLCD_print("Live Data");
-  
+  */
    // Filter calculations
    Int32U fc = 50; //Value of cut off frequency
    float RC = (1/(2*3.1415*fc));
@@ -290,12 +291,11 @@ int main(void)
    
    FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
    
-   while(1){     
+   while(1){/*     
      // This is some code we need, but it slow the loop WAY down if we use it :\
      
      // Here we handle all the printing that goes of twice a second
      if(timeToPrint){
-        FIO0PIN |= P11_MASK;
         F = TIMER1_TICK_PER_SEC/T;
         char MyString [ 100 ]; // destination string
         int d,f1,f2,f3;
@@ -308,7 +308,6 @@ int main(void)
         GLCD_SetWindow(55,35,279,60);
         GLCD_TextSetPos(0,0);
         GLCD_print(MyString);
-        FIO0PIN &= ~P11_MASK;
         timeToPrint = false;
      }   
      // Here we handle the dynamic printing that goes off all the time
@@ -328,6 +327,6 @@ int main(void)
      }else{
        FIO0PIN |= P19_MASK;
      }
-     
+     */
   }
 }

@@ -85,7 +85,8 @@ float T2 = 0;
 float T3 = 0;
 //float f = 0;
 Boolean VrefInTheLastCycle = false;
-Boolean tickCrossingZero = false;
+Boolean tickCrossingZero2 = false;
+Boolean tickCrossingZero3 = false;
 Boolean waitingForCross2 = true;
 Boolean waitingForCross3 = true;
 Boolean timeToPrint = true;
@@ -122,13 +123,14 @@ Int32U lowPass(Int32U x, Boolean channel){
  *************************************************************************/
 void TIMER1IntrHandler (void)
 {
-
+ FIO0PIN |= P11_MASK;
 //  DACR_bit.VALUE = 0x03FF;
   timetick++;
   // Toggle USB Link LED
   if(timetick > 5000){
     USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
-    tickCrossingZero = true;
+    tickCrossingZero2 = true;
+    tickCrossingZero3 = true;
     timeToPrint = true;
     timetick = 0;
   }
@@ -151,7 +153,7 @@ void TIMER1IntrHandler (void)
     VrefInTheLastCycle = true;
     
     if(crossingZero){
-      f = 1/(float)(timetick+5000 - t_old);
+      f = 1 /(float)(timetick+5000 - t_old);
       crossingZero = false;
     }else{
       f = 1/(float)(timetick - t_old);
@@ -165,9 +167,9 @@ void TIMER1IntrHandler (void)
   if (waitingForCross2 && x2 >= 512){
     if (i2 >= N_O_PERIODS){
       crosstick2 = timetick - (float)x2/((float)x2-(float)x2_old);
-      if (tickCrossingZero){
+      if (tickCrossingZero2){
         T2 = crosstick2+5000 - crosstick2_old;
-        tickCrossingZero = false;
+        tickCrossingZero2 = false;
       } else{
         T2 = crosstick2 - crosstick2_old;
       }
@@ -182,23 +184,24 @@ void TIMER1IntrHandler (void)
  
   
   //Channel3, aka current measurements
-  if (waitingForCross3 && x3 >= 512){
+  if (waitingForCross3 && x3 >= 512){ //310
     if (i3 <= N_O_PERIODS) {
       crosstick3 = timetick - (float)x3/((float)x3-(float)x3_old);
-      if (tickCrossingZero){
+      if (tickCrossingZero3){
         T3 = crosstick3+5000 - crosstick3_old;
-        tickCrossingZero = false;
+        tickCrossingZero3 = false;
       } else{
         T3 = crosstick3 - crosstick3_old;
       }
       crosstick3_old = crosstick3;
+      i3=0;
     }
     waitingForCross3 = false;
     i3++;
   } else if(!waitingForCross3 && x3 <= 512){
     waitingForCross3 = true;
   }
-  
+  FIO0PIN &= ~P11_MASK;
   // clear interrupt
   T1IR_bit.MR1INT = 1;
   VICADDRESS = 0;
@@ -233,7 +236,7 @@ void ADC_Init (void){
 //  AD0CR_bit.START = 1;
 //  VIC_SetVectoredIRQ (TIMER1IntrHandler,2,VIC_TIMER1);
 //  VICINTENABLE |= 1UL << VIC_TIMER1;
-  AD0CR_bit.SEL = 0x06; // Channel 0, 1, 2 and 3 enabled: 1111, Channel 2 and 3 enabled:0110
+  AD0CR_bit.SEL = 0x0C; // Channel 0, 1, 2 and 3 enabled: 1111, Channel 2 and 3 enabled:1100=12=C
   AD0CR_bit.PDN = 1; //The A/D Converter is operational
 }
 
@@ -342,7 +345,7 @@ int main(void)
      
      // Here we handle all the printing that goes of twice a second
      if(timeToPrint){
-        //FIO0PIN |= P11_MASK;
+        
         //Calculating and printing voltage frequency
         F2 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T2;
         char MyString [ 100 ]; // destination string
@@ -360,17 +363,17 @@ int main(void)
         //Calculating and printing voltage frequency
         F3 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T3;
         char MyString3 [ 100 ]; // destination string
-        d = (int) F2; // Decimal precision: 3 digits
-        f1 = (int)(10*(F2-(float)d));
-        f2 = (int)(100*(F2-(float)d)) - 10*f1;
-        f3 = (int)(1000*(F2-(float)d)) - 10*f2 - 100*f1;
+        d = (int) F3; // Decimal precision: 3 digits
+        f1 = (int)(10*(F3-(float)d));
+        f2 = (int)(100*(F3-(float)d)) - 10*f1;
+        f3 = (int)(1000*(F3-(float)d)) - 10*f2 - 100*f1;
         sprintf ( MyString3, "Frequency: %d.%d%d%dHz", d, f1,f2,f3); 
           
         GLCD_SetWindow(55,65,255,90);
         GLCD_TextSetPos(0,0);
         GLCD_print(MyString3);
         
-        //FIO0PIN &= ~P11_MASK;
+        
         timeToPrint = false;
      }   
      // Here we handle the dynamic printing that goes off all the time

@@ -242,7 +242,7 @@ void printStringAndFloat(char* words,float toPrint){
   GLCD_TextSetPos(0,0);
   GLCD_print(MyString);
   
-  yPositionForPrinting += 30;
+  yPositionForPrinting += 25;
   
 }
 /*************************************************************************
@@ -262,7 +262,7 @@ void printString(char* words){
   GLCD_TextSetPos(0,0);
   GLCD_print(words);
   
-  yPositionForPrinting += 30;
+  yPositionForPrinting += 25;
   
 }
 /*************************************************************************

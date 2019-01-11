@@ -60,6 +60,9 @@ extern FontType_t Terminal_18_24_12;
 
 #define TIMER1_TICK_PER_SEC   10000
 
+#define P19_MASK (1UL<<19)
+#define P11_MASK (1UL<<11)
+
 Int32U timetick = 0;
 Int32U x = 0;
 Int32U y_old = 0;
@@ -73,7 +76,7 @@ float f = 0;
 Boolean VrefInTheLastCycle = false;
 Boolean tickCrossingZero = false;
 Boolean waitingForCross = true;
-#define FIO0MASK 1UL<<19;
+Boolean timeToPrint = true;
 
 
 /*************************************************************************
@@ -109,6 +112,7 @@ void TIMER1IntrHandler (void)
   if(timetick > 5000){
     USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
     tickCrossingZero = true;
+    timeToPrint = true;
     timetick = 0;
   }
   
@@ -281,29 +285,17 @@ int main(void)
    Int32U fc = 50; //Value of cut off frequency
    float RC = (1/(2*3.1415*fc));
    alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
-  
-   FIO0DIR = FIO0MASK;
    float F = 0;
    
-   int test;
-   while(1){
-     
-     
+   
+   FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
+   
+   while(1){     
      // This is some code we need, but it slow the loop WAY down if we use it :\
      
-     /*test = 1;//FIO0PIN & FIO0MASK;
-     
-     if(test){
-        GLCD_SetWindow(55,65,255,90);
-        GLCD_TextSetPos(0,0);
-        GLCD_print("ON ");
-     }else{
-        GLCD_SetWindow(55,65,255,90);
-        GLCD_TextSetPos(0,0);
-        GLCD_print("OFF");
-     }*/
-     
-     if(timetick >= 4999){
+     // Here we handle all the printing that goes of twice a second
+     if(timeToPrint){
+        FIO0PIN |= P11_MASK;
         F = TIMER1_TICK_PER_SEC/T;
         char MyString [ 100 ]; // destination string
         int d,f1,f2,f3;
@@ -311,16 +303,31 @@ int main(void)
         f1 = (int)(10*(F-(float)d));
         f2 = (int)(100*(F-(float)d)) - 10*f1;
         f3 = (int)(1000*(F-(float)d)) - 10*f2 - 100*f1;
-        sprintf ( MyString, "Freqency: %d.%d%d%d Hz", d, f1,f2,f3); 
+        sprintf ( MyString, "Frequency: %d.%d%d%dHz", d, f1,f2,f3); 
           
-        GLCD_SetWindow(55,35,255,60);
+        GLCD_SetWindow(55,35,279,60);
         GLCD_TextSetPos(0,0);
         GLCD_print(MyString);
-      }   
-     if(F < 48|| F > 52){
-       FIO0PIN &= ~FIO0MASK;
+        FIO0PIN &= ~P11_MASK;
+        timeToPrint = false;
+     }   
+     // Here we handle the dynamic printing that goes off all the time
+     if(FIO0PIN & P19_MASK){
+          GLCD_SetWindow(55,65,255,90);
+          GLCD_TextSetPos(0,0);
+          GLCD_print("Bulb is: ON ");
      }else{
-       FIO0PIN |= FIO0MASK;
+          GLCD_SetWindow(55,65,255,90);
+          GLCD_TextSetPos(0,0);
+          GLCD_print("Bulb is: OFF");
      }
+     
+     
+     if(F < 48|| F > 52){
+       FIO0PIN &= ~P19_MASK;
+     }else{
+       FIO0PIN |= P19_MASK;
+     }
+     
   }
 }

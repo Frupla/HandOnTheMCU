@@ -2082,9 +2082,6 @@
             <name>$PROJ_DIR$\app\cursor_arrow.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\app\expanding.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\app\iar_logo.c</name>
         </file>
         <file>

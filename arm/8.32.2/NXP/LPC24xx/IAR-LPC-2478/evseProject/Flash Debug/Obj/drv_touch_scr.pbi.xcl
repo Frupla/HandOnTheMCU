@@ -1,25 +1,25 @@
-"C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\modules\drv_touch_scr.c"
+"C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\modules\drv_touch_scr.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\modules
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\modules
 -I
-C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\app
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\app
 -I
-C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\board
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\board
 -I
-C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\modules
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\modules
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
 -I
-C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\app
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\app
 -I
-C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\board
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\board
 -I
-C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\modules
+C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\modules
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

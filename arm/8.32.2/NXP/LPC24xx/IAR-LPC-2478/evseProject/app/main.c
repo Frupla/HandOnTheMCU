@@ -317,7 +317,7 @@ int main(void)
         GLCD_TextSetPos(0,0);
         GLCD_print(MyString);
       }   
-     if(F < 49.975 || F > 50.025){
+     if(F < 48|| F > 52){
        FIO0PIN &= ~FIO0MASK;
      }else{
        FIO0PIN |= FIO0MASK;

@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.2.178/W32 for ARM                  10/Jan/2019  17:45:38
+# IAR ELF Linker V8.32.2.178/W32 for ARM                  11/Jan/2019  09:02:19
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -12,7 +12,7 @@
 #        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\List\Touch_Demo.map
 #    Command line =  
-#        -f C:\Users\tilfr\AppData\Local\Temp\EW994F.tmp
+#        -f C:\Users\tilfr\AppData\Local\Temp\EWD566.tmp
 #        ("C:\Users\tilfr\Dropbox\DTU\Hands on
 #        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\Obj\cursor_arrow.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
@@ -752,7 +752,7 @@ crosstick_old           0x4000'01b4      0x4  Data  Gb  main.o [1]
 crp                           0x1fc      0x4  Data  Gb  main.o [1]
 exit                       0x5'12c8      0x4  Code  Gb  exit.o [2]
 lowPass                    0x4'fa08     0x5c  Code  Gb  main.o [1]
-main                       0x4'fd3c    0x3f4  Code  Gb  main.o [1]
+main                       0x4'fd3c    0x3fc  Code  Gb  main.o [1]
 out                        0x4'f6c4     0x34  Code  Lc  xprintftiny.o [2]
 pCurrFont               0x4000'016c      0x4  Data  Lc  drv_glcd.o [1]
 pPix                    0x4000'019c      0x4  Data  Lc  drv_glcd.o [1]

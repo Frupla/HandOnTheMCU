@@ -360,10 +360,10 @@ int main(void)
         //Calculating and printing voltage frequency
         F3 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T3;
         char MyString3 [ 100 ]; // destination string
-        d = (int) F2; // Decimal precision: 3 digits
-        f1 = (int)(10*(F2-(float)d));
-        f2 = (int)(100*(F2-(float)d)) - 10*f1;
-        f3 = (int)(1000*(F2-(float)d)) - 10*f2 - 100*f1;
+        d = (int) F3; // Decimal precision: 3 digits
+        f1 = (int)(10*(F3-(float)d));
+        f2 = (int)(100*(F3-(float)d)) - 10*f1;
+        f3 = (int)(1000*(F3-(float)d)) - 10*f2 - 100*f1;
         sprintf ( MyString3, "Frequency: %d.%d%d%dHz", d, f1,f2,f3); 
           
         GLCD_SetWindow(55,65,255,90);
@@ -374,17 +374,17 @@ int main(void)
         timeToPrint = false;
      }   
      // Here we handle the dynamic printing that goes off all the time
-     /*
+     
      if(FIO0PIN & P19_MASK){
-          GLCD_SetWindow(55,65,255,90);
+          GLCD_SetWindow(55,95,255,120);
           GLCD_TextSetPos(0,0);
           GLCD_print("Bulb is: ON ");
      }else{
-          GLCD_SetWindow(55,65,255,90);
+          GLCD_SetWindow(55,95,255,120);
           GLCD_TextSetPos(0,0);
           GLCD_print("Bulb is: OFF");
      }
-     */
+     
      
      if(F2 < 48|| F2 > 52){
        FIO0PIN &= ~P19_MASK;

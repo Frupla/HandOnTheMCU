@@ -143,7 +143,8 @@ void TIMER1IntrHandler (void)
   
   if(ADDR3_bit.DONE){
     x3_old = x3;
-    x3 = lowPass(ADDR3_bit.RESULT,channel3);
+    //x3 = ADDR3_bit.RESULT;
+    x3 = lowPass(ADDR2_bit.RESULT,channel3);
   }
   
 
@@ -182,7 +183,7 @@ void TIMER1IntrHandler (void)
     waitingForCross2 = true;
   }
  
-  
+  /* This was a misunderstandning, don't do this'
   //Channel3, aka current measurements
   if (waitingForCross3 && x3 >= 512){ //310
     if (i3 <= N_O_PERIODS) {
@@ -201,6 +202,7 @@ void TIMER1IntrHandler (void)
   } else if(!waitingForCross3 && x3 <= 512){
     waitingForCross3 = true;
   }
+*/
   FIO0PIN &= ~P11_MASK;
   // clear interrupt
   T1IR_bit.MR1INT = 1;
@@ -335,7 +337,8 @@ int main(void)
    float RC = (1/(2*3.1415*fc));
    alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
    float F2 = 0;
-   float F3 = 0;
+   //float F3 = 0;
+   float current_test = 0;
    
    
    FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
@@ -361,19 +364,17 @@ int main(void)
         GLCD_print(MyString);
         
         //Calculating and printing voltage frequency
-        F3 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T3;
+        current_test = ((float) x3)/((float) 1024);
         char MyString3 [ 100 ]; // destination string
-        d = (int) F3; // Decimal precision: 3 digits
-        f1 = (int)(10*(F3-(float)d));
-        f2 = (int)(100*(F3-(float)d)) - 10*f1;
-        f3 = (int)(1000*(F3-(float)d)) - 10*f2 - 100*f1;
-        sprintf ( MyString3, "Frequency: %d.%d%d%dHz", d, f1,f2,f3); 
-          
+        d = (int) current_test; // Decimal precision: 3 digits
+        f1 = (int)(10*(current_test-(float)d));
+        f2 = (int)(100*(current_test-(float)d)) - 10*f1;
+        f3 = (int)(1000*(current_test-(float)d)) - 10*f2 - 100*f1;
+        sprintf ( MyString3, "Current: %d.%d%d%dA", d, f1,f2,f3); 
         GLCD_SetWindow(55,65,255,90);
         GLCD_TextSetPos(0,0);
         GLCD_print(MyString3);
-        
-        
+       
         timeToPrint = false;
      }   
      // Here we handle the dynamic printing that goes off all the time

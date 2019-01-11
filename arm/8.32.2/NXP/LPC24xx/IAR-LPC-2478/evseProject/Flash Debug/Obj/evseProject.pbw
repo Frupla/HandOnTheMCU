@@ -91934,6 +91934,762 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@1383@macro@NONPROT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NONPROT",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "NONPROT",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1411@macro@CRP1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CRP1",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "CRP1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1438@macro@CRP2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CRP2",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "CRP2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1548@macro@CRP3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CRP3",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "CRP3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@crp",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "crp",
+    "location": {
+      "column": "23",
+      "line": "50",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "crp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1695@macro@LCD_VRAM_BASE_ADDR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LCD_VRAM_BASE_ADDR",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "LCD_VRAM_BASE_ADDR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SDRAM_BASE_ADDR",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SDRAM_BASE_ADDR",
+    "location": {
+      "column": "15",
+      "line": "55",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "SDRAM_BASE_ADDR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Terminal_6_8_6",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Terminal_6_8_6",
+    "location": {
+      "column": "19",
+      "line": "56",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "Terminal_6_8_6",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Terminal_9_12_6",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Terminal_9_12_6",
+    "location": {
+      "column": "19",
+      "line": "57",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "Terminal_9_12_6",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Terminal_18_24_12",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Terminal_18_24_12",
+    "location": {
+      "column": "19",
+      "line": "58",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "Terminal_18_24_12",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1897@macro@TIMER1_TICK_PER_SEC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER1_TICK_PER_SEC",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "TIMER1_TICK_PER_SEC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1936@macro@P19_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "P19_MASK",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "P19_MASK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1964@macro@P11_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "P11_MASK",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "P11_MASK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@timetick",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timetick",
+    "location": {
+      "column": "8",
+      "line": "66",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "timetick",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@x2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x2",
+    "location": {
+      "column": "8",
+      "line": "67",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "x2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@x3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x3",
+    "location": {
+      "column": "8",
+      "line": "68",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "x3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@y2_old",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "y2_old",
+    "location": {
+      "column": "8",
+      "line": "69",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "y2_old",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@y3_old",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "y3_old",
+    "location": {
+      "column": "8",
+      "line": "70",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "y3_old",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@t_old",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "t_old",
+    "location": {
+      "column": "8",
+      "line": "71",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "t_old",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@x2_old",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x2_old",
+    "location": {
+      "column": "8",
+      "line": "72",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "x2_old",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@x3_old",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x3_old",
+    "location": {
+      "column": "8",
+      "line": "73",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "x3_old",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@i2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i2",
+    "location": {
+      "column": "5",
+      "line": "74",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "i2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@i3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i3",
+    "location": {
+      "column": "5",
+      "line": "75",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "i3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2173@macro@N_O_PERIODS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "N_O_PERIODS",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "N_O_PERIODS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2197@macro@channel3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "channel3",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "channel3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2221@macro@channel2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "channel2",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "channel2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@crosstick2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "crosstick2",
+    "location": {
+      "column": "7",
+      "line": "79",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "crosstick2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@crosstick2_old",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "crosstick2_old",
+    "location": {
+      "column": "7",
+      "line": "80",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "crosstick2_old",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@crosstick3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "crosstick3",
+    "location": {
+      "column": "7",
+      "line": "81",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "crosstick3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@crosstick3_old",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "crosstick3_old",
+    "location": {
+      "column": "7",
+      "line": "82",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "crosstick3_old",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@alpha",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "alpha",
+    "location": {
+      "column": "7",
+      "line": "83",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "alpha",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@T2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "T2",
+    "location": {
+      "column": "7",
+      "line": "84",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "T2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@T3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "T3",
+    "location": {
+      "column": "7",
+      "line": "85",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "T3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@VrefInTheLastCycle",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "VrefInTheLastCycle",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "VrefInTheLastCycle",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@tickCrossingZero2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tickCrossingZero2",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "tickCrossingZero2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@tickCrossingZero3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tickCrossingZero3",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "tickCrossingZero3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@waitingForCross2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "waitingForCross2",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "waitingForCross2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@waitingForCross3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "waitingForCross3",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "waitingForCross3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@timeToPrint",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timeToPrint",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "timeToPrint",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@lowPass",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "Int32U lowPass(Int32U, Boolean)",
+    "location": {
+      "column": "8",
+      "line": "104",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "lowPass",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2918@F@lowPass@y",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "y",
+    "location": {
+      "column": "10",
+      "line": "105",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "y",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER1IntrHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIMER1IntrHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "124",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "TIMER1IntrHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "222",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "ADC_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "254",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@9523@F@main@fc",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "fc",
+    "location": {
+      "column": "11",
+      "line": "336",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "fc",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@9572@F@main@RC",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "RC",
+    "location": {
+      "column": "10",
+      "line": "337",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "RC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@9686@F@main@F2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "F2",
+    "location": {
+      "column": "10",
+      "line": "339",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "F2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@9724@F@main@current_test",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "current_test",
+    "location": {
+      "column": "10",
+      "line": "341",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "current_test",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@10155@F@main@MyString",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "MyString",
+    "location": {
+      "column": "14",
+      "line": "354",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "MyString",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@10209@F@main@d",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "d",
+    "location": {
+      "column": "13",
+      "line": "355",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "d",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@10209@F@main@f1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "f1",
+    "location": {
+      "column": "15",
+      "line": "355",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "f1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@10209@F@main@f2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "f2",
+    "location": {
+      "column": "18",
+      "line": "355",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "f2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@10209@F@main@f3",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "f3",
+    "location": {
+      "column": "21",
+      "line": "355",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "f3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@10733@F@main@MyString3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "MyString3",
+    "location": {
+      "column": "14",
+      "line": "368",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "MyString3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:board.h@462@macro@__BOARD_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -94034,20 +94790,6 @@
     "scope": null
   },
   {
-    "ID": "c:includes.h@350@macro@__INCLUDES_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__INCLUDES_H",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\includes.h"
-    },
-    "name": "__INCLUDES_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:arm_comm.h@403@macro@__ARM_COMM_DEF_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -95704,759 +96446,17 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1383@macro@NONPROT",
+    "ID": "c:includes.h@350@macro@__INCLUDES_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "NONPROT",
+    "display": "__INCLUDES_H",
     "location": {
       "column": "9",
-      "line": "41",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+      "line": "15",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\includes.h"
     },
-    "name": "NONPROT",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1411@macro@CRP1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CRP1",
-    "location": {
-      "column": "9",
-      "line": "42",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "CRP1",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1438@macro@CRP2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CRP2",
-    "location": {
-      "column": "9",
-      "line": "43",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "CRP2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1548@macro@CRP3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CRP3",
-    "location": {
-      "column": "9",
-      "line": "45",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "CRP3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@crp",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "crp",
-    "location": {
-      "column": "23",
-      "line": "50",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "crp",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1695@macro@LCD_VRAM_BASE_ADDR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LCD_VRAM_BASE_ADDR",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "LCD_VRAM_BASE_ADDR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@SDRAM_BASE_ADDR",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "SDRAM_BASE_ADDR",
-    "location": {
-      "column": "15",
-      "line": "55",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "SDRAM_BASE_ADDR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@Terminal_6_8_6",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Terminal_6_8_6",
-    "location": {
-      "column": "19",
-      "line": "56",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "Terminal_6_8_6",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@Terminal_9_12_6",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Terminal_9_12_6",
-    "location": {
-      "column": "19",
-      "line": "57",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "Terminal_9_12_6",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@Terminal_18_24_12",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Terminal_18_24_12",
-    "location": {
-      "column": "19",
-      "line": "58",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "Terminal_18_24_12",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1897@macro@TIMER1_TICK_PER_SEC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER1_TICK_PER_SEC",
-    "location": {
-      "column": "9",
-      "line": "61",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "TIMER1_TICK_PER_SEC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1936@macro@P19_MASK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "P19_MASK",
-    "location": {
-      "column": "9",
-      "line": "63",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "P19_MASK",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1964@macro@P11_MASK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "P11_MASK",
-    "location": {
-      "column": "9",
-      "line": "64",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "P11_MASK",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@timetick",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "timetick",
-    "location": {
-      "column": "8",
-      "line": "66",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "timetick",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@x2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "x2",
-    "location": {
-      "column": "8",
-      "line": "67",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "x2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@x3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "x3",
-    "location": {
-      "column": "8",
-      "line": "68",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "x3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@y2_old",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "y2_old",
-    "location": {
-      "column": "8",
-      "line": "69",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "y2_old",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@y3_old",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "y3_old",
-    "location": {
-      "column": "8",
-      "line": "70",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "y3_old",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@t_old",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "t_old",
-    "location": {
-      "column": "8",
-      "line": "71",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "t_old",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@x2_old",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "x2_old",
-    "location": {
-      "column": "8",
-      "line": "72",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "x2_old",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@x3_old",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "x3_old",
-    "location": {
-      "column": "8",
-      "line": "73",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "x3_old",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@i2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i2",
-    "location": {
-      "column": "5",
-      "line": "74",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "i2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@i3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i3",
-    "location": {
-      "column": "5",
-      "line": "75",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "i3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2173@macro@N_O_PERIODS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "N_O_PERIODS",
-    "location": {
-      "column": "9",
-      "line": "76",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "N_O_PERIODS",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2197@macro@channel3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "channel3",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "channel3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2221@macro@channel2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "channel2",
-    "location": {
-      "column": "9",
-      "line": "78",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "channel2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@crosstick2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "crosstick2",
-    "location": {
-      "column": "7",
-      "line": "79",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "crosstick2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@crosstick2_old",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "crosstick2_old",
-    "location": {
-      "column": "7",
-      "line": "80",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "crosstick2_old",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@crosstick3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "crosstick3",
-    "location": {
-      "column": "7",
-      "line": "81",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "crosstick3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@crosstick3_old",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "crosstick3_old",
-    "location": {
-      "column": "7",
-      "line": "82",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "crosstick3_old",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@alpha",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "alpha",
-    "location": {
-      "column": "7",
-      "line": "83",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "alpha",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@T2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "T2",
-    "location": {
-      "column": "7",
-      "line": "84",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "T2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@T3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "T3",
-    "location": {
-      "column": "7",
-      "line": "85",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "T3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@VrefInTheLastCycle",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "VrefInTheLastCycle",
-    "location": {
-      "column": "9",
-      "line": "87",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "VrefInTheLastCycle",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@tickCrossingZero2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "tickCrossingZero2",
-    "location": {
-      "column": "9",
-      "line": "88",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "tickCrossingZero2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@tickCrossingZero3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "tickCrossingZero3",
-    "location": {
-      "column": "9",
-      "line": "89",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "tickCrossingZero3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@waitingForCross2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "waitingForCross2",
-    "location": {
-      "column": "9",
-      "line": "90",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "waitingForCross2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@waitingForCross3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "waitingForCross3",
-    "location": {
-      "column": "9",
-      "line": "91",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "waitingForCross3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@timeToPrint",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "timeToPrint",
-    "location": {
-      "column": "9",
-      "line": "92",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "timeToPrint",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@lowPass",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "Int32U lowPass(Int32U, Boolean)",
-    "location": {
-      "column": "8",
-      "line": "104",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "lowPass",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2918@F@lowPass@y",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "y",
-    "location": {
-      "column": "10",
-      "line": "105",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "y",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIMER1IntrHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void TIMER1IntrHandler(void)",
-    "location": {
-      "column": "6",
-      "line": "124",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "TIMER1IntrHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "220",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "ADC_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int main(void)",
-    "location": {
-      "column": "5",
-      "line": "252",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9442@F@main@fc",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "fc",
-    "location": {
-      "column": "11",
-      "line": "334",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "fc",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9491@F@main@RC",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "RC",
-    "location": {
-      "column": "10",
-      "line": "335",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "RC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9605@F@main@F2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "F2",
-    "location": {
-      "column": "10",
-      "line": "337",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "F2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9623@F@main@F3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "F3",
-    "location": {
-      "column": "10",
-      "line": "338",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "F3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@10044@F@main@MyString",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "MyString",
-    "location": {
-      "column": "14",
-      "line": "351",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "MyString",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@10098@F@main@d",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "d",
-    "location": {
-      "column": "13",
-      "line": "352",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "d",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@10098@F@main@f1",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "f1",
-    "location": {
-      "column": "15",
-      "line": "352",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "f1",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@10098@F@main@f2",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "f2",
-    "location": {
-      "column": "18",
-      "line": "352",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "f2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@10098@F@main@f3",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "f3",
-    "location": {
-      "column": "21",
-      "line": "352",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "f3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@10619@F@main@MyString3",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "MyString3",
-    "location": {
-      "column": "14",
-      "line": "365",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "MyString3",
-    "origin": "project_file",
+    "name": "__INCLUDES_H",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -96582,6 +96582,48 @@
       "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\board\\sys.h"
     },
     "name": "GpioInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SDRAM_64M_32BIT_DRV_H",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "__SDRAM_64M_32BIT_DRV_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SDRAM_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SDRAM_Test",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Boolean SDRAM_Test(void)",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
+    },
+    "name": "SDRAM_Test",
     "origin": "user_include",
     "scope": null
   },
@@ -96842,34 +96884,6 @@
     "scope": null
   },
   {
-    "ID": "c:iar_logo.h@529@macro@__IAR_LOGO_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__IAR_LOGO_H",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\iar_logo.h"
-    },
-    "name": "__IAR_LOGO_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@IarLogoPic",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "IarLogoPic",
-    "location": {
-      "column": "14",
-      "line": "22",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\iar_logo.h"
-    },
-    "name": "IarLogoPic",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:cursor_arrow.h@31@macro@CURSOR_H_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -96912,44 +96926,30 @@
     "scope": null
   },
   {
-    "ID": "c:sdram_64M_32bit_drv.h@552@macro@__SDRAM_64M_32BIT_DRV_H",
+    "ID": "c:iar_logo.h@529@macro@__IAR_LOGO_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__SDRAM_64M_32BIT_DRV_H",
+    "display": "__IAR_LOGO_H",
     "location": {
       "column": "9",
       "line": "20",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\iar_logo.h"
     },
-    "name": "__SDRAM_64M_32BIT_DRV_H",
+    "name": "__IAR_LOGO_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SDRAM_Init",
-    "What": "Function",
+    "ID": "c:@IarLogoPic",
+    "What": "Variable",
     "defdec": "Dec",
-    "display": "void SDRAM_Init(void)",
+    "display": "IarLogoPic",
     "location": {
-      "column": "6",
+      "column": "14",
       "line": "22",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
+      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\iar_logo.h"
     },
-    "name": "SDRAM_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SDRAM_Test",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "Boolean SDRAM_Test(void)",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\s163905\\Documents\\GitHub\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\sdram_64M_32bit_drv.h"
-    },
-    "name": "SDRAM_Test",
+    "name": "IarLogoPic",
     "origin": "user_include",
     "scope": null
   },

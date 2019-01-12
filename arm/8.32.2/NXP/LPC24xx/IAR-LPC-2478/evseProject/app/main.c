@@ -37,7 +37,9 @@
  **************************************************************************/
 #include <includes.h>
 #include "redScreen.h"
-
+#include "blackScreen.h"
+#include "printing.h"
+   
 #define NONPROT 0xFFFFFFFF
 #define CRP1  	0x12345678
 #define CRP2  	0x87654321
@@ -90,8 +92,6 @@ Boolean tickCrossingZero3 = false;
 Boolean waitingForCross2 = true;
 Boolean waitingForCross3 = true;
 Boolean timeToPrint = true;
-int yPositionForPrinting = 0;
-int xPositionForPrinting = 0;
 
 
 /*************************************************************************
@@ -209,71 +209,6 @@ void TIMER1IntrHandler (void)
   VICADDRESS = 0;
 }
 /*************************************************************************
- * Function Name: printStringAndFloat
- * Parameters: char*, float
- *
- * Return: none
- *
- * Description: Prints a string, followed by a float with three decimal precision
- *
- *************************************************************************/
-void resetCursor()
-{
-  yPositionForPrinting = 0;
-  xPositionForPrinting = 0;
-}
-/*************************************************************************
- * Function Name: printStringAndFloat
- * Parameters: char*, float
- *
- * Return: none
- *
- * Description: Prints a string, followed by a float with three decimal precision
- *
- *************************************************************************/
-void printStringAndFloat(char* words, float toPrint)
-{
-  if(yPositionForPrinting >= 240){
-    yPositionForPrinting = 0;
-  }
- 
-  char MyString [ 100 ]; // destination string
-  int d,f1,f2,f3;
-  d = (int) toPrint; // Decimal precision: 3 digits
-  f1 = (int)(10*(toPrint-(float)d));
-  f2 = (int)(100*(toPrint-(float)d)) - 10*f1;
-  f3 = (int)(1000*(toPrint-(float)d)) - 10*f2 - 100*f1;
-  sprintf ( MyString, "%s %d.%d%d%dHz", words, d, f1,f2,f3); 
-
-  GLCD_SetWindow(xPositionForPrinting,yPositionForPrinting,319,25+yPositionForPrinting);
-  GLCD_TextSetPos(0,0);
-  GLCD_print(MyString);
-  
-  yPositionForPrinting += 25;
-  
-}
-/*************************************************************************
- * Function Name: printString
- * Parameters: char*
- *
- * Return: none
- *
- * Description: Prints a String
- *
- *************************************************************************/
-
-void printString(char* words){
-  if(yPositionForPrinting >= 240){
-    yPositionForPrinting = 0;
-  }
-  GLCD_SetWindow(xPositionForPrinting,yPositionForPrinting,319,25+yPositionForPrinting);
-  GLCD_TextSetPos(0,0);
-  GLCD_print(words);
-  
-  yPositionForPrinting += 25;
-  
-}
-/*************************************************************************
  * Function Name: ADC_init
  * Parameters: none
  *
@@ -337,7 +272,7 @@ int main(void)
   // Init VIC
   VIC_Init();
   // GLCD init
- GLCD_Init (redScreenPic.pPicStream, NULL);
+ GLCD_Init (blackScreenPic.pPicStream, NULL);
 /*
   GLCD_Cursor_Dis(0);
 
@@ -391,9 +326,7 @@ int main(void)
   DACR_bit.VALUE = 0X3FF;
   */
    GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
-   GLCD_SetWindow(95,10,265,33);
-   GLCD_TextSetPos(0,0);
-   GLCD_print("Live Data");
+   
   
    // Filter calculations
    Int32U fc = 50; //Value of cut off frequency
@@ -404,9 +337,16 @@ int main(void)
    
    
    FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
-   
+   printString("\fLive data:");
+   int l1 = printString("\fFrequency (V): ");
+   int l2 = printString("\fGarbage: ");
+   int l3 = printString("\fBulb: ");
+     
    while(1){     
      // This is some code we need, but it slow the loop WAY down if we use it :\
+     
+     resetCursor();
+     newLine();
      
      // Here we handle all the printing that goes of twice a second
      if(timeToPrint){
@@ -415,28 +355,32 @@ int main(void)
         F2 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T2;
         //Calculating and printing voltage frequency
         F3 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T3;
-   
+        
+        /*changeX(l1);        
+        printFloat(F2);
+        changeX(l2);
+        printFloat(F3);
+        changeX(l3);
+        if(FIO0PIN & P19_MASK){
+	    printString("\fON");
+        }else{
+	    printString("\fOFF");
+        }*/
+        printInt(l1);
+        printInt(l2);
+        printInt(l3);
         
         
         timeToPrint = false;
      }   
      // Here we handle the dynamic printing that goes off all the time
      
-     printStringAndFloat("Frequency: ", F2);
-     printStringAndFloat("Frequency: ", F3);
 
-     if(FIO0PIN & P19_MASK){
-	    printString("Bulb is: ON ");
-     }else{
-	    printString("Bulb is: OFF");
-     }
-     
-     
+
      if(F2 < 48|| F2 > 52){
        FIO0PIN &= ~P19_MASK;
      }else{
        FIO0PIN |= P19_MASK;
      }
-    resetCursor();
   }
 }

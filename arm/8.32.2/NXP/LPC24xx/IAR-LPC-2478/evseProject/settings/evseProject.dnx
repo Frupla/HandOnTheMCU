@@ -30,7 +30,7 @@
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
     </JLinkDriver>
     <DebugChecksum>
-        <Checksum>2273651863</Checksum>
+        <Checksum>1032895881</Checksum>
     </DebugChecksum>
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
@@ -45,13 +45,18 @@
     <Breakpoints2>
         <Count>0</Count>
     </Breakpoints2>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
     <Aliases>
-        <Count>0</Count>
+        <A0>_ "C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\modules\drv_glcd.c" "C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\modules\drv_glcd.c"</A0>
+        <Count>1</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DriverProfiling>
@@ -67,8 +72,4 @@
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
 </settings>

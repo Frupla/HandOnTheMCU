@@ -2372,6 +2372,9 @@
     <group>
         <name>app</name>
         <file>
+            <name>$PROJ_DIR$\app\blackScreen.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\app\cursor_arrow.c</name>
         </file>
         <file>
@@ -2412,6 +2415,9 @@
         </file>
         <file>
             <name>$PROJ_DIR$\modules\drv_touch_scr.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\printing.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</name>

@@ -145,7 +145,8 @@ void TIMER1IntrHandler (void)
   
   if(ADDR3_bit.DONE){
     x3_old = x3;
-    x3 = lowPass(ADDR3_bit.RESULT,channel3);
+    //x3 = ADDR3_bit.RESULT;
+    x3 = lowPass(ADDR2_bit.RESULT,channel3);
   }
   
 
@@ -184,7 +185,7 @@ void TIMER1IntrHandler (void)
     waitingForCross2 = true;
   }
  
-  
+  /* This was a misunderstandning, don't do this'
   //Channel3, aka current measurements
   if (waitingForCross3 && x3 >= 512){ //310
     if (i3 <= N_O_PERIODS) {
@@ -203,6 +204,7 @@ void TIMER1IntrHandler (void)
   } else if(!waitingForCross3 && x3 <= 512){
     waitingForCross3 = true;
   }
+*/
   FIO0PIN &= ~P11_MASK;
   // clear interrupt
   T1IR_bit.MR1INT = 1;
@@ -334,6 +336,7 @@ int main(void)
    alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
    float F2 = 0;
    float F3 = 0;
+   float current_test = 0;
    
    
    FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
@@ -370,13 +373,9 @@ int main(void)
         printInt(l2);
         printInt(l3);
         
-        
         timeToPrint = false;
      }   
      // Here we handle the dynamic printing that goes off all the time
-     
-
-
      if(F2 < 48|| F2 > 52){
        FIO0PIN &= ~P19_MASK;
      }else{

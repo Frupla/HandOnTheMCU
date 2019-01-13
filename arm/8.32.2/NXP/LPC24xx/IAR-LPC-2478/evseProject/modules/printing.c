@@ -127,12 +127,16 @@ int printString(char* words){
   if(yPositionForPrinting >= 240){
     yPositionForPrinting = 0;
   }
+  int length = 0;
+  while(words[length+1] != '\0'){
+    length++;
+  }
   GLCD_SetWindow(xPositionForPrinting,yPositionForPrinting,319,25+yPositionForPrinting);
   GLCD_TextSetPos(0,0);
   GLCD_print(words);
    
   yPositionForPrinting += 24;
-  return sizeof(words)/sizeof(words[0]);;
+  return length;
 }
 /*************************************************************************
  * Function Name: printInt
@@ -143,7 +147,7 @@ int printString(char* words){
  * Description: Prints an integer 
  *
  *************************************************************************/
-int printInt(int number){
+void printInt(int number){
   if(yPositionForPrinting >= 240){
     yPositionForPrinting = 0;
   }

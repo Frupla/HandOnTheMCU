@@ -11,6 +11,9 @@
  *    1. Date        : 12, August 2008
  *       Author      : Stanimir Bonev
  *       Description : Create
+ *    2. Date        : 7, January 2019
+ *       Author      : Irene Danvy and Frederik Ettrup Larsen
+ *       Description : Modified to complete the course "Hands-on microcrontroller programming"
  *
  *  This example project shows how to use the IAR Embedded Workbench for ARM
  * to develop code for the IAR LPC2478-SK board. It shows basic use of I/O,
@@ -341,9 +344,9 @@ int main(void)
    
    FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
    printString("\fLive data:");
-   int l1 = printString("\fFrequency (V): ");
-   int l2 = printString("\fGarbage: ");
-   int l3 = printString("\fBulb: ");
+   int l1 = printString("\fFrequency (V): \0");
+   int l2 = printString("\fGarbage: \0");
+   int l3 = printString("\fBulb: \0");
      
    while(1){     
      // This is some code we need, but it slow the loop WAY down if we use it :\

@@ -97,6 +97,6 @@ int printString(char*);
  * Description: Prints an integer 
  *
  *************************************************************************/
-int printInt(int);
+void printInt(int);
 
 #endif

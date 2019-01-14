@@ -96,6 +96,10 @@ Boolean waitingForCross2 = true;
 Boolean waitingForCross3 = true;
 Boolean timeToPrint = true;
 
+//Doing current, voltage and power calculations
+Int32U currentSum = 0;
+Int32U lastCompletedCurrentSum = 0;
+
 
 /*************************************************************************
  * Function Name: lowPass
@@ -115,7 +119,8 @@ Int32U lowPass(Int32U x, Boolean channel){
     y   = (Int32U)(alpha*x + (1 - alpha)*y3_old);
     y3_old = y;
   }
-  return y;
+  return (Int32U)(y*1.4)-(0.18*1024); //attempts correcting for approx -3dB attenuation
+                               //more or less maguc numbers can be messed with but pls not too much
 }
 /*************************************************************************
  * Function Name: TIMER1IntrHandler
@@ -143,7 +148,7 @@ void TIMER1IntrHandler (void)
   if(ADDR2_bit.DONE){
     x2_old = x2;
     x2 = lowPass(ADDR2_bit.RESULT,channel2);
-    //DACR_bit.VALUE = x;
+    DACR_bit.VALUE = x2;
   }
   
   if(ADDR3_bit.DONE){
@@ -151,7 +156,6 @@ void TIMER1IntrHandler (void)
     //x3 = ADDR3_bit.RESULT;
     x3 = lowPass(ADDR2_bit.RESULT,channel3);
   }
-  
 
   
   /* 
@@ -169,6 +173,8 @@ void TIMER1IntrHandler (void)
     VrefInTheLastCycle = false;
   }
   */
+  
+  
   // Channel 2, aka voltage measurements
   if (waitingForCross2 && x2 >= 512){
     if (i2 >= N_O_PERIODS){
@@ -233,8 +239,8 @@ void ADC_Init (void){
   PINMODE1_bit.P0_23 = 0x2;
   PINSEL1_bit.P0_25 = 0x1; //AD0[2]
   PINMODE1_bit.P0_25 = 0x2;
-  PINSEL1_bit.P0_26 = 0x1; //AD0[3]
-  PINMODE1_bit.P0_26 = 0x2;
+  //PINSEL1_bit.P0_26 = 0x1; //AD0[3]
+  //PINMODE1_bit.P0_26 = 0x2;
   ADINTEN_bit.ADGINTEN = 0; //When 0, only the individual A/D channels enabled by ADINTEN 7:0 will generate interrupts.
   ADINTEN_bit.ADINTEN0 = 1; //Enable interrupt
   ADINTEN_bit.ADINTEN1 = 1;
@@ -256,7 +262,7 @@ void ADC_Init (void){
  * Description: main
  *
  *************************************************************************/
-int main(void)
+ int main(void)
 {
 Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
 ToushRes_t XY_Touch;
@@ -341,7 +347,7 @@ Boolean Touch = FALSE;
    alpha = (1/(float)TIMER1_TICK_PER_SEC)/(RC+(1/(float)TIMER1_TICK_PER_SEC));
    float F2 = 0;
    float F3 = 0;
-   float current_test = 0;
+   //float current_test = 0;
    
    
    FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output

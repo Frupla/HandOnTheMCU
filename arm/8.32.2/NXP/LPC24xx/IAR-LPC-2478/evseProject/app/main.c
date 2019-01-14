@@ -245,6 +245,8 @@ void ADC_Init (void){
   PCLKSEL0_bit.PCLK_ADC = 0x1; //Enable ADC clock
   AD0CR_bit.CLKDIV = 5; //18MHz/(5+1)= 3MHz<=4.5 MHz?7+1)= 4MHz<=4.5 MHz
   AD0CR_bit.BURST = 1; //0=ADC is set to operate in software controlled mode, 1= continue mode
+  PINSEL1_bit.P0_23 = 0x1; //AD0[0]
+  PINMODE1_bit.P0_23 = 0x2;
   PINSEL1_bit.P0_25 = 0x1; //AD0[2]
   PINMODE1_bit.P0_25 = 0x2;
   //PINSEL1_bit.P0_26 = 0x1; //AD0[3]
@@ -257,7 +259,7 @@ void ADC_Init (void){
 //  AD0CR_bit.START = 1;
 //  VIC_SetVectoredIRQ (TIMER1IntrHandler,2,VIC_TIMER1);
 //  VICINTENABLE |= 1UL << VIC_TIMER1;
-  AD0CR_bit.SEL = 0x0C; // Channel 0, 1, 2 and 3 enabled: 1111, Channel 2 and 3 enabled:1100=12=C
+  AD0CR_bit.SEL = 0x0D; // Channel 0, 2 and 3 enabled: 1101 enabled:1101=13=D
   AD0CR_bit.PDN = 1; //The A/D Converter is operational
 }
 
@@ -272,9 +274,9 @@ void ADC_Init (void){
  *************************************************************************/
  int main(void)
 {
-//Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
-//ToushRes_t XY_Touch;
-//Boolean Touch = FALSE;
+Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
+ToushRes_t XY_Touch;
+Boolean Touch = FALSE;
 
   
   GLCD_Ctrl (FALSE);
@@ -304,10 +306,10 @@ void ADC_Init (void){
   GLCD_Move_Cursor(cursor_x, cursor_y);
 
   GLCD_Cursor_En(0);
-
+*/
   // Init touch screen
   TouchScrInit();
-*/
+
   
   // Init USB Link  LED
   USB_D_LINK_LED_FDIR = USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
@@ -367,8 +369,9 @@ void ADC_Init (void){
    int l2 = printString("\fGarbage: \0");
    int l3 = printString("\fBulb: \0");
      
+   int offset = 12;
+   
    while(1){     
-     // This is some code we need, but it slow the loop WAY down if we use it :\
      
      resetCursor();
      newLine();
@@ -388,23 +391,36 @@ void ADC_Init (void){
         //Calculating and printing voltage frequency
         F3 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T3;
         
-        /*changeX(l1);        
+        changeX(l1*offset);        
         printFloat(F2);
-        changeX(l2);
+        changeX(l2*offset);
         printFloat(F3);
-        changeX(l3);
+        changeX(l3*offset);
         if(FIO0PIN & P19_MASK){
 	    printString("\fON");
         }else{
 	    printString("\fOFF");
-        }*/
-        printInt(l1);
-        printInt(l2);
-        printInt(l3);
-        
+        }        
         timeToPrint = false;
      }   
-     // Here we handle the dynamic printing that goes off all the time
+     
+     if(TouchGet(&XY_Touch))
+    {
+      cursor_x = XY_Touch.X;
+      cursor_y = XY_Touch.Y;
+      GLCD_Move_Cursor(cursor_x, cursor_y);
+      if (FALSE == Touch)
+      {
+        Touch = TRUE;
+        USB_H_LINK_LED_FCLR = USB_H_LINK_LED_MASK;
+      }
+    }
+    else if(Touch)
+    {
+      USB_H_LINK_LED_FSET = USB_H_LINK_LED_MASK;
+      Touch = FALSE;
+    }
+     
      if(F2 < 48|| F2 > 52){
        FIO0PIN &= ~P19_MASK;
      }else{

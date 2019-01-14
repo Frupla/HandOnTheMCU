@@ -69,6 +69,16 @@ void newLine();
  *************************************************************************/
 void resetCursor();
 /*************************************************************************
+ * Function Name: printFloatAndUnit
+ * Parameters: float, char*
+ *
+ * Return: none
+ *
+ * Description: Prints a float with three decimal precision followed by a string
+ *
+ *************************************************************************/
+void printFloatAndUnit(float, char*);
+/*************************************************************************
  * Function Name: printFloat
  * Parameters: float
  *

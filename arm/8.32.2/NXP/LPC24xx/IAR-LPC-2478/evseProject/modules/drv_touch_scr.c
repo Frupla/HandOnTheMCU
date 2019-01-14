@@ -64,8 +64,8 @@ static volatile Int32U Samples;
  *************************************************************************/
 void TimerIntr_Handler (void)
 {
-  T3IR_bit.MR3INT = 1;  // clear pending interrupt
-  T3TCR_bit.CR = 1;
+  T0IR_bit.MR0INT = 1;  // clear pending interrupt
+  T0TCR_bit.CR = 1;
   switch(State)
   {
   case TS_X1_SETUP_DLY:
@@ -105,14 +105,14 @@ void TimerIntr_Handler (void)
       // Init setup delay
       if(Touch)
       {
-        T3MR3 = TS_SETUP_DLY;
+        T0MR0 = TS_SETUP_DLY;
       }
       else
       {
-        T3MR3 = TS_INIT_DLY;
+        T0MR0 = TS_INIT_DLY;
       }
       State = TS_X1_SETUP_DLY;
-      T3TCR = 1;
+      T0TCR = 1;
     }
     break;
   default:
@@ -150,14 +150,14 @@ void OnTouchIntr_Handler (void)
     // Init setup delay
     if(Touch)
     {
-      T3MR3 = TS_SETUP_DLY;
+      T0MR0 = TS_SETUP_DLY;
     }
     else
     {
-      T3MR3 = TS_INIT_DLY;
+      T0MR0 = TS_INIT_DLY;
     }
     State = TS_X1_SETUP_DLY;
-    T3TCR = 1;
+    T0TCR = 1;
   }
   else
   {
@@ -193,8 +193,8 @@ Int32U Data;
       TS_Y2_FCLR = TS_Y2_MASK;
       TS_Y1_FSET = TS_Y1_MASK;
       // Init setup delay
-      T3MR3 = TS_SETUP_DLY;
-      T3TCR = 1;
+      T0MR0 = TS_SETUP_DLY;
+      T0TCR = 1;
     }
     else
     {
@@ -222,8 +222,8 @@ Int32U Data;
       AD0CR_bit.SEL  = 1UL<<0;    // select Ch0
 
       // Init setup delay
-      T3MR3 = TS_SETUP_DLY;
-      T3TCR = 1;
+      T0MR0 = TS_SETUP_DLY;
+      T0TCR = 1;
     }
     else
     {
@@ -240,8 +240,8 @@ Int32U Data;
       TS_X2_FCLR = TS_X2_MASK;
       TS_X1_FSET = TS_X1_MASK;
       // Init setup delay
-      T3MR3 = TS_SETUP_DLY;
-      T3TCR = 1;
+      T0MR0 = TS_SETUP_DLY;
+      T0TCR = 1;
     }
     else
     {
@@ -269,8 +269,8 @@ Int32U Data;
       AD0CR_bit.SEL  = 1UL<<1;    // select Ch1
 
       // Init setup delay
-      T3MR3 = TS_SAMPLE_DLY;
-      T3TCR = 1;
+      T0MR0 = TS_SAMPLE_DLY;
+      T0TCR = 1;
       Touch_temp = TRUE;
     }
     else
@@ -346,18 +346,18 @@ void TouchScrInit (void)
   VICINTENABLE |= 1UL << VIC_AD0;
 
   // Init delay timer
-  PCONP_bit.PCTIM3 = 1; // Enable TIM0 clocks
-  T3TCR = 2;            // stop and reset timer 0
-  T3CTCR_bit.CTM = 0;   // Timer Mode: every rising PCLK edge
-  T3MCR_bit.MR3S = 1;   // stop timer if MR0 matches the TC
-  T3MCR_bit.MR3R = 1;   // enable timer reset if MR0 matches the TC
-  T3MCR_bit.MR3I = 1;   // Enable Interrupt on MR0
-  T3PR = (SYS_GetFpclk(TIMER3_PCLK_OFFSET)/ 1000000) - 1; // 1us resolution
-  T3MR3 = TS_SETUP_DLY;
-  T3IR_bit.MR3INT = 1;  // clear pending interrupt
-  VIC_SetVectoredIRQ(TimerIntr_Handler,TS_INTR_PRIORITY,VIC_TIMER3);
-  VICINTENABLE |= 1UL << VIC_TIMER3;
-  T3TCR = 1;            // start timer 0
+  PCONP_bit.PCTIM0 = 1; // Enable TIM0 clocks
+  T0TCR = 2;            // stop and reset timer 0
+  T0CTCR_bit.CTM = 0;   // Timer Mode: every rising PCLK edge
+  T0MCR_bit.MR0S = 1;   // stop timer if MR0 matches the TC
+  T0MCR_bit.MR0R = 1;   // enable timer reset if MR0 matches the TC
+  T0MCR_bit.MR0I = 1;   // Enable Interrupt on MR0
+  T0PR = (SYS_GetFpclk(TIMER0_PCLK_OFFSET)/ 1000000) - 1; // 1us resolution
+  T0MR0 = TS_SETUP_DLY;
+  T0IR_bit.MR0INT = 1;  // clear pending interrupt
+  VIC_SetVectoredIRQ(TimerIntr_Handler,TS_INTR_PRIORITY,VIC_TIMER0);
+  VICINTENABLE |= 1UL << VIC_TIMER0;
+  T0TCR = 1;            // start timer 0
 }
 
 /*************************************************************************

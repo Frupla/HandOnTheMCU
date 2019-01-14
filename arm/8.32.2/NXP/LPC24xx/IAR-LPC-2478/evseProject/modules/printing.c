@@ -85,6 +85,36 @@ void resetCursor()
   xPositionForPrinting = 0;
 }
 /*************************************************************************
+ * Function Name: printFloatAndUnit
+ * Parameters: float, char*
+ *
+ * Return: none
+ *
+ * Description: Prints a float with three decimal precision followed by a string
+ *
+ *************************************************************************/
+void printFloatAndUnit(float toPrint, char* unit)
+{
+  if(yPositionForPrinting >= 240){
+    yPositionForPrinting = 0;
+  }
+ 
+  char MyString [ 100 ]; // destination string
+  int d,f1,f2,f3;
+  d = (int) toPrint; // Decimal precision: 3 digits
+  f1 = (int)(10*(toPrint-(float)d));
+  f2 = (int)(100*(toPrint-(float)d)) - 10*f1;
+  f3 = (int)(1000*(toPrint-(float)d)) - 10*f2 - 100*f1;
+  sprintf ( MyString, "\f%d.%d%d%d%s", d, f1,f2,f3,unit); 
+
+  GLCD_SetWindow(xPositionForPrinting,yPositionForPrinting,319,25+yPositionForPrinting);
+  GLCD_TextSetPos(0,0);
+  GLCD_print(MyString);
+  
+  yPositionForPrinting += 24;
+  
+}
+/*************************************************************************
  * Function Name: printFloat
  * Parameters: float
  *
@@ -105,7 +135,7 @@ void printFloat(float toPrint)
   f1 = (int)(10*(toPrint-(float)d));
   f2 = (int)(100*(toPrint-(float)d)) - 10*f1;
   f3 = (int)(1000*(toPrint-(float)d)) - 10*f2 - 100*f1;
-  sprintf ( MyString, "\f%d.%d%d%dHz", d, f1,f2,f3); 
+  sprintf ( MyString, "\f%d.%d%d%d", d, f1,f2,f3); 
 
   GLCD_SetWindow(xPositionForPrinting,yPositionForPrinting,319,25+yPositionForPrinting);
   GLCD_TextSetPos(0,0);

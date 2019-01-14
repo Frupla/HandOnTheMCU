@@ -96502,13 +96502,41 @@
     "scope": null
   },
   {
+    "ID": "c:@currentSum",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "currentSum",
+    "location": {
+      "column": "8",
+      "line": "100",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "currentSum",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@lastCompletedCurrentSum",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "lastCompletedCurrentSum",
+    "location": {
+      "column": "8",
+      "line": "101",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
+    },
+    "name": "lastCompletedCurrentSum",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@lowPass",
     "What": "Function",
     "defdec": "Def",
     "display": "Int32U lowPass(Int32U, Boolean)",
     "location": {
       "column": "8",
-      "line": "109",
+      "line": "113",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "lowPass",
@@ -96516,13 +96544,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3169@F@lowPass@y",
+    "ID": "c:main.c@3281@F@lowPass@y",
     "What": "Variable",
     "defdec": "Def",
     "display": "y",
     "location": {
       "column": "10",
-      "line": "110",
+      "line": "114",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "y",
@@ -96536,7 +96564,7 @@
     "display": "void TIMER1IntrHandler(void)",
     "location": {
       "column": "6",
-      "line": "129",
+      "line": "134",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "TIMER1IntrHandler",
@@ -96550,7 +96578,7 @@
     "display": "void ADC_Init(void)",
     "location": {
       "column": "6",
-      "line": "225",
+      "line": "231",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "ADC_Init",
@@ -96563,8 +96591,8 @@
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
-      "column": "5",
-      "line": "259",
+      "column": "6",
+      "line": "265",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "main",
@@ -96572,69 +96600,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@7554@F@main@cursor_x",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "cursor_x",
-    "location": {
-      "column": "8",
-      "line": "261",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "cursor_x",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@7554@F@main@cursor_y",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "cursor_y",
-    "location": {
-      "column": "54",
-      "line": "261",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "cursor_y",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@7654@F@main@XY_Touch",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "XY_Touch",
-    "location": {
-      "column": "12",
-      "line": "262",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "XY_Touch",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@7676@F@main@Touch",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "Touch",
-    "location": {
-      "column": "9",
-      "line": "263",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "Touch",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@9728@F@main@fc",
+    "ID": "c:main.c@10039@F@main@fc",
     "What": "Variable",
     "defdec": "Def",
     "display": "fc",
     "location": {
       "column": "11",
-      "line": "339",
+      "line": "345",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "fc",
@@ -96642,13 +96614,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9777@F@main@RC",
+    "ID": "c:main.c@10088@F@main@RC",
     "What": "Variable",
     "defdec": "Def",
     "display": "RC",
     "location": {
       "column": "10",
-      "line": "340",
+      "line": "346",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "RC",
@@ -96656,13 +96628,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9891@F@main@F2",
+    "ID": "c:main.c@10202@F@main@F2",
     "What": "Variable",
     "defdec": "Def",
     "display": "F2",
     "location": {
       "column": "10",
-      "line": "342",
+      "line": "348",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "F2",
@@ -96670,13 +96642,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9909@F@main@F3",
+    "ID": "c:main.c@10220@F@main@F3",
     "What": "Variable",
     "defdec": "Def",
     "display": "F3",
     "location": {
       "column": "10",
-      "line": "343",
+      "line": "349",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "F3",
@@ -96684,27 +96656,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9927@F@main@current_test",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "current_test",
-    "location": {
-      "column": "10",
-      "line": "344",
-      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
-    },
-    "name": "current_test",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@10067@F@main@l1",
+    "ID": "c:main.c@10380@F@main@l1",
     "What": "Variable",
     "defdec": "Def",
     "display": "l1",
     "location": {
       "column": "8",
-      "line": "349",
+      "line": "355",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "l1",
@@ -96712,13 +96670,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@10116@F@main@l2",
+    "ID": "c:main.c@10429@F@main@l2",
     "What": "Variable",
     "defdec": "Def",
     "display": "l2",
     "location": {
       "column": "8",
-      "line": "350",
+      "line": "356",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "l2",
@@ -96726,13 +96684,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@10159@F@main@l3",
+    "ID": "c:main.c@10472@F@main@l3",
     "What": "Variable",
     "defdec": "Def",
     "display": "l3",
     "location": {
       "column": "8",
-      "line": "351",
+      "line": "357",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "l3",
@@ -96740,13 +96698,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@10206@F@main@offset",
+    "ID": "c:main.c@10519@F@main@offset",
     "What": "Variable",
     "defdec": "Def",
     "display": "offset",
     "location": {
       "column": "8",
-      "line": "353",
+      "line": "359",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\app\\main.c"
     },
     "name": "offset",
@@ -97034,13 +96992,41 @@
     "scope": null
   },
   {
+    "ID": "c:@F@printFloatAndUnit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void printFloatAndUnit(float, char *)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.h"
+    },
+    "name": "printFloatAndUnit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@printFloatAndUnit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void printFloatAndUnit(float, char *)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.h"
+    },
+    "name": "printFloatAndUnit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@printFloat",
     "What": "Function",
     "defdec": "Dec",
     "display": "void printFloat(float)",
     "location": {
       "column": "6",
-      "line": "80",
+      "line": "90",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.h"
     },
     "name": "printFloat",
@@ -97054,7 +97040,7 @@
     "display": "void printFloat(float)",
     "location": {
       "column": "6",
-      "line": "80",
+      "line": "90",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.h"
     },
     "name": "printFloat",
@@ -97068,7 +97054,7 @@
     "display": "int printString(char *)",
     "location": {
       "column": "5",
-      "line": "90",
+      "line": "100",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.h"
     },
     "name": "printString",
@@ -97082,7 +97068,7 @@
     "display": "int printString(char *)",
     "location": {
       "column": "5",
-      "line": "90",
+      "line": "100",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.h"
     },
     "name": "printString",
@@ -97096,7 +97082,7 @@
     "display": "void printInt(int)",
     "location": {
       "column": "6",
-      "line": "100",
+      "line": "110",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.h"
     },
     "name": "printInt",
@@ -97110,7 +97096,7 @@
     "display": "void printInt(int)",
     "location": {
       "column": "6",
-      "line": "100",
+      "line": "110",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.h"
     },
     "name": "printInt",
@@ -97230,21 +97216,21 @@
     "scope": null
   },
   {
-    "ID": "c:@F@printFloat",
+    "ID": "c:@F@printFloatAndUnit",
     "What": "Function",
     "defdec": "Def",
-    "display": "void printFloat(float)",
+    "display": "void printFloatAndUnit(float, char *)",
     "location": {
       "column": "6",
       "line": "96",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
     },
-    "name": "printFloat",
+    "name": "printFloatAndUnit",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:printing.c@2452@F@printFloat@MyString",
+    "ID": "c:printing.c@2506@F@printFloatAndUnit@MyString",
     "What": "Variable",
     "defdec": "Def",
     "display": "MyString",
@@ -97258,7 +97244,7 @@
     "scope": null
   },
   {
-    "ID": "c:printing.c@2500@F@printFloat@d",
+    "ID": "c:printing.c@2554@F@printFloatAndUnit@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
@@ -97272,7 +97258,7 @@
     "scope": null
   },
   {
-    "ID": "c:printing.c@2500@F@printFloat@f1",
+    "ID": "c:printing.c@2554@F@printFloatAndUnit@f1",
     "What": "Variable",
     "defdec": "Dec",
     "display": "f1",
@@ -97286,7 +97272,7 @@
     "scope": null
   },
   {
-    "ID": "c:printing.c@2500@F@printFloat@f2",
+    "ID": "c:printing.c@2554@F@printFloatAndUnit@f2",
     "What": "Variable",
     "defdec": "Dec",
     "display": "f2",
@@ -97300,7 +97286,7 @@
     "scope": null
   },
   {
-    "ID": "c:printing.c@2500@F@printFloat@f3",
+    "ID": "c:printing.c@2554@F@printFloatAndUnit@f3",
     "What": "Variable",
     "defdec": "Dec",
     "display": "f3",
@@ -97314,13 +97300,97 @@
     "scope": null
   },
   {
+    "ID": "c:@F@printFloat",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void printFloat(float)",
+    "location": {
+      "column": "6",
+      "line": "126",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
+    },
+    "name": "printFloat",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:printing.c@3417@F@printFloat@MyString",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "MyString",
+    "location": {
+      "column": "8",
+      "line": "132",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
+    },
+    "name": "MyString",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:printing.c@3465@F@printFloat@d",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "d",
+    "location": {
+      "column": "7",
+      "line": "133",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
+    },
+    "name": "d",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:printing.c@3465@F@printFloat@f1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "f1",
+    "location": {
+      "column": "9",
+      "line": "133",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
+    },
+    "name": "f1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:printing.c@3465@F@printFloat@f2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "f2",
+    "location": {
+      "column": "12",
+      "line": "133",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
+    },
+    "name": "f2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:printing.c@3465@F@printFloat@f3",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "f3",
+    "location": {
+      "column": "15",
+      "line": "133",
+      "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
+    },
+    "name": "f3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@printString",
     "What": "Function",
     "defdec": "Def",
     "display": "int printString(char *)",
     "location": {
       "column": "5",
-      "line": "126",
+      "line": "156",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
     },
     "name": "printString",
@@ -97328,13 +97398,13 @@
     "scope": null
   },
   {
-    "ID": "c:printing.c@3385@F@printString@length",
+    "ID": "c:printing.c@4348@F@printString@length",
     "What": "Variable",
     "defdec": "Def",
     "display": "length",
     "location": {
       "column": "7",
-      "line": "130",
+      "line": "160",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
     },
     "name": "length",
@@ -97348,7 +97418,7 @@
     "display": "void printInt(int)",
     "location": {
       "column": "6",
-      "line": "150",
+      "line": "180",
       "path": "C:\\Users\\tilfr\\Dropbox\\DTU\\Hands on mcu\\HandOnTheMCU\\arm\\8.32.2\\NXP\\LPC24xx\\IAR-LPC-2478\\evseProject\\modules\\printing.c"
     },
     "name": "printInt",

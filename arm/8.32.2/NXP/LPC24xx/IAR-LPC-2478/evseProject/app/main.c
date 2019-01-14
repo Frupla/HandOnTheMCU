@@ -235,8 +235,8 @@ void ADC_Init (void){
   PCLKSEL0_bit.PCLK_ADC = 0x1; //Enable ADC clock
   AD0CR_bit.CLKDIV = 5; //18MHz/(5+1)= 3MHz<=4.5 MHz?7+1)= 4MHz<=4.5 MHz
   AD0CR_bit.BURST = 1; //0=ADC is set to operate in software controlled mode, 1= continue mode
-  PINSEL1_bit.P0_23 = 0x1; //AD0[0]
-  PINMODE1_bit.P0_23 = 0x2;
+ // PINSEL1_bit.P0_23 = 0x1; //AD0[0]
+  //PINMODE1_bit.P0_23 = 0x2;
   PINSEL1_bit.P0_25 = 0x1; //AD0[2]
   PINMODE1_bit.P0_25 = 0x2;
   //PINSEL1_bit.P0_26 = 0x1; //AD0[3]
@@ -264,9 +264,9 @@ void ADC_Init (void){
  *************************************************************************/
  int main(void)
 {
-Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
-ToushRes_t XY_Touch;
-Boolean Touch = FALSE;
+//Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
+//ToushRes_t XY_Touch;
+//Boolean Touch = FALSE;
 
   
   GLCD_Ctrl (FALSE);
@@ -298,7 +298,7 @@ Boolean Touch = FALSE;
   GLCD_Cursor_En(0);
 */
   // Init touch screen
-  TouchScrInit();
+  //  TouchScrInit();
 
   
   // Init USB Link  LED
@@ -372,7 +372,7 @@ Boolean Touch = FALSE;
         F3 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T3;
         
         changeX(l1*offset);        
-        printFloat(F2);
+        printFloatAndUnit(F2,"Hz");
         changeX(l2*offset);
         printFloat(F3);
         changeX(l3*offset);
@@ -384,7 +384,7 @@ Boolean Touch = FALSE;
         timeToPrint = false;
      }   
      
-     if(TouchGet(&XY_Touch))
+ /*    if(TouchGet(&XY_Touch))
     {
       cursor_x = XY_Touch.X;
       cursor_y = XY_Touch.Y;
@@ -405,6 +405,6 @@ Boolean Touch = FALSE;
        FIO0PIN &= ~P19_MASK;
      }else{
        FIO0PIN |= P19_MASK;
-     }
+     }*/
   }
 }

@@ -86,6 +86,8 @@
             <file>$PROJ_DIR$\Flash Debug\Obj\blackScreen.pbi</file>
             <file>$PROJ_DIR$\modules\printing.h</file>
             <file>$PROJ_DIR$\app\blackScreen.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
@@ -139,19 +141,15 @@
                     <name>BICOMP</name>
                     <file> 20</file>
                 </tool>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 32</file>
-                </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 73 70 24 35 14 26 71 80 51 39 45 43 58 0 34 25 30 54 79 66 13 52 65 38 76 56 59 28 55 33 6 49 5</file>
+                    <file> 43 58 0 39 24 82 51 45 34 25 80 73 14 70 26 71 65 66 54 79 13 52 30 38 76 56 59 28 55 33 6 49 5 35 81</file>
                 </tool>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 35 66 0 24 58 55 33 28 73 6 13 51 71 52 14 65 49 34 39 30 5 25 70 38 45 43 76 26 56 59 54 80 79</file>
+                    <file> 35 66 0 24 58 55 33 28 73 6 13 51 71 52 14 65 49 34 39 30 5 25 70 38 45 43 76 26 56 59 54 80 79 82 81</file>
                 </tool>
             </inputs>
         </file>

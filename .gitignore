@@ -19,3 +19,15 @@ arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/LCD_Demo/settings/LCD_Demo.wsdt
 *.o
 *.dnx
 *.wsdt
+arm/8.32.2/NXP/LPC24xx/IAR-LPC-2478/evseProject/evseProject.dep
+*.dep
+*.map
+*.pbw
+*.wsdt
+*.dnx
+*.linf
+*.pbw
+*.linf
+*.o
+*.map
+*.dep

@@ -141,7 +141,7 @@ void TIMER1IntrHandler (void)
   timetick++;
   // Toggle USB Link LED
   if(timetick > 5000){
-    USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
+    USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK;
     tickCrossingZero2 = true;
     tickCrossingZero3 = true;
     timeToPrint = true;
@@ -159,7 +159,7 @@ void TIMER1IntrHandler (void)
   if(ADDR3_bit.DONE){
     x3_old = x3;
     //x3 = ADDR3_bit.RESULT;
-    x3 = lowPass(ADDR2_bit.RESULT,channel3);
+    x3 = lowPass(ADDR3_bit.RESULT,channel3);
   }
 
   
@@ -245,21 +245,19 @@ void ADC_Init (void){
   PCLKSEL0_bit.PCLK_ADC = 0x1; //Enable ADC clock
   AD0CR_bit.CLKDIV = 5; //18MHz/(5+1)= 3MHz<=4.5 MHz?7+1)= 4MHz<=4.5 MHz
   AD0CR_bit.BURST = 1; //0=ADC is set to operate in software controlled mode, 1= continue mode
- // PINSEL1_bit.P0_23 = 0x1; //AD0[0]
-  //PINMODE1_bit.P0_23 = 0x2;
   PINSEL1_bit.P0_25 = 0x1; //AD0[2]
   PINMODE1_bit.P0_25 = 0x2;
-  //PINSEL1_bit.P0_26 = 0x1; //AD0[3]
-  //PINMODE1_bit.P0_26 = 0x2;
-  ADINTEN_bit.ADGINTEN = 0; //When 0, only the individual A/D channels enabled by ADINTEN 7:0 will generate interrupts.
-  ADINTEN_bit.ADINTEN0 = 1; //Enable interrupt
+  PINSEL1_bit.P0_26 = 0x1; //AD0[3]
+  PINMODE1_bit.P0_26 = 0x2;
+  ADINTEN_bit.ADGINTEN = 1; //When 0, only the individual A/D channels enabled by ADINTEN 7:0 will generate interrupts.
+/*  ADINTEN_bit.ADINTEN0 = 1; //Enable interrupt
   ADINTEN_bit.ADINTEN1 = 1;
   ADINTEN_bit.ADINTEN2 = 1;
-  ADINTEN_bit.ADINTEN3 = 1;
-//  AD0CR_bit.START = 1;
-//  VIC_SetVectoredIRQ (TIMER1IntrHandler,2,VIC_TIMER1);
-//  VICINTENABLE |= 1UL << VIC_TIMER1;
-  AD0CR_bit.SEL = 0x0D; // Channel 0, 2 and 3 enabled: 1101 enabled:1101=13=D
+  ADINTEN_bit.ADINTEN3 = 1;*/
+//  AD0CR_bit.START = 0;
+  VIC_SetVectoredIRQ (TIMER1IntrHandler,2,VIC_TIMER1);
+  VICINTENABLE |= 1UL << VIC_TIMER1;
+  AD0CR_bit.SEL = 0x0F; // Channel 0, 1, 2 and 3 enabled: 1111 = 15 = F
   AD0CR_bit.PDN = 1; //The A/D Converter is operational
 }
 
@@ -275,7 +273,7 @@ void ADC_Init (void){
  int main(void)
 {
 //Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
-//ToushRes_t XY_Touch;
+ToushRes_t XY_Touch;
 //Boolean Touch = FALSE;
 
   
@@ -294,6 +292,10 @@ void ADC_Init (void){
 #endif // SDRAM_DEBUG
   // Init VIC
   VIC_Init();
+  //ADC_Init();
+  // Init touch screen
+  TouchScrInit();
+  
   // GLCD init
  GLCD_Init (blackScreenPic.pPicStream, NULL);
 /*
@@ -307,8 +309,8 @@ void ADC_Init (void){
 
   GLCD_Cursor_En(0);
 */
-  // Init touch screen
-  //  TouchScrInit();
+ 
+
 
   
   // Init USB Link  LED
@@ -335,7 +337,8 @@ void ADC_Init (void){
   VICINTENABLE |= 1UL << VIC_TIMER1;
   T1TCR_bit.CE = 1;     // counting Enable
  
-  ADC_Init();
+  
+ 
   
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
@@ -349,7 +352,6 @@ void ADC_Init (void){
   DACR_bit.VALUE = 0X3FF;
   */
    GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
-   
   
    // Filter calculations
    Int32U fc = 50; //Value of cut off frequency
@@ -364,11 +366,12 @@ void ADC_Init (void){
    
    
    FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
+   /*
    printString("\fLive data:");
    int l1 = printString("\fFrequency (V): \0");
    int l2 = printString("\fGarbage: \0");
    int l3 = printString("\fBulb: \0");
-     
+     */
    int offset = 12;
    
    while(1){     
@@ -382,7 +385,7 @@ void ADC_Init (void){
        
      }
        
-       
+       /*
      // Here we handle all the printing that goes of twice a second
      if(timeToPrint){
         
@@ -401,30 +404,32 @@ void ADC_Init (void){
         }else{
 	    printString("\fOFF");
         }        
+        changeX(0);
+        // Check for touch input
+        if(TouchGet(&XY_Touch))
+        {
+          printString("\fTOUCHING\0");
+        }
+        else
+        {
+          printString("\fNot touching\0");
+        }
         timeToPrint = false;
-     }   
-     
- /*    if(TouchGet(&XY_Touch))
-    {
-      cursor_x = XY_Touch.X;
-      cursor_y = XY_Touch.Y;
-      GLCD_Move_Cursor(cursor_x, cursor_y);
-      if (FALSE == Touch)
-      {
-        Touch = TRUE;
-        USB_H_LINK_LED_FCLR = USB_H_LINK_LED_MASK;
-      }
-    }
-    else if(Touch)
-    {
-      USB_H_LINK_LED_FSET = USB_H_LINK_LED_MASK;
-      Touch = FALSE;
-    }
-     
-     if(F2 < 48|| F2 > 52){
-       FIO0PIN &= ~P19_MASK;
      }else{
+       newLine();
+       newLine();
+       newLine();
+       newLine();
+     }
+     
+     printInt(XY_Touch.XY);
+     */
+     
+    // Turning bulb on or off based on frequency
+    if(F2 < 48|| F2 > 52){
+       FIO0PIN &= ~P19_MASK;
+    }else{
        FIO0PIN |= P19_MASK;
-     }*/
+    }
   }
 }

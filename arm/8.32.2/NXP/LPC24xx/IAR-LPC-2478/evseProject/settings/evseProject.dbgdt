@@ -870,7 +870,7 @@
                     <item>l1</item>
                     <item>l2</item>
                     <item>l3</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

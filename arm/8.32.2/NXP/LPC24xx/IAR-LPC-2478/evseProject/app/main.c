@@ -42,7 +42,6 @@
 #include "redScreen.h"
 #include "blackScreen.h"
 #include "printing.h"
-#include <math.h>
    
 #define NONPROT 0xFFFFFFFF
 #define CRP1  	0x12345678
@@ -100,9 +99,7 @@ Boolean timeToPrint = true;
 //Doing current, voltage and power calculations
 Int32U currentSum = 0;
 Int32U lastCompletedCurrentSum = 0;
-Int32U lastCompletedCurrentSumSamples = 0;
-Boolean newCurrentSum = true;
-Int32U currentSamples = 0;
+
 
 /*************************************************************************
  * Function Name: lowPass
@@ -136,7 +133,7 @@ Int32U lowPass(Int32U x, Boolean channel){
  *************************************************************************/
 void TIMER1IntrHandler (void)
 {
- //FIO0PIN |= P11_MASK;
+ FIO0PIN |= P11_MASK;
 //  DACR_bit.VALUE = 0x03FF;
   timetick++;
   // Toggle USB Link LED
@@ -151,9 +148,7 @@ void TIMER1IntrHandler (void)
   if(ADDR2_bit.DONE){
     x2_old = x2;
     x2 = lowPass(ADDR2_bit.RESULT,channel2);
-    currentSum += x2^2;
-    currentSamples ++;
-    //DACR_bit.VALUE = x2;
+    DACR_bit.VALUE = x2;
   }
   
   if(ADDR3_bit.DONE){
@@ -191,11 +186,6 @@ void TIMER1IntrHandler (void)
         T2 = crosstick2 - crosstick2_old;
       }
       crosstick2_old = crosstick2;
-      lastCompletedCurrentSum = currentSum;
-      lastCompletedCurrentSumSamples = currentSamples;
-      newCurrentSum = true;
-      currentSum = 0;
-      currentSamples = 0;
       i2 = 0;
     }
     waitingForCross2 = false;
@@ -224,7 +214,7 @@ void TIMER1IntrHandler (void)
     waitingForCross3 = true;
   }
 */
-  //FIO0PIN &= ~P11_MASK;
+  FIO0PIN &= ~P11_MASK;
   // clear interrupt
   T1IR_bit.MR1INT = 1;
   VICADDRESS = 0;
@@ -361,9 +351,6 @@ ToushRes_t XY_Touch;
    float F3 = 0;
    //float current_test = 0;
    
-   //Current, Voltage and Power constants
-   float currentRMS = 0;
-   
    
    FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
    /*
@@ -378,6 +365,7 @@ ToushRes_t XY_Touch;
      
      resetCursor();
      newLine();
+<<<<<<< HEAD
      //Current calculation
      if (newCurrentSum){
        currentRMS = sqrt(lastCompletedCurrentSum/lastCompletedCurrentSumSamples);
@@ -386,6 +374,9 @@ ToushRes_t XY_Touch;
      }
        
        /*
+=======
+     
+>>>>>>> parent of c75fdf8... Push
      // Here we handle all the printing that goes of twice a second
      if(timeToPrint){
         

@@ -366,6 +366,7 @@ ToushRes_t XY_Touch;
      resetCursor();
      newLine();
 <<<<<<< HEAD
+<<<<<<< HEAD
      //Current calculation
      if (newCurrentSum){
        currentRMS = sqrt(lastCompletedCurrentSum/lastCompletedCurrentSumSamples);
@@ -373,10 +374,7 @@ ToushRes_t XY_Touch;
        
      }
        
-       /*
-=======
-     
->>>>>>> parent of c75fdf8... Push
+       
      // Here we handle all the printing that goes of twice a second
      if(timeToPrint){
         

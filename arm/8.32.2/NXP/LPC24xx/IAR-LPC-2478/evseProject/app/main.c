@@ -365,14 +365,7 @@ ToushRes_t XY_Touch;
      
      resetCursor();
      newLine();
-     //Current calculation
-     if (newCurrentSum){
-       currentRMS = sqrt(lastCompletedCurrentSum/lastCompletedCurrentSumSamples);
-       newCurrentSum = false;
-       
-     }
-       
-       
+     
      // Here we handle all the printing that goes of twice a second
      if(timeToPrint){
         

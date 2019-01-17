@@ -4,6 +4,8 @@
 int yPositionForPrinting = 0;
 int xPositionForPrinting = 0;
 
+#define lineHeight 12
+#define letterWidth 6
 
 /*************************************************************************
  * Function Name: changeX
@@ -63,12 +65,12 @@ int getY()
  *
  * Return: none
  *
- * Description: Moves y 24 pixels down
+ * Description: Moves y 8 pixels down
  *
  *************************************************************************/
 void newLine()
 {
-  yPositionForPrinting += 24;
+  yPositionForPrinting += lineHeight;
 }
 /*************************************************************************
  * Function Name: resetCursor
@@ -111,7 +113,7 @@ void printFloatAndUnit(float toPrint, char* unit)
   GLCD_TextSetPos(0,0);
   GLCD_print(MyString);
   
-  yPositionForPrinting += 24;
+  yPositionForPrinting += lineHeight;
   
 }
 /*************************************************************************
@@ -141,7 +143,7 @@ void printFloat(float toPrint)
   GLCD_TextSetPos(0,0);
   GLCD_print(MyString);
   
-  yPositionForPrinting += 24;
+  yPositionForPrinting += lineHeight;
   
 }
 /*************************************************************************
@@ -165,8 +167,8 @@ int printString(char* words){
   GLCD_TextSetPos(0,0);
   GLCD_print(words);
    
-  yPositionForPrinting += 24;
-  return length;
+  yPositionForPrinting += lineHeight;
+  return length*letterWidth;
 }
 /*************************************************************************
  * Function Name: printInt
@@ -185,5 +187,5 @@ void printInt(int number){
   GLCD_TextSetPos(0,0);
   GLCD_print("\f%d",number);
    
-  yPositionForPrinting += 24;
+  yPositionForPrinting += lineHeight;
 }

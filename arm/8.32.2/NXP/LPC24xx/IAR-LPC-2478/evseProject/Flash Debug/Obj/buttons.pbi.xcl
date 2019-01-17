@@ -1,4 +1,4 @@
-"C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\modules\drv_glcd.c"
+"C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\modules\buttons.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512

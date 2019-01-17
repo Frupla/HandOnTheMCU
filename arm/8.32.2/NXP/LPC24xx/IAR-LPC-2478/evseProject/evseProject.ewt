@@ -2387,6 +2387,9 @@
             <name>$PROJ_DIR$\app\redScreen.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\app\sampleBackground.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\app\Terminal_18_24x12.c</name>
         </file>
         <file>
@@ -2409,18 +2412,36 @@
         </file>
     </group>
     <group>
-        <name>Modules</name>
+        <name>modules</name>
+        <file>
+            <name>$PROJ_DIR$\modules\buttons.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\buttons.h</name>
+        </file>
         <file>
             <name>$PROJ_DIR$\modules\drv_glcd.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\drv_glcd.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\modules\drv_touch_scr.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\modules\drv_touch_scr.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\modules\printing.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\modules\printing.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\modules\sdram_64M_32bit_drv.h</name>
         </file>
     </group>
     <file>

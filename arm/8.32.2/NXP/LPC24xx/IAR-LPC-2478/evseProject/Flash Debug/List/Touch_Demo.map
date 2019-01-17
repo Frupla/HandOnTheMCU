@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.2.178/W32 for ARM                  15/Jan/2019  15:24:24
+# IAR ELF Linker V8.32.2.178/W32 for ARM                  17/Jan/2019  16:26:04
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -12,10 +12,12 @@
 #        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\List\Touch_Demo.map
 #    Command line =  
-#        -f C:\Users\tilfr\AppData\Local\Temp\EW54BC.tmp
+#        -f C:\Users\tilfr\AppData\Local\Temp\EW8016.tmp
 #        ("C:\Users\tilfr\Dropbox\DTU\Hands on
 #        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\Obj\blackScreen.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
+#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\buttons.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
 #        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\Obj\cursor_arrow.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
 #        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
@@ -30,6 +32,8 @@
 #        Debug\Obj\printing.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
 #        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\Obj\redScreen.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
+#        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
+#        Debug\Obj\sampleBackground.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
 #        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
 #        Debug\Obj\sdram_64M_32bit_drv.o" "C:\Users\tilfr\Dropbox\DTU\Hands on
 #        mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash
@@ -106,73 +110,96 @@ No sections matched the following patterns:
   .intvec            ro code          0x0     0x3c  cstartup.o [4]
                                    - 0x3c     0x3c
 
-"P1", part 1 of 2:                            0x48
+"P1", part 1 of 2:                            0x50
   .rodata            const           0x3c      0x0  zero_init3.o [4]
   .rodata            const           0x3c      0x0  copy_init3.o [4]
-  Initializer bytes  const           0x3c     0x48  <for P2 s0>
-                                   - 0x84     0x48
+  Initializer bytes  const           0x3c     0x50  <for P2 s0>
+                                   - 0x8c     0x50
 
 "P6":                                          0x4
   .crp               const          0x1fc      0x4  main.o [1]
                                   - 0x200      0x4
 
-"P1", part 2 of 2:                         0x512c0
+"P1", part 2 of 2:                         0x506de
   .rodata            const          0x200  0x4b000  blackScreen.o [1]
-  .rodata            const       0x4'b200   0x3000  Terminal_18_24x12.o [1]
-  .text              ro code     0x4'e200    0x8b4  drv_touch_scr.o [1]
-  .text              ro code     0x4'eab4     0x40  ABIassert.o [5]
-  .text              ro code     0x4'eaf4    0x534  sys.o [1]
-  .text              ro code     0x4'f028    0x1a4  I32DivMod.o [4]
-  .text              ro code     0x4'f1cc      0x8  abort.o [2]
-  .text              ro code     0x4'f1d4      0x4  IntDivZer.o [4]
-  .text              ro code     0x4'f1d8     0x20  exit.o [5]
-  .text              ro code     0x4'f1f8     0x58  iarttio.o [5]
-  .text              ro code     0x4'f250      0xc  XShttio.o [2]
-  .text              ro code     0x4'f25c    0x6d4  main.o [1]
-  .text              ro code     0x4'f930     0x5c  U32ToFlt.o [3]
-  .text              ro code     0x4'f98c    0x148  FltMul.o [3]
-  .text              ro code     0x4'fad4    0x12c  FltSub.o [3]
-  .text              ro code     0x4'fc00     0xa4  FltAdd.o [3]
-  .text              ro code     0x4'fca4     0x34  FltToU32.o [3]
-  .text              ro code     0x4'fcd8     0x58  U32ToDbl.o [3]
-  .text              ro code     0x4'fd30    0x1f4  DblMul.o [3]
-  .text              ro code     0x4'ff24     0x3c  DblToU32.o [3]
-  .text              ro code     0x4'ff60    0x138  DblAdd.o [3]
-  .text              ro code     0x5'0098    0x1c0  FltDiv.o [3]
-  .text              ro code     0x5'0258    0x518  drv_glcd.o [1]
-  .text              ro code     0x5'0770    0x30c  sdram_64M_32bit_drv.o [1]
-  .text              ro code     0x5'0a7c    0x334  DblDiv.o [3]
-  .text              ro code     0x5'0db0     0x84  DblToFlt.o [3]
-  .text              ro code     0x5'0e34     0x34  printing.o [1]
-  .text              ro code     0x5'0e68    0x16c  sqrt.o [3]
-  .text              ro code     0x5'0fd4     0x2c  FltCmpLe.o [3]
-  .text              ro code     0x5'1000     0x2c  FltCmpGe.o [3]
-  .text              ro code     0x5'102c    0x1f0  DblSub.o [3]
-  .rodata            const       0x5'121c     0x80  drv_touch_scr.o [1]
-  .rodata            const       0x5'129c     0x78  drv_glcd.o [1]
-  .text              ro code     0x5'1314     0x58  cstartup.o [4]
-  Veneer             ro code     0x5'136c      0xc  - Linker created -
-  .text              ro code     0x5'1378     0x30  cmain.o [4]
-  .text              ro code     0x5'13a8      0x8  low_level_init.o [2]
-  .text              ro code     0x5'13b0     0x32  data_init.o [4]
-  .rodata            const       0x5'13e2      0x2  drv_touch_scr.o [1]
-  .text              ro code     0x5'13e4      0x4  exit.o [2]
-  .text              ro code     0x5'13e8     0x10  cexit.o [4]
-  .text              ro code     0x5'13f8     0x3c  zero_init3.o [4]
-  .text              ro code     0x5'1434     0x30  copy_init3.o [4]
-  .iar.init_table    const       0x5'1464     0x24  - Linker created -
-  .rodata            const       0x5'1488     0x14  Terminal_18_24x12.o [1]
-  .rodata            const       0x5'149c     0x10  blackScreen.o [1]
-  .rodata            const       0x5'14ac      0xc  drv_glcd.o [1]
-  .text              ro code     0x5'14b8      0x4  vectortrap.o [4]
-  .text              ro code     0x5'14bc      0x4  xreturnswi.o [5]
-                               - 0x5'14c0  0x512c0
+  .text              ro code     0x4'b200    0xee0  drv_glcd.o [1]
+  .text              ro code     0x4'c0e0    0x534  sys.o [1]
+  .text              ro code     0x4'c614    0x1a4  I32DivMod.o [4]
+  .text              ro code     0x4'c7b8     0x40  ABIassert.o [5]
+  .text              ro code     0x4'c7f8     0x5c  vsprintf.o [2]
+  .text              ro code     0x4'c854      0x4  IntDivZer.o [4]
+  .text              ro code     0x4'c858      0x8  abort.o [2]
+  .text              ro code     0x4'c860    0x26c  xprintftiny.o [2]
+  .text              ro code     0x4'cacc     0x20  exit.o [5]
+  .text              ro code     0x4'caec     0x54  strlen.o [4]
+  .text              ro code     0x4'cb40     0x58  iarttio.o [5]
+  .text              ro code     0x4'cb98      0xc  XShttio.o [2]
+  .rodata            const       0x4'cba4    0xc00  Terminal_9_12x6.o [1]
+  .text              ro code     0x4'd7a4    0xa6c  main.o [1]
+  .text              ro code     0x4'e210     0x5c  U32ToFlt.o [3]
+  .text              ro code     0x4'e26c    0x148  FltMul.o [3]
+  .text              ro code     0x4'e3b4    0x12c  FltSub.o [3]
+  .text              ro code     0x4'e4e0     0xa4  FltAdd.o [3]
+  .text              ro code     0x4'e584     0x34  FltToU32.o [3]
+  .text              ro code     0x4'e5b8     0x58  U32ToDbl.o [3]
+  .text              ro code     0x4'e610    0x1f4  DblMul.o [3]
+  .text              ro code     0x4'e804     0x3c  DblToU32.o [3]
+  .text              ro code     0x4'e840    0x138  DblAdd.o [3]
+  .text              ro code     0x4'e978    0x1c0  FltDiv.o [3]
+  .text              ro code     0x4'eb38    0x30c  sdram_64M_32bit_drv.o [1]
+  .text              ro code     0x4'ee44    0x910  drv_touch_scr.o [1]
+  .text              ro code     0x4'f754    0x334  DblDiv.o [3]
+  .text              ro code     0x4'fa88     0x84  DblToFlt.o [3]
+  .text              ro code     0x4'fb0c    0x324  printing.o [1]
+  .text              ro code     0x4'fe30    0x244  buttons.o [1]
+  .text              ro code     0x5'0074     0xb0  ABImemcpy.o [4]
+  .text              ro code     0x5'0124     0x2c  FltCmpLe.o [3]
+  .text              ro code     0x5'0150     0x2c  FltCmpGe.o [3]
+  .text              ro code     0x5'017c    0x1f0  DblSub.o [3]
+  .text              ro code     0x5'036c     0x40  FltToS32.o [3]
+  .text              ro code     0x5'03ac     0x64  S32ToFlt.o [3]
+  .text              ro code     0x5'0410     0x6c  sprintf.o [2]
+  .rodata            const       0x5'047c    0x100  cursor_arrow.o [1]
+  .rodata            const       0x5'057c     0x80  drv_touch_scr.o [1]
+  .rodata            const       0x5'05fc     0x78  drv_glcd.o [1]
+  .text              ro code     0x5'0674     0x58  cstartup.o [4]
+  Veneer             ro code     0x5'06cc      0xc  - Linker created -
+  .text              ro code     0x5'06d8     0x30  cmain.o [4]
+  .text              ro code     0x5'0708      0x8  low_level_init.o [2]
+  .text              ro code     0x5'0710     0x32  data_init.o [4]
+  .rodata            const       0x5'0742      0x2  buttons.o [1]
+  .text              ro code     0x5'0744      0x4  exit.o [2]
+  .text              ro code     0x5'0748     0x10  cexit.o [4]
+  .text              ro code     0x5'0758     0x3c  zero_init3.o [4]
+  .text              ro code     0x5'0794     0x30  copy_init3.o [4]
+  .iar.init_table    const       0x5'07c4     0x24  - Linker created -
+  .rodata            const       0x5'07e8     0x14  drv_glcd.o [1]
+  .rodata            const       0x5'07fc     0x14  main.o [1]
+  .rodata            const       0x5'0810     0x14  Terminal_9_12x6.o [1]
+  .text              ro code     0x5'0824     0x14  xsprout.o [2]
+  .rodata            const       0x5'0838     0x10  blackScreen.o [1]
+  .rodata            const       0x5'0848     0x10  drv_glcd.o [1]
+  .rodata            const       0x5'0858     0x10  drv_glcd.o [1]
+  .rodata            const       0x5'0868     0x10  drv_glcd.o [1]
+  .rodata            const       0x5'0878     0x10  printing.o [1]
+  .rodata            const       0x5'0888      0xc  drv_glcd.o [1]
+  .rodata            const       0x5'0894      0xc  main.o [1]
+  .rodata            const       0x5'08a0      0xc  main.o [1]
+  .rodata            const       0x5'08ac      0xc  main.o [1]
+  .rodata            const       0x5'08b8      0xc  printing.o [1]
+  .rodata            const       0x5'08c4      0x8  main.o [1]
+  .rodata            const       0x5'08cc      0x4  main.o [1]
+  .rodata            const       0x5'08d0      0x4  main.o [1]
+  .text              ro code     0x5'08d4      0x4  vectortrap.o [4]
+  .text              ro code     0x5'08d8      0x4  xreturnswi.o [5]
+  .rodata            const       0x5'08dc      0x2  drv_touch_scr.o [1]
+                               - 0x5'08de  0x506de
 
-Absolute sections, part 1 of 48:               0x4
+Absolute sections, part 1 of 50:               0x4
   .noinit            uninit   0x3fff'c000      0x4  sys.o [1]
                             - 0x3fff'c004      0x4
 
-Absolute sections, part 2 of 48:              0x14
+Absolute sections, part 2 of 50:              0x14
   .noinit            uninit   0x3fff'c010      0x4  sys.o [1]
   .noinit            uninit   0x3fff'c014      0x4  main.o [1]
   .noinit            uninit   0x3fff'c018      0x4  drv_touch_scr.o [1]
@@ -180,65 +207,65 @@ Absolute sections, part 2 of 48:              0x14
   .noinit            uninit   0x3fff'c020      0x4  sys.o [1]
                             - 0x3fff'c024     0x14
 
-Absolute sections, part 3 of 48:               0xc
+Absolute sections, part 3 of 50:               0xc
   .noinit            uninit   0x3fff'c030      0x4  sys.o [1]
   .noinit            uninit   0x3fff'c034      0x4  main.o [1]
   .noinit            uninit   0x3fff'c038      0x4  main.o [1]
                             - 0x3fff'c03c      0xc
 
-Absolute sections, part 4 of 48:               0x4
+Absolute sections, part 4 of 50:               0x4
   .noinit            uninit   0x3fff'c040      0x4  sys.o [1]
                             - 0x3fff'c044      0x4
 
-Absolute sections, part 5 of 48:               0x4
+Absolute sections, part 5 of 50:               0x4
   .noinit            uninit   0x3fff'c050      0x4  sys.o [1]
                             - 0x3fff'c054      0x4
 
-Absolute sections, part 6 of 48:               0x4
+Absolute sections, part 6 of 50:               0x4
   .noinit            uninit   0x3fff'c060      0x4  sys.o [1]
                             - 0x3fff'c064      0x4
 
-Absolute sections, part 7 of 48:               0x4
+Absolute sections, part 7 of 50:               0x4
   .noinit            uninit   0x3fff'c070      0x4  sys.o [1]
                             - 0x3fff'c074      0x4
 
-Absolute sections, part 8 of 48:               0x4
+Absolute sections, part 8 of 50:               0x4
   .noinit            uninit   0x3fff'c080      0x4  sys.o [1]
                             - 0x3fff'c084      0x4
 
-Absolute sections, part 9 of 48:               0x4
+Absolute sections, part 9 of 50:               0x4
   .noinit            uninit   0x3fff'c090      0x4  sys.o [1]
                             - 0x3fff'c094      0x4
 
-"P2", part 1 of 3:                            0x48
-  P2 s0                       0x4000'0120     0x48  <Init block>
+"P2", part 1 of 3:                            0x50
+  P2 s0                       0x4000'0120     0x50  <Init block>
     .data            inited   0x4000'0120     0x1c  blackScreen.o [1]
-    .data            inited   0x4000'013c     0x18  Terminal_18_24x12.o [1]
+    .data            inited   0x4000'013c     0x18  Terminal_9_12x6.o [1]
     .data            inited   0x4000'0154      0x8  XShttio.o [2]
-    .data            inited   0x4000'015c      0x4  main.o [1]
-    .data            inited   0x4000'0160      0x4  main.o [1]
-    .data            inited   0x4000'0164      0x4  main.o [1]
-                            - 0x4000'0168     0x48
+    .data            inited   0x4000'015c      0x4  drv_glcd.o [1]
+    .data            inited   0x4000'0160      0x4  drv_glcd.o [1]
+    .data            inited   0x4000'0164      0x4  drv_glcd.o [1]
+    .data            inited   0x4000'0168      0x4  main.o [1]
+    .data            inited   0x4000'016c      0x4  main.o [1]
+                            - 0x4000'0170     0x50
 
-"P2", part 2 of 3:                            0x78
-  .bss               zero     0x4000'0168      0x4  drv_glcd.o [1]
-  .bss               zero     0x4000'016c      0x4  drv_glcd.o [1]
+"P2", part 2 of 3:                            0x90
   .bss               zero     0x4000'0170      0x4  drv_glcd.o [1]
-  .bss               zero     0x4000'0174      0x4  drv_touch_scr.o [1]
-  .bss               zero     0x4000'0178      0x4  drv_touch_scr.o [1]
-  .bss               zero     0x4000'017c      0x4  drv_touch_scr.o [1]
-  .bss               zero     0x4000'0180      0x4  drv_touch_scr.o [1]
-  .bss               zero     0x4000'0184      0x4  main.o [1]
-  .bss               zero     0x4000'0188      0x4  main.o [1]
-  .bss               zero     0x4000'018c      0x4  main.o [1]
-  .bss               zero     0x4000'0190      0x4  main.o [1]
-  .bss               zero     0x4000'0194      0x4  main.o [1]
-  .bss               zero     0x4000'0198      0x4  main.o [1]
-  .bss               zero     0x4000'019c      0x4  main.o [1]
-  .bss               zero     0x4000'01a0      0x4  main.o [1]
-  .bss               zero     0x4000'01a4      0x4  main.o [1]
-  .bss               zero     0x4000'01a8      0x4  main.o [1]
-  .bss               zero     0x4000'01ac      0x4  main.o [1]
+  .bss               zero     0x4000'0174      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'0178      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'017c      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'0180      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'0184      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'0188      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'018c      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'0190      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'0194      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'0198      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'019c      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'01a0      0x4  drv_glcd.o [1]
+  .bss               zero     0x4000'01a4      0x4  drv_touch_scr.o [1]
+  .bss               zero     0x4000'01a8      0x4  drv_touch_scr.o [1]
+  .bss               zero     0x4000'01ac      0x4  drv_touch_scr.o [1]
   .bss               zero     0x4000'01b0      0x4  main.o [1]
   .bss               zero     0x4000'01b4      0x4  main.o [1]
   .bss               zero     0x4000'01b8      0x4  main.o [1]
@@ -246,77 +273,85 @@ Absolute sections, part 9 of 48:               0x4
   .bss               zero     0x4000'01c0      0x4  main.o [1]
   .bss               zero     0x4000'01c4      0x4  main.o [1]
   .bss               zero     0x4000'01c8      0x4  main.o [1]
-  .bss               zero     0x4000'01cc      0x4  printing.o [1]
-  .bss               zero     0x4000'01d0      0x4  printing.o [1]
-  .bss               zero     0x4000'01d4      0x2  drv_touch_scr.o [1]
-  .bss               zero     0x4000'01d6      0x2  drv_touch_scr.o [1]
-  .bss               zero     0x4000'01d8      0x2  drv_touch_scr.o [1]
-  .bss               zero     0x4000'01da      0x2  drv_touch_scr.o [1]
-  .bss               zero     0x4000'01dc      0x1  drv_touch_scr.o [1]
-                            - 0x4000'01dd     0x75
+  .bss               zero     0x4000'01cc      0x4  main.o [1]
+  .bss               zero     0x4000'01d0      0x4  main.o [1]
+  .bss               zero     0x4000'01d4      0x4  main.o [1]
+  .bss               zero     0x4000'01d8      0x4  main.o [1]
+  .bss               zero     0x4000'01dc      0x4  main.o [1]
+  .bss               zero     0x4000'01e0      0x4  main.o [1]
+  .bss               zero     0x4000'01e4      0x4  main.o [1]
+  .bss               zero     0x4000'01e8      0x4  main.o [1]
+  .bss               zero     0x4000'01ec      0x4  printing.o [1]
+  .bss               zero     0x4000'01f0      0x4  printing.o [1]
+  .bss               zero     0x4000'01f4      0x2  drv_touch_scr.o [1]
+  .bss               zero     0x4000'01f6      0x2  drv_touch_scr.o [1]
+  .bss               zero     0x4000'01f8      0x2  drv_touch_scr.o [1]
+  .bss               zero     0x4000'01fa      0x2  drv_touch_scr.o [1]
+  .bss               zero     0x4000'01fc      0x1  drv_touch_scr.o [1]
+                            - 0x4000'01fd     0x8d
 
 "P2", part 3 of 3:                           0x840
-  CSTACK                      0x4000'01e0    0x400  <Block>
-    CSTACK           uninit   0x4000'01e0    0x400  <Block tail>
-  IRQ_STACK                   0x4000'05e0    0x400  <Block>
-    IRQ_STACK        uninit   0x4000'05e0    0x400  <Block tail>
-  FIQ_STACK                   0x4000'09e0     0x40  <Block>
-    FIQ_STACK        uninit   0x4000'09e0     0x40  <Block tail>
-                            - 0x4000'0a20    0x840
+  CSTACK                      0x4000'0200    0x400  <Block>
+    CSTACK           uninit   0x4000'0200    0x400  <Block tail>
+  IRQ_STACK                   0x4000'0600    0x400  <Block>
+    IRQ_STACK        uninit   0x4000'0600    0x400  <Block tail>
+  FIQ_STACK                   0x4000'0a00     0x40  <Block>
+    FIQ_STACK        uninit   0x4000'0a00     0x40  <Block tail>
+                            - 0x4000'0a40    0x840
 
-Absolute sections, part 10 of 48:              0x8
+Absolute sections, part 10 of 50:              0x8
   .noinit            uninit   0xe000'4000      0x4  drv_touch_scr.o [1]
   .noinit            uninit   0xe000'4004      0x4  drv_touch_scr.o [1]
                             - 0xe000'4008      0x8
 
-Absolute sections, part 11 of 48:              0x4
+Absolute sections, part 11 of 50:              0x4
   .noinit            uninit   0xe000'400c      0x4  drv_touch_scr.o [1]
                             - 0xe000'4010      0x4
 
-Absolute sections, part 12 of 48:              0x8
+Absolute sections, part 12 of 50:              0x8
   .noinit            uninit   0xe000'4014      0x4  drv_touch_scr.o [1]
   .noinit            uninit   0xe000'4018      0x4  drv_touch_scr.o [1]
                             - 0xe000'401c      0x8
 
-Absolute sections, part 13 of 48:              0x4
+Absolute sections, part 13 of 50:              0x4
   .noinit            uninit   0xe000'4070      0x4  drv_touch_scr.o [1]
                             - 0xe000'4074      0x4
 
-Absolute sections, part 14 of 48:              0x8
+Absolute sections, part 14 of 50:              0x8
   .noinit            uninit   0xe000'8000      0x4  main.o [1]
   .noinit            uninit   0xe000'8004      0x4  main.o [1]
                             - 0xe000'8008      0x8
 
-Absolute sections, part 15 of 48:              0x4
+Absolute sections, part 15 of 50:              0x4
   .noinit            uninit   0xe000'800c      0x4  main.o [1]
                             - 0xe000'8010      0x4
 
-Absolute sections, part 16 of 48:              0x4
+Absolute sections, part 16 of 50:              0x4
   .noinit            uninit   0xe000'8014      0x4  main.o [1]
                             - 0xe000'8018      0x4
 
-Absolute sections, part 17 of 48:              0x4
+Absolute sections, part 17 of 50:              0x4
   .noinit            uninit   0xe000'801c      0x4  main.o [1]
                             - 0xe000'8020      0x4
 
-Absolute sections, part 18 of 48:              0x4
+Absolute sections, part 18 of 50:              0x4
   .noinit            uninit   0xe000'8070      0x4  main.o [1]
                             - 0xe000'8074      0x4
 
-Absolute sections, part 19 of 48:              0x4
+Absolute sections, part 19 of 50:              0x4
   .noinit            uninit   0xe002'8008      0x4  sys.o [1]
                             - 0xe002'800c      0x4
 
-Absolute sections, part 20 of 48:              0x4
+Absolute sections, part 20 of 50:              0x4
   .noinit            uninit   0xe002'8018      0x4  sys.o [1]
                             - 0xe002'801c      0x4
 
-Absolute sections, part 21 of 48:              0x8
+Absolute sections, part 21 of 50:              0x8
   .noinit            uninit   0xe002'808c      0x4  drv_touch_scr.o [1]
   .noinit            uninit   0xe002'8090      0x4  drv_touch_scr.o [1]
                             - 0xe002'8094      0x8
 
-Absolute sections, part 22 of 48:             0x28
+Absolute sections, part 22 of 50:             0x28
   .noinit            uninit   0xe002'c000      0x4  sys.o [1]
   .noinit            uninit   0xe002'c004      0x4  sys.o [1]
   .noinit            uninit   0xe002'c008      0x4  sys.o [1]
@@ -329,16 +364,16 @@ Absolute sections, part 22 of 48:             0x28
   .noinit            uninit   0xe002'c024      0x4  sys.o [1]
                             - 0xe002'c028     0x28
 
-Absolute sections, part 23 of 48:              0x4
+Absolute sections, part 23 of 50:              0x4
   .noinit            uninit   0xe002'c02c      0x4  drv_glcd.o [1]
                             - 0xe002'c030      0x4
 
-Absolute sections, part 24 of 48:              0x8
+Absolute sections, part 24 of 50:              0x8
   .noinit            uninit   0xe002'c040      0x4  drv_glcd.o [1]
   .noinit            uninit   0xe002'c044      0x4  main.o [1]
                             - 0xe002'c048      0x8
 
-Absolute sections, part 25 of 48:             0x1c
+Absolute sections, part 25 of 50:             0x1c
   .noinit            uninit   0xe002'c04c      0x4  drv_glcd.o [1]
   .noinit            uninit   0xe002'c050      0x4  drv_glcd.o [1]
   .noinit            uninit   0xe002'c054      0x4  sdram_64M_32bit_drv.o [1]
@@ -348,11 +383,11 @@ Absolute sections, part 25 of 48:             0x1c
   .noinit            uninit   0xe002'c064      0x4  sdram_64M_32bit_drv.o [1]
                             - 0xe002'c068     0x1c
 
-Absolute sections, part 26 of 48:              0x4
+Absolute sections, part 26 of 50:              0x4
   .noinit            uninit   0xe003'4000      0x4  main.o [1]
                             - 0xe003'4004      0x4
 
-Absolute sections, part 27 of 48:             0x14
+Absolute sections, part 27 of 50:             0x14
   .noinit            uninit   0xe003'400c      0x4  main.o [1]
   .noinit            uninit   0xe003'4010      0x4  drv_touch_scr.o [1]
   .noinit            uninit   0xe003'4014      0x4  drv_touch_scr.o [1]
@@ -360,56 +395,60 @@ Absolute sections, part 27 of 48:             0x14
   .noinit            uninit   0xe003'401c      0x4  main.o [1]
                             - 0xe003'4020     0x14
 
-Absolute sections, part 28 of 48:              0x8
+Absolute sections, part 28 of 50:              0x8
   .noinit            uninit   0xe01f'c000      0x4  main.o [1]
   .noinit            uninit   0xe01f'c004      0x4  main.o [1]
                             - 0xe01f'c008      0x8
 
-Absolute sections, part 29 of 48:             0x10
+Absolute sections, part 29 of 50:             0x10
   .noinit            uninit   0xe01f'c080      0x4  sys.o [1]
   .noinit            uninit   0xe01f'c084      0x4  sys.o [1]
   .noinit            uninit   0xe01f'c088      0x4  sys.o [1]
   .noinit            uninit   0xe01f'c08c      0x4  sys.o [1]
                             - 0xe01f'c090     0x10
 
-Absolute sections, part 30 of 48:              0x4
+Absolute sections, part 30 of 50:              0x4
   .noinit            uninit   0xe01f'c0c4      0x4  sys.o [1]
                             - 0xe01f'c0c8      0x4
 
-Absolute sections, part 31 of 48:              0xc
+Absolute sections, part 31 of 50:              0xc
   .noinit            uninit   0xe01f'c104      0x4  sys.o [1]
   .noinit            uninit   0xe01f'c108      0x4  sys.o [1]
   .noinit            uninit   0xe01f'c10c      0x4  sys.o [1]
                             - 0xe01f'c110      0xc
 
-Absolute sections, part 32 of 48:              0x4
+Absolute sections, part 32 of 50:              0x4
+  .noinit            uninit   0xe01f'c140      0x4  drv_touch_scr.o [1]
+                            - 0xe01f'c144      0x4
+
+Absolute sections, part 33 of 50:              0x4
   .noinit            uninit   0xe01f'c188      0x4  sys.o [1]
                             - 0xe01f'c18c      0x4
 
-Absolute sections, part 33 of 48:              0x4
+Absolute sections, part 34 of 50:              0x4
   .noinit            uninit   0xe01f'c1a0      0x4  sys.o [1]
                             - 0xe01f'c1a4      0x4
 
-Absolute sections, part 34 of 48:              0x8
+Absolute sections, part 35 of 50:              0x8
   .noinit            uninit   0xe01f'c1a8      0x4  sys.o [1]
   .noinit            uninit   0xe01f'c1ac      0x4  sys.o [1]
                             - 0xe01f'c1b0      0x8
 
-Absolute sections, part 35 of 48:              0x4
+Absolute sections, part 36 of 50:              0x4
   .noinit            uninit   0xe01f'c1b8      0x4  drv_glcd.o [1]
                             - 0xe01f'c1bc      0x4
 
-Absolute sections, part 36 of 48:              0x4
+Absolute sections, part 37 of 50:              0x4
   .noinit            uninit   0xffe0'8000      0x4  sdram_64M_32bit_drv.o [1]
                             - 0xffe0'8004      0x4
 
-Absolute sections, part 37 of 48:              0xc
+Absolute sections, part 38 of 50:              0xc
   .noinit            uninit   0xffe0'8020      0x4  sdram_64M_32bit_drv.o [1]
   .noinit            uninit   0xffe0'8024      0x4  sdram_64M_32bit_drv.o [1]
   .noinit            uninit   0xffe0'8028      0x4  sdram_64M_32bit_drv.o [1]
                             - 0xffe0'802c      0xc
 
-Absolute sections, part 38 of 48:             0x2c
+Absolute sections, part 39 of 50:             0x2c
   .noinit            uninit   0xffe0'8030      0x4  sdram_64M_32bit_drv.o [1]
   .noinit            uninit   0xffe0'8034      0x4  sdram_64M_32bit_drv.o [1]
   .noinit            uninit   0xffe0'8038      0x4  sdram_64M_32bit_drv.o [1]
@@ -423,51 +462,57 @@ Absolute sections, part 38 of 48:             0x2c
   .noinit            uninit   0xffe0'8058      0x4  sdram_64M_32bit_drv.o [1]
                             - 0xffe0'805c     0x2c
 
-Absolute sections, part 39 of 48:              0x8
+Absolute sections, part 40 of 50:              0x8
   .noinit            uninit   0xffe0'8100      0x4  sdram_64M_32bit_drv.o [1]
   .noinit            uninit   0xffe0'8104      0x4  sdram_64M_32bit_drv.o [1]
                             - 0xffe0'8108      0x8
 
-Absolute sections, part 40 of 48:              0xc
+Absolute sections, part 41 of 50:              0xc
   .noinit            uninit   0xffe1'0000      0x4  drv_glcd.o [1]
   .noinit            uninit   0xffe1'0004      0x4  drv_glcd.o [1]
   .noinit            uninit   0xffe1'0008      0x4  drv_glcd.o [1]
                             - 0xffe1'000c      0xc
 
-Absolute sections, part 41 of 48:              0xc
+Absolute sections, part 42 of 50:              0xc
   .noinit            uninit   0xffe1'0010      0x4  drv_glcd.o [1]
   .noinit            uninit   0xffe1'0014      0x4  drv_glcd.o [1]
   .noinit            uninit   0xffe1'0018      0x4  drv_glcd.o [1]
                             - 0xffe1'001c      0xc
 
-Absolute sections, part 42 of 48:              0x4
+Absolute sections, part 43 of 50:              0x4
   .noinit            uninit   0xffe1'0200      0x4  drv_glcd.o [1]
                             - 0xffe1'0204      0x4
 
-Absolute sections, part 43 of 48:              0x4
+Absolute sections, part 44 of 50:              0x8
   .noinit            uninit   0xffe1'0c00      0x4  drv_glcd.o [1]
-                            - 0xffe1'0c04      0x4
+  .noinit            uninit   0xffe1'0c04      0x4  drv_glcd.o [1]
+                            - 0xffe1'0c08      0x8
 
-Absolute sections, part 44 of 48:              0xc
+Absolute sections, part 45 of 50:              0x8
+  .noinit            uninit   0xffe1'0c10      0x4  drv_glcd.o [1]
+  .noinit            uninit   0xffe1'0c14      0x4  drv_glcd.o [1]
+                            - 0xffe1'0c18      0x8
+
+Absolute sections, part 46 of 50:              0xc
   .noinit            uninit   0xffff'f00c      0x4  sys.o [1]
   .noinit            uninit   0xffff'f010      0x4  main.o [1]
   .noinit            uninit   0xffff'f014      0x4  sys.o [1]
                             - 0xffff'f018      0xc
 
-Absolute sections, part 45 of 48:              0x8
+Absolute sections, part 47 of 50:              0x8
   .noinit            uninit   0xffff'f01c      0x4  sys.o [1]
   .noinit            uninit   0xffff'f020      0x4  sys.o [1]
                             - 0xffff'f024      0x8
 
-Absolute sections, part 46 of 48:              0x4
+Absolute sections, part 48 of 50:              0x4
   .noinit            uninit   0xffff'f100      0x4  sys.o [1]
                             - 0xffff'f104      0x4
 
-Absolute sections, part 47 of 48:              0x4
+Absolute sections, part 49 of 50:              0x4
   .noinit            uninit   0xffff'f200      0x4  sys.o [1]
                             - 0xffff'f204      0x4
 
-Absolute sections, part 48 of 48:              0x4
+Absolute sections, part 50 of 50:              0x4
   .noinit            uninit   0xffff'ff00      0x4  sys.o [1]
                             - 0xffff'ff04      0x4
 
@@ -475,10 +520,10 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-         0x84        0x1fb     0x178
-     0x5'14c0     0x7'dfff  0x2'cb40
+         0x8c        0x1fb     0x170
+     0x5'08de     0x7'dfff  0x2'd722
   0x4000'0000  0x4000'003f      0x40
-  0x4000'0a20  0x4000'ffdf    0xf5c0
+  0x4000'0a40  0x4000'ffdf    0xf5a0
 
 
 *******************************************************************************
@@ -488,14 +533,14 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x75:
-          0x4000'0168  0x75
+    1 destination range, total size 0x8d:
+          0x4000'0170  0x8d
 
 Copy (__iar_copy_init3)
-    1 source range, total size 0x48:
-                 0x3c  0x48
-    1 destination range, total size 0x48:
-          0x4000'0120  0x48
+    1 source range, total size 0x50:
+                 0x3c  0x50
+    1 destination range, total size 0x50:
+          0x4000'0120  0x50
 
 
 
@@ -511,24 +556,30 @@ command line/config:
     Total:
 
 C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash Debug\Obj: [1]
-    Terminal_18_24x12.o              12 332       24
+    Terminal_9_12x6.o                 3 116       24
     blackScreen.o                   307 244       28
-    drv_glcd.o               1 304      132       12       52
-    drv_touch_scr.o          2 228      130       25       48
-    main.o                   1 748       16       84       68
-    printing.o                  52                 8
+    buttons.o                  580        2
+    cursor_arrow.o                      256
+    drv_glcd.o               3 808      212       64       64
+    drv_touch_scr.o          2 320      130       21       52
+    main.o                   2 668       84       68       68
+    printing.o                 804       28        8
     sdram_64M_32bit_drv.o      780                         88
     sys.o                    1 332                        164
     ---------------------------------------------------------
-    Total:                   7 444  319 854      181      420
+    Total:                  12 292  311 072      213      436
 
 dl4t_aln.a: [2]
     XShttio.o                   12        8        8
     abort.o                      8
     exit.o                       4
     low_level_init.o             8
+    sprintf.o                  108
+    vsprintf.o                  92
+    xprintftiny.o              620
+    xsprout.o                   20
     ---------------------------------------------------------
-    Total:                      32        8        8
+    Total:                     872        8        8
 
 m4t_al.a: [3]
     DblAdd.o                   312
@@ -543,14 +594,16 @@ m4t_al.a: [3]
     FltDiv.o                   448
     FltMul.o                   328
     FltSub.o                   300
+    FltToS32.o                  64
     FltToU32.o                  52
+    S32ToFlt.o                 100
     U32ToDbl.o                  88
     U32ToFlt.o                  92
-    sqrt.o                     364
     ---------------------------------------------------------
-    Total:                   4 244
+    Total:                   4 044
 
 rt4t_al.a: [4]
+    ABImemcpy.o                176
     I32DivMod.o                420
     IntDivZer.o                  4
     cexit.o                     16
@@ -558,10 +611,11 @@ rt4t_al.a: [4]
     copy_init3.o                48
     cstartup.o                 148
     data_init.o                 50
+    strlen.o                    84
     vectortrap.o                 4
     zero_init3.o                60
     ---------------------------------------------------------
-    Total:                     798
+    Total:                   1 058
 
 shs_l.a: [5]
     ABIassert.o                 64
@@ -573,7 +627,7 @@ shs_l.a: [5]
 
     Linker created              12       36    2 112
 -------------------------------------------------------------
-    Grand Total:            12 718  319 898    2 301      420
+    Grand Total:            18 466  311 116    2 333      436
 
 
 *******************************************************************************
@@ -582,60 +636,90 @@ shs_l.a: [5]
 
 Entry                       Address     Size  Type      Object
 -----                       -------     ----  ----      ------
-.iar.init_table$$Base      0x5'1464            --   Gb  - Linker created -
-.iar.init_table$$Limit     0x5'1488            --   Gb  - Linker created -
-?main                      0x5'1378           Code  Gb  cmain.o [4]
-Abort_Handler              0x5'14b8           Code  Wk  vectortrap.o [4]
-CSTACK$$Base            0x4000'01e0            --   Gb  - Linker created -
-CSTACK$$Limit           0x4000'05e0            --   Gb  - Linker created -
-FIQ_Handler                0x4'eaf4      0x4  Code  Gb  sys.o [1]
-FIQ_STACK$$Base         0x4000'09e0            --   Gb  - Linker created -
-FIQ_STACK$$Limit        0x4000'0a20            --   Gb  - Linker created -
-GLCD_Ctrl                  0x5'0650     0xa0  Code  Gb  drv_glcd.o [1]
-GLCD_Init                  0x5'0258    0x3a0  Code  Gb  drv_glcd.o [1]
-GLCD_SetFont               0x5'06f0     0x1c  Code  Gb  drv_glcd.o [1]
-GLCD_SetPallet             0x5'05f8     0x58  Code  Gb  drv_glcd.o [1]
-GpioInit                   0x4'eed8    0x104  Code  Gb  sys.o [1]
-IRQ_Handler                0x4'eaf8     0x38  Code  Gb  sys.o [1]
-IRQ_STACK$$Base         0x4000'05e0            --   Gb  - Linker created -
-IRQ_STACK$$Limit        0x4000'09e0            --   Gb  - Linker created -
-InitClock                  0x4'ebf0    0x1bc  Code  Gb  sys.o [1]
+.iar.init_table$$Base      0x5'07c4            --   Gb  - Linker created -
+.iar.init_table$$Limit     0x5'07e8            --   Gb  - Linker created -
+?main                      0x5'06d8           Code  Gb  cmain.o [4]
+ADC_Init                   0x4'daf8     0xc8  Code  Gb  main.o [1]
+ADC_Intr_Handler           0x4'f0c4    0x354  Code  Gb  drv_touch_scr.o [1]
+Abort_Handler              0x5'08d4           Code  Wk  vectortrap.o [4]
+CSTACK$$Base            0x4000'0200            --   Gb  - Linker created -
+CSTACK$$Limit           0x4000'0600            --   Gb  - Linker created -
+CurrX_Size              0x4000'0198      0x4  Data  Lc  drv_glcd.o [1]
+CurrY_Size              0x4000'0194      0x4  Data  Lc  drv_glcd.o [1]
+Cursor                     0x5'047c    0x100  Data  Gb  cursor_arrow.o [1]
+FIQ_Handler                0x4'c0e0      0x4  Code  Gb  sys.o [1]
+FIQ_STACK$$Base         0x4000'0a00            --   Gb  - Linker created -
+FIQ_STACK$$Limit        0x4000'0a40            --   Gb  - Linker created -
+GLCD_Copy_Cursor           0x4'b33c     0x3c  Code  Gb  drv_glcd.o [1]
+GLCD_Ctrl                  0x4'b770     0xa0  Code  Gb  drv_glcd.o [1]
+GLCD_Cursor_Cfg            0x4'b200      0xc  Code  Gb  drv_glcd.o [1]
+GLCD_Cursor_Dis            0x4'b238     0x14  Code  Gb  drv_glcd.o [1]
+GLCD_Cursor_En             0x4'b20c     0x2c  Code  Gb  drv_glcd.o [1]
+GLCD_Init                  0x4'b378    0x3a0  Code  Gb  drv_glcd.o [1]
+GLCD_Move_Cursor           0x4'b24c     0xf0  Code  Gb  drv_glcd.o [1]
+GLCD_SetColors             0x4'b82c     0x14  Code  Gb  drv_glcd.o [1]
+GLCD_SetFont               0x4'b810     0x1c  Code  Gb  drv_glcd.o [1]
+GLCD_SetPallet             0x4'b718     0x58  Code  Gb  drv_glcd.o [1]
+GLCD_SetWindow             0x4'b840     0xb8  Code  Gb  drv_glcd.o [1]
+GLCD_TextCalcWindow        0x4'ba00    0x154  Code  Lc  drv_glcd.o [1]
+GLCD_TextSetPos            0x4'b8f8     0x14  Code  Gb  drv_glcd.o [1]
+GLCD_print                 0x4'bfd4     0x58  Code  Gb  drv_glcd.o [1]
+GLCD_putchar               0x4'bb54    0x47c  Code  Gb  drv_glcd.o [1]
+GpioInit                   0x4'c4c4    0x104  Code  Gb  sys.o [1]
+IRQ_Handler                0x4'c0e4     0x38  Code  Gb  sys.o [1]
+IRQ_STACK$$Base         0x4000'0600            --   Gb  - Linker created -
+IRQ_STACK$$Limit        0x4000'0a00            --   Gb  - Linker created -
+InitClock                  0x4'c1dc    0x1bc  Code  Gb  sys.o [1]
 LCD_LPBASE              0xffe1'0014      0x4  Data  Gb  drv_glcd.o [1]
 LCD_PAL_BASE            0xffe1'0200      0x4  Data  Gb  drv_glcd.o [1]
+LCD_SET_WINDOW             0x4'b90c     0x64  Code  Lc  drv_glcd.o [1]
 LCD_UPBASE              0xffe1'0010      0x4  Data  Gb  drv_glcd.o [1]
-Prefetch_Handler           0x5'14b8           Code  Wk  vectortrap.o [4]
-Region$$Table$$Base        0x5'1464            --   Gb  - Linker created -
-Region$$Table$$Limit       0x5'1488            --   Gb  - Linker created -
+LCD_WRITE_PIXEL            0x4'b970     0x90  Code  Lc  drv_glcd.o [1]
+OnTouchIntr_Handler        0x4'efe0     0xe4  Code  Gb  drv_touch_scr.o [1]
+Prefetch_Handler           0x5'08d4           Code  Wk  vectortrap.o [4]
+Region$$Table$$Base        0x5'07c4            --   Gb  - Linker created -
+Region$$Table$$Limit       0x5'07e8            --   Gb  - Linker created -
 SDRAM_BASE_ADDR {Abs}   0xa000'0000           Data  Gb  <internal module>
-SDRAM_Init                 0x5'0770    0x27c  Code  Gb  sdram_64M_32bit_drv.o [1]
-SWI_Handler                0x5'14b8           Code  Wk  vectortrap.o [4]
-SYS_GetFpclk               0x4'ee70     0x68  Code  Gb  sys.o [1]
-SYS_GetFsclk               0x4'edac     0xc4  Code  Gb  sys.o [1]
-Samples                 0x4000'017c      0x4  Data  Lc  drv_touch_scr.o [1]
-State                   0x4000'01dc      0x1  Data  Lc  drv_touch_scr.o [1]
+SDRAM_Init                 0x4'eb38    0x27c  Code  Gb  sdram_64M_32bit_drv.o [1]
+SWI_Handler                0x5'08d4           Code  Wk  vectortrap.o [4]
+SYS_GetFpclk               0x4'c45c     0x68  Code  Gb  sys.o [1]
+SYS_GetFsclk               0x4'c398     0xc4  Code  Gb  sys.o [1]
+Samples                 0x4000'01ac      0x4  Data  Lc  drv_touch_scr.o [1]
+State                   0x4000'01fc      0x1  Data  Lc  drv_touch_scr.o [1]
 T0MR0                   0xe000'4018      0x4  Data  Gb  drv_touch_scr.o [1]
 T0PR                    0xe000'400c      0x4  Data  Gb  drv_touch_scr.o [1]
 T1MR1                   0xe000'801c      0x4  Data  Gb  main.o [1]
 T1PR                    0xe000'800c      0x4  Data  Gb  main.o [1]
-T2                      0x4000'01b0      0x4  Data  Gb  main.o [1]
-TIMER1IntrHandler          0x4'f350    0x294  Code  Gb  main.o [1]
-Terminal_18_24_12       0x4000'013c     0x18  Data  Gb  Terminal_18_24x12.o [1]
-TextBackgndColour       0x4000'0170      0x4  Data  Lc  drv_glcd.o [1]
-TextColour              0x4000'016c      0x4  Data  Lc  drv_glcd.o [1]
-TextStream                 0x4'b200   0x3000  Data  Lc  Terminal_18_24x12.o [1]
-TimerIntr_Handler          0x4'e200    0x5d0  Code  Gb  drv_touch_scr.o [1]
-Touch                   0x4000'0174      0x4  Data  Lc  drv_touch_scr.o [1]
-TouchScrInit               0x4'e7d0    0x28c  Code  Gb  drv_touch_scr.o [1]
-Touch_temp              0x4000'0178      0x4  Data  Lc  drv_touch_scr.o [1]
-Undefined_Handler          0x5'14b8           Code  Wk  vectortrap.o [4]
+T2                      0x4000'01dc      0x4  Data  Gb  main.o [1]
+T3                      0x4000'01e0      0x4  Data  Gb  main.o [1]
+TIMER1IntrHandler          0x4'd898    0x258  Code  Gb  main.o [1]
+TabSize                 0x4000'0164      0x4  Data  Lc  drv_glcd.o [1]
+Terminal_9_12_6         0x4000'013c     0x18  Data  Gb  Terminal_9_12x6.o [1]
+TextBackgndColour       0x4000'0178      0x4  Data  Lc  drv_glcd.o [1]
+TextColour              0x4000'0174      0x4  Data  Lc  drv_glcd.o [1]
+TextStream                 0x4'cba4    0xc00  Data  Lc  Terminal_9_12x6.o [1]
+TextX_Pos               0x4000'017c      0x4  Data  Lc  drv_glcd.o [1]
+TextY_Pos               0x4000'0180      0x4  Data  Lc  drv_glcd.o [1]
+TimerIntr_Handler          0x4'ee44    0x19c  Code  Gb  drv_touch_scr.o [1]
+Touch                   0x4000'01a4      0x4  Data  Lc  drv_touch_scr.o [1]
+TouchGet                   0x4'f630     0xcc  Code  Gb  drv_touch_scr.o [1]
+TouchScrInit               0x4'f418    0x218  Code  Gb  drv_touch_scr.o [1]
+Touch_temp              0x4000'01a8      0x4  Data  Lc  drv_touch_scr.o [1]
+Undefined_Handler          0x5'08d4           Code  Wk  vectortrap.o [4]
 VICADDRESS              0xffff'ff00      0x4  Data  Gb  sys.o [1]
 VICVECTADDR0            0xffff'f100      0x4  Data  Gb  sys.o [1]
-VIC_Init                   0x4'eb30     0x78  Code  Gb  sys.o [1]
-VIC_SetVectoredIRQ         0x4'eba8     0x48  Code  Gb  sys.o [1]
-X                       0x4000'01d4      0x2  Data  Lc  drv_touch_scr.o [1]
-X_temp                  0x4000'01d8      0x2  Data  Lc  drv_touch_scr.o [1]
-Y                       0x4000'01d6      0x2  Data  Lc  drv_touch_scr.o [1]
-Y_temp                  0x4000'01da      0x2  Data  Lc  drv_touch_scr.o [1]
+VIC_Init                   0x4'c11c     0x78  Code  Gb  sys.o [1]
+VIC_SetVectoredIRQ         0x4'c194     0x48  Code  Gb  sys.o [1]
+WindX_Size              0x4000'0190      0x4  Data  Lc  drv_glcd.o [1]
+WindY_Size              0x4000'018c      0x4  Data  Lc  drv_glcd.o [1]
+X                       0x4000'01f4      0x2  Data  Lc  drv_touch_scr.o [1]
+XL_Win                  0x4000'0184      0x4  Data  Lc  drv_glcd.o [1]
+XR_Win                  0x4000'015c      0x4  Data  Lc  drv_glcd.o [1]
+X_temp                  0x4000'01f8      0x2  Data  Lc  drv_touch_scr.o [1]
+Y                       0x4000'01f6      0x2  Data  Lc  drv_touch_scr.o [1]
+YD_Win                  0x4000'0160      0x4  Data  Lc  drv_glcd.o [1]
+YU_Win                  0x4000'0188      0x4  Data  Lc  drv_glcd.o [1]
+Y_temp                  0x4000'01fa      0x2  Data  Lc  drv_touch_scr.o [1]
 _A_AD0CR                0xe003'4000      0x4  Data  Gb  main.o [1]
 _A_ADDR0                0xe003'4010      0x4  Data  Gb  drv_touch_scr.o [1]
 _A_ADDR1                0xe003'4014      0x4  Data  Gb  drv_touch_scr.o [1]
@@ -645,7 +729,10 @@ _A_ADINTEN              0xe003'400c      0x4  Data  Gb  main.o [1]
 _A_AHBCFG1              0xe01f'c188      0x4  Data  Gb  sys.o [1]
 _A_CCLKCFG              0xe01f'c104      0x4  Data  Gb  sys.o [1]
 _A_CLKSRCSEL            0xe01f'c10c      0x4  Data  Gb  sys.o [1]
+_A_CRSR_CFG             0xffe1'0c04      0x4  Data  Gb  drv_glcd.o [1]
+_A_CRSR_CLIP            0xffe1'0c14      0x4  Data  Gb  drv_glcd.o [1]
 _A_CRSR_CTRL            0xffe1'0c00      0x4  Data  Gb  drv_glcd.o [1]
+_A_CRSR_XY              0xffe1'0c10      0x4  Data  Gb  drv_glcd.o [1]
 _A_EMCCONTROL           0xffe0'8000      0x4  Data  Gb  sdram_64M_32bit_drv.o [1]
 _A_EMCDINAMICCTRL       0xffe0'8020      0x4  Data  Gb  sdram_64M_32bit_drv.o [1]
 _A_EMCDINAMICRDCFG      0xffe0'8028      0x4  Data  Gb  sdram_64M_32bit_drv.o [1]
@@ -663,6 +750,7 @@ _A_EMCDYNAMICRRD        0xffe0'8054      0x4  Data  Gb  sdram_64M_32bit_drv.o [1
 _A_EMCDYNAMICSREX       0xffe0'8038      0x4  Data  Gb  sdram_64M_32bit_drv.o [1]
 _A_EMCDYNAMICWR         0xffe0'8044      0x4  Data  Gb  sdram_64M_32bit_drv.o [1]
 _A_EMCDYNAMICXSR        0xffe0'8050      0x4  Data  Gb  sdram_64M_32bit_drv.o [1]
+_A_EXTINT               0xe01f'c140      0x4  Data  Gb  drv_touch_scr.o [1]
 _A_FIO0CLR              0x3fff'c01c      0x4  Data  Gb  drv_touch_scr.o [1]
 _A_FIO0DIR              0x3fff'c000      0x4  Data  Gb  sys.o [1]
 _A_FIO0MASK             0x3fff'c010      0x4  Data  Gb  sys.o [1]
@@ -732,84 +820,93 @@ _A_VICINTSELECT         0xffff'f00c      0x4  Data  Gb  sys.o [1]
 _A_VICPROTECTION        0xffff'f020      0x4  Data  Gb  sys.o [1]
 _A_VICSOFTINTCLEAR      0xffff'f01c      0x4  Data  Gb  sys.o [1]
 _A_VICVECTPRIORITY0     0xffff'f200      0x4  Data  Gb  sys.o [1]
-__aeabi_assert             0x4'eab4     0x40  Code  Gb  ABIassert.o [5]
-__aeabi_cfcmple            0x5'0fd4           Code  Gb  FltCmpLe.o [3]
-__aeabi_cfrcmple           0x5'1000           Code  Gb  FltCmpGe.o [3]
-__aeabi_d2f                0x5'0db0           Code  Gb  DblToFlt.o [3]
-__aeabi_d2uiz              0x4'ff24           Code  Gb  DblToU32.o [3]
-__aeabi_dadd               0x4'ff60           Code  Gb  DblAdd.o [3]
-__aeabi_ddiv               0x5'0a7c           Code  Gb  DblDiv.o [3]
-__aeabi_dmul               0x4'fd30           Code  Gb  DblMul.o [3]
-__aeabi_f2uiz              0x4'fca4           Code  Gb  FltToU32.o [3]
-__aeabi_fadd               0x4'fc00           Code  Gb  FltAdd.o [3]
-__aeabi_fdiv               0x5'0098           Code  Gb  FltDiv.o [3]
-__aeabi_fmul               0x4'f98c           Code  Gb  FltMul.o [3]
-__aeabi_fsub               0x4'fad4           Code  Gb  FltSub.o [3]
-__aeabi_idiv0              0x4'f1d4           Code  Gb  IntDivZer.o [4]
-__aeabi_ui2d               0x4'fcd8           Code  Gb  U32ToDbl.o [3]
-__aeabi_ui2f               0x4'f930           Code  Gb  U32ToFlt.o [3]
-__aeabi_uidiv              0x4'f028           Code  Gb  I32DivMod.o [4]
-__aeabi_uidivmod           0x4'f028           Code  Gb  I32DivMod.o [4]
-__cmain                    0x5'1378           Code  Gb  cmain.o [4]
-__exit                     0x4'f1d8     0x20  Code  Gb  exit.o [5]
-__iar_SubNrm               0x4'faa8           Code  Gb  FltMul.o [3]
-__iar_close_ttio           0x4'f1f8     0x58  Code  Gb  iarttio.o [5]
-__iar_copy_init3           0x5'1435     0x30  Code  Gb  copy_init3.o [4]
-__iar_dadd                 0x4'ff70           Code  Gb  DblAdd.o [3]
-__iar_data_init3           0x5'13b1     0x30  Code  Gb  data_init.o [4]
-__iar_dsub                 0x5'102c           Code  Gb  DblSub.o [3]
-__iar_dsubStart            0x5'104c           Code  Gb  DblSub.o [3]
-__iar_fadd                 0x4'fc0c           Code  Gb  FltAdd.o [3]
-__iar_fsub                 0x4'fae0           Code  Gb  FltSub.o [3]
-__iar_fsubStart            0x4'faf0           Code  Gb  FltSub.o [3]
-__iar_lookup_ttioh         0x4'f250      0xc  Code  Gb  XShttio.o [2]
-__iar_program_start        0x5'1314           Code  Gb  cstartup.o [4]
-__iar_return_from_swi      0x5'14bc      0x4  Code  Gb  xreturnswi.o [5]
-__iar_sqrt64               0x5'0e68           Code  Gb  sqrt.o [3]
+_PrintfTiny                0x4'c894    0x238  Code  Gb  xprintftiny.o [2]
+_SProut                    0x5'0824     0x14  Code  Gb  xsprout.o [2]
+__aeabi_assert             0x4'c7b8     0x40  Code  Gb  ABIassert.o [5]
+__aeabi_cfcmple            0x5'0124           Code  Gb  FltCmpLe.o [3]
+__aeabi_cfrcmple           0x5'0150           Code  Gb  FltCmpGe.o [3]
+__aeabi_d2f                0x4'fa88           Code  Gb  DblToFlt.o [3]
+__aeabi_d2uiz              0x4'e804           Code  Gb  DblToU32.o [3]
+__aeabi_dadd               0x4'e840           Code  Gb  DblAdd.o [3]
+__aeabi_ddiv               0x4'f754           Code  Gb  DblDiv.o [3]
+__aeabi_dmul               0x4'e610           Code  Gb  DblMul.o [3]
+__aeabi_f2iz               0x5'036c           Code  Gb  FltToS32.o [3]
+__aeabi_f2uiz              0x4'e584           Code  Gb  FltToU32.o [3]
+__aeabi_fadd               0x4'e4e0           Code  Gb  FltAdd.o [3]
+__aeabi_fdiv               0x4'e978           Code  Gb  FltDiv.o [3]
+__aeabi_fmul               0x4'e26c           Code  Gb  FltMul.o [3]
+__aeabi_fsub               0x4'e3b4           Code  Gb  FltSub.o [3]
+__aeabi_i2f                0x5'03ac           Code  Gb  S32ToFlt.o [3]
+__aeabi_idiv0              0x4'c854           Code  Gb  IntDivZer.o [4]
+__aeabi_memcpy4            0x5'0074           Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8            0x5'0074           Code  Gb  ABImemcpy.o [4]
+__aeabi_ui2d               0x4'e5b8           Code  Gb  U32ToDbl.o [3]
+__aeabi_ui2f               0x4'e210           Code  Gb  U32ToFlt.o [3]
+__aeabi_uidiv              0x4'c614           Code  Gb  I32DivMod.o [4]
+__aeabi_uidivmod           0x4'c614           Code  Gb  I32DivMod.o [4]
+__cmain                    0x5'06d8           Code  Gb  cmain.o [4]
+__exit                     0x4'cacc     0x20  Code  Gb  exit.o [5]
+__iar_SubNrm               0x4'e388           Code  Gb  FltMul.o [3]
+__iar_close_ttio           0x4'cb40     0x58  Code  Gb  iarttio.o [5]
+__iar_copy_init3           0x5'0795     0x30  Code  Gb  copy_init3.o [4]
+__iar_dadd                 0x4'e850           Code  Gb  DblAdd.o [3]
+__iar_data_init3           0x5'0711     0x30  Code  Gb  data_init.o [4]
+__iar_dsub                 0x5'017c           Code  Gb  DblSub.o [3]
+__iar_dsubStart            0x5'019c           Code  Gb  DblSub.o [3]
+__iar_fadd                 0x4'e4ec           Code  Gb  FltAdd.o [3]
+__iar_fsub                 0x4'e3c0           Code  Gb  FltSub.o [3]
+__iar_fsubStart            0x4'e3d0           Code  Gb  FltSub.o [3]
+__iar_lookup_ttioh         0x4'cb98      0xc  Code  Gb  XShttio.o [2]
+__iar_program_start        0x5'0674           Code  Gb  cstartup.o [4]
+__iar_return_from_swi      0x5'08d8      0x4  Code  Gb  xreturnswi.o [5]
 __iar_ttio_handles      0x4000'0154      0x8  Data  Lc  XShttio.o [2]
-__iar_zero_init3           0x5'13f9     0x3c  Code  Gb  zero_init3.o [4]
-__low_level_init           0x5'13a8      0x8  Code  Gb  low_level_init.o [2]
+__iar_zero_init3           0x5'0759     0x3c  Code  Gb  zero_init3.o [4]
+__low_level_init           0x5'0708      0x8  Code  Gb  low_level_init.o [2]
 __vector                        0x0           Data  Gb  cstartup.o [4]
-_call_main                 0x5'1390           Code  Gb  cmain.o [4]
-_exit                      0x5'13e8           Code  Gb  cexit.o [4]
-_main                      0x5'1398           Code  Gb  cmain.o [4]
-abort                      0x4'f1cc      0x8  Code  Gb  abort.o [2]
-alpha                   0x4000'01ac      0x4  Data  Gb  main.o [1]
+_call_main                 0x5'06f0           Code  Gb  cmain.o [4]
+_exit                      0x5'0748           Code  Gb  cexit.o [4]
+_main                      0x5'06f8           Code  Gb  cmain.o [4]
+abort                      0x4'c858      0x8  Code  Gb  abort.o [2]
+alpha                   0x4000'01d8      0x4  Data  Gb  main.o [1]
 blackScreenPic          0x4000'0120     0x1c  Data  Gb  blackScreen.o [1]
 blackScreenStream             0x200  0x4b000  Data  Gb  blackScreen.o [1]
-counter                 0x4000'0180      0x4  Data  Gb  drv_touch_scr.o [1]
-crosstick2              0x4000'01a4      0x4  Data  Gb  main.o [1]
-crosstick2_old          0x4000'01a8      0x4  Data  Gb  main.o [1]
+changeX                    0x4'fb0c      0xc  Code  Gb  printing.o [1]
+checkPressed               0x4'ffa0     0xd4  Code  Gb  buttons.o [1]
+crosstick2              0x4000'01d0      0x4  Data  Gb  main.o [1]
+crosstick2_old          0x4000'01d4      0x4  Data  Gb  main.o [1]
 crp                           0x1fc      0x4  Data  Gb  main.o [1]
-currentSamples          0x4000'01c8      0x4  Data  Gb  main.o [1]
-currentSum              0x4000'01bc      0x4  Data  Gb  main.o [1]
-exit                       0x5'13e4      0x4  Code  Gb  exit.o [2]
-i2                      0x4000'01a0      0x4  Data  Gb  main.o [1]
-lastCompletedCurrentSum
-                        0x4000'01c0      0x4  Data  Gb  main.o [1]
-lastCompletedCurrentSumSamples
-                        0x4000'01c4      0x4  Data  Gb  main.o [1]
-lowPass                    0x4'f25c     0xf4  Code  Gb  main.o [1]
-main                       0x4'f5f4    0x2b4  Code  Gb  main.o [1]
-newCurrentSum           0x4000'0164      0x4  Data  Gb  main.o [1]
-newLine                    0x5'0e34     0x14  Code  Gb  printing.o [1]
-pCurrFont               0x4000'0168      0x4  Data  Lc  drv_glcd.o [1]
-resetCursor                0x5'0e48     0x18  Code  Gb  printing.o [1]
-sqrt                       0x5'0e68           Code  Gb  sqrt.o [3]
-sqrtl                      0x5'0e68           Code  Gb  sqrt.o [3]
-tickCrossingZero2       0x4000'01b4      0x4  Data  Gb  main.o [1]
-tickCrossingZero3       0x4000'01b8      0x4  Data  Gb  main.o [1]
-timeToPrint             0x4000'0160      0x4  Data  Gb  main.o [1]
-timetick                0x4000'0184      0x4  Data  Gb  main.o [1]
-waitingForCross2        0x4000'015c      0x4  Data  Gb  main.o [1]
-x2                      0x4000'0188      0x4  Data  Gb  main.o [1]
-x2_old                  0x4000'0198      0x4  Data  Gb  main.o [1]
-x3                      0x4000'018c      0x4  Data  Gb  main.o [1]
-x3_old                  0x4000'019c      0x4  Data  Gb  main.o [1]
-xPositionForPrinting    0x4000'01d0      0x4  Data  Gb  printing.o [1]
-y2_old                  0x4000'0190      0x4  Data  Gb  main.o [1]
-y3_old                  0x4000'0194      0x4  Data  Gb  main.o [1]
-yPositionForPrinting    0x4000'01cc      0x4  Data  Gb  printing.o [1]
+drawButton                 0x4'fe88     0xc8  Code  Gb  buttons.o [1]
+exit                       0x5'0744      0x4  Code  Gb  exit.o [2]
+i2                      0x4000'01cc      0x4  Data  Gb  main.o [1]
+initButton                 0x4'fe30     0x58  Code  Gb  buttons.o [1]
+lowPass                    0x4'd7a4     0xf4  Code  Gb  main.o [1]
+main                       0x4'dbc8    0x5b4  Code  Gb  main.o [1]
+newLine                    0x4'fb18     0x14  Code  Gb  printing.o [1]
+out                        0x4'c860     0x34  Code  Lc  xprintftiny.o [2]
+pCurrFont               0x4000'0170      0x4  Data  Lc  drv_glcd.o [1]
+pPix                    0x4000'01a0      0x4  Data  Lc  drv_glcd.o [1]
+pWind                   0x4000'019c      0x4  Data  Lc  drv_glcd.o [1]
+printFloat                 0x4'fc70    0x124  Code  Gb  printing.o [1]
+printFloatAndUnit          0x4'fb44    0x12c  Code  Gb  printing.o [1]
+printString                0x4'fd94     0x8c  Code  Gb  printing.o [1]
+resetCursor                0x4'fb2c     0x18  Code  Gb  printing.o [1]
+sprintf                    0x5'0410     0x6c  Code  Gb  sprintf.o [2]
+strlen                     0x4'caec           Code  Gb  strlen.o [4]
+tickCrossingZero2       0x4000'01e4      0x4  Data  Gb  main.o [1]
+tickCrossingZero3       0x4000'01e8      0x4  Data  Gb  main.o [1]
+timeToPrint             0x4000'016c      0x4  Data  Gb  main.o [1]
+timetick                0x4000'01b0      0x4  Data  Gb  main.o [1]
+vsprintf                   0x4'c7f8     0x5c  Code  Gb  vsprintf.o [2]
+waitingForCross2        0x4000'0168      0x4  Data  Gb  main.o [1]
+within                     0x4'ff5c     0x44  Code  Gb  buttons.o [1]
+x2                      0x4000'01b4      0x4  Data  Gb  main.o [1]
+x2_old                  0x4000'01c4      0x4  Data  Gb  main.o [1]
+x3                      0x4000'01b8      0x4  Data  Gb  main.o [1]
+x3_old                  0x4000'01c8      0x4  Data  Gb  main.o [1]
+xPositionForPrinting    0x4000'01f0      0x4  Data  Gb  printing.o [1]
+y2_old                  0x4000'01bc      0x4  Data  Gb  main.o [1]
+y3_old                  0x4000'01c0      0x4  Data  Gb  main.o [1]
+yPositionForPrinting    0x4000'01ec      0x4  Data  Gb  printing.o [1]
 
 
 [1] = C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\Flash Debug\Obj
@@ -818,9 +915,9 @@ yPositionForPrinting    0x4000'01cc      0x4  Data  Gb  printing.o [1]
 [4] = rt4t_al.a
 [5] = shs_l.a
 
-   12 718 bytes of readonly  code memory
-  319 898 bytes of readonly  data memory
-    2 301 bytes of readwrite data memory (+ 420 absolute)
+   18 466 bytes of readonly  code memory
+  311 116 bytes of readonly  data memory
+    2 333 bytes of readwrite data memory (+ 436 absolute)
 
 Errors: none
 Warnings: none

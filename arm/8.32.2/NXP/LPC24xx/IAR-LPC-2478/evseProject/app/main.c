@@ -12,7 +12,7 @@
  *       Author      : Stanimir Bonev
  *       Description : Create
  *    2. Date        : 7, January 2019
- *       Author      : Irene Danvy and Frederik Ettrup Larsen
+ *       Author      : Irene Danvy, Frederik Ettrup Larsen and Jacob Frederiksen
  *       Description : Modified to complete the course "Hands-on microcrontroller programming"
  *
  *  This example project shows how to use the IAR Embedded Workbench for ARM
@@ -42,7 +42,8 @@
 #include "redScreen.h"
 #include "blackScreen.h"
 #include "printing.h"
-   
+#include "buttons.h"
+ 
 #define NONPROT 0xFFFFFFFF
 #define CRP1  	0x12345678
 #define CRP2  	0x87654321
@@ -67,6 +68,13 @@ extern FontType_t Terminal_18_24_12;
 
 #define P19_MASK (1UL<<19)
 #define P11_MASK (1UL<<11)
+
+#define white   0x00FFFFFF
+#define black   0x00000000
+#define green   0x0042f462
+#define red     0x001010ed
+#define yellow  0x0007ebef
+#define blue    0x00ef072d
 
 Int32U timetick = 0;
 Int32U x2 = 0;
@@ -148,7 +156,7 @@ void TIMER1IntrHandler (void)
   if(ADDR2_bit.DONE){
     x2_old = x2;
     x2 = lowPass(ADDR2_bit.RESULT,channel2);
-    DACR_bit.VALUE = x2;
+  //  DACR_bit.VALUE = x2;
   }
   
   if(ADDR3_bit.DONE){
@@ -228,12 +236,12 @@ void TIMER1IntrHandler (void)
  * Description: Initialises adc
  *
  *************************************************************************/
-void ADC_Init (void){ 
+void ADC_Init (void){
   AD0CR_bit.PDN = 0;
   PCONP_bit.PCAD = 1; //PCAD A/D converter (ADC) power/clock control bit. Note: Clear the PDN bit in
                       // the AD0CR before clearing this bit, and set this bit before setting PDN.
-  PCLKSEL0_bit.PCLK_ADC = 0x1; //Enable ADC clock
-  AD0CR_bit.CLKDIV = 5; //18MHz/(5+1)= 3MHz<=4.5 MHz?7+1)= 4MHz<=4.5 MHz
+ // PCLKSEL0_bit.PCLK_ADC = 0x1; //Enable ADC clock
+  AD0CR_bit.CLKDIV = 8; //18MHz/(8+1)= 2MHz <= 4.5 MHz?7+1)= 4MHz<=4.5 MHz
   AD0CR_bit.BURST = 1; //0=ADC is set to operate in software controlled mode, 1= continue mode
   PINSEL1_bit.P0_25 = 0x1; //AD0[2]
   PINMODE1_bit.P0_25 = 0x2;
@@ -244,10 +252,10 @@ void ADC_Init (void){
   ADINTEN_bit.ADINTEN1 = 1;
   ADINTEN_bit.ADINTEN2 = 1;
   ADINTEN_bit.ADINTEN3 = 1;*/
-//  AD0CR_bit.START = 0;
-  VIC_SetVectoredIRQ (TIMER1IntrHandler,2,VIC_TIMER1);
-  VICINTENABLE |= 1UL << VIC_TIMER1;
-  AD0CR_bit.SEL = 0x0F; // Channel 0, 1, 2 and 3 enabled: 1111 = 15 = F
+  AD0CR_bit.START = 0;
+  //VIC_SetVectoredIRQ(ADC_Intr_Handler,TS_INTR_PRIORITY,VIC_AD0);
+  //VICINTENABLE |= 1UL << VIC_AD0;
+  AD0CR_bit.SEL |= 0x0F; // Channel 0, 1, 2 and 3 enabled: 1111 = 15 = F
   AD0CR_bit.PDN = 1; //The A/D Converter is operational
 }
 
@@ -262,9 +270,8 @@ void ADC_Init (void){
  *************************************************************************/
  int main(void)
 {
-//Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
+Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
 ToushRes_t XY_Touch;
-//Boolean Touch = FALSE;
 
   
   GLCD_Ctrl (FALSE);
@@ -282,13 +289,12 @@ ToushRes_t XY_Touch;
 #endif // SDRAM_DEBUG
   // Init VIC
   VIC_Init();
-  //ADC_Init();
-  // Init touch screen
-  TouchScrInit();
-  
+
   // GLCD init
  GLCD_Init (blackScreenPic.pPicStream, NULL);
-/*
+ GLCD_SetFont(&Terminal_9_12_6,black,white);
+
+
   GLCD_Cursor_Dis(0);
 
   GLCD_Copy_Cursor ((Int32U *)Cursor, 0, sizeof(Cursor)/sizeof(Int32U));
@@ -298,9 +304,9 @@ ToushRes_t XY_Touch;
   GLCD_Move_Cursor(cursor_x, cursor_y);
 
   GLCD_Cursor_En(0);
-*/
- 
 
+
+  
 
   
   // Init USB Link  LED
@@ -326,14 +332,17 @@ ToushRes_t XY_Touch;
   VIC_SetVectoredIRQ(TIMER1IntrHandler,0,VIC_TIMER1);
   VICINTENABLE |= 1UL << VIC_TIMER1;
   T1TCR_bit.CE = 1;     // counting Enable
- 
-  
- 
+
+  // Init ADC
+  ADC_Init();
+  // Init touch screen
+  TouchScrInit(); 
   
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
   
 
+/*
   //initialize DAC - commented out as we need the pin for current sampling
   /*
   PINSEL1_bit.P0_26=2; //sets pin function to AOUT
@@ -341,8 +350,7 @@ ToushRes_t XY_Touch;
   PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
   DACR_bit.VALUE = 0X3FF;
   */
-   GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
-  
+
    // Filter calculations
    Int32U fc = 50; //Value of cut off frequency
    float RC = (1/(2*3.1415*fc));
@@ -352,64 +360,95 @@ ToushRes_t XY_Touch;
    //float current_test = 0;
    
    
-   FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
-   /*
+   FIO0DIR |= P19_MASK | P11_MASK; // Setting pin 19 and 11 to be outputs
+
    printString("\fLive data:");
    int l1 = printString("\fFrequency (V): \0");
    int l2 = printString("\fGarbage: \0");
    int l3 = printString("\fBulb: \0");
-     */
-   int offset = 12;
+
+   struct buttonTag toggleAutoBulb = initButton(10,150,60,200);
+   struct buttonTag toggleBulb = initButton(70,150,120,200);
+   struct buttonTag toggleAutoPlug = initButton(130,150,180,200);
+   struct buttonTag togglePlug = initButton(190,150,240,200);
+   
+   drawButton(&toggleAutoBulb);
+   drawButton(&toggleBulb);
+   drawButton(&toggleAutoPlug);
+   drawButton(&togglePlug); 
+   
    
    while(1){     
+   // TimerIntr_Handler(); 
+   resetCursor();
+   newLine();
+   
+    // Here we handle all the printing that goes of twice a second
+   if(timeToPrint){
      
-     resetCursor();
-     newLine();
-     
-     // Here we handle all the printing that goes of twice a second
-     if(timeToPrint){
-        
         //Calculating and printing voltage frequency
         F2 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T2;
         //Calculating and printing voltage frequency
         F3 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T3;
         
-        changeX(l1*offset);        
+        changeX(l1);        
         printFloatAndUnit(F2,"Hz");
-        changeX(l2*offset);
+        changeX(l2);
         printFloat(F3);
-        changeX(l3*offset);
+        changeX(l3);
         if(FIO0PIN & P19_MASK){
 	    printString("\fON");
         }else{
 	    printString("\fOFF");
-        }        
+        }
+        
         changeX(0);
-        // Check for touch input
-        if(TouchGet(&XY_Touch))
-        {
-          printString("\fTOUCHING\0");
-        }
-        else
-        {
-          printString("\fNot touching\0");
-        }
+        
         timeToPrint = false;
-     }else{
-       newLine();
-       newLine();
-       newLine();
-       newLine();
+   }else{
+     newLine();
+     newLine();
+     newLine();
+   }
+    
+  if(TouchGet(&XY_Touch)) // Cursor mover
+  {
+     cursor_x = XY_Touch.X;
+     cursor_y = XY_Touch.Y;
+     GLCD_Move_Cursor(cursor_x, cursor_y);
+  }
+  
+  
+   drawButton(&toggleAutoBulb);
+   drawButton(&toggleBulb);
+   drawButton(&toggleAutoPlug);
+   drawButton(&togglePlug); 
+   
+   if(checkPressed(&toggleAutoBulb)){
+     if(checkPressed(&toggleBulb)){
+       FIO0PIN |= P19_MASK;
+    }else{
+       FIO0PIN &= ~P19_MASK;
      }
-     
-     printInt(XY_Touch.XY);
-     */
-     
-    // Turning bulb on or off based on frequency
-    if(F2 < 48|| F2 > 52){
+   }else if(F2 < 49 && F2 > 51){
        FIO0PIN &= ~P19_MASK;
     }else{
        FIO0PIN |= P19_MASK;
     }
+   
+   if(checkPressed(&toggleAutoPlug)){
+     if(checkPressed(&togglePlug)){
+       FIO0PIN |= P11_MASK;
+    }else{
+       FIO0PIN &= ~P11_MASK;
+    }
+   }else if(F3 < 49 && F3 > 51){
+       FIO0PIN &= ~P11_MASK;
+    }else{
+       FIO0PIN |= P11_MASK;
+    }
+    
+    
+    
   }
 }

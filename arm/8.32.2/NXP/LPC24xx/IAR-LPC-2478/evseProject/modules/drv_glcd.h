@@ -78,6 +78,7 @@ void GLCD_Cursor_Dis(int cursor);
 void GLCD_Move_Cursor(int x, int y);
 void GLCD_Copy_Cursor (const Int32U *pCursor, int cursor, int size);
 void GLCD_SetFont(pFontType_t pFont, LdcPixel_t Color, LdcPixel_t BackgndColor);
+void GLCD_SetColors(LdcPixel_t Color, LdcPixel_t BackgndColor);
 void GLCD_SetWindow(Int32U X_Left, Int32U Y_Up,
                     Int32U X_Right, Int32U Y_Down);
 void GLCD_TextSetPos(Int32U X, Int32U Y);

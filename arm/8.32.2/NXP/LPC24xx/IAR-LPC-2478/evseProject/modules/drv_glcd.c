@@ -298,6 +298,11 @@ void GLCD_SetFont(pFontType_t pFont, LdcPixel_t Color, LdcPixel_t BackgndColor)
   TextColour = Color;
   TextBackgndColour = BackgndColor;
 }
+void GLCD_SetColors(LdcPixel_t Color, LdcPixel_t BackgndColor)
+{
+  TextColour = Color;
+  TextBackgndColour = BackgndColor;
+}
 
 /*************************************************************************
  * Function Name: GLCD_SetWindow

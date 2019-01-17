@@ -24,13 +24,13 @@
     </CallStack>
     <JLinkDriver>
         <WatchCond>_ 0</WatchCond>
-        <Watch0>_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0</Watch0>
-        <Watch1>_ 0 "" 0 "" 0 "" 0 "" 0 0 0 0</Watch1>
+        <Watch0>_ 0 "0x00000000" 4294967295 "0xFFFFFFFF" 0 "0x00000000" 4294967295 "0xFFFFFFFF" 3 0 0 0</Watch0>
+        <Watch1>_ 0 "0x00000000" 4294967295 "0xFFFFFFFF" 0 "0x00000000" 4294967295 "0xFFFFFFFF" 3 0 0 0</Watch1>
         <CStepIntDis>_ 0</CStepIntDis>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
     </JLinkDriver>
     <DebugChecksum>
-        <Checksum>376972256</Checksum>
+        <Checksum>1987561769</Checksum>
     </DebugChecksum>
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
@@ -39,11 +39,25 @@
         <Enabled>0</Enabled>
         <ShowSource>1</ShowSource>
     </Trace1>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
     <LogFile>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>1</Mode>
@@ -57,19 +71,4 @@
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
-    <DisassembleMode>
-        <mode>0</mode>
-    </DisassembleMode>
-    <Breakpoints2>
-        <Count>0</Count>
-    </Breakpoints2>
-    <Aliases>
-        <A0>_ "C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\TouchDemo\modules\drv_glcd.c" "C:\Users\tilfr\Dropbox\DTU\Hands on mcu\HandOnTheMCU\arm\8.32.2\NXP\LPC24xx\IAR-LPC-2478\evseProject\modules\drv_glcd.c"</A0>
-        <Count>1</Count>
-        <SuppressDialog>0</SuppressDialog>
-    </Aliases>
 </settings>

@@ -181,7 +181,7 @@ void OnTouchIntr_Handler (void)
  *************************************************************************/
 void ADC_Intr_Handler (void)
 {
-   
+ 
   Int32U Data0 = ADDR0_bit.RESULT;
   Int32U Data1 = ADDR1_bit.RESULT;
   Int32U Data  = Data1 | Data0;
@@ -349,7 +349,7 @@ void TouchScrInit (void)
   VIC_SetVectoredIRQ(ADC_Intr_Handler,TS_INTR_PRIORITY,VIC_AD0);
   VICINTENABLE |= 1UL << VIC_AD0;
   */
-  
+
   // Init delay timer
   PCONP_bit.PCTIM0 = 1; // Enable TIM0 clocks
   T0TCR = 2;            // stop and reset timer 0
@@ -357,7 +357,7 @@ void TouchScrInit (void)
   T0MCR_bit.MR0S = 1;   // stop timer if MR0 matches the TC
   T0MCR_bit.MR0R = 1;   // enable timer reset if MR0 matches the TC
   T0MCR_bit.MR0I = 1;   // Enable Interrupt on MR0
-  T0PR = (SYS_GetFpclk(TIMER0_PCLK_OFFSET)/ 100000) - 1; // 1us resolution
+  T0PR = (SYS_GetFpclk(TIMER0_PCLK_OFFSET)/ 1000000) - 1; // 1us resolution
   T0MR0 = TS_SETUP_DLY;
   T0IR_bit.MR0INT = 1;  // clear pending interrupt
   VIC_SetVectoredIRQ(TimerIntr_Handler,TS_INTR_PRIORITY,VIC_TIMER0);

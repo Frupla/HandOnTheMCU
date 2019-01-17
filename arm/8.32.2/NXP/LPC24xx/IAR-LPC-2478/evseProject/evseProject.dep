@@ -95,6 +95,8 @@
             <file>$PROJ_DIR$\Flash Debug\Obj\cursor_arrow.o</file>
             <file>$TOOLKIT_DIR$\inc\NXP\iolpc2478.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
@@ -188,11 +190,11 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 20 67 26 75 78 89 60 69 31 74 45 48 21 58 73 29 62 59 23 88 37 61 66 50 55 7 53 25 44 17 30 49 38 4</file>
+                    <file> 20 67 26 75 78 89 60 69 31 74 45 48 21 58 73 29 62 59 23 88 37 61 66 50 55 7 53 25 44 17 30 49 38 4 90 91</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 69 75 53 60 58 29 4 67 88 17 26 37 7 49 45 50 44 89 74 62 20 30 38 31 48 73 23 66 55 25 78 21 59 61</file>
+                    <file> 88 37 66 26 67 17 75 4 58 53 69 60 49 45 29 50 44 89 74 62 7 30 38 90 31 48 73 23 55 25 78 21 59 61 20 91</file>
                 </tool>
             </inputs>
         </file>

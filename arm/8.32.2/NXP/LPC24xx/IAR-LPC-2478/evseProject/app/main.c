@@ -43,7 +43,8 @@
 #include "blackScreen.h"
 #include "printing.h"
 #include "buttons.h"
- 
+#include <math.h>
+   
 #define NONPROT 0xFFFFFFFF
 #define CRP1  	0x12345678
 #define CRP2  	0x87654321
@@ -78,7 +79,9 @@ extern FontType_t Terminal_18_24_12;
 
 Int32U timetick = 0;
 Int32U x2 = 0;
+float x2_real = 0;
 Int32U x3 = 0;
+float x3_real =0;
 Int32U y2_old = 0;
 Int32U y3_old = 0;
 Int32U t_old = 0;
@@ -105,9 +108,17 @@ Boolean waitingForCross3 = true;
 Boolean timeToPrint = true;
 
 //Doing current, voltage and power calculations
-Int32U currentSum = 0;
-Int32U lastCompletedCurrentSum = 0;
+float currentSum = 0;
+float lastCompletedCurrentSum = 0;
+Int32U lastCompletedCurrentSumSamples = 0;
+Boolean newCurrentSum = true;
+Int32U currentSamples = 0;
 
+float voltageSum = 0;
+float lastCompletedVoltageSum = 0;
+Int32U lastCompletedVoltageSumSamples = 0;
+Boolean newVoltageSum = true;
+Int32U voltageSamples = 0;
 
 /*************************************************************************
  * Function Name: lowPass
@@ -127,8 +138,13 @@ Int32U lowPass(Int32U x, Boolean channel){
     y   = (Int32U)(alpha*x + (1 - alpha)*y3_old);
     y3_old = y;
   }
-  return (Int32U)(y*1.4)-(0.18*1024); //attempts correcting for approx -3dB attenuation
-                               //more or less maguc numbers can be messed with but pls not too much
+  y = (y*1.033); //attempts correcting for approx -3dB attenuation, more or less magic number
+  /*
+  if (y>1023){
+    y = 1023;
+  }
+  */
+  return (Int32U)y;
 }
 /*************************************************************************
  * Function Name: TIMER1IntrHandler
@@ -141,29 +157,45 @@ Int32U lowPass(Int32U x, Boolean channel){
  *************************************************************************/
 void TIMER1IntrHandler (void)
 {
- FIO0PIN |= P11_MASK;
+ //FIO0PIN |= P11_MASK;
 //  DACR_bit.VALUE = 0x03FF;
   timetick++;
-  // Toggle USB Link LED
+    // Toggle USB Link LED
+  
   if(timetick > 5000){
-    USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK;
+    USB_D_LINK_LED_FIO ^= USB_D_LINK_LED_MASK | USB_H_LINK_LED_MASK;
     tickCrossingZero2 = true;
     tickCrossingZero3 = true;
     timeToPrint = true;
     timetick = 0;
   }
-  
+   
+  // Read voltage ADC
   if(ADDR2_bit.DONE){
     x2_old = x2;
     x2 = lowPass(ADDR2_bit.RESULT,channel2);
-  //  DACR_bit.VALUE = x2;
+
+    //x2_real = (((float)3.3*x2)/1023)-1.65; 
+    //RMS of 240V gives peak to peak = 2*sqrt(2)*240V = 678.8225V
+    //Halfway: 339.41125
+    x2_real = (((float)678.8225*x2)/1023)-339.41125; 
+    voltageSum += x2_real*x2_real;
+    voltageSamples++;
+    //DACR_bit.VALUE = x2;
   }
   
+  //Read current ADC
   if(ADDR3_bit.DONE){
     x3_old = x3;
     //x3 = ADDR3_bit.RESULT;
+    //peak to peak = 1A*2*sqrt(2)= 2.8
     x3 = lowPass(ADDR3_bit.RESULT,channel3);
+    x3 = x3-4;//correct for leakage current - ok, nvm, varies wildly with heat so impossible
+    x3_real = (((float)2.8284*x3)/1023)-1.4142; //
+    currentSum += x3_real*x3_real;
+    currentSamples++;
   }
+
 
   
   /* 
@@ -194,6 +226,15 @@ void TIMER1IntrHandler (void)
         T2 = crosstick2 - crosstick2_old;
       }
       crosstick2_old = crosstick2;
+      lastCompletedCurrentSum = currentSum;
+      lastCompletedCurrentSumSamples = currentSamples;
+      currentSum = 0;
+      currentSamples = 0;
+      lastCompletedVoltageSum = voltageSum;
+      lastCompletedVoltageSumSamples = voltageSamples;
+      voltageSum = 0;
+      voltageSamples = 0;
+      newCurrentSum = true;
       i2 = 0;
     }
     waitingForCross2 = false;
@@ -222,7 +263,7 @@ void TIMER1IntrHandler (void)
     waitingForCross3 = true;
   }
 */
-  FIO0PIN &= ~P11_MASK;
+  //FIO0PIN &= ~P11_MASK;
   // clear interrupt
   T1IR_bit.MR1INT = 1;
   VICADDRESS = 0;
@@ -243,12 +284,14 @@ void ADC_Init (void){
  // PCLKSEL0_bit.PCLK_ADC = 0x1; //Enable ADC clock
   AD0CR_bit.CLKDIV = 8; //18MHz/(8+1)= 2MHz <= 4.5 MHz?7+1)= 4MHz<=4.5 MHz
   AD0CR_bit.BURST = 1; //0=ADC is set to operate in software controlled mode, 1= continue mode
+ // PINSEL1_bit.P0_23 = 0x1; //AD0[0]
+  //PINMODE1_bit.P0_23 = 0x2;
   PINSEL1_bit.P0_25 = 0x1; //AD0[2]
   PINMODE1_bit.P0_25 = 0x2;
   PINSEL1_bit.P0_26 = 0x1; //AD0[3]
   PINMODE1_bit.P0_26 = 0x2;
-  ADINTEN_bit.ADGINTEN = 1; //When 0, only the individual A/D channels enabled by ADINTEN 7:0 will generate interrupts.
-/*  ADINTEN_bit.ADINTEN0 = 1; //Enable interrupt
+  /*ADINTEN_bit.ADGINTEN = 0; //When 0, only the individual A/D channels enabled by ADINTEN 7:0 will generate interrupts.
+  ADINTEN_bit.ADINTEN0 = 1; //Enable interrupt
   ADINTEN_bit.ADINTEN1 = 1;
   ADINTEN_bit.ADINTEN2 = 1;
   ADINTEN_bit.ADINTEN3 = 1;*/
@@ -273,7 +316,7 @@ void ADC_Init (void){
 Int32U cursor_x = (C_GLCD_H_SIZE - CURSOR_H_SIZE)/2, cursor_y = (C_GLCD_V_SIZE - CURSOR_V_SIZE)/2;
 ToushRes_t XY_Touch;
 
-  
+
   GLCD_Ctrl (FALSE);
   // Init GPIO
   GpioInit();
@@ -289,7 +332,6 @@ ToushRes_t XY_Touch;
 #endif // SDRAM_DEBUG
   // Init VIC
   VIC_Init();
-
   // GLCD init
  GLCD_Init (blackScreenPic.pPicStream, NULL);
  GLCD_SetFont(&Terminal_9_12_6,black,white);
@@ -304,7 +346,6 @@ ToushRes_t XY_Touch;
   GLCD_Move_Cursor(cursor_x, cursor_y);
 
   GLCD_Cursor_En(0);
-
 
   
 
@@ -340,6 +381,7 @@ ToushRes_t XY_Touch;
   
   __enable_interrupt();
   GLCD_Ctrl (TRUE);
+  GLCD_SetFont(&Terminal_18_24_12,0x00ffffff,0x0000000);
   
 
 /*
@@ -350,7 +392,6 @@ ToushRes_t XY_Touch;
   PCLKSEL0_bit.PCLK_DAC=1; //enable clock signal
   DACR_bit.VALUE = 0X3FF;
   */
-
    // Filter calculations
    Int32U fc = 50; //Value of cut off frequency
    float RC = (1/(2*3.1415*fc));
@@ -359,14 +400,10 @@ ToushRes_t XY_Touch;
    float F3 = 0;
    //float current_test = 0;
    
+   //Current, Voltage and Power constants
+   float currentRMS = 0;
+   float voltageRMS = 0;
    
-   FIO0DIR |= P19_MASK | P11_MASK; // Setting pin 19 and 11 to be outputs
-
-   printString("\fLive data:");
-   int l1 = printString("\fFrequency (V): \0");
-   int l2 = printString("\fGarbage: \0");
-   int l3 = printString("\fBulb: \0");
-
    struct buttonTag toggleAutoBulb = initButton(10,150,60,200);
    struct buttonTag toggleBulb = initButton(70,150,120,200);
    struct buttonTag toggleAutoPlug = initButton(130,150,180,200);
@@ -377,6 +414,15 @@ ToushRes_t XY_Touch;
    drawButton(&toggleAutoPlug);
    drawButton(&togglePlug); 
    
+   FIO0DIR = P19_MASK | P11_MASK; // Setting pin 19 to be an output
+   printString("\fLive data:");
+   int l1 = printString("\fFrequency (V): \0");
+   int l2 = printString("\fI(RMS): \0");
+   int l3 = printString("\fV(RMS): \0");
+   int l4 = printString("\fx2: \0");
+   int l5 = printString("\fx3: \0");
+   int l6 = printString("\fBulb: \0");
+     
    
    while(1){     
    // TimerIntr_Handler(); 
@@ -386,6 +432,22 @@ ToushRes_t XY_Touch;
     // Here we handle all the printing that goes of twice a second
    if(timeToPrint){
      
+     resetCursor();
+     newLine();
+     //Current calculation
+     if (newCurrentSum){
+       currentRMS = sqrt(2*lastCompletedCurrentSum/(lastCompletedCurrentSumSamples));
+       //currentRMS = currentRMS*sqrt((3.3*3.3)/((float)(1023*1023))); //yet to be found
+       voltageRMS = sqrt(2*lastCompletedVoltageSum/lastCompletedVoltageSumSamples);
+       //voltageRMS = voltageRMS*sqrt((3.3*3.3)/((float)(1023*1023))); //converting from digi - (0-3.3V)
+       newCurrentSum = false;
+       
+     }
+       
+       
+     // Here we handle all the printing that goes of twice a second
+     if(timeToPrint){
+        
         //Calculating and printing voltage frequency
         F2 = TIMER1_TICK_PER_SEC*N_O_PERIODS/T2;
         //Calculating and printing voltage frequency
@@ -394,8 +456,14 @@ ToushRes_t XY_Touch;
         changeX(l1);        
         printFloatAndUnit(F2,"Hz");
         changeX(l2);
-        printFloat(F3);
+        printFloatAndUnit(currentRMS,"A");
         changeX(l3);
+        printFloatAndUnit(voltageRMS,"V");
+        changeX(l4);
+        printFloat(x2_real);
+        changeX(l5);
+        printInt(x3);
+        changeX(l6);
         if(FIO0PIN & P19_MASK){
 	    printString("\fON");
         }else{
@@ -432,7 +500,7 @@ ToushRes_t XY_Touch;
      }
    }else if(F2 < 49 && F2 > 51){
        FIO0PIN &= ~P19_MASK;
-    }else{
+     }else{
        FIO0PIN |= P19_MASK;
     }
    
@@ -445,10 +513,8 @@ ToushRes_t XY_Touch;
    }else if(F3 < 49 && F3 > 51){
        FIO0PIN &= ~P11_MASK;
     }else{
-       FIO0PIN |= P11_MASK;
-    }
-    
-    
-    
+       FIO0PIN |= P11_MASK;    
+   }
+   }
   }
 }
